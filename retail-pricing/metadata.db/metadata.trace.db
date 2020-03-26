@@ -1,0 +1,75 @@
+2020-03-23 15:05:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-23 16:59:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-24 09:26:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-24 11:16:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-24 16:15:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-24 17:34:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 11:47:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 11:51:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 13:11:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 13:12:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 13:13:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 14:26:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 14:58:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 18:05:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 18:06:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-25 18:17:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-26 09:31:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-26 13:16:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-26 16:09:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-26 16:47:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-26 17:08:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-26 17:09:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-26 17:17:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-26 17:56:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
+2020-03-26 18:02:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTENT_SERVICE" already exists; SQL statement:
+create table content_service (path varchar(255) not null, content clob, entryDate timestamp not null, lastEditor varchar(255) not null, owner varchar(255) not null, reader varchar(255) not null, primary key (path)) [42101-200]
