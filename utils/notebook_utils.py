@@ -1,7 +1,7 @@
 import wget
 import os.path
 
-# check if file is download before
+# check if file has already been downloaded 
 def download_source(cwd: str, url: str, filename: str):
     """This function downloads data file from the given url to the working directory (cwd).
 
