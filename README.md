@@ -4,7 +4,13 @@ Welcome to the official **Atoti** notebooks gallery!
 
 ### Notebooks
 
-- [Retail pricing simulations: building pricing strategies around product classes](./retail-pricing/Analysis.ipynb)
+#### Retail
+
+- [Pricing strategies around product classes](./retail/pricing-strategies-around-product-classes/main.ipynb)
+
+#### Finance
+
+- [Collateral shortfall monitoring](./finance/collateral-shortfall-monitoring/main.ipynb)
 
 ### Issues
 
