@@ -4,7 +4,7 @@ Welcome to the official **Atoti** notebooks gallery!
 
 ### Notebooks
 
-- [Retail product classification](./retail-pricing/Analysis.ipynb)
+- [Retail pricing simulations: building pricing strategies around product classes](./retail-pricing/Analysis.ipynb)
 
 ### Issues
 
