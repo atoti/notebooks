@@ -21,7 +21,7 @@ You may:
 
 ### Contributing
 
-We welcome any contributions from the community. Check out [our guidelines](CONTRIBUTING.md).
+We welcome any contributions from the community. Check out our [contributing guidelines](CONTRIBUTING.md).
 
 ### About
 

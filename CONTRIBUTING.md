@@ -10,10 +10,15 @@ We welcome any contributions from the community. Please make sure your PR follow
 
   Example: `/relevant-domain/title-of-my-notebook-folder/`
 
-- all data files should be uploaded on data.atoti.io
 - entrypoint should be named `main.ipynb`
 - README TOC should be updated to link to the new notebook
 - notebook should have an H1 title, matching folder name and README TOC
+
+### Data rules
+
+- data files name should use snake_case
+- data files should be of reasonnable size, not exceeding 50MB, unless programmatically generated
+- all data files should be uploaded on data.atoti.io If you don't have access to it, data should be hosted on a public host and an owner will transfer them to data.atoti.io upon review
 
 ### Python code rules
 
