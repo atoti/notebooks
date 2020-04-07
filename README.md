@@ -6,7 +6,7 @@ Welcome to the official **Atoti** notebooks gallery!
 
 #### Retail
 
-- [Pricing strategies around product classes](./retail/pricing-strategies-around-product-classes/main.ipynb)
+- [Pricing simulations around product classes](./retail/pricing-simulations-around-product-classes/main.ipynb)
 
 #### Finance
 
