@@ -11,6 +11,7 @@ Welcome to the official **Atoti** notebooks gallery!
 #### Finance
 
 - [Collateral shortfall monitoring](./finance/collateral-shortfall-monitoring/main.ipynb)
+- [PnL Explained](./finance/pnl-explained/main.ipynb)
 
 ### Issues
 
