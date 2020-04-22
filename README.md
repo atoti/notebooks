@@ -13,6 +13,9 @@ Welcome to the official **Atoti** notebooks gallery!
 - [Collateral shortfall monitoring](./finance/collateral-shortfall-monitoring/main.ipynb)
 - [PnL Explained](./finance/pnl-explained/main.ipynb)
 
+#### Fun
+- [Video assistant referee impact in premier league](./fun/var-impact-in-premier-league/main.ipynb)
+
 ### Issues
 
 You may:
