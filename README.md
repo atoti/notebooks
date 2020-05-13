@@ -17,8 +17,8 @@ Welcome to the official **Atoti** notebooks gallery!
 
 You may:
 
-- Check out [existing issues](https://github.com/atoti/atoti/issues).
-- Create a [new issue](https://github.com/atoti/atoti/issues/new/choose)
+- Check out [existing issues](https://github.com/atoti/notebooks/issues).
+- Create a [new issue](https://github.com/atoti/notebooks/issues/new/choose)
 
 ### Contributing
 
