@@ -27,17 +27,18 @@ Provide a reference/link to the relevant notebook(s).
 <!--
 Add any other versions relevant to your issue.
 
-You may run the following python code:
+import platform
+import sys
+import atoti
 
-    import sys
-    import platform
-    import atoti as tt
-    print('- Atoti: '+tt.__version__)
-    print('- Python: '+platform.python_version())
-    print('- Operating System: '+sys.platform)
+print(f"""
+- Atoti: {atoti.__version__}
+- Python: {platform.python_version()}
+- Operating System: {sys.platform}
+""")
 
 -->
 
-- Atoti version:
-- Python version:
+- Atoti:
+- Python:
 - Operating System:
