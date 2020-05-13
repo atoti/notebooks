@@ -18,9 +18,9 @@ Provide a reference/link to the relevant notebook(s).
 
 ## Steps to reproduce
 
-## Expected Result
-
 ## Actual Result
+
+## Expected Result
 
 ## Environment
 
