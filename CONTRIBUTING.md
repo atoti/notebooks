@@ -31,4 +31,4 @@ We welcome any contributions from the community. Please make sure your PR follow
 
 Checkout [atoti.io](https://www.atoti.io) for more info!
 
-By opening an issue or a pull request, you agree with Atoti's [terms of use](https://www.atoti.io/terms) and [privacy policy](https://www.atoti.io/privacy-policy).
+By opening an issue or a pull request, you agree with atoti's [terms of use](https://www.atoti.io/terms) and [privacy policy](https://www.atoti.io/privacy-policy).

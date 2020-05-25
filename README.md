@@ -1,6 +1,6 @@
 [![Gitter](https://badges.gitter.im/atoti/atoti.svg)](https://gitter.im/atoti/atoti)
 
-Welcome to the official **Atoti** notebooks gallery!
+Welcome to the official **atoti** notebooks gallery!
 
 ### Notebooks
 
@@ -29,4 +29,4 @@ We welcome any contributions from the community. Check out our [contributing gui
 
 Checkout [atoti.io](https://www.atoti.io) for more info!
 
-By opening an issue or a pull request, you agree with Atoti's [terms of use](https://www.atoti.io/terms) and [privacy policy](https://www.atoti.io/privacy-policy).
+By opening an issue or a pull request, you agree with atoti's [terms of use](https://www.atoti.io/terms) and [privacy policy](https://www.atoti.io/privacy-policy).
