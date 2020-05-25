@@ -1,27 +1,5 @@
 import pandas
 
-
-def increase_price_by_percentage_on_class(
-    initial_price_list: pandas.DataFrame, percentage: float, class_param: str
-) -> pandas.DataFrame:
-    """
-    This function increases the price by a certain percentage on the specified class.
-    
-    Args:
-        initial_price_list: The initial SellingPrice list
-        percentage: Percentage that will be used to multiply the price
-        class_param: Class of products on which to increase the price
-        
-    Returns:
-        A new SellingPrice list with increased prices on the class specified
-    """
-    new_price_list = initial_price_list.copy()
-    new_price_list.loc[
-        (new_price_list["Class"] == class_param), "SellingPrice"
-    ] = new_price_list["SellingPrice"] * (1 + percentage / 100)
-    return new_price_list[["ProductId", "SellingPrice"]]
-
-
 def optimize_price_index(initial_price_list: pandas.DataFrame) -> pandas.DataFrame:
     """
     This pricing function has been made very simple as the main purpose is to serve the use case example.

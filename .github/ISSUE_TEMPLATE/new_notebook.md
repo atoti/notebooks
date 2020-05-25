@@ -7,7 +7,7 @@ labels: "new notebook :bulb:"
 <!--
 Thank you for suggesting a new notebook! Please make sure you have searched for similar issues.
 
-By opening an issue, you agree with Atoti's terms of use and privacy policy available at https://www.atoti.io/terms and https://www.atoti.io/privacy-policy
+By opening an issue, you agree with atoti's terms of use and privacy policy available at https://www.atoti.io/terms and https://www.atoti.io/privacy-policy
 -->
 
 ## Description

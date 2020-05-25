@@ -7,7 +7,7 @@ labels: "bug :bug:"
 <!--
 Thank you for reporting a bug! Please make sure you have searched for similar issues.
 
-By opening an issue, you agree with Atoti's terms of use and privacy policy available at https://www.atoti.io/terms and https://www.atoti.io/privacy-policy
+By opening an issue, you agree with atoti's terms of use and privacy policy available at https://www.atoti.io/terms and https://www.atoti.io/privacy-policy
 -->
 
 ## Notebook
@@ -32,13 +32,13 @@ import sys
 import atoti
 
 print(f"""
-- Atoti: {atoti.__version__}
+- atoti: {atoti.__version__}
 - Python: {platform.python_version()}
 - Operating System: {sys.platform}
 """)
 
 -->
 
-- Atoti:
+- atoti:
 - Python:
 - Operating System:
