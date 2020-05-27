@@ -14,6 +14,9 @@ Welcome to the official **atoti** notebooks gallery!
 - [PnL Explained](./finance/pnl-explained/main.ipynb)
 - [Value at Risk](./finance/value-at-risk/main.ipynb)
 
+#### Fun
+- [Video assistant referee impact in premier league](./fun/var-impact-in-premier-league/main.ipynb)
+
 ### Issues
 
 You may:
