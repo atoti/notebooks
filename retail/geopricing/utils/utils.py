@@ -8,22 +8,22 @@ def build_stores_map(
 ) -> folium.Map:
     competitors_map = folium.Map(
         location=[
-            competitor_stores_df["CompetitorStoreData_Latitude"].mean(),
-            competitor_stores_df["CompetitorStoreData_Longitude"].mean(),
+            competitor_stores_df["CompetitorStoreLatitude"].mean(),
+            competitor_stores_df["CompetitorStoreLongitude"].mean(),
         ],
         zoom_start=7,
     )
     # creating a Marker for each point in df_sample. Each point will get a popup with their zip
     mc = MarkerCluster()
     for index, row in competitor_stores_df.iterrows():
-        lat = row["CompetitorStoreData_Latitude"]
-        lon = row["CompetitorStoreData_Longitude"]
-        enseigne = row["CompetitorStoreData_Company"]
-        ville = row["CompetitorStoreData_Address"]
+        lat = row["CompetitorStoreLatitude"]
+        lon = row["CompetitorStoreLongitude"]
+        company = row["CompetitorStoreCompany"]
+        city = row["CompetitorStoreAdress"]
         mc.add_child(
             folium.Marker(
                 location=[lat, lon],
-                popup=enseigne + "@" + ville + "[" + str(lat) + ";" + str(lon) + "]",
+                popup=company + "@" + city + "[" + str(lat) + ";" + str(lon) + "]",
             )
         )
 
@@ -31,10 +31,10 @@ def build_stores_map(
 
     mm = MarkerCluster()
     for index, row in stores_df.iterrows():
-        lat = row["StoresData_Latitude"]
-        lon = row["StoresData_Longitude"]
-        company = row["StoresData_Company"]
-        city = row["StoresData_Address"]
+        lat = row["Latitude"]
+        lon = row["Longitude"]
+        company = row["Company"]
+        city = row["Adress"]
         mm.add_child(
             folium.Marker(
                 location=[lat, lon],
@@ -74,10 +74,10 @@ def create_stores_distances_matrix(
     )
     stores_distances_matrix["Competitor distance KM"] = stores_distances_matrix.apply(
         lambda row: haversine(
-            row["StoresData_Latitude"],
-            row["StoresData_Longitude"],
-            row["CompetitorStoreData_Latitude"],
-            row["CompetitorStoreData_Longitude"],
+            row["Latitude"],
+            row["Longitude"],
+            row["CompetitorStoreLatitude"],
+            row["CompetitorStoreLongitude"],
         ),
         axis=1,
     )
