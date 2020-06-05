@@ -50,7 +50,7 @@ def build_stores_map(
 from math import pi, sqrt, sin, cos, atan2
 
 
-def haversine(lat1, long1, lat2, long2):
+def haversine(lat1: float, long1: float, lat2: float, long2: float) -> float:
 
     degree_to_rad = float(pi / 180.0)
 
