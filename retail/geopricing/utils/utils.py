@@ -2,6 +2,10 @@ import folium
 from folium.plugins import MarkerCluster
 import pandas
 
+import warnings
+
+warnings.filterwarnings("ignore")
+
 
 def build_stores_map(
     competitor_stores_df: pandas.DataFrame, stores_df: pandas.DataFrame
