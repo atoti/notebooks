@@ -1,8 +1,11 @@
-portfolio,book,Stock,AmountUSD
-US stocks portfolio,Indices,^DJI,1000
-US stocks portfolio,Indices,^GSPC,1000
-US stocks portfolio,Technology CFD,AAPL,-500
-US stocks portfolio,Technology CFD,GOOG,600
-MSCI stocks portfolio,Oil&Gas,LUKOY,-100
-MSCI stocks portfolio,Oil&Gas,OGZPY,-1100
-MSCI stocks portfolio,Other,ROSYY,3300
+Portfolio,Book,Stock,AmountUSD
+US,Indices,^DJI,5000
+US,Indices,^GSPC,5000
+US,Oil&Gas,APA,250
+US,Oil&Gas,EOG,250
+US,Oil&Gas,PXD,250
+US,Oil&Gas,OXY,250
+US,Travel Services,CCL,500
+US,Travel Services,RCL,500
+Emerging Markets,Oil&Gas,LUKOY,-6000
+Emerging Markets,Oil&Gas,OGZPY,-6000
