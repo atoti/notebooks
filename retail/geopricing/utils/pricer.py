@@ -19,19 +19,19 @@ def optimize_prices(
     new_price_list = initial_price_list.merge(
         store_features_with_clusters, left_on="StoreId", right_on="StoreId"
     )
-    new_price_list.loc[(new_price_list["cluster"] == 0), "SellingPrice"] = (
+    new_price_list.loc[(new_price_list["Cluster"] == 0), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 0.97
     )
-    new_price_list.loc[(new_price_list["cluster"] == 1), "SellingPrice"] = (
+    new_price_list.loc[(new_price_list["Cluster"] == 1), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 1.08
     )
-    new_price_list.loc[(new_price_list["cluster"] == 2), "SellingPrice"] = (
+    new_price_list.loc[(new_price_list["Cluster"] == 2), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 0.95
     )
-    new_price_list.loc[(new_price_list["cluster"] == 3), "SellingPrice"] = (
+    new_price_list.loc[(new_price_list["Cluster"] == 3), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 1.00
     )
-    new_price_list.loc[(new_price_list["cluster"] == 4), "SellingPrice"] = (
+    new_price_list.loc[(new_price_list["Cluster"] == 4), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 1.01
     )
     return new_price_list[["ProductId", "StoreId", "SellingPrice"]]
