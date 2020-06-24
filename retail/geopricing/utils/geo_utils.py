@@ -86,4 +86,4 @@ def create_stores_distances_matrix(
         axis=1,
     )
 
-    return stores_distances_matrix
+    return stores_distances_matrix[["CompetitorStoreId", "StoreId", "Competitor distance KM"]]
