@@ -2,7 +2,7 @@ import pandas
 
 
 def optimize_prices(
-    initial_price_list: pandas.DataFrame, store_features_with_clusters: pandas.DataFrame
+    initial_price_list: pandas.DataFrame, outlet_features_with_clusters: pandas.DataFrame
 ) -> pandas.DataFrame:
     """
     This pricing function has been made very simple as the main purpose is to serve the use case example.
@@ -17,7 +17,7 @@ def optimize_prices(
         A new SellingPrice list with an optimized price stores with low competition have increased prices while those with high competition have competitive prices.
     """
     new_price_list = initial_price_list.merge(
-        store_features_with_clusters, left_on="StoreId", right_on="StoreId"
+        outlet_features_with_clusters, left_on="OutletId", right_on="OutletId"
     )
     new_price_list.loc[(new_price_list["Cluster"] == 0), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 1.05
@@ -35,8 +35,4 @@ def optimize_prices(
         new_price_list["SellingPrice"] * 1.10
     )
 
-    new_price_list["SellingPrice_x_Margin"] = (
-        new_price_list["SellingPrice"] * new_price_list["Margin"]
-    )
-
-    return new_price_list[["ProductId", "StoreId", "SellingPrice", "Margin", "SellingPrice_x_Margin"]]
+    return new_price_list[["ProductId", "OutletId", "SellingPrice", "Margin"]]
