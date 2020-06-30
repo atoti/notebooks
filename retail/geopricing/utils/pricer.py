@@ -20,19 +20,19 @@ def optimize_prices(
         outlet_features_with_clusters, left_on="OutletId", right_on="OutletId"
     )
     new_price_list.loc[(new_price_list["Cluster"] == 0), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.05
+        new_price_list["SellingPrice"] * 1.0
     )
     new_price_list.loc[(new_price_list["Cluster"] == 1), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 0.95
+        new_price_list["SellingPrice"] * 1.05
     )
     new_price_list.loc[(new_price_list["Cluster"] == 2), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.00
+        new_price_list["SellingPrice"] * 0.95
     )
     new_price_list.loc[(new_price_list["Cluster"] == 3), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 0.98
+        new_price_list["SellingPrice"] * 1.0
     )
     new_price_list.loc[(new_price_list["Cluster"] == 4), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.10
+        new_price_list["SellingPrice"] * 1.05
     )
 
     return new_price_list[["ProductId", "OutletId", "SellingPrice", "Margin"]]
