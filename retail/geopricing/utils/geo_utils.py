@@ -1,27 +1,27 @@
 import folium
-from folium.plugins import MarkerCluster
 import pandas
-
 import warnings
+from math import pi, sqrt, sin, cos, atan2
+from folium.plugins import MarkerCluster
 
 warnings.filterwarnings("ignore")
 
-
-def build_outlets_map(
-    competitor_outlets_df: pandas.DataFrame, outlets_df: pandas.DataFrame
-) -> folium.Map:
+def build_outlets_map(outlet_info: pandas.DataFrame) -> folium.Map:
+    competitor_outlets_df = outlet_info[["CompetitorOutletCompany", "CompetitorOutletAdress", "CompetitorOutletLatitude.VALUE", "CompetitorOutletLongitude.VALUE"]].drop_duplicates()
+    outlets_df = outlet_info[["Company", "Adress", "Latitude.VALUE", "Longitude.VALUE"]].drop_duplicates()
+    
     competitors_map = folium.Map(
         location=[
-            competitor_outlets_df["CompetitorOutletLatitude"].mean(),
-            competitor_outlets_df["CompetitorOutletLongitude"].mean(),
+            competitor_outlets_df["CompetitorOutletLatitude.VALUE"].mean(),
+            competitor_outlets_df["CompetitorOutletLongitude.VALUE"].mean(),
         ],
         zoom_start=7,
     )
     # creating a Marker for each point in df_sample. Each point will get a popup with their zip
     mc = MarkerCluster()
     for index, row in competitor_outlets_df.iterrows():
-        lat = row["CompetitorOutletLatitude"]
-        lon = row["CompetitorOutletLongitude"]
+        lat = row["CompetitorOutletLatitude.VALUE"]
+        lon = row["CompetitorOutletLongitude.VALUE"]
         company = row["CompetitorOutletCompany"]
         city = row["CompetitorOutletAdress"]
         mc.add_child(
@@ -35,8 +35,8 @@ def build_outlets_map(
 
     mm = MarkerCluster()
     for index, row in outlets_df.iterrows():
-        lat = row["Latitude"]
-        lon = row["Longitude"]
+        lat = row["Latitude.VALUE"]
+        lon = row["Longitude.VALUE"]
         company = row["Company"]
         city = row["Adress"]
         mm.add_child(
@@ -49,10 +49,6 @@ def build_outlets_map(
     competitors_map.add_child(mm)
 
     return competitors_map
-
-
-from math import pi, sqrt, sin, cos, atan2
-
 
 def haversine(lat1: float, long1: float, lat2: float, long2: float) -> float:
 
@@ -70,20 +66,15 @@ def haversine(lat1: float, long1: float, lat2: float, long2: float) -> float:
     return km
 
 
-def create_outlets_distances_matrix(
-    outlets_df: pandas.DataFrame, competitor_outlets_df: pandas.DataFrame
-) -> pandas.DataFrame:
-    outlets_distances_matrix = pandas.merge(
-        competitor_outlets_df.assign(key=0), outlets_df.assign(key=0), on="key"
-    )
-    outlets_distances_matrix["Competitor distance KM"] = outlets_distances_matrix.apply(
+def create_outlets_distances_matrix(distance_info: pandas.DataFrame) -> pandas.DataFrame:
+    distance_info["Competitor distance km"] = distance_info.apply(
         lambda row: haversine(
-            row["Latitude"],
-            row["Longitude"],
-            row["CompetitorOutletLatitude"],
-            row["CompetitorOutletLongitude"],
+            row["Latitude.VALUE"],
+            row["Longitude.VALUE"],
+            row["CompetitorOutletLatitude.VALUE"],
+            row["CompetitorOutletLongitude.VALUE"],
         ),
         axis=1,
     )
 
-    return outlets_distances_matrix[["CompetitorOutletId", "OutletId", "Competitor distance KM"]]
+    return distance_info[["CompetitorOutletId", "OutletId", "Competitor distance km"]]
