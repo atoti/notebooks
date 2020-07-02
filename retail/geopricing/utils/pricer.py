@@ -16,21 +16,26 @@ def optimize_prices(
     Returns:
         A new SellingPrice list with an optimized price stores with low competition have increased prices while those with high competition have competitive prices.
     """
+    
+    outlet_features_with_clusters.reset_index(inplace=True)
+    outlet_features_with_clusters.OutletId = outlet_features_with_clusters.OutletId.astype("int64")
+
     new_price_list = initial_price_list.merge(
-        outlet_features_with_clusters, left_on="OutletId", right_on="OutletId"
+        outlet_features_with_clusters, left_on="OutletId", right_index=True
     )
+    
     new_price_list.loc[(new_price_list["Cluster"] == 0), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.0
-    )
+        new_price_list["SellingPrice"] * 1.02
+    )   
     new_price_list.loc[(new_price_list["Cluster"] == 1), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.05
-    )
-    new_price_list.loc[(new_price_list["Cluster"] == 2), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 0.95
     )
-    new_price_list.loc[(new_price_list["Cluster"] == 3), "SellingPrice"] = (
+    new_price_list.loc[(new_price_list["Cluster"] == 2), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 1.0
     )
+    new_price_list.loc[(new_price_list["Cluster"] == 3), "SellingPrice"] = (
+        new_price_list["SellingPrice"] * 1.05
+    )    
     new_price_list.loc[(new_price_list["Cluster"] == 4), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 1.05
     )
