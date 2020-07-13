@@ -13,9 +13,10 @@ Welcome to the official **atoti** notebooks gallery!
 - [Collateral shortfall monitoring](./finance/collateral-shortfall-monitoring/main.ipynb)
 - [PnL Explained](./finance/pnl-explained/main.ipynb)
 - [Value at Risk](./finance/value-at-risk/main.ipynb)
-- [Stressed VaR Calibration](./finance/model-calibration/main.ipynb)
+- [Stressed VaR Calibration](./finance/stressed-var-calibration/main.ipynb)
 
 #### Fun
+
 - [Video assistant referee impact in premier league](./fun/var-impact-in-premier-league/main.ipynb)
 
 ### Issues
