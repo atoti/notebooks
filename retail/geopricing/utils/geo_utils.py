@@ -7,23 +7,23 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-def build_outlets_map(
-    competitor_outlets_df: pandas.DataFrame, outlets_df: pandas.DataFrame
+def build_shops_map(
+    competitor_shops_df: pandas.DataFrame, shops_df: pandas.DataFrame
 ) -> folium.Map:
     competitors_map = folium.Map(
         location=[
-            competitor_outlets_df["CompetitorOutletLatitude"].mean(),
-            competitor_outlets_df["CompetitorOutletLongitude"].mean(),
+            competitor_shops_df["CompetitorShopLatitude"].mean(),
+            competitor_shops_df["CompetitorShopLongitude"].mean(),
         ],
         zoom_start=7,
     )
     # creating a Marker for each point in df_sample. Each point will get a popup with their zip
     mc = MarkerCluster()
-    for index, row in competitor_outlets_df.iterrows():
-        lat = row["CompetitorOutletLatitude"]
-        lon = row["CompetitorOutletLongitude"]
-        company = row["CompetitorOutletCompany"]
-        city = row["CompetitorOutletAdress"]
+    for index, row in competitor_shops_df.iterrows():
+        lat = row["CompetitorShopLatitude"]
+        lon = row["CompetitorShopLongitude"]
+        company = row["CompetitorShopCompany"]
+        city = row["CompetitorShopAdress"]
         mc.add_child(
             folium.Marker(
                 location=[lat, lon],
@@ -34,7 +34,7 @@ def build_outlets_map(
     competitors_map.add_child(mc)
 
     mm = MarkerCluster()
-    for index, row in outlets_df.iterrows():
+    for index, row in shops_df.iterrows():
         lat = row["Latitude"]
         lon = row["Longitude"]
         company = row["Company"]
@@ -70,20 +70,20 @@ def haversine(lat1: float, long1: float, lat2: float, long2: float) -> float:
     return km
 
 
-def create_outlets_distances_matrix(
-    outlets_df: pandas.DataFrame, competitor_outlets_df: pandas.DataFrame
+def create_shops_distances_matrix(
+    shops_df: pandas.DataFrame, competitor_shops_df: pandas.DataFrame
 ) -> pandas.DataFrame:
-    outlets_distances_matrix = pandas.merge(
-        competitor_outlets_df.assign(key=0), outlets_df.assign(key=0), on="key"
+    shops_distances_matrix = pandas.merge(
+        competitor_shops_df.assign(key=0), shops_df.assign(key=0), on="key"
     )
-    outlets_distances_matrix["Competitor distance KM"] = outlets_distances_matrix.apply(
+    shops_distances_matrix["Competitor distance KM"] = shops_distances_matrix.apply(
         lambda row: haversine(
             row["Latitude"],
             row["Longitude"],
-            row["CompetitorOutletLatitude"],
-            row["CompetitorOutletLongitude"],
+            row["CompetitorShopLatitude"],
+            row["CompetitorShopLongitude"],
         ),
         axis=1,
     )
 
-    return outlets_distances_matrix[["CompetitorOutletId", "OutletId", "Competitor distance KM"]]
+    return shops_distances_matrix[["CompetitorShopId", "ShopId", "Competitor distance KM"]]
