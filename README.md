@@ -4,6 +4,10 @@ Welcome to the official **atoti** notebooks gallery!
 
 ### Notebooks
 
+#### Communications
+
+- [Customer Churns](./Communications/customer-churn/main.ipynb)
+
 #### Retail
 
 - [Pricing simulations around product classes](./retail/pricing-simulations-around-product-classes/main.ipynb)
