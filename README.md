@@ -11,6 +11,7 @@ Welcome to the official **atoti** notebooks gallery!
 #### Retail
 
 - [Pricing simulations around product classes](./retail/pricing-simulations-around-product-classes/main.ipynb)
+- [GeoPricing](./retail/geopricing/main.ipynb)
 
 #### Finance
 
