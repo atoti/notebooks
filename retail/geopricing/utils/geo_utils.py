@@ -78,6 +78,7 @@ def haversine(lat1: float, long1: float, lat2: float, long2: float) -> float:
 def create_shops_distances_matrix(
     shops_df: pandas.DataFrame, competitor_shops_df: pandas.DataFrame
 ) -> pandas.DataFrame:
+    # we create the cartesian product of each (shop x competitor_shop)
     shops_distances_matrix = pandas.merge(
         competitor_shops_df.assign(key=0), shops_df.assign(key=0), on="key"
     )
