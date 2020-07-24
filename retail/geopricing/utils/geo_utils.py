@@ -65,7 +65,12 @@ def haversine(lat1: float, long1: float, lat2: float, long2: float) -> float:
         lat2 * degree_to_rad
     ) * pow(sin(d_long / 2), 2)
     c = 2 * atan2(sqrt(a), sqrt(1 - a))
-    km = 6367 * c
+
+    # Using 6367 as an approximation of the radius of the average circumference of the Earth
+    # instead of 6371 as a radius of the Earth, taken as the ball
+    # https://rosettacode.org/wiki/Haversine_formula#.D0.9C.D0.9A-61.2F52
+    earth_radius = 6367
+    km = earth_radius * c
 
     return km
 
@@ -86,4 +91,6 @@ def create_shops_distances_matrix(
         axis=1,
     )
 
-    return shops_distances_matrix[["CompetitorShopId", "ShopId", "Competitor distance KM"]]
+    return shops_distances_matrix[
+        ["CompetitorShopId", "ShopId", "Competitor distance KM"]
+    ]
