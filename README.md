@@ -19,6 +19,7 @@ Welcome to the official **atoti** notebooks gallery!
 - [PnL Explained](./finance/pnl-explained/main.ipynb)
 - [Value at Risk](./finance/value-at-risk/main.ipynb)
 - [Stressed VaR Calibration](./finance/stressed-var-calibration/main.ipynb)
+- [SA-CCR](./finance/sa-ccr/main.ipynb)
 
 #### Fun
 
