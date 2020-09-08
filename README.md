@@ -19,6 +19,10 @@ Welcome to the official **atoti** notebooks gallery!
 
 - [Video assistant referee impact in premier league](./fun/var-impact-in-premier-league/main.ipynb)
 
+#### Statistics
+
+- [Interactive hypothesis testing for anti-anxiety medicine with atoti](./statistics/drug-efficacy/main.ipynb)
+
 ### Issues
 
 You may:
