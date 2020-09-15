@@ -25,6 +25,7 @@ Welcome to the official **atoti** notebooks gallery!
 #### Fun
 
 - [Video assistant referee impact in premier league](./fun/var-impact-in-premier-league/main.ipynb)
+- [NLP exploration with Reddit data](./fun/reddit/main.ipynb)
 
 #### Statistics
 
