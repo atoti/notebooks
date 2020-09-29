@@ -20,6 +20,7 @@ Welcome to the official **atoti** notebooks gallery!
 - [Value at Risk](./finance/value-at-risk/main.ipynb)
 - [Stressed VaR Calibration](./finance/stressed-var-calibration/main.ipynb)
 - [SA-CCR](./finance/sa-ccr/main.ipynb)
+- [FRTB SBM](./finance/sbm/main.ipynb)
 - [Real-time risk dashboard](./finance/real-time-risk/main.ipynb)
 
 #### Fun
