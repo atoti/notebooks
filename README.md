@@ -12,6 +12,7 @@ Welcome to the official **Atoti** notebooks gallery!
 
 - [Collateral shortfall monitoring](./finance/collateral-shortfall-monitoring/main.ipynb)
 - [PnL Explained](./finance/pnl-explained/main.ipynb)
+- [FRTB SBM in atoti](./finance/sbm/main.ipynb)
 
 ### Issues
 
