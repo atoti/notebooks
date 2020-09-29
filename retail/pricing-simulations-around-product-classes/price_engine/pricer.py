@@ -15,12 +15,12 @@ def optimize_price_index(initial_price_list: pandas.DataFrame) -> pandas.DataFra
     new_price_list = initial_price_list.copy()
     new_price_list.rename(columns={"SellingPrice.VALUE": "SellingPrice"}, inplace=True)
     new_price_list.loc[(new_price_list["Product Class"] == "Complementary"), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.125
+        new_price_list["SellingPrice"] * 1.085
     )
     new_price_list.loc[(new_price_list["Product Class"] == "Driver"), "SellingPrice"] = (
         new_price_list["SellingPrice"] * 0.96
     )
     new_price_list.loc[(new_price_list["Product Class"] == "Independent"), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 0.98
+        new_price_list["SellingPrice"] * 0.96
     )
     return new_price_list[["ProductId", "SellingPrice"]]
