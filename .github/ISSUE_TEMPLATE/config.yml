@@ -1,3 +1,4 @@
+blank_issues_enabled: false
 contact_links:
   - name: Community Chat
     url: https://gitter.im/atoti/atoti
