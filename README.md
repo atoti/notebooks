@@ -1,6 +1,6 @@
 [![Gitter](https://badges.gitter.im/atoti/atoti.svg)](https://gitter.im/atoti/atoti)
 
-Welcome to the official **atoti** notebooks gallery!
+Welcome to the official **atoti** Notebooks Gallery!
 
 ### Notebooks
 
