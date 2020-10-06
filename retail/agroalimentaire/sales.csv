@@ -1,4 +1,4 @@
-prod_id,product_name,date,sold_units
+prod_id,product_name,date,sales
 561_GCS_salad,Greek Chicken Salad,1/1/2019,80
 561_GCS_salad,Greek Chicken Salad,1/2/2019,105
 561_GCS_salad,Greek Chicken Salad,1/3/2019,101
