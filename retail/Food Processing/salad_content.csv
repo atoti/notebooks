@@ -1,0 +1,61 @@
+﻿prod_id,product_name,ing_id,quantity
+561_GCS_salad,Greek Chicken Salad,53534,12.5
+561_GCS_salad,Greek Chicken Salad,34534,0
+561_GCS_salad,Greek Chicken Salad,976,57.5
+561_GCS_salad,Greek Chicken Salad,845,20
+561_GCS_salad,Greek Chicken Salad,56764,10
+561_GCS_salad,Greek Chicken Salad,4536,25
+561_GCS_salad,Greek Chicken Salad,35737,0
+561_GCS_salad,Greek Chicken Salad,735,75
+561_GCS_salad,Greek Chicken Salad,3735,25
+561_GCS_salad,Greek Chicken Salad,3567,25
+558_CS_salad,Caesar Salad,53534,50
+558_CS_salad,Caesar Salad,34534,12.5
+558_CS_salad,Caesar Salad,976,50
+558_CS_salad,Caesar Salad,845,0
+558_CS_salad,Caesar Salad,56764,25
+558_CS_salad,Caesar Salad,4536,37.5
+558_CS_salad,Caesar Salad,35737,12.5
+558_CS_salad,Caesar Salad,735,20
+558_CS_salad,Caesar Salad,3735,17.5
+558_CS_salad,Caesar Salad,3567,25
+761_TCS_salad,Turkish Chickpea Salad,53534,25
+761_TCS_salad,Turkish Chickpea Salad,34534,75
+761_TCS_salad,Turkish Chickpea Salad,976,0
+761_TCS_salad,Turkish Chickpea Salad,845,12.5
+761_TCS_salad,Turkish Chickpea Salad,56764,25
+761_TCS_salad,Turkish Chickpea Salad,4536,0
+761_TCS_salad,Turkish Chickpea Salad,35737,75
+761_TCS_salad,Turkish Chickpea Salad,735,0
+761_TCS_salad,Turkish Chickpea Salad,3735,0
+761_TCS_salad,Turkish Chickpea Salad,3567,37.5
+641_CCS_salad,Cheese Chicken Salad,53534,12.5
+641_CCS_salad,Cheese Chicken Salad,34534,75
+641_CCS_salad,Cheese Chicken Salad,976,25
+641_CCS_salad,Cheese Chicken Salad,845,0
+641_CCS_salad,Cheese Chicken Salad,56764,50
+641_CCS_salad,Cheese Chicken Salad,4536,0
+641_CCS_salad,Cheese Chicken Salad,35737,12.5
+641_CCS_salad,Cheese Chicken Salad,735,75
+641_CCS_salad,Cheese Chicken Salad,3735,0
+641_CCS_salad,Cheese Chicken Salad,3567,0
+583_GVS_salad,Grilled Veggies Salad,53534,12.5
+583_GVS_salad,Grilled Veggies Salad,34534,50
+583_GVS_salad,Grilled Veggies Salad,976,0
+583_GVS_salad,Grilled Veggies Salad,845,25
+583_GVS_salad,Grilled Veggies Salad,56764,50
+583_GVS_salad,Grilled Veggies Salad,4536,25
+583_GVS_salad,Grilled Veggies Salad,35737,12.5
+583_GVS_salad,Grilled Veggies Salad,735,0
+583_GVS_salad,Grilled Veggies Salad,3735,37.5
+583_GVS_salad,Grilled Veggies Salad,3567,37.5
+572_CPS_salad,Chicken Pesto Pasta Salad,53534,25
+572_CPS_salad,Chicken Pesto Pasta Salad,34534,25
+572_CPS_salad,Chicken Pesto Pasta Salad,976,0
+572_CPS_salad,Chicken Pesto Pasta Salad,845,87.5
+572_CPS_salad,Chicken Pesto Pasta Salad,56764,5
+572_CPS_salad,Chicken Pesto Pasta Salad,4536,0
+572_CPS_salad,Chicken Pesto Pasta Salad,35737,0
+572_CPS_salad,Chicken Pesto Pasta Salad,735,87.5
+572_CPS_salad,Chicken Pesto Pasta Salad,3735,0
+572_CPS_salad,Chicken Pesto Pasta Salad,3567,20
