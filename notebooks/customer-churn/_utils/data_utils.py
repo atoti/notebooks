@@ -21,7 +21,7 @@ def data_cleanup(telcom):
 
     #Dropping null values from total charges column which contain .15% missing data 
     telcom = telcom[telcom["TotalCharges"].notnull()]
-    telcom = telcom.reset_index()[telcom.columns]
+    telcom = telcom.reset_index(drop=True)[telcom.columns]
 
     #convert to float type
     telcom["TotalCharges"] = telcom["TotalCharges"].astype(float)
@@ -42,9 +42,15 @@ def data_preprocessing(telcom, ignore_col, target_col):
     telcom = telcom.copy()
     # categorical columns
     cat_cols = telcom.nunique()[telcom.nunique() < 6].keys().tolist()
+    # print('Categorical columns:\n{}'.format(cat_cols))
+    # print()
     cat_cols = [x for x in cat_cols if x not in target_col]
     # numerical columns
     num_cols = [x for x in telcom.columns if x not in cat_cols + target_col + ignore_col]
+    # print('Numerical columns:\n{}'.format(num_cols))
+    # print()
+    # print('--------------------------------------------------------------------------------------')
+    # print()
     # Binary columns with 2 values
     bin_cols = telcom.nunique()[telcom.nunique() == 2].keys().tolist()
     # Columns more than 2 values
@@ -61,10 +67,19 @@ def data_preprocessing(telcom, ignore_col, target_col):
     # Scaling Numerical columns
     # transform your data such that its distribution will have a mean value 0 and standard deviation of 1
     std = StandardScaler()
-    scaled = std.fit_transform(telcom[num_cols])
+    
+    # Modified by Ariel
+    # To handle cases where there is only one numerical column
+    if len(num_cols) > 1:
+        scaled = std.fit_transform(telcom[num_cols])
+    else:
+        scaled = std.fit_transform(np.array(telcom[num_cols]).reshape(-1, 1))
+        
     scaled = pd.DataFrame(scaled, columns=num_cols)
+    
 
     # dropping original values merging scaled values for numerical columns
     telcom = telcom.drop(columns=num_cols, axis=1)
     telcom = telcom.merge(scaled, left_index=True, right_index=True, how="left")
+    
     return telcom
