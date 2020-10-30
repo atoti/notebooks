@@ -3,7 +3,7 @@ from statsmodels.stats.stattools import durbin_watson
 from statsmodels.tsa.api import VAR
 from statsmodels.tsa.stattools import adfuller
 import scipy.stats as stats
-
+import numpy as np
 
 def augmented_dickey_fuller_statistics(
     coin, metric_name, time_series, diff_order, _diff
@@ -84,8 +84,25 @@ def autocorrelation(value):
         print("Negative correlation detected")
     else:
         print("No correlation detected")
+        
+def adjust(val, length= 6): return str(val).ljust(length)
+                                                  
+def forecast_accuracy(forecast, actual):
+    mape = np.mean(np.abs(forecast - actual)/np.abs(actual))  # MAPE
+    me = np.mean(forecast - actual)             # ME
+    mae = np.mean(np.abs(forecast - actual))    # MAE
+    mpe = np.mean((forecast - actual)/actual)   # MPE
+    rmse = np.mean((forecast - actual)**2)**.5  # RMSE
+    corr = np.corrcoef(forecast, actual)[0,1]   # corr
+    mins = np.amin(np.hstack([forecast[:,None], 
+                              actual[:,None]]), axis=1)
+    maxs = np.amax(np.hstack([forecast[:,None], 
+                              actual[:,None]]), axis=1)
+    minmax = 1 - np.mean(mins/maxs)             # minmax
+    return({'mape':mape, 'me':me, 'mae': mae, 
+            'mpe': mpe, 'rmse':rmse, 'corr':corr, 'minmax':minmax})
 
-def var_forecast(coin, data_stats, train_data, nobs, verbose=False):
+def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
     mod = VAR(train_data)
 
     selected_orders = mod.select_order().selected_orders
@@ -101,18 +118,15 @@ def var_forecast(coin, data_stats, train_data, nobs, verbose=False):
 
     # collect the auto-correlatio results to be loaded into atoti later on
     for col, val in zip(train_data.columns, out):
-        print((col), ":", round(val, 2), "")
+#         print((col), ":", round(val, 2), "")
 
-        # get the residual values by taking prediction - actual
-        fitted_df[f"{col} residual"] = res.resid[col] #### !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-        metric = fitted_df[f"{col} residual"]
+        # get the residual values        
+        metric = res.resid[col] 
+        fitted_df[f"{col} residual"] = metric
         stat, p = stats.normaltest(metric)
         kurtosis = stats.kurtosis(metric)
         skewness = stats.skew(metric)
         
-        print(f"coin: {coin}, metric_name: {col}, stat: {stat}, p: {p}, kurtosis: {kurtosis}, skewness: {skewness}")
-
         data_stats.loc[
             (data_stats["coin_symbol"] == coin) & (data_stats["metric_name"] == col),
             ["durbin_watson", "norm_stat", "norm_p", "kurtosis", "skewness"],
@@ -135,19 +149,35 @@ def var_forecast(coin, data_stats, train_data, nobs, verbose=False):
     if lag_order > 0:
         # Forecasting
         input_data = train_data.values[-lag_order:]
-        pred = res.forecast(y=input_data, steps=nobs)
+        # take the minimal forecast between the lag order and the number of observations required
+        forecast_steps = lag_order if lag_order < nobs else nobs
+        pred = res.forecast(y=input_data, steps=forecast_steps)
 
         # we generate index from the last date for a period equivalent to the size of the forecast
         last_date = train_data.tail(1).index.get_level_values("date").to_pydatetime()[0]
         date_indices = pd.date_range(
-            start=last_date, periods=(nobs + 1), closed="right"
+            start=last_date, periods=(forecast_steps + 1), closed="right"
         )
         pred_df = pd.DataFrame(
             pred, index=date_indices, columns=train_data.columns,
         ).reset_index()
 
+#         accuracy_df = pd.DataFrame()
+        accuracy_prod = forecast_accuracy(pred_df['Returns'].values, actual_df['Returns'][:forecast_steps])
+        accuracy_prod = pd.DataFrame(accuracy_prod, index=[coin])
+        accuracy_prod["lag_order"] = lag_order
+        accuracy_prod["Observations"] = forecast_steps
+
+        if verbose:
+            for k, v in accuracy_prod.items():
+                print(adjust(k), ': ', v)
+
+        pred_df["Subset"] = "Test"
+        fitted_df["Subset"] = "Train"
+        
         return (
             fitted_df.drop(columns=train_data.columns).reset_index(),
             data_stats.loc[~data_stats["norm_stat"].isnull()],
+            accuracy_prod,
             pred_df.rename(columns={"index": "date"}),
         )
