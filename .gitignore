@@ -7,4 +7,4 @@ __pycache__/
 .ipynb_checkpoints
 
 # Database logs
-*trace.db.DS_Store
+*trace.db
