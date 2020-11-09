@@ -12,6 +12,7 @@ Welcome to the official **atoti** notebooks gallery!
 
 - [Pricing simulations around product classes](./retail/pricing-simulations-around-product-classes/main.ipynb)
 - [GeoPricing](./retail/geopricing/main.ipynb)
+- [Food processing](./retail/food-processing/main.ipynb)
 
 #### Finance
 
