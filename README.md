@@ -28,7 +28,7 @@ Welcome to the official **atoti** notebooks gallery!
 
 - [Video assistant referee impact in premier league](./fun/var-impact-in-premier-league/main.ipynb)
 - [NLP exploration with Reddit data](./fun/reddit/main.ipynb)
-- [Forecasting Cryptocurrency returns with Twitter sentiment](./fun/twitter/main.ipynb)
+- [Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)
 
 #### Statistics
 
