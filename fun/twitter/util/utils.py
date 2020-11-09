@@ -225,7 +225,7 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
                 data_stats.loc[
                     (data_stats["coin_symbol"] == coin)
                     & (data_stats["metric_name"] == col)
-                ][["coin_symbol", "metric_name", "durbin_watson"]],
+                ],
             )
 
             autocorrelation(val)
@@ -264,7 +264,7 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
         fitted_df["Subset"] = "Train"
 
         return (
-            fitted_df.drop(columns=train_data.columns).reset_index(),
+            fitted_df["Returns residual"].reset_index(),
             data_stats.loc[~data_stats["norm_stat"].isnull()],
             accuracy_prod,
             pred_df.rename(columns={"index": "date"}),
