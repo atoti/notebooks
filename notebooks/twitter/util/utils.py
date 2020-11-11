@@ -200,7 +200,7 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
     if verbose:
         print(coin, res.summary())
 
-    fitted_df = res.fittedvalues
+    fitted_df = res.resid.rename(columns={"Returns":"Returns residual"})["Returns residual"]
     # check for auto-correlation of the residual
     out = durbin_watson(res.resid)
 
@@ -209,7 +209,6 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
 
         # get the residual values
         metric = res.resid[col]
-        fitted_df[f"{col} residual"] = metric
         stat, p = stats.normaltest(metric)
         kurtosis = stats.kurtosis(metric)
         skewness = stats.skew(metric)
@@ -260,12 +259,18 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
             for k, v in accuracy_prod.items():
                 print(adjust(k), ": ", v)
 
+        pred_df["coin_symbol"] = coin
         pred_df["Subset"] = "Test"
+        pred_df.rename(columns={"index": "date"}, inplace=True)
+            
+        fitted_df = fitted_df.reset_index()
+        fitted_df["coin_symbol"] = coin
         fitted_df["Subset"] = "Train"
-
+        fitted_df["date"] = fitted_df["date"].apply(lambda x: x.strftime('%Y-%m-%d'))
+        
         return (
-            fitted_df["Returns residual"].reset_index(),
+            fitted_df,
             data_stats.loc[~data_stats["norm_stat"].isnull()],
             accuracy_prod,
-            pred_df.rename(columns={"index": "date"}),
+            pred_df,
         )
