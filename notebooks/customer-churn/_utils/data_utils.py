@@ -42,15 +42,9 @@ def data_preprocessing(telcom, ignore_col, target_col):
     telcom = telcom.copy()
     # categorical columns
     cat_cols = telcom.nunique()[telcom.nunique() < 6].keys().tolist()
-    # print('Categorical columns:\n{}'.format(cat_cols))
-    # print()
     cat_cols = [x for x in cat_cols if x not in target_col]
     # numerical columns
     num_cols = [x for x in telcom.columns if x not in cat_cols + target_col + ignore_col]
-    # print('Numerical columns:\n{}'.format(num_cols))
-    # print()
-    # print('--------------------------------------------------------------------------------------')
-    # print()
     # Binary columns with 2 values
     bin_cols = telcom.nunique()[telcom.nunique() == 2].keys().tolist()
     # Columns more than 2 values
