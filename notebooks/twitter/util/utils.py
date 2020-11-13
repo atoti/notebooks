@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.preprocessing import StandardScaler
 from statsmodels.stats.stattools import durbin_watson
 from statsmodels.tsa.api import VAR
 from statsmodels.tsa.stattools import adfuller
@@ -191,7 +192,11 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
         accuracy_prod: measures of accuracy for the forecast
         pred_df: predicted results
     """
-    mod = VAR(train_data, freq="D")
+    # standardizing features
+    scal = StandardScaler()
+    df_scaled = pd.DataFrame(scal.fit_transform(train_data.values),columns = train_data.columns, index=train_data.index)
+    
+    mod = VAR(df_scaled, freq="D")
 
     selected_orders = mod.select_order().selected_orders
     max_lag = selected_orders["aic"]
@@ -205,7 +210,7 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
     out = durbin_watson(res.resid)
 
     # collect the auto-correlatio results to be loaded into atoti later on
-    for col, val in zip(train_data.columns, out):
+    for col, val in zip(df_scaled.columns, out):
 
         # get the residual values
         metric = res.resid[col]
@@ -234,18 +239,19 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
 
     if lag_order > 0:
         # Forecasting
-        input_data = train_data.values[-lag_order:]
+        input_data = df_scaled.values[-lag_order:]
         # take the minimal forecast between the lag order and the number of observations required
         forecast_steps = lag_order if lag_order < nobs else nobs
         pred = res.forecast(y=input_data, steps=forecast_steps)
-
+        pred_transform = scal.inverse_transform(pred)
+        
         # we generate index from the last date for a period equivalent to the size of the forecast
-        last_date = train_data.tail(1).index.get_level_values("date").to_pydatetime()[0]
+        last_date = df_scaled.tail(1).index.get_level_values("date").to_pydatetime()[0]
         date_indices = pd.date_range(
             start=last_date, periods=(forecast_steps + 1), closed="right"
         )
         pred_df = pd.DataFrame(
-            pred, index=date_indices, columns=train_data.columns,
+            pred_transform, index=date_indices, columns=df_scaled.columns,
         ).reset_index()
 
         accuracy_prod = forecast_accuracy(
