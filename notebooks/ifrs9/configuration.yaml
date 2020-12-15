@@ -1,0 +1,13 @@
+port: 40751
+
+sampling_mode: 
+    first_lines: 5
+
+metadata_db: ./metadata.db
+
+# properties:
+#     csv_max_line_size: '1024'
+  
+java_args:
+   - "-Xms16g"
+   - "-Xmx16g"
