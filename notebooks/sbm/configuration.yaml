@@ -1,3 +1,1 @@
-metadata_db: ./metadata.db
-properties:
-    max_memory: 12G
+max_memory: 12G
