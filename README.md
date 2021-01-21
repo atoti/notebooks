@@ -40,6 +40,7 @@ Welcome to the official **atoti** notebooks gallery!
 | <sub>[Topcount](./notebooks/topcount/atoti.ipynb)</sub>                                                                    |                                       | <sub>guides</sub>                                                         |                               |                                                        |
 | <sub>[Value at Risk](./notebooks/value-at-risk/main.ipynb)</sub>                                                           | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       | <sub>vector aggregation</sub> |                                                        |
 | <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub>  | <sub>sport</sub>                      | <sub>rule what-if</sub>                                                   |                               |                                                        |
+| <sub>[How will the COVID Season Impact Baseball Stats](./notebooks/baseball/main.ipynb)</sub>  | <sub>sport</sub>                      | <sub>rule what-if</sub>                                                   |                               |                                                        |
 
 ### Issues
 
@@ -99,6 +100,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### sport
 
 - [Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)
+- [How will the COVID Season Impact Baseball Stats](./notebooks/baseball/main.ipynb)
 
 ##### telco
 
