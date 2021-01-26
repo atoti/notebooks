@@ -22,19 +22,19 @@ def optimize_prices(
     )
 
     new_price_list.loc[(new_price_list["Cluster"] == 0), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.02
+        new_price_list["SellingPrice"] * 1.07
     )
     new_price_list.loc[(new_price_list["Cluster"] == 1), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 0.95
+        new_price_list["SellingPrice"] * 1.3
     )
     new_price_list.loc[(new_price_list["Cluster"] == 2), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.0
+        new_price_list["SellingPrice"] * 0.95
     )
     new_price_list.loc[(new_price_list["Cluster"] == 3), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.05
+        new_price_list["SellingPrice"] * 1.02
     )
     new_price_list.loc[(new_price_list["Cluster"] == 4), "SellingPrice"] = (
-        new_price_list["SellingPrice"] * 1.05
+        new_price_list["SellingPrice"] * 1.07
     )
 
     return new_price_list[
