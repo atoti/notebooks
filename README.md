@@ -74,6 +74,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [SA-CCR](./notebooks/sa-ccr/main.ipynb)
 - [Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
+- [IFRS 9](./notebooks/ifrs9/main.ipynb)
 
 ##### food processing
 
@@ -145,6 +146,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [SA-CCR](./notebooks/sa-ccr/main.ipynb)
 - [Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
+- [IFRS 9](./notebooks/ifrs9/main.ipynb)
 
 ##### return forecasting
 
