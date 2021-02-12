@@ -30,6 +30,7 @@ Welcome to the official **atoti** Notebooks Gallery!
 | <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>                     | <sub>social media</sub>               | <sub>sentiment analysis, return forecasting</sub>                         |                               | <sub>time series forecasting, hypothesis testing</sub> |
 | <sub>[FRTB SBM](./notebooks/sbm/main.ipynb)</sub>                                                                          | <sub>finance</sub>                    | <sub>regtech</sub>                                                        |                               |                                                        |
 | <sub>[GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                                                 | <sub>retail</sub>                     | <sub>pricing strategy, product classification, margin optimization </sub> |                               | <sub>k-means clustering</sub>                          |
+| <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub>                                                                          | <sub>finance</sub>                    | <sub>regtech</sub>                                                        |  
 | <sub>[Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)</sub>                | <sub>pharmaceutical, healthcare</sub> | <sub>drug testing</sub>                                                   |                               | <sub>hypothesis testing, statistics</sub>              |
 | <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                                               | <sub>social media</sub>               | <sub>topic analysis</sub>                                                 |                               | <sub>nlp</sub>                                         |
 | <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                                                           | <sub>finance</sub>                    | <sub>trading</sub>                                                        |                               |                                                        |
@@ -74,6 +75,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [SA-CCR](./notebooks/sa-ccr/main.ipynb)
 - [Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
+- [IFRS 9](./notebooks/ifrs9/main.ipynb)
 
 ##### food processing
 
@@ -145,6 +147,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [SA-CCR](./notebooks/sa-ccr/main.ipynb)
 - [Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
+- [IFRS 9](./notebooks/ifrs9/main.ipynb)
 
 ##### return forecasting
 
