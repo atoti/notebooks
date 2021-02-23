@@ -6,11 +6,11 @@ Welcome to the official **atoti** Notebooks Gallery!
 
 #### By industry
 
-[finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance) [pharmaceutical](#pharmaceutical), [retail](#retail), [social media](#social-media), [sport](#sport), [telco](#telco)
+[finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social media](#social-media), [sport](#sport), [telco](#telco)
 
 #### By use case
 
-[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization) [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
