@@ -10,7 +10,7 @@ Welcome to the official **atoti** Notebooks Gallery!
 
 #### By use case
 
-[customer churn](#customer-churn), [drug testing](#drug-testing), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization) [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization) [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
@@ -38,7 +38,7 @@ Welcome to the official **atoti** Notebooks Gallery!
 | <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>                                               | <sub>finance</sub>                    | <sub>trading, risk management</sub>                                       | <sub>kafka, real-time</sub>       |                                                        |
 | <sub>[SA-CCR](./notebooks/sa-ccr/main.ipynb)</sub>                                                                         | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       |                                   |                                                        |
 | <sub>[Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)</sub>                                     | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       | <sub>vector aggregation</sub>     |                                                        |
-| <sub>[Subpopulation Anaysis](./notebooks/sub-population-analysis/main.ipynb)</sub>                                         | <sub>insurance</sub>                  | <sub>model production</sub>                                               | <sub>subpopulation analysis</sub> |
+| <sub>[Subpopulation Anaysis](./notebooks/sub-population-analysis/main.ipynb)</sub>                                         | <sub>insurance</sub>                  | <sub>cross selling</sub>                                                  | <sub>subpopulation analysis</sub> |
 | <sub>[Topcount](./notebooks/topcount/atoti.ipynb)</sub>                                                                    |                                       | <sub>guides</sub>                                                         |                                   |                                                        |
 | <sub>[Value at Risk](./notebooks/value-at-risk/main.ipynb)</sub>                                                           | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       | <sub>vector aggregation</sub>     |                                                        |
 | <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub>  | <sub>sport</sub>                      | <sub>rule what-if</sub>                                                   |                                   |                                                        |
@@ -118,6 +118,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### customer churn
 
 - [Customer Churns](./notebooks/customer-churn/main.ipynb)
+
+##### cross-selling
+
+- [Subpopulation Analysis to see if model can be put into Production](./notebooks/sub-population-analysis/main.ipynb)
 
 ##### drug testing
 
