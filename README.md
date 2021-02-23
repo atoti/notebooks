@@ -1,4 +1,4 @@
-[![Gitter](https://badges.gitter.im/atoti/atoti.svg)](https://gitter.im/atoti/atoti)
+[![Gitter](https://badges.gitter.im/atoti/atoti.svg)](https://gitter.im/atoti/atoti) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fatoti%2Fnotebooks&count_bg=%23FF7375&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 Welcome to the official **atoti** Notebooks Gallery!
 
@@ -30,7 +30,7 @@ Welcome to the official **atoti** Notebooks Gallery!
 | <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>                     | <sub>social media</sub>               | <sub>sentiment analysis, return forecasting</sub>                         |                               | <sub>time series forecasting, hypothesis testing</sub> |
 | <sub>[FRTB SBM](./notebooks/sbm/main.ipynb)</sub>                                                                          | <sub>finance</sub>                    | <sub>regtech</sub>                                                        |                               |                                                        |
 | <sub>[GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                                                 | <sub>retail</sub>                     | <sub>pricing strategy, product classification, margin optimization </sub> |                               | <sub>k-means clustering</sub>                          |
-| <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub>                                                                          | <sub>finance</sub>                    | <sub>regtech</sub>                                                        |  
+| <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub>                                                                          | <sub>finance</sub>                    | <sub>regtech</sub>                                                        |
 | <sub>[Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)</sub>                | <sub>pharmaceutical, healthcare</sub> | <sub>drug testing</sub>                                                   |                               | <sub>hypothesis testing, statistics</sub>              |
 | <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                                               | <sub>social media</sub>               | <sub>topic analysis</sub>                                                 |                               | <sub>nlp</sub>                                         |
 | <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                                                           | <sub>finance</sub>                    | <sub>trading</sub>                                                        |                               |                                                        |
@@ -41,7 +41,7 @@ Welcome to the official **atoti** Notebooks Gallery!
 | <sub>[Topcount](./notebooks/topcount/atoti.ipynb)</sub>                                                                    |                                       | <sub>guides</sub>                                                         |                               |                                                        |
 | <sub>[Value at Risk](./notebooks/value-at-risk/main.ipynb)</sub>                                                           | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       | <sub>vector aggregation</sub> |                                                        |
 | <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub>  | <sub>sport</sub>                      | <sub>rule what-if</sub>                                                   |                               |                                                        |
-| <sub>[How will the COVID Season Impact Baseball Stats](./notebooks/baseball/main.ipynb)</sub>  | <sub>sport</sub>                      | <sub>rule what-if</sub>                                                   |                               |                                                        |
+| <sub>[How will the COVID Season Impact Baseball Stats](./notebooks/baseball/main.ipynb)</sub>                              | <sub>sport</sub>                      | <sub>rule what-if</sub>                                                   |                               |                                                        |
 
 ### Issues
 
