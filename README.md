@@ -1,4 +1,6 @@
 [![Gitter](https://badges.gitter.im/atoti/atoti.svg)](https://gitter.im/atoti/atoti)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fatoti%2Fnotebooks&count_bg=%23FF7375&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Stackoverflow](https://img.shields.io/badge/StackOverflow-atoti-f58024.svg)](https://stackoverflow.com/questions/tagged/atoti)
 
 Welcome to the official **atoti** Notebooks Gallery!
 
@@ -6,15 +8,15 @@ Welcome to the official **atoti** Notebooks Gallery!
 
 #### By industry
 
-[finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [pharmaceutical](#pharmaceutical), [retail](#retail), [social media](#social-media), [sport](#sport), [telco](#telco)
+[finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social media](#social-media), [sport](#sport), [telco](#telco)
 
 #### By use case
 
-[customer churn](#customer-churn), [drug testing](#drug-testing), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization) [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
-[kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [vector aggregation](#vector-aggregation)
+[kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation)
 
 #### By data science topics
 
@@ -77,6 +79,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [SA-CCR](./notebooks/sa-ccr/main.ipynb)
 - [Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
+- [IFRS 9](./notebooks/ifrs9/main.ipynb)
 
 ##### food processing
 
@@ -85,6 +88,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### healthcare
 
 - [Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)
+
+##### insurance
+
+- [Subpopulation Analysis to see if model can be put into Production](./notebooks/sub-population-analysis/main.ipynb)
 
 ##### pharmaceutical
 
@@ -114,6 +121,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### customer churn
 
 - [Customer Churns](./notebooks/customer-churn/main.ipynb)
+
+##### cross-selling
+
+- [Subpopulation Analysis to see if model can be put into Production](./notebooks/sub-population-analysis/main.ipynb)
 
 ##### drug testing
 
@@ -149,6 +160,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [SA-CCR](./notebooks/sa-ccr/main.ipynb)
 - [Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
+- [IFRS 9](./notebooks/ifrs9/main.ipynb)
 
 ##### return forecasting
 
@@ -193,6 +205,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### real-time
 
 - [Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)
+
+##### subpopulation analysis
+
+- [Subpopulation Analysis to see if model can be put into Production](./notebooks/sub-population-analysis/main.ipynb)
 
 ##### vector aggregation
 
