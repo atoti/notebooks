@@ -34,6 +34,7 @@ Welcome to the official **atoti** Notebooks Gallery!
 | <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                                               | <sub>social media</sub>               | <sub>topic analysis</sub>                                                 |                               | <sub>nlp</sub>                                         |
 | <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                                                           | <sub>finance</sub>                    | <sub>trading</sub>                                                        |                               |                                                        |
 | <sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> | <sub>retail</sub>                     | <sub>pricing strategy, product classification, margin optimization</sub>  |                               | <sub>k-means clustering</sub>                          |
+| <sub>[Rollup Hierarchies with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)</sub>                                                                    |                                       | <sub>guides</sub>                                                         |                               |                                                        |
 | <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>                                               | <sub>finance</sub>                    | <sub>trading, risk management</sub>                                       | <sub>kafka, real-time</sub>   |                                                        |
 | <sub>[SA-CCR](./notebooks/sa-ccr/main.ipynb)</sub>                                                                         | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       |                               |                                                        |
 | <sub>[Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)</sub>                                     | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       | <sub>vector aggregation</sub> |                                                        |
@@ -119,6 +120,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### guides
 
 - [Topcount](./notebooks/topcount/atoti.ipynb)
+- [Rollup hierarchy with Treelib and atoti](./notebooks/notebooks/rollup-hierarchies/main.ipynb)
 
 ##### inventory management
 
