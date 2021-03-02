@@ -24,27 +24,28 @@ Welcome to the official **atoti** Notebooks Gallery!
 
 ### Notebooks
 
-| Notebooks                                                                                                                  | Industry                              | Use Case                                                                  | atoti Features                    | Data Science Topics                                    |
-| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------- | --------------------------------- | ------------------------------------------------------ |
-| <sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>                       | <sub>finance</sub>                    | <sub>risk management, trading</sub>                                       |                                   |                                                        |
-| <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                                                        | <sub>telco</sub>                      | <sub>customer churn</sub>                                                 | <sub>model comparison</sub>       | <sub>bayes, SVM, logistic regression</sub>             |
-| <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                                                       | <sub>food processing</sub>            | <sub>inventory management, supply chain</sub>                             | <sub>vector aggregation</sub>     | <sub>time series forecasting, neural network</sub>     |
-| <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>                     | <sub>social media</sub>               | <sub>sentiment analysis, return forecasting</sub>                         |                                   | <sub>time series forecasting, hypothesis testing</sub> |
-| <sub>[FRTB SBM](./notebooks/sbm/main.ipynb)</sub>                                                                          | <sub>finance</sub>                    | <sub>regtech</sub>                                                        |                                   |                                                        |
-| <sub>[GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                                                 | <sub>retail</sub>                     | <sub>pricing strategy, product classification, margin optimization </sub> |                                   | <sub>k-means clustering</sub>                          |
-| <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub>                                                                          | <sub>finance</sub>                    | <sub>regtech</sub>                                                        |
-| <sub>[Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)</sub>                | <sub>pharmaceutical, healthcare</sub> | <sub>drug testing</sub>                                                   |                                   | <sub>hypothesis testing, statistics</sub>              |
-| <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                                               | <sub>social media</sub>               | <sub>topic analysis</sub>                                                 |                                   | <sub>nlp</sub>                                         |
-| <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                                                           | <sub>finance</sub>                    | <sub>trading</sub>                                                        |                                   |                                                        |
-| <sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> | <sub>retail</sub>                     | <sub>pricing strategy, product classification, margin optimization</sub>  |                                   | <sub>k-means clustering</sub>                          |
-| <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>                                               | <sub>finance</sub>                    | <sub>trading, risk management</sub>                                       | <sub>kafka, real-time</sub>       |                                                        |
-| <sub>[SA-CCR](./notebooks/sa-ccr/main.ipynb)</sub>                                                                         | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       |                                   |                                                        |
-| <sub>[Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)</sub>                                     | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       | <sub>vector aggregation</sub>     |                                                        |
-| <sub>[Subpopulation Anaysis](./notebooks/sub-population-analysis/main.ipynb)</sub>                                         | <sub>insurance</sub>                  | <sub>cross selling</sub>                                                  | <sub>subpopulation analysis</sub> |
-| <sub>[Topcount](./notebooks/topcount/atoti.ipynb)</sub>                                                                    |                                       | <sub>guides</sub>                                                         |                                   |                                                        |
-| <sub>[Value at Risk](./notebooks/value-at-risk/main.ipynb)</sub>                                                           | <sub>finance</sub>                    | <sub>risk management, regtech</sub>                                       | <sub>vector aggregation</sub>     |                                                        |
-| <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub>  | <sub>sport</sub>                      | <sub>rule what-if</sub>                                                   |                                   |                                                        |
-| <sub>[How will the COVID Season Impact Baseball Stats](./notebooks/baseball/main.ipynb)</sub>                              | <sub>sport</sub>                      | <sub>rule what-if</sub>                                                   |                                   |                                                        |
+| Notebooks | Industry | Use Case | atoti Features | Data Science Topics |
+|:-:|:-:|:-:|:-:|:-:|
+| <sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub> | <sub>finance</sub> | <sub>risk management, trading</sub> |  |  |
+| <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub> | <sub>telco</sub> | <sub>customer churn</sub> | <sub>model comparison</sub> | <sub>bayes, SVM, logistic regression</sub> |
+| <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub> | <sub>[food processing]</sub> | <sub>inventory management, supply chain</sub> | <sub>vector aggregation</sub> | <sub>time series forecasting, neural network</sub> |
+| <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub> | <sub>social media</sub> | <sub>sentiment analysis, return forecasting</sub> |  | <sub>time series forecasting, hypothesis testing<sub/> |
+| <sub>[FRTB SBM](./notebooks/sbm/main.ipynb)</sub> | <sub>finance</sub> | <sub>regtech</sub> |  |  |
+| <sub> [GeoPricing](./notebooks/geopricing/main.ipynb)</sub> | <sub>retail</sub> | <sub>pricing strategy, product classification, margin optimization</sub>  |  | <sub>k-means clustering</sub> |
+| <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub> | <sub>finance</sub> | <sub>regtech</sub> |  |  |
+| <sub>[Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)</sub> | <sub>pharmaceutical, healthcare</sub> | <sub>drug testing</sub> |  | <sub>hypothesis testing, statistics</sub> |
+| <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub> | <sub>social media</sub> | <sub>topic analysis</sub> |  | <sub>nlp</sub> |
+| <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub> | <sub>finance</sub> | <sub>trading</sub> |  |  |
+| <sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> | <sub>retail</sub> | <sub>pricing strategy, product classification, margin optimization</sub> |  | <sub>k-means clustering</sub> |
+| <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>  | <sub>finance</sub> | <sub>trading, risk management</sub> | <sub>kafka, real-time</sub> |  |
+| <sub>[Rollup Hierarchies with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)</sub> |  | <sub>guides</sub> |  |  |
+| <sub>[SA-CCR](./notebooks/sa-ccr/main.ipynb)</sub> | <sub>finance</sub> | <sub>risk management, regtech</sub> |  |  |
+| <sub>[Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)</sub>  | <sub>finance</sub> | <sub>risk management, regtech</sub> | <sub>vector aggregation</sub> |  |
+| <sub>[Subpopulation Analysis](./notebooks/sub-population-analysis/main.ipynb)</sub> | <sub>insurance</sub> | <sub>cross selling</sub> | <sub>subpopulation analysis</sub> |  |
+| <sub>[Topcount](./notebooks/topcount/atoti.ipynb)</sub> |  | <sub>guides</sub> |  |  |
+| <sub>[Value at Risk](./notebooks/value-at-risk/main.ipynb)</sub> | <sub>finance</sub> | <sub>risk management, regtech</sub> | <sub>vector aggregation</sub> |  |
+| <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub> | <sub>sport</sub> | <sub>rule what-if</sub> |  |  |
+| <sub>[How will the COVID Season Impact Baseball Stats](./notebooks/baseball/main.ipynb)</sub> | <sub>sport</sub> | <sub>rule what-if</sub> |  |  |
 
 ### Issues
 
@@ -132,6 +133,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### guides
 
 - [Topcount](./notebooks/topcount/atoti.ipynb)
+- [Rollup hierarchy with Treelib and atoti](./notebooks/notebooks/rollup-hierarchies/main.ipynb)
 
 ##### inventory management
 
