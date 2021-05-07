@@ -1,8 +1,18 @@
-[![Gitter](https://badges.gitter.im/atoti/atoti.svg)](https://gitter.im/atoti/atoti)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fatoti%2Fnotebooks&count_bg=%23FF7375&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![Stackoverflow](https://img.shields.io/badge/StackOverflow-atoti-f58024.svg)](https://stackoverflow.com/questions/tagged/atoti)
+<p align="center">
+  <img src="./assets/logo.png" alt="atoti logo">
+</p>
+
+<p align="center">
+  <a href="https://gitter.im/atoti/atoti"><img src="https://badges.gitter.im/atoti/atoti.svg" alt="gitter"></a>
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fatoti%2Fnotebooks&count_bg=%23FF7375&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Hits"></a>
+  <a href="https://stackoverflow.com/questions/tagged/atoti"><img src="https://img.shields.io/badge/StackOverflow-atoti-f58024.svg" alt="gitter"></a>
+</p>
 
 Welcome to the official **atoti** Notebooks Gallery!
+
+### atoti
+
+Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 ### Shortcuts
 
