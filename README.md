@@ -41,6 +41,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
 |                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>[food processing]</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
 |           <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>           |        <sub>social media</sub>        |            <sub>sentiment analysis, return forecasting</sub>             |                                   | <sub>time series forecasting, hypothesis testing<sub/> |
+|                                <sub>[Formula one](./notebooks/formula-one/main.ipynb)</sub>                                |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                                     <sub>[FRTB SBM](./notebooks/sbm/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
 |                                <sub> [GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                 |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
 |                                     <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
@@ -123,6 +124,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)
 - [COVID-19 Season Impact on Baseball Stats](./notebooks/baseball/main.ipynb)
+- [Formula one](./notebooks/formula-one/main.ipynb)
 
 ##### telco
 
