@@ -8,6 +8,8 @@ from nbconvert.preprocessors import ExecutePreprocessor
 NOTEBOOKS_TO_SKIP = [
     "notebooks/sub-population-analysis/main.ipynb",
     "notebooks/real-time-risk/main.ipynb",
+    "notebooks/rollup-hierarchies/main.ipynb",
+    "notebooks/sbm/main.ipynb",
 ]
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
