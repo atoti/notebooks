@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "notebooks"
+version = "0.1.0"
+description = "Official atoti notebooks gallery"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.5.5"}
+
+[tool.poetry.dev-dependencies]
+black-nb = "^0.5.0"
+wget = "^3.2"
+treelib = "^1.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
