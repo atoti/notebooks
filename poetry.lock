@@ -59,91 +59,120 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "atoti"
-version = "0.5.5"
+version = "0.6.0.20210616170824"
 description = "Design, explore and deploy efficient and flexible data models"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti-aws = {version = "0.5.5", optional = true, markers = "extra == \"aws\""}
-atoti-azure = {version = "0.5.5", optional = true, markers = "extra == \"azure\""}
-atoti-gcp = {version = "0.5.5", optional = true, markers = "extra == \"gcp\""}
-atoti-jupyterlab = {version = "0.5.5", optional = true, markers = "extra == \"jupyterlab\""}
-atoti-kafka = {version = "0.5.5", optional = true, markers = "extra == \"kafka\""}
-jdk4py = "11.0.9.0"
+atoti-aws = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"aws\""}
+atoti-azure = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"azure\""}
+atoti-gcp = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"gcp\""}
+atoti-jupyterlab = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"jupyterlab\""}
+atoti-kafka = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"kafka\""}
+jdk4py = ">=11.0,<12.0"
 numpy = "!=1.19.4"
 pandas = "*"
 pyarrow = ">=3.0,<4.0"
-pyyaml = "*"
 typeguard = "*"
 typing-extensions = "*"
 
 [package.extras]
-aws = ["atoti-aws (==0.5.5)"]
-azure = ["atoti-azure (==0.5.5)"]
-gcp = ["atoti-gcp (==0.5.5)"]
-jupyterlab = ["atoti-jupyterlab (==0.5.5)"]
-kafka = ["atoti-kafka (==0.5.5)"]
-legacy-app = ["atoti-legacy-app (==0.5.5)"]
-plus = ["atoti-plus (==0.5.5)"]
-sql = ["atoti-sql (==0.5.5)"]
+aws = ["atoti-aws (==0.6.0.20210616170824)"]
+azure = ["atoti-azure (==0.6.0.20210616170824)"]
+gcp = ["atoti-gcp (==0.6.0.20210616170824)"]
+jupyterlab = ["atoti-jupyterlab (==0.6.0.20210616170824)"]
+kafka = ["atoti-kafka (==0.6.0.20210616170824)"]
+legacy-app = ["atoti-legacy-app (==0.6.0.20210616170824)"]
+plus = ["atoti-plus (==0.6.0.20210616170824)"]
+sql = ["atoti-sql (==0.6.0.20210616170824)"]
+
+[package.source]
+type = "legacy"
+url = "https://activeviam.jfrog.io/artifactory/api/pypi/atoti-pypi-internal/simple"
+reference = "atoti-internal"
 
 [[package]]
 name = "atoti-aws"
-version = "0.5.5"
-description = "Plugin to load CSV and Parquet files from AWS S3 into atoti stores"
+version = "0.6.0.20210616170824"
+description = "Plugin to load CSV and Parquet files from AWS S3 into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.5.5"
+atoti = "0.6.0.20210616170824"
+
+[package.source]
+type = "legacy"
+url = "https://activeviam.jfrog.io/artifactory/api/pypi/atoti-pypi-internal/simple"
+reference = "atoti-internal"
 
 [[package]]
 name = "atoti-azure"
-version = "0.5.5"
-description = "Plugin to load CSV and parquet files from Azure Blob Storage into atoti stores"
+version = "0.6.0.20210616170824"
+description = "Plugin to load CSV and parquet files from Azure Blob Storage into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.5.5"
+atoti = "0.6.0.20210616170824"
+
+[package.source]
+type = "legacy"
+url = "https://activeviam.jfrog.io/artifactory/api/pypi/atoti-pypi-internal/simple"
+reference = "atoti-internal"
 
 [[package]]
 name = "atoti-gcp"
-version = "0.5.5"
-description = "Plugin to load CSV and parquet files from Google Cloud Storage into atoti stores"
+version = "0.6.0.20210616170824"
+description = "Plugin to load CSV and parquet files from Google Cloud Storage into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.5.5"
+atoti = "0.6.0.20210616170824"
+
+[package.source]
+type = "legacy"
+url = "https://activeviam.jfrog.io/artifactory/api/pypi/atoti-pypi-internal/simple"
+reference = "atoti-internal"
 
 [[package]]
 name = "atoti-jupyterlab"
-version = "0.5.5"
+version = "0.6.0.20210616170824"
 description = "Plugin to interactively visualize atoti sessions in JupyterLab"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.5.5"
+atoti = "0.6.0.20210616170824"
 jupyterlab = ">=3.0,<4.0"
+
+[package.source]
+type = "legacy"
+url = "https://activeviam.jfrog.io/artifactory/api/pypi/atoti-pypi-internal/simple"
+reference = "atoti-internal"
 
 [[package]]
 name = "atoti-kafka"
-version = "0.5.5"
-description = "Plugin to load real time Kafka streams into atoti stores"
+version = "0.6.0.20210616170824"
+description = "Plugin to load real time Kafka streams into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.5.5"
+atoti = "0.6.0.20210616170824"
+
+[package.source]
+type = "legacy"
+url = "https://activeviam.jfrog.io/artifactory/api/pypi/atoti-pypi-internal/simple"
+reference = "atoti-internal"
 
 [[package]]
 name = "attrs"
@@ -1259,21 +1288,21 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "praw"
-version = "7.2.0"
+version = "7.3.0"
 description = "PRAW, an acronym for `Python Reddit API Wrapper`, is a python package that allows for simple access to reddit's API."
 category = "main"
 optional = false
 python-versions = "~=3.6"
 
 [package.dependencies]
-prawcore = ">=2,<3"
+prawcore = ">=2.1,<3"
 update-checker = ">=0.18"
 websocket-client = ">=0.54.0"
 
 [package.extras]
 ci = ["coveralls"]
-dev = ["packaging", "pre-commit", "black", "flake8", "flynt", "isort", "pydocstyle", "sphinx", "sphinx-rtd-theme", "betamax (>=0.8,<0.9)", "betamax-matchers (>=0.3.0,<0.5)", "pytest (>=2.7.3)"]
-lint = ["black", "flake8", "flynt", "isort", "pydocstyle", "sphinx", "sphinx-rtd-theme"]
+dev = ["packaging", "pre-commit", "black", "docstrfmt", "flake8", "flynt", "isort", "pydocstyle", "sphinx", "sphinx-rtd-theme", "betamax (>=0.8,<0.9)", "betamax-matchers (>=0.3.0,<0.5)", "pytest (>=2.7.3)"]
+lint = ["black", "docstrfmt", "flake8", "flynt", "isort", "pydocstyle", "sphinx", "sphinx-rtd-theme"]
 readthedocs = ["sphinx"]
 test = ["betamax (>=0.8,<0.9)", "betamax-matchers (>=0.3.0,<0.5)", "pytest (>=2.7.3)"]
 
@@ -1991,7 +2020,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "c2e124eda1aceec6e271d71edf492c6531d00a0ad0cf4b06482c50a92a73c12f"
+content-hash = "f9d4272581196da72e2e2fcc11783cd8639f6588c333b144025106da66aad80e"
 
 [metadata.files]
 anyio = [
@@ -2031,22 +2060,22 @@ async-generator = [
     {file = "async_generator-1.10.tar.gz", hash = "sha256:6ebb3d106c12920aaae42ccb6f787ef5eefdcdd166ea3d628fa8476abe712144"},
 ]
 atoti = [
-    {file = "atoti-0.5.5-0_dc3a2a6-py3-none-any.whl", hash = "sha256:bb3e34d89eba23bcc2144ff2d2f2195908e206e695fb91d1d95ab8450ebfb752"},
+    {file = "atoti-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:b484820125d0a4d562d2a2bc1ec3674160d76b3690fb0e3f7b676505af029a37"},
 ]
 atoti-aws = [
-    {file = "atoti_aws-0.5.5-0_dc3a2a6-py3-none-any.whl", hash = "sha256:c2f062794af63d508be58eeb58a291b76725912139546075f8d6bc33956b0a24"},
+    {file = "atoti_aws-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:f519958ec426a4ed31341496cc108316c4b7389f4f671bbc251872083b50f00d"},
 ]
 atoti-azure = [
-    {file = "atoti_azure-0.5.5-0_dc3a2a6-py3-none-any.whl", hash = "sha256:ba0e2f8465ac48396c2a544981686cbef11b4fe8cb813178225cd21b1c377648"},
+    {file = "atoti_azure-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:ebd8b9a9273f2c6cfac45e2de112f0f78e1e4b4ea3a77ba692393205b06e9de9"},
 ]
 atoti-gcp = [
-    {file = "atoti_gcp-0.5.5-0_dc3a2a6-py3-none-any.whl", hash = "sha256:13878b0a2427e74a1fce7527afb5575966e15cffeca50a2918053e2d74ab6e1a"},
+    {file = "atoti_gcp-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:989f6e94d61168b8ba728b22a7a9089b79a32a268ea9cb3ebb6d7427a9669f73"},
 ]
 atoti-jupyterlab = [
-    {file = "atoti_jupyterlab-0.5.5-0_dc3a2a6-py3-none-any.whl", hash = "sha256:b7fb92ab3e225749c320bcfcf62332923a443dc7e8d52738c06ec51352828034"},
+    {file = "atoti_jupyterlab-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:d1972aa96298096d0b696c7caad6aabd6d81def34de0a66dacc310fc6565e40c"},
 ]
 atoti-kafka = [
-    {file = "atoti_kafka-0.5.5-0_dc3a2a6-py3-none-any.whl", hash = "sha256:947f05c365fe4d36b37a090b89ceedeaa28cba30b4721ddb211e9b1b74ef178d"},
+    {file = "atoti_kafka-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:e88814332820a814fa376ba7154e8e57f2c0565e2536fd923b8777192bbbcd3f"},
 ]
 attrs = [
     {file = "attrs-21.2.0-py2.py3-none-any.whl", hash = "sha256:149e90d6d8ac20db7a955ad60cf0e6881a3f20d37096140088356da6c716b0b1"},
@@ -2601,8 +2630,8 @@ pillow = [
     {file = "Pillow-8.2.0.tar.gz", hash = "sha256:a787ab10d7bb5494e5f76536ac460741788f1fbce851068d73a87ca7c35fc3e1"},
 ]
 praw = [
-    {file = "praw-7.2.0-py3-none-any.whl", hash = "sha256:f8e9f1854368a833d09208ca6f0318220d488a0c6660ff5c38391e55f50f0aa9"},
-    {file = "praw-7.2.0.tar.gz", hash = "sha256:434600bb77264dc5f8f7635eb0541a6c992b87e1d9e9f6e3f40fe98e2c508152"},
+    {file = "praw-7.3.0-py3-none-any.whl", hash = "sha256:98d435856b34851aaf88575b65b4864f1f7f848913b47e046243bb126682a66f"},
+    {file = "praw-7.3.0.tar.gz", hash = "sha256:9773fb5a2f5ab910d6f8e14da84e81d8d3d868261745371341d8b2043588ba7c"},
 ]
 prawcore = [
     {file = "prawcore-2.2.0-py3-none-any.whl", hash = "sha256:cb7a01e43202233d62c4f9c0da890f6e6a534cebc16fb6ef1e71aff7077b0f42"},
