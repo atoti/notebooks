@@ -7,20 +7,24 @@ from nbconvert.preprocessors import ExecutePreprocessor
 from pathlib import Path
 
 NOTEBOOKS_FOLDER = "notebooks/"
-# List of notebooks failing in the CI for different reasons
-NOTEBOOKS_TO_SKIP = [
+# List of notebooks used to create files containing data, must not be tested
+DATA_PREPROCESSING_NOTEBOOKS = [
+    "notebooks/customer-churn/0_prepare_data.ipynb",
+    "notebooks/customer-churn/1_create_models.ipynb",
+    "notebooks/ifrs9/data-generation.ipynb",
+    "notebooks/twitter/01_tweets_mining.ipynb",
+    "notebooks/twitter/02_sentiment.ipynb",
+    "notebooks/twitter/03_cryptocurrency_mining.ipynb",
+]
+# List of notebooks with errors in the CI
+NOTEBOOKS_WITH_FAILURES = [
     "notebooks/real-time-risk/main.ipynb",  # SyntaxError: invalid syntax (simple.py, line 54) TO FIX
-    "notebooks/customer-churn/0_prepare_data.ipynb",  # data
-    "notebooks/customer-churn/1_create_models.ipynb",  # data
-    "notebooks/ifrs9/data-generation.ipynb",  # data
     "notebooks/reddit/main.ipynb",  # http 401 error TO FIX
-    "notebooks/twitter/01_tweets_mining.ipynb",  # data
-    "notebooks/twitter/02_sentiment.ipynb",  # data
-    "notebooks/twitter/03_cryptocurrency_mining.ipynb",  # data
     "notebooks/var-benchmark/data_generator.ipynb",  # Timeout
     "notebooks/var-benchmark/main.ipynb",  # data generation timeout TO FIX
     "notebooks/geopricing/main.ipynb",  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX
 ]
+NOTEBOOKS_TO_SKIP = DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_FAILURES
 
 logging.basicConfig(format="%(asctime)s %(message)s", level=logging.INFO)
 notebooks_path = sorted(
