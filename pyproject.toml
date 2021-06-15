@@ -18,6 +18,10 @@ mxnet = "^1.8.0"
 matplotlib = "^3.4.2"
 gluonts = "^0.7.5"
 folium = "^0.12.1"
+seaborn = "^0.11.1"
+sklearn = "^0.0"
+praw = "^7.2.0"
+spacy = "^3.0.6"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
