@@ -12,6 +12,12 @@ atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.
 black-nb = "^0.5.0"
 wget = "^3.2"
 treelib = "^1.6.1"
+nltk = "^3.6.2"
+textblob = "^0.15.3"
+mxnet = "^1.8.0"
+matplotlib = "^3.4.2"
+gluonts = "^0.7.5"
+folium = "^0.12.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

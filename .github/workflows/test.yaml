@@ -39,6 +39,4 @@ jobs:
         env:
           JDK4PY_BUILD_PLATFORM: ${{ matrix.os }}
         shell: bash
-        run: |
-          mkdir temp
-          poetry run python .github/workflows/test_notebooks.py
+        run: poetry run python .github/workflows/test_notebooks.py
