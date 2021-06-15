@@ -9,5 +9,4 @@ __pycache__/
 # Database logs
 *trace.db
 
-# Temp folder for notebook execution data
-temp/
+.vscode/
