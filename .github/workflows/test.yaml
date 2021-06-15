@@ -23,6 +23,9 @@ jobs:
           architecture: x64
           python-version: ${{ matrix.python }}
 
+      - name: Install Graphviz
+        run: apt install graphviz
+
       - name: Install Poetry
         run: pip install poetry
 
