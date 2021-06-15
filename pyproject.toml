@@ -4,9 +4,13 @@ version = "0.1.0"
 description = "Official atoti notebooks gallery"
 authors = ["Your Name <you@example.com>"]
 
+[[tool.poetry.source]]
+name = "atoti-internal"
+url = "https://activeviam.jfrog.io/artifactory/api/pypi/atoti-pypi-internal/simple/"
+
 [tool.poetry.dependencies]
 python = "^3.7"
-atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.5.5"}
+atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.6.0"}
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.5.0"
