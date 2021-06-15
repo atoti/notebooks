@@ -9,23 +9,17 @@ from pathlib import Path
 NOTEBOOKS_FOLDER = "notebooks/"
 # List of notebooks failing in the CI for different reasons
 NOTEBOOKS_TO_SKIP = [
-    "notebooks/sub-population-analysis/main.ipynb",
-    "notebooks/real-time-risk/main.ipynb",
-    "notebooks/rollup-hierarchies/main.ipynb",
-    "notebooks/sbm/main.ipynb",
-    "notebooks/customer-churn/0_prepare_data.ipynb",
-    "notebooks/customer-churn/main.ipynb",
-    "notebooks/customer-churn/1_create_models.ipynb",
-    "notebooks/ifrs9/data-generation.ipynb",
-    "notebooks/ifrs9/main.ipynb",  # Timeout
-    "notebooks/reddit/main.ipynb",
-    "notebooks/twitter/01_tweets_mining.ipynb",
-    "notebooks/twitter/02_sentiment.ipynb",
-    "notebooks/twitter/03_cryptocurrency_mining.ipynb",
-    "notebooks/twitter/main.ipynb",
-    "notebooks/var-benchmark/data_generator.ipynb",
-    "notebooks/var-benchmark/main.ipynb",
-    "notebooks/geopricing/main.ipynb", # https://github.com/atoti/notebooks/runs/2829010222
+    "notebooks/real-time-risk/main.ipynb",  # SyntaxError: invalid syntax (simple.py, line 54) TO FIX
+    "notebooks/customer-churn/0_prepare_data.ipynb",  # data
+    "notebooks/customer-churn/1_create_models.ipynb",  # data
+    "notebooks/ifrs9/data-generation.ipynb",  # data
+    "notebooks/reddit/main.ipynb",  # http 401 error TO FIX
+    "notebooks/twitter/01_tweets_mining.ipynb",  # data
+    "notebooks/twitter/02_sentiment.ipynb",  # data
+    "notebooks/twitter/03_cryptocurrency_mining.ipynb",  # data
+    "notebooks/var-benchmark/data_generator.ipynb",  # Timeout
+    "notebooks/var-benchmark/main.ipynb",  # data generation timeout TO FIX
+    "notebooks/geopricing/main.ipynb",  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX
 ]
 
 logging.basicConfig(format="%(asctime)s %(message)s", level=logging.INFO)

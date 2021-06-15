@@ -22,6 +22,10 @@ seaborn = "^0.11.1"
 sklearn = "^0.0"
 praw = "^7.2.0"
 spacy = "^3.0.6"
+pandas-profiling = "2.13.0"
+statsmodels = "^0.12.2"
+imblearn = "^0.0"
+kafka = "^1.3.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
