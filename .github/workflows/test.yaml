@@ -24,7 +24,7 @@ jobs:
           python-version: ${{ matrix.python }}
 
       - name: Install Graphviz
-        run: apt install graphviz
+        run: sudo apt-get install graphviz
 
       - name: Install Poetry
         run: pip install poetry
