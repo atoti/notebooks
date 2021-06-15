@@ -25,6 +25,7 @@ NOTEBOOKS_TO_SKIP = [
     "notebooks/twitter/main.ipynb",
     "notebooks/var-benchmark/data_generator.ipynb",
     "notebooks/var-benchmark/main.ipynb",
+    "notebooks/geopricing/main.ipynb", # https://github.com/atoti/notebooks/runs/2829010222
 ]
 
 logging.basicConfig(format="%(asctime)s %(message)s", level=logging.INFO)
