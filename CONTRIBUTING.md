@@ -27,6 +27,22 @@ We welcome any contributions from the community. Please make sure your PR follow
 - python methods should be typed
 - documentation should follow Google's [docstring](http://google.github.io/styleguide/pyguide.html#381-docstrings)
 
+### Testing and CI
+
+This repository is tested using [github actions](.github/workflows/test.yaml).
+
+- Reformat notebooks using black :
+
+  `poetry run black-nb notebooks/`
+
+- Check notebook execution:
+
+  `poetry run python .github/workflows/execute_notebooks.py`
+
+Add notebooks creating data or preprocessing data to the [DATA_PREPROCESSING_NOTEBOOKS list](.github/workflows/execute_notebooks.py) if the execution of these notebooks take too much time or need specific credentials.
+
+Checkout [poetry](https://python-poetry.org/docs/) for more info.
+
 ### About
 
 Checkout [atoti.io](https://www.atoti.io) for more info!
