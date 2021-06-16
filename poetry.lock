@@ -233,7 +233,7 @@ webencodings = "*"
 name = "blis"
 version = "0.7.4"
 description = "The Blis BLAS-like linear algebra library, as a self-contained C-extension."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -244,7 +244,7 @@ numpy = ">=1.15.0"
 name = "bottleneck"
 version = "1.3.2"
 description = "Fast NumPy array functions written in C"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -258,7 +258,7 @@ doc = ["numpydoc", "sphinx", "gitpython"]
 name = "branca"
 version = "0.4.2"
 description = "Generate complex HTML+JS pages with Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -269,7 +269,7 @@ jinja2 = "*"
 name = "catalogue"
 version = "2.0.4"
 description = "Super lightweight function registries for your library"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -308,7 +308,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 name = "click"
 version = "7.1.2"
 description = "Composable command line interface toolkit"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
@@ -324,7 +324,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 name = "confuse"
 version = "1.4.0"
 description = "Painless YAML configuration."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
 
@@ -338,7 +338,7 @@ test = ["pathlib"]
 name = "convertdate"
 version = "2.3.2"
 description = "Converts between Gregorian dates and other calendar systems.Calendars included: Baha'i, French Republican, Hebrew, Indian Civil, Islamic, ISO, Julian, Mayan and Persian."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -354,7 +354,7 @@ test = ["coverage"]
 name = "cycler"
 version = "0.10.0"
 description = "Composable style cycles"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -365,7 +365,7 @@ six = "*"
 name = "cymem"
 version = "2.0.5"
 description = "Manage calls to calloc/free through Cython"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -397,7 +397,7 @@ python-versions = ">=2.7"
 name = "folium"
 version = "0.12.1"
 description = "Make beautiful maps with Leaflet.js & Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -414,7 +414,7 @@ testing = ["pytest"]
 name = "future"
 version = "0.18.2"
 description = "Clean single-source support for Python 3 and 2"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
@@ -422,7 +422,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 name = "gluonts"
 version = "0.7.6"
 description = "GluonTS is a Python toolkit for probabilistic time series modeling, built around MXNet."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">= 3.6"
 
@@ -446,7 +446,7 @@ shell = ["flask (>=1.1,<2.0)", "gunicorn (>=19.9,<20.0)"]
 name = "graphviz"
 version = "0.8.4"
 description = "Simple Python interface for Graphviz"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
 
@@ -459,7 +459,7 @@ test = ["mock (>=2)", "pytest (>=3.4)", "pytest-mock (>=1.8)", "pytest-cov"]
 name = "hijri-converter"
 version = "2.1.2"
 description = "Accurate Hijri-Gregorian date converter based on the Umm al-Qura calendar"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -467,7 +467,7 @@ python-versions = ">=3.6"
 name = "holidays"
 version = "0.11.1"
 description = "Generate and work with holidays in Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -482,7 +482,7 @@ six = "*"
 name = "htmlmin"
 version = "0.1.12"
 description = "An HTML Minifier"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -498,7 +498,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 name = "imagehash"
 version = "4.2.0"
 description = "Image Hashing library"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -513,7 +513,7 @@ six = "*"
 name = "imbalanced-learn"
 version = "0.8.0"
 description = "Toolbox for imbalanced dataset in machine learning."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -533,7 +533,7 @@ tests = ["pytest", "pytest-cov"]
 name = "imblearn"
 version = "0.0"
 description = "Toolbox for imbalanced dataset in machine learning."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -655,7 +655,7 @@ i18n = ["Babel (>=2.7)"]
 name = "joblib"
 version = "1.0.1"
 description = "Lightweight pipelining with Python functions"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -804,7 +804,7 @@ test = ["codecov", "ipykernel", "pytest (>=5.3.2)", "pytest-cov", "jupyter-serve
 name = "kafka"
 version = "1.3.5"
 description = "Pure Python client for Apache Kafka"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -812,7 +812,7 @@ python-versions = "*"
 name = "kiwisolver"
 version = "1.3.1"
 description = "A fast implementation of the Cassowary constraint solver"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -820,7 +820,7 @@ python-versions = ">=3.6"
 name = "korean-lunar-calendar"
 version = "0.2.1"
 description = "Korean Lunar Calendar"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -836,7 +836,7 @@ python-versions = ">=3.6"
 name = "matplotlib"
 version = "3.4.2"
 description = "Python plotting package"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -863,7 +863,7 @@ traitlets = "*"
 name = "missingno"
 version = "0.4.2"
 description = "Missing data visualization module for Python."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -888,7 +888,7 @@ python-versions = "*"
 name = "multimethod"
 version = "1.4"
 description = "Multiple argument dispatching."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -899,7 +899,7 @@ docs = ["recommonmark", "nbsphinx", "jupyter", "sphinx"]
 name = "murmurhash"
 version = "1.0.5"
 description = "Cython bindings for MurmurHash"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -907,7 +907,7 @@ python-versions = "*"
 name = "mxnet"
 version = "1.8.0.post0"
 description = "MXNet is an ultra-scalable deep learning framework. This version uses openblas and MKLDNN."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1019,7 +1019,7 @@ python-versions = ">=3.5"
 name = "networkx"
 version = "2.5.1"
 description = "Python package for creating and manipulating graphs and networks"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1043,7 +1043,7 @@ scipy = ["scipy"]
 name = "nltk"
 version = "3.6.2"
 description = "Natural Language Toolkit"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5.*"
 
@@ -1129,7 +1129,7 @@ test = ["pytest (>=4.0.2)", "pytest-xdist", "hypothesis (>=3.58)"]
 name = "pandas-profiling"
 version = "2.13.0"
 description = "Generate profile report for pandas DataFrame"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1186,7 +1186,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 name = "pathy"
 version = "0.5.2"
 description = "pathlib.Path subclasses for local and cloud bucket storage"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">= 3.6"
 
@@ -1204,7 +1204,7 @@ test = ["pytest", "pytest-coverage", "mock", "typer-cli"]
 name = "patsy"
 version = "0.5.1"
 description = "A Python package for describing statistical models and for building design matrices."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1227,7 +1227,7 @@ ptyprocess = ">=0.5"
 name = "phik"
 version = "0.11.2"
 description = "Phi_K correlation analyzer library"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -1253,7 +1253,7 @@ python-versions = "*"
 name = "pillow"
 version = "8.2.0"
 description = "Python Imaging Library (Fork)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1261,7 +1261,7 @@ python-versions = ">=3.6"
 name = "praw"
 version = "7.2.0"
 description = "PRAW, an acronym for `Python Reddit API Wrapper`, is a python package that allows for simple access to reddit's API."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "~=3.6"
 
@@ -1281,7 +1281,7 @@ test = ["betamax (>=0.8,<0.9)", "betamax-matchers (>=0.3.0,<0.5)", "pytest (>=2.
 name = "prawcore"
 version = "2.2.0"
 description = "Low-level communication layer for PRAW 4+."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "~=3.6"
 
@@ -1298,7 +1298,7 @@ test = ["betamax (>=0.8,<0.9)", "betamax-matchers (>=0.4.0,<0.5)", "betamax-seri
 name = "preshed"
 version = "3.0.5"
 description = "Cython hash table that trusts the keys are pre-hashed"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1367,7 +1367,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 name = "pydantic"
 version = "1.7.4"
 description = "Data validation and settings management using python 3.6 type hinting"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1388,7 +1388,7 @@ python-versions = ">=3.5"
 name = "pymeeus"
 version = "0.5.11"
 description = "Python implementation of Jean Meeus astronomical routines"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1431,7 +1431,7 @@ python-versions = "*"
 name = "pywavelets"
 version = "1.1.1"
 description = "PyWavelets, wavelet transform module"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -1478,7 +1478,7 @@ py = {version = "*", markers = "implementation_name == \"pypy\""}
 name = "regex"
 version = "2021.4.4"
 description = "Alternative regular expression module, to replace re."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1504,7 +1504,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)", "win-inet-pton"]
 name = "scikit-learn"
 version = "0.24.2"
 description = "A set of python modules for machine learning and data mining"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1524,7 +1524,7 @@ tests = ["matplotlib (>=2.1.1)", "scikit-image (>=0.13)", "pandas (>=0.25.0)", "
 name = "scipy"
 version = "1.6.1"
 description = "SciPy: Scientific Library for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -1535,7 +1535,7 @@ numpy = ">=1.16.5"
 name = "seaborn"
 version = "0.11.1"
 description = "seaborn: statistical data visualization"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1565,7 +1565,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 name = "sklearn"
 version = "0.0"
 description = "A set of python modules for machine learning and data mining"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1576,7 +1576,7 @@ scikit-learn = "*"
 name = "smart-open"
 version = "3.0.0"
 description = "Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5.*"
 
@@ -1602,7 +1602,7 @@ python-versions = ">=3.5"
 name = "spacy"
 version = "3.0.6"
 description = "Industrial-strength Natural Language Processing (NLP) in Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1649,7 +1649,7 @@ transformers = ["spacy-transformers (>=1.0.1,<1.1.0)"]
 name = "spacy-legacy"
 version = "3.0.6"
 description = "Legacy registered functions for spaCy backwards compatibility"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1657,7 +1657,7 @@ python-versions = ">=3.6"
 name = "srsly"
 version = "2.4.1"
 description = "Modern high-performance serialization utilities for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1668,7 +1668,7 @@ catalogue = ">=2.0.1,<2.1.0"
 name = "statsmodels"
 version = "0.12.2"
 description = "Statistical computations and models for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1687,7 +1687,7 @@ docs = ["sphinx", "nbconvert", "jupyter-client", "ipykernel", "matplotlib", "nbf
 name = "tangled-up-in-unicode"
 version = "0.1.0"
 description = "Access to the Unicode Character Database (UCD)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -1722,7 +1722,7 @@ test = ["pytest", "pathlib2"]
 name = "textblob"
 version = "0.15.3"
 description = "Simple, Pythonic text processing. Sentiment analysis, part-of-speech tagging, noun phrase parsing, and more."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1731,9 +1731,9 @@ nltk = ">=3.1"
 
 [[package]]
 name = "thinc"
-version = "8.0.4"
+version = "8.0.5"
 description = "A refreshing functional take on deep learning, compatible with your favorite libraries"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1769,7 +1769,7 @@ torch = ["torch (>=1.5.0)"]
 name = "threadpoolctl"
 version = "2.1.0"
 description = "threadpoolctl"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -1785,7 +1785,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 name = "toolz"
 version = "0.11.1"
 description = "List processing tools and functional utilities"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -1801,7 +1801,7 @@ python-versions = ">= 3.5"
 name = "tqdm"
 version = "4.61.1"
 description = "Fast, Extensible Progress Meter"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
 
@@ -1828,7 +1828,7 @@ test = ["pytest"]
 name = "treelib"
 version = "1.6.1"
 description = "A Python 2/3 implementation of tree structure."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1859,7 +1859,7 @@ test = ["pytest", "typing-extensions", "mypy"]
 name = "typer"
 version = "0.3.2"
 description = "Typer, build great CLIs. Easy to code. Based on Python type hints."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1884,7 +1884,7 @@ python-versions = "*"
 name = "update-checker"
 version = "0.18.0"
 description = "A python module that will check for package updates."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1913,7 +1913,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 name = "visions"
 version = "0.7.1"
 description = "Visions"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -1940,7 +1940,7 @@ type_image_path = ["imagehash", "pillow"]
 name = "wasabi"
 version = "0.8.2"
 description = "A lightweight console printing and formatting toolkit"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1972,7 +1972,7 @@ python-versions = ">=3.6"
 name = "wget"
 version = "3.2"
 description = "pure python download utility"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1991,7 +1991,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "6e64b9771e1ec00aa4cb1e3caf6a1d478694d5e452b2708f9163a5aeccb272b0"
+content-hash = "ac1c791e05a9b08010db1f67e776064b20f2caacd1772bea9ac7eae95d999620"
 
 [metadata.files]
 anyio = [
@@ -3031,19 +3031,19 @@ textblob = [
     {file = "textblob-0.15.3.tar.gz", hash = "sha256:7ff3c00cb5a85a30132ee6768b8c68cb2b9d76432fec18cd1b3ffe2f8594ec8c"},
 ]
 thinc = [
-    {file = "thinc-8.0.4-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:07d2d29327bb8043b61951211985a952862e104045ac9ce739d596680d153e16"},
-    {file = "thinc-8.0.4-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0ff2e340873e6789702a8a03b0dd67b22475782faf0445d8f1c1dc6b4de6ecc7"},
-    {file = "thinc-8.0.4-cp36-cp36m-win_amd64.whl", hash = "sha256:f1b84880235854d2abfdbebe70996a26f0103fa51eebbe8ec3ca0c3d8cfb9721"},
-    {file = "thinc-8.0.4-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:6b2505693268d80730c483f406d10eccf000ab08f9e7fe7ce0e4aca8ba411865"},
-    {file = "thinc-8.0.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c32c1d6101f5d500cf168082c96cc523574d805bb15650fda186d492d9329179"},
-    {file = "thinc-8.0.4-cp37-cp37m-win_amd64.whl", hash = "sha256:d6cb7913058e7da625c94b0be0a22d304d548546b2068b5a67ea4894c093489a"},
-    {file = "thinc-8.0.4-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:1ff35bdbbc386a367d53097bde8f8f9eefa0057967b68098376d60bc276c8d21"},
-    {file = "thinc-8.0.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:70b25331bbb178af46e2f2c7fb68836cc6b7baccfbdb71d6e18a479d2cecfcd4"},
-    {file = "thinc-8.0.4-cp38-cp38-win_amd64.whl", hash = "sha256:cb51fb74225549ebf4a9771d9c996b629b31e34d6c4c111a58cc5bae1cf524e3"},
-    {file = "thinc-8.0.4-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:d277f0adb33a7e88bb915726332c738899e7700700d11bbec9e2b7b57fd634bb"},
-    {file = "thinc-8.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e47682dcfd8eb3a2aba080c6534439f41dc119cb932f579c58c483144c7be381"},
-    {file = "thinc-8.0.4-cp39-cp39-win_amd64.whl", hash = "sha256:8fbfed3ed74e2c27133debd6f6912b75b28e9d11153a09be9fcf05d424edd26e"},
-    {file = "thinc-8.0.4.tar.gz", hash = "sha256:32016a5be62a2c4b5f86954ae30f8da78bacaa5966ea3ce56886cf9d7c7dcbe6"},
+    {file = "thinc-8.0.5-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:2a7059457f008c381c3c78a641685961b86348c8e49c76ee18628cd5e0018740"},
+    {file = "thinc-8.0.5-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:34822c0391c7a23457df5179fd38f3e445b6e748b92251d0b9fd1fe4937bad3d"},
+    {file = "thinc-8.0.5-cp36-cp36m-win_amd64.whl", hash = "sha256:26cbeb9b559339d6a7011089acdeb10e892518dc8b0eaae71a73308df3969829"},
+    {file = "thinc-8.0.5-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:af32887fadbe76b52e92c65d57ba462fd8ff58f1825ef05b4030273333460b2e"},
+    {file = "thinc-8.0.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b024a62ecc1cd3d6603291b20474edcc6db7858addd31acaa7033eeaa0f3e823"},
+    {file = "thinc-8.0.5-cp37-cp37m-win_amd64.whl", hash = "sha256:39a189f2048f996d1b7280b207baca18c32678bee70afc253dba11ab16291438"},
+    {file = "thinc-8.0.5-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:0bb4d5606f3dbc9b372ae3be820532ad602edb32481ba2903f3ae32d8e2e0c8f"},
+    {file = "thinc-8.0.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b55aa4f20e4a4097112d68bda001e5850ed46611bbd23cb303ff0fde6e76aa7c"},
+    {file = "thinc-8.0.5-cp38-cp38-win_amd64.whl", hash = "sha256:5b0b4ce6dcf410a70f74f5429c7517cdd9413f6a46b6495c2c4256ba3f4f35cb"},
+    {file = "thinc-8.0.5-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:b14875a5e01d17a7c0d16e9b5e6e475e8edd0ce784aeacaeaed856374426948f"},
+    {file = "thinc-8.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5b64ab2d7962772643f12a49f1f2b85b755507b45245e519e8ca76ac2cae9976"},
+    {file = "thinc-8.0.5-cp39-cp39-win_amd64.whl", hash = "sha256:7ea32851fc3abfa6671ff9098a46073f75b4fa994401ca72985a09e6d20c8b36"},
+    {file = "thinc-8.0.5.tar.gz", hash = "sha256:f23ace11ba990bb03c8f9667f1f8fb387d1ef9d41e803542e54c5bb209274cc4"},
 ]
 threadpoolctl = [
     {file = "threadpoolctl-2.1.0-py3-none-any.whl", hash = "sha256:38b74ca20ff3bb42caca8b00055111d74159ee95c4370882bbff2b93d24da725"},

@@ -2,13 +2,14 @@ import numpy as np
 import QuantLib as ql
 import pandas as pd
 
+
 def reprice_trade(spot_price, trade, calc_date):
     # This function takes option trade object and spot prices and computes valuation and risk metrics.
     # Volatility and interest rates are set to some constants for simplicity.
-    
+
     calculation_date = ql.Date(calc_date.day, calc_date.month, calc_date.year)
     ql.Settings.instance().evaluationDate = calculation_date
-        
+
     # conventions
     day_count = ql.Actual365Fixed()
     calendar = ql.UnitedStates()
@@ -17,10 +18,8 @@ def reprice_trade(spot_price, trade, calc_date):
     risk_free_rate = 0.001
 
     maturity = trade["Maturity"]
-    
-    maturity_date = ql.Date(
-        maturity.day, maturity.month, maturity.year
-    )
+
+    maturity_date = ql.Date(maturity.day, maturity.month, maturity.year)
     option_type = ql.Option.Call if trade.OptionType == "Call" else ql.Option.Put
     strike_price = trade.Strike
 
@@ -54,6 +53,7 @@ def reprice_trade(spot_price, trade, calc_date):
         "Delta": european_option.delta() * spot_price * trade["Quantity"],
     }
 
+
 def reprice_portfolio(market_data, positions, calc_date):
     # This function reprices trades and greeks if market data is available,
     # and returns new risk numbers as a dataframe
@@ -62,4 +62,4 @@ def reprice_portfolio(market_data, positions, calc_date):
         spot_price_update = market_data[trade["Ticker"]]
         if not np.isnan(spot_price_update):
             risk = risk + [reprice_trade(spot_price_update, trade, calc_date)]
-    return pd.DataFrame(data = risk)
+    return pd.DataFrame(data=risk)

@@ -12,18 +12,18 @@ def augmented_dickey_fuller_statistics(
 ):
     """
     This function recursively applies adfuller on the time-series if p-value is less than 0.05, hence rejecting the below null hypothesis.
-    
+
     Null hypothesis: Unit root is not detected (stationary time-series)
-    
+
     Args:
         coin: The cryptocurrency the time-series belongs to
         feature_name: The name of the time-series
         time_series: The time-series to be test for stationary
         diff_order: The number of time the time-series has been differenced
         _diff: Dataframe containing all the differenced iteration of the time-series
-        
+
     Returns:
-        _diff: All the differenced iteration of the time-series 
+        _diff: All the differenced iteration of the time-series
         time_series: The final-series which is stationary.
     """
 
@@ -58,7 +58,7 @@ def transform_gc_date(
 ):
     """
     This function transform the Granger Causality test results into columns of vectors for loading into atoti.
-    
+
     Args:
         coin: The cryptocurrency the time-series belongs to
         gc_test_result: The test results of the grangercausalitytest
@@ -66,7 +66,7 @@ def transform_gc_date(
         r: The name of the feature that was tested to see if it is Granger caused by c
         maxlag: number of lags applied for the grangercausalitytest
         verbose: print debug statement if True
-        
+
     Returns:
         Dataframe containing the Grangercausalitytest results transformed into vectors for each test:
         - ssr_ftest
@@ -127,7 +127,7 @@ def autocorrelation(value):
 
 def adjust(val, length=6):
     """
-    This function left align the numerical value for printing purpose 
+    This function left align the numerical value for printing purpose
     """
     return str(val).ljust(length)
 
@@ -135,18 +135,18 @@ def adjust(val, length=6):
 def forecast_accuracy(forecast, actual):
     """
     This function computes the statistical measures of accuracy of the forecast.
-    
+
     Args:
         forecast: forecasted results
         actual: actual values
-        
+
     Returns:
         - mape: mean absolute percentage error (the better the prediction, the lower the value)
         - me: mean error
         - mae: mean absolute error
         - rmse: root mean squared error
         - corr: correlation
-        - minmax: min max accuracy (the better the prediction, the higher the value - 1 for perfect model)       
+        - minmax: min max accuracy (the better the prediction, the higher the value - 1 for perfect model)
     """
     mape = np.mean(np.abs(forecast - actual) / np.abs(actual))  # MAPE
     me = np.mean(forecast - actual)  # ME
@@ -171,13 +171,13 @@ def forecast_accuracy(forecast, actual):
 def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
     """
     This function performs the following:
-        - forecast the time-series using VAR 
+        - forecast the time-series using VAR
         - durbin watson testing on the residual from the model
         - obtain normaltest, kurtosis and skewness of the residual from the model
         - compute the forecast accuracy
-    
+
     The number of days forecast is the minimum value between the lag order and the nobs.
-        
+
     Args:
         coin: The cryptocurrency the time-series belongs to
         data_stats: The data_stats dataframe for storing the durbin_watson, norm_stat, norm_p, kurtosis and skewness value
@@ -185,7 +185,7 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
         actual_df: The actual value to be compared against the forecasted results
         nobs: Number of observations to forecast
         verbose: To print the debugging statements
-        
+
     Returns:
         fitted_df: Dataframe containing residual of the features
         data_stats: Dataframe containing durbin_watson, norm_stat, norm_p, kurtosis and skewness value
@@ -194,8 +194,12 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
     """
     # standardizing features
     scal = StandardScaler()
-    df_scaled = pd.DataFrame(scal.fit_transform(train_data.values),columns = train_data.columns, index=train_data.index)
-    
+    df_scaled = pd.DataFrame(
+        scal.fit_transform(train_data.values),
+        columns=train_data.columns,
+        index=train_data.index,
+    )
+
     mod = VAR(df_scaled, freq="D")
 
     selected_orders = mod.select_order().selected_orders
@@ -205,7 +209,9 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
     if verbose:
         print(coin, res.summary())
 
-    fitted_df = res.resid.rename(columns={"Returns":"Returns residual"})["Returns residual"]
+    fitted_df = res.resid.rename(columns={"Returns": "Returns residual"})[
+        "Returns residual"
+    ]
     # check for auto-correlation of the residual
     out = durbin_watson(res.resid)
 
@@ -244,14 +250,16 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
         forecast_steps = lag_order if lag_order < nobs else nobs
         pred = res.forecast(y=input_data, steps=forecast_steps)
         pred_transform = scal.inverse_transform(pred)
-        
+
         # we generate index from the last date for a period equivalent to the size of the forecast
         last_date = df_scaled.tail(1).index.get_level_values("date").to_pydatetime()[0]
         date_indices = pd.date_range(
             start=last_date, periods=(forecast_steps + 1), closed="right"
         )
         pred_df = pd.DataFrame(
-            pred_transform, index=date_indices, columns=df_scaled.columns,
+            pred_transform,
+            index=date_indices,
+            columns=df_scaled.columns,
         ).reset_index()
 
         accuracy_prod = forecast_accuracy(
@@ -268,12 +276,12 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
         pred_df["coin_symbol"] = coin
         pred_df["Subset"] = "Test"
         pred_df.rename(columns={"index": "date"}, inplace=True)
-            
+
         fitted_df = fitted_df.reset_index()
         fitted_df["coin_symbol"] = coin
         fitted_df["Subset"] = "Train"
-        fitted_df["date"] = fitted_df["date"].apply(lambda x: x.strftime('%Y-%m-%d'))
-        
+        fitted_df["date"] = fitted_df["date"].apply(lambda x: x.strftime("%Y-%m-%d"))
+
         return (
             fitted_df,
             data_stats.loc[~data_stats["norm_stat"].isnull()],

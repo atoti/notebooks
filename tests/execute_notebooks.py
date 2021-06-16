@@ -1,5 +1,4 @@
 import nbformat
-import glob
 import logging
 
 from nbconvert.preprocessors import ExecutePreprocessor
@@ -9,19 +8,26 @@ NOTEBOOKS_DIRECTORY = Path("notebooks")
 DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "customer-churn" / "0_prepare_data.ipynb",
     NOTEBOOKS_DIRECTORY / "customer-churn" / "1_create_models.ipynb",
-    NOTEBOOKS_DIRECTORY / "ifrs9"/"data-generation.ipynb",
-    NOTEBOOKS_DIRECTORY / "twitter"/"01_tweets_mining.ipynb",
-    NOTEBOOKS_DIRECTORY / "twitter"/"02_sentiment.ipynb",
-    NOTEBOOKS_DIRECTORY / "twitter"/"03_cryptocurrency_mining.ipynb",
+    NOTEBOOKS_DIRECTORY / "ifrs9" / "data-generation.ipynb",
+    NOTEBOOKS_DIRECTORY / "twitter" / "01_tweets_mining.ipynb",
+    NOTEBOOKS_DIRECTORY / "twitter" / "02_sentiment.ipynb",
+    NOTEBOOKS_DIRECTORY / "twitter" / "03_cryptocurrency_mining.ipynb",
 ]
 NOTEBOOKS_WITH_ERRORS = [
-    NOTEBOOKS_DIRECTORY / "real-time-risk"/"main.ipynb",  # SyntaxError: invalid syntax (simple.py, line 54) TO FIX
-    NOTEBOOKS_DIRECTORY / "reddit"/"main.ipynb",  # http 401 error TO FIX
-    NOTEBOOKS_DIRECTORY / "var-benchmark"/"data_generator.ipynb",  # Timeout
-    NOTEBOOKS_DIRECTORY / "var-benchmark"/"main.ipynb",  # data generation timeout TO FIX
-    NOTEBOOKS_DIRECTORY / "geopricing"/"main.ipynb",  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX
+    NOTEBOOKS_DIRECTORY
+    / "real-time-risk"
+    / "main.ipynb",  # SyntaxError: invalid syntax (simple.py, line 54) TO FIX
+    NOTEBOOKS_DIRECTORY / "reddit" / "main.ipynb",  # http 401 error TO FIX
+    NOTEBOOKS_DIRECTORY / "var-benchmark" / "data_generator.ipynb",  # Timeout
+    NOTEBOOKS_DIRECTORY
+    / "var-benchmark"
+    / "main.ipynb",  # data generation timeout TO FIX
+    NOTEBOOKS_DIRECTORY
+    / "geopricing"
+    / "main.ipynb",  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX
 ]
 NOTEBOOKS_TO_SKIP = DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS
+
 
 def execute_notebooks():
     notebooks_path = sorted(
@@ -38,6 +44,7 @@ def execute_notebooks():
         ep.preprocess(notebook, {"metadata": {"path": notebook_path.parent}})
         logging.info(f"Execution of {notebook_path} succeed")
 
+
 if __name__ == "__main__":
-  logging.basicConfig(format="%(asctime)s %(message)s", level=logging.INFO)
-  execute_notebooks()
+    logging.basicConfig(format="%(asctime)s %(message)s", level=logging.INFO)
+    execute_notebooks()

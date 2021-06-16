@@ -29,19 +29,27 @@ We welcome any contributions from the community. Please make sure your PR follow
 
 ### Testing and CI
 
-This repository is tested using [github actions](.github/workflows/test.yaml).
+This repository is tested with a [Github Action](.github/workflows/test.yaml).
 
-- Reformat notebooks using black :
+These commands can be used while developing:
 
-  `poetry run black-nb notebooks/`
+- Reformat python files using black :
 
-- Check notebook execution:
+  ```bash
+  poetry run black .
+  ```
 
-  `poetry run python .github/workflows/execute_notebooks.py`
+- Reformat notebooks using black-nb :
 
-Add notebooks creating data or preprocessing data to the [DATA_PREPROCESSING_NOTEBOOKS list](.github/workflows/execute_notebooks.py) if the execution of these notebooks take too much time or need specific credentials.
+  ```bash
+  poetry run black-nb notebooks/
+  ```
 
-Checkout [poetry](https://python-poetry.org/docs/) for more info.
+- Execute all the notebooks:
+
+  ```bash
+  poetry run python tests/execute_notebooks.py
+  ```
 
 ### About
 
