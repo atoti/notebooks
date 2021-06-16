@@ -1,8 +1,5 @@
 name: Test
-on:
-  pull_request:
-    branches-ignore:
-      - master
+on: [pull_request]
 
 jobs:
   test:
