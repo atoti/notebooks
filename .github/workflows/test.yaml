@@ -1,0 +1,37 @@
+name: Test
+on: [pull_request]
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python: ["3.7"]
+      fail-fast: false
+    name: Test on ${{ matrix.os }} with Python ${{ matrix.python }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v2
+        with:
+          architecture: x64
+          python-version: ${{ matrix.python }}
+
+      - name: Install Graphviz
+        run: sudo apt-get install graphviz
+
+      - name: Install Poetry
+        run: pip install poetry
+
+      - name: Install Python dependencies
+        run: poetry install
+
+      - name: Run Black
+        run: poetry run black . --check
+
+      - name: Run Black on notebooks
+        run: poetry run black-nb notebooks/ --check
+
+      - name: Run notebooks
+        run: poetry run python tests/execute_notebooks.py

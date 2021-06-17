@@ -27,6 +27,30 @@ We welcome any contributions from the community. Please make sure your PR follow
 - python methods should be typed
 - documentation should follow Google's [docstring](http://google.github.io/styleguide/pyguide.html#381-docstrings)
 
+### Testing and CI
+
+This repository is tested with a [Github Action](.github/workflows/test.yaml).
+
+These commands can be used while developing:
+
+- Reformat python files using black :
+
+  ```bash
+  poetry run black .
+  ```
+
+- Reformat notebooks using black-nb :
+
+  ```bash
+  poetry run black-nb notebooks/
+  ```
+
+- Execute all the notebooks:
+
+  ```bash
+  poetry run python tests/execute_notebooks.py
+  ```
+
 ### About
 
 Checkout [atoti.io](https://www.atoti.io) for more info!

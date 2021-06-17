@@ -8,11 +8,11 @@ def optimize_prices(
     This pricing function has been made very simple as the main purpose is to serve the use case example.
     In real life this would typically be replaced by a more flexible price optimization engine with several parameters,
     such as that of ActiveViam.
-    
+
     Args:
         initial_price_list: The initial SellingPrice list
         sotre_features_with_clusters: A dataframe containing informations about the stores, including their cluster
-        
+
     Returns:
         A new SellingPrice list with an optimized price stores with low competition have increased prices while those with high competition have competitive prices.
     """
