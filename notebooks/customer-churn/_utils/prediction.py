@@ -10,10 +10,8 @@ import numpy as np
 
 def churn_prediction(
     algorithm,
-    training_x,
-    testing_x,
-    training_y,
-    testing_y,
+    x,
+    y,
     cols,
     cf,
     threshold_plot,
@@ -21,11 +19,8 @@ def churn_prediction(
 ):
 
     # model
-    predictions = algorithm.predict(testing_x)
-    probabilities = algorithm.predict_proba(testing_x)
-    # Added by Ariel
-    predictions_train = algorithm.predict(training_x)
-    probabilities_train = algorithm.predict_proba(training_x)
+    predictions = algorithm.predict(x)
+    probabilities = algorithm.predict_proba(x)
 
     # coeffs
     if cf == "coefficients" and coefs_or_features:
@@ -54,36 +49,17 @@ def churn_prediction(
     )
     print()
     print(
-        "\n Classification report - test : \n",
-        classification_report(testing_y, predictions),
+        "\n Classification report: \n",
+        classification_report(y, predictions),
     )
-    print("F1 score - test : ", round(f1_score(testing_y, predictions), 2))
+    print("F1 score: ", round(f1_score(y, predictions), 2))
 
     # confusion matrix
-    conf_matrix = confusion_matrix(testing_y, predictions)
+    conf_matrix = confusion_matrix(y, predictions)
     # roc_auc_score
-    model_roc_auc = roc_auc_score(testing_y, predictions)
-    print("ROC AUC - test: ", round(model_roc_auc, 2), "\n")
-    fpr, tpr, thresholds = roc_curve(testing_y, probabilities[:, 1])
-    print()
-    print(
-        "                ---------------------------------                             "
-    )
-    print()
-
-    # Added by Ariel
-    print(
-        "\n Classification report - train: \n",
-        classification_report(training_y, predictions_train),
-    )
-    print("F1 score - train: ", round(f1_score(training_y, predictions_train), 2))
-
-    # confusion matrix
-    conf_matrix_train = confusion_matrix(training_y, predictions_train)
-    # roc_auc_score
-    model_roc_auc_train = roc_auc_score(training_y, predictions_train)
-    print("ROC AUC - train: ", round(model_roc_auc_train, 2), "\n")
-    fpr, tpr, thresholds = roc_curve(training_y, probabilities_train[:, 1])
+    model_roc_auc = roc_auc_score(y, predictions)
+    print("ROC AUC: ", round(model_roc_auc, 2), "\n")
+    fpr, tpr, thresholds = roc_curve(y, probabilities[:, 1])
 
     return algorithm
 

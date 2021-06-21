@@ -18,7 +18,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By industry
 
-[finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social media](#social-media), [sport](#sport), [telco](#telco)
+[finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
 
 #### By use case
 
@@ -58,6 +58,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                              <sub>[Value at Risk](./notebooks/value-at-risk/main.ipynb)</sub>                              |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
 |                    <sub>[Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)</sub>                     |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
 | <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub>  |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
+| <sub>[World Population](./notebooks/world-population/main.ipynb)</sub>  |           <sub>social</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 
 ### Issues
 
@@ -115,6 +116,9 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [GeoPricing](./notebooks/geopricing/main.ipynb)
 - [Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)
 
+##### social    
+- [World Population](./notebooks/world-population/main.ipynb)
+    
 ##### social media
 
 - [Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)
