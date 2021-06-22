@@ -1,6 +1,6 @@
 [[package]]
 name = "anyio"
-version = "3.1.0"
+version = "3.2.0"
 description = "High level compatibility layer for multiple asynchronous event loop implementations"
 category = "main"
 optional = false
@@ -59,34 +59,34 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "atoti"
-version = "0.6.0.20210617090810"
+version = "0.6.0.20210621164116"
 description = "Design, explore and deploy efficient and flexible data models"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti-aws = {version = "0.6.0.20210617090810", optional = true, markers = "extra == \"aws\""}
-atoti-azure = {version = "0.6.0.20210617090810", optional = true, markers = "extra == \"azure\""}
-atoti-gcp = {version = "0.6.0.20210617090810", optional = true, markers = "extra == \"gcp\""}
-atoti-jupyterlab = {version = "0.6.0.20210617090810", optional = true, markers = "extra == \"jupyterlab\""}
-atoti-kafka = {version = "0.6.0.20210617090810", optional = true, markers = "extra == \"kafka\""}
+atoti-aws = {version = "0.6.0.20210621164116", optional = true, markers = "extra == \"aws\""}
+atoti-azure = {version = "0.6.0.20210621164116", optional = true, markers = "extra == \"azure\""}
+atoti-gcp = {version = "0.6.0.20210621164116", optional = true, markers = "extra == \"gcp\""}
+atoti-jupyterlab = {version = "0.6.0.20210621164116", optional = true, markers = "extra == \"jupyterlab\""}
+atoti-kafka = {version = "0.6.0.20210621164116", optional = true, markers = "extra == \"kafka\""}
 jdk4py = ">=11.0,<12.0"
 numpy = "!=1.19.4"
 pandas = "*"
 pyarrow = ">=3.0,<4.0"
-typeguard = "*"
+typeguard = ">=2.12,<3.0"
 typing-extensions = "*"
 
 [package.extras]
-aws = ["atoti-aws (==0.6.0.20210617090810)"]
-azure = ["atoti-azure (==0.6.0.20210617090810)"]
-gcp = ["atoti-gcp (==0.6.0.20210617090810)"]
-jupyterlab = ["atoti-jupyterlab (==0.6.0.20210617090810)"]
-kafka = ["atoti-kafka (==0.6.0.20210617090810)"]
-legacy-app = ["atoti-legacy-app (==0.6.0.20210617090810)"]
-plus = ["atoti-plus (==0.6.0.20210617090810)"]
-sql = ["atoti-sql (==0.6.0.20210617090810)"]
+aws = ["atoti-aws (==0.6.0.20210621164116)"]
+azure = ["atoti-azure (==0.6.0.20210621164116)"]
+gcp = ["atoti-gcp (==0.6.0.20210621164116)"]
+jupyterlab = ["atoti-jupyterlab (==0.6.0.20210621164116)"]
+kafka = ["atoti-kafka (==0.6.0.20210621164116)"]
+legacy-app = ["atoti-legacy-app (==0.6.0.20210621164116)"]
+plus = ["atoti-plus (==0.6.0.20210621164116)"]
+sql = ["atoti-sql (==0.6.0.20210621164116)"]
 
 [package.source]
 type = "legacy"
@@ -95,14 +95,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-aws"
-version = "0.6.0.20210617090810"
+version = "0.6.0.20210621164116"
 description = "Plugin to load CSV and Parquet files from AWS S3 into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210617090810"
+atoti = "0.6.0.20210621164116"
 
 [package.source]
 type = "legacy"
@@ -111,14 +111,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-azure"
-version = "0.6.0.20210617090810"
+version = "0.6.0.20210621164116"
 description = "Plugin to load CSV and parquet files from Azure Blob Storage into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210617090810"
+atoti = "0.6.0.20210621164116"
 
 [package.source]
 type = "legacy"
@@ -127,14 +127,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-gcp"
-version = "0.6.0.20210617090810"
+version = "0.6.0.20210621164116"
 description = "Plugin to load CSV and parquet files from Google Cloud Storage into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210617090810"
+atoti = "0.6.0.20210621164116"
 
 [package.source]
 type = "legacy"
@@ -143,14 +143,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-jupyterlab"
-version = "0.6.0.20210617090810"
+version = "0.6.0.20210621164116"
 description = "Plugin to interactively visualize atoti sessions in JupyterLab"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210617090810"
+atoti = "0.6.0.20210621164116"
 jupyterlab = ">=3.0,<4.0"
 
 [package.source]
@@ -160,14 +160,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-kafka"
-version = "0.6.0.20210617090810"
+version = "0.6.0.20210621164116"
 description = "Plugin to load real time Kafka streams into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210617090810"
+atoti = "0.6.0.20210621164116"
 
 [package.source]
 type = "legacy"
@@ -486,7 +486,7 @@ test = ["mock (>=2)", "pytest (>=3.4)", "pytest-mock (>=1.8)", "pytest-cov"]
 
 [[package]]
 name = "hijri-converter"
-version = "2.1.2"
+version = "2.1.3"
 description = "Accurate Hijri-Gregorian date converter based on the Umm al-Qura calendar"
 category = "main"
 optional = false
@@ -690,7 +690,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "json5"
-version = "0.9.5"
+version = "0.9.6"
 description = "A Python implementation of the JSON5 data format."
 category = "main"
 optional = false
@@ -1348,7 +1348,7 @@ twisted = ["twisted"]
 
 [[package]]
 name = "prompt-toolkit"
-version = "3.0.18"
+version = "3.0.19"
 description = "Library for building powerful interactive command lines in Python"
 category = "main"
 optional = false
@@ -1576,11 +1576,14 @@ scipy = ">=1.0"
 
 [[package]]
 name = "send2trash"
-version = "1.5.0"
+version = "1.7.1"
 description = "Send file to trash natively under Mac OS X, Windows and Linux."
 category = "main"
 optional = false
 python-versions = "*"
+
+[package.extras]
+win32 = ["pywin32"]
 
 [[package]]
 name = "six"
@@ -1760,7 +1763,7 @@ nltk = ">=3.1"
 
 [[package]]
 name = "thinc"
-version = "8.0.5"
+version = "8.0.6"
 description = "A refreshing functional take on deep learning, compatible with your favorite libraries"
 category = "main"
 optional = false
@@ -2024,8 +2027,8 @@ content-hash = "f9d4272581196da72e2e2fcc11783cd8639f6588c333b144025106da66aad80e
 
 [metadata.files]
 anyio = [
-    {file = "anyio-3.1.0-py3-none-any.whl", hash = "sha256:5e335cef65fbd1a422bbfbb4722e8e9a9fadbd8c06d5afe9cd614d12023f6e5a"},
-    {file = "anyio-3.1.0.tar.gz", hash = "sha256:43e20711a9d003d858d694c12356dc44ab82c03ccc5290313c3392fa349dad0e"},
+    {file = "anyio-3.2.0-py3-none-any.whl", hash = "sha256:89e19b1498c8a6f12277e0bd2949597e445aa1b14361fbab2c36943639ef5190"},
+    {file = "anyio-3.2.0.tar.gz", hash = "sha256:41c4be842c284222b197a625d76a7ab85adf9d52788f563172fe180c2744b6c1"},
 ]
 appdirs = [
     {file = "appdirs-1.4.4-py2.py3-none-any.whl", hash = "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"},
@@ -2060,22 +2063,22 @@ async-generator = [
     {file = "async_generator-1.10.tar.gz", hash = "sha256:6ebb3d106c12920aaae42ccb6f787ef5eefdcdd166ea3d628fa8476abe712144"},
 ]
 atoti = [
-    {file = "atoti-0.6.0.20210617090810-0_39b8497-py3-none-any.whl", hash = "sha256:35c132c1ab9b28c6a6ba58b1bc12a431de03d5d9754cf34ffc08722f049624c5"},
+    {file = "atoti-0.6.0.20210621164116-0_d8af7fb-py3-none-any.whl", hash = "sha256:f8d6e04e7cac741987dde38d6ed4d27641310092151f8bd22df1f5aa8b909548"},
 ]
 atoti-aws = [
-    {file = "atoti_aws-0.6.0.20210617090810-0_39b8497-py3-none-any.whl", hash = "sha256:a1da86307c89a0d518a72be3374ac5419af3822361ebc939fb6fd65f312cca38"},
+    {file = "atoti_aws-0.6.0.20210621164116-0_d8af7fb-py3-none-any.whl", hash = "sha256:83a2d28f64fc9f2de6c539a777558a08d6d33ae4ecf63a29dae703cd4dfa14df"},
 ]
 atoti-azure = [
-    {file = "atoti_azure-0.6.0.20210617090810-0_39b8497-py3-none-any.whl", hash = "sha256:c9e6766ea3e4311bf81b0f3fe258acdbf3263e3cf11a39d408e8df08f2dd402e"},
+    {file = "atoti_azure-0.6.0.20210621164116-0_d8af7fb-py3-none-any.whl", hash = "sha256:c5f7b3bd1e2dc0b9cd6a4c3b9e5e987175b64c5b8542f1945d94abf3f5afbca1"},
 ]
 atoti-gcp = [
-    {file = "atoti_gcp-0.6.0.20210617090810-0_39b8497-py3-none-any.whl", hash = "sha256:be1667098f6c08219cb387c867c4788d72deac5fe5e15812d8615eddcddc480f"},
+    {file = "atoti_gcp-0.6.0.20210621164116-0_d8af7fb-py3-none-any.whl", hash = "sha256:16d9896de964d55f5d856800725d44ce66f9fce2d33a1fa1f2e2042c7b7b05d9"},
 ]
 atoti-jupyterlab = [
-    {file = "atoti_jupyterlab-0.6.0.20210617090810-0_39b8497-py3-none-any.whl", hash = "sha256:b4de5d5f0a91468946c7fa3383e59712a6dbd62c0549a133b8776a5042b76643"},
+    {file = "atoti_jupyterlab-0.6.0.20210621164116-0_d8af7fb-py3-none-any.whl", hash = "sha256:fd89a5d0c0de53f147e35e3e3f94c4de558371e23e3e82c72be9313592f61685"},
 ]
 atoti-kafka = [
-    {file = "atoti_kafka-0.6.0.20210617090810-0_39b8497-py3-none-any.whl", hash = "sha256:57eb05e9981110801eb8590c8612ca9639c4c6b499b2cf44e01ee19ae9188493"},
+    {file = "atoti_kafka-0.6.0.20210621164116-0_d8af7fb-py3-none-any.whl", hash = "sha256:bc49fb5ab7698e3a18d7e2f502beb785c4cf850d42754e2a30fbc8e3fde64781"},
 ]
 attrs = [
     {file = "attrs-21.2.0-py2.py3-none-any.whl", hash = "sha256:149e90d6d8ac20db7a955ad60cf0e6881a3f20d37096140088356da6c716b0b1"},
@@ -2235,8 +2238,8 @@ graphviz = [
     {file = "graphviz-0.8.4.zip", hash = "sha256:4958a19cbd8461757a08db308a4a15c3d586660417e1e364f0107d2fe481689f"},
 ]
 hijri-converter = [
-    {file = "hijri-converter-2.1.2.tar.gz", hash = "sha256:43b5ac566e7a7deeab364a2397e94405a65fd24ea786073eb3d4c740ebda7b9b"},
-    {file = "hijri_converter-2.1.2-py3-none-any.whl", hash = "sha256:b323d5f75b7e238d7e8760570d7ad8cabfc890af15c9f7945b6422d14603d33c"},
+    {file = "hijri-converter-2.1.3.tar.gz", hash = "sha256:7a22438be995f76d7ac78dcd8c5195261615069de2ddbb266aec4ce9c03e06b3"},
+    {file = "hijri_converter-2.1.3-py3-none-any.whl", hash = "sha256:61ee0260a1a3f97890cdfda432c96c1548e521e05fa0050e156c73781c3eb157"},
 ]
 holidays = [
     {file = "holidays-0.11.1-py3-none-any.whl", hash = "sha256:c9cfb97088a588c2f0ec44a00aa5e2dcfe75ecee546d44b4157ef5fb0b9c0901"},
@@ -2296,8 +2299,8 @@ joblib = [
     {file = "joblib-1.0.1.tar.gz", hash = "sha256:9c17567692206d2f3fb9ecf5e991084254fe631665c450b443761c4186a613f7"},
 ]
 json5 = [
-    {file = "json5-0.9.5-py2.py3-none-any.whl", hash = "sha256:af1a1b9a2850c7f62c23fde18be4749b3599fd302f494eebf957e2ada6b9e42c"},
-    {file = "json5-0.9.5.tar.gz", hash = "sha256:703cfee540790576b56a92e1c6aaa6c4b0d98971dc358ead83812aa4d06bdb96"},
+    {file = "json5-0.9.6-py2.py3-none-any.whl", hash = "sha256:823e510eb355949bed817e1f3e2d682455dc6af9daf6066d5698d6a2ca4481c2"},
+    {file = "json5-0.9.6.tar.gz", hash = "sha256:9175ad1bc248e22bb8d95a8e8d765958bf0008fef2fe8abab5bc04e0f1ac8302"},
 ]
 jsonschema = [
     {file = "jsonschema-3.2.0-py2.py3-none-any.whl", hash = "sha256:4e5b3cf8216f577bee9ce139cbe72eca3ea4f292ec60928ff24758ce626cd163"},
@@ -2661,8 +2664,8 @@ prometheus-client = [
     {file = "prometheus_client-0.11.0.tar.gz", hash = "sha256:3a8baade6cb80bcfe43297e33e7623f3118d660d41387593758e2fb1ea173a86"},
 ]
 prompt-toolkit = [
-    {file = "prompt_toolkit-3.0.18-py3-none-any.whl", hash = "sha256:bf00f22079f5fadc949f42ae8ff7f05702826a97059ffcc6281036ad40ac6f04"},
-    {file = "prompt_toolkit-3.0.18.tar.gz", hash = "sha256:e1b4f11b9336a28fa11810bc623c357420f69dfdb6d2dac41ca2c21a55c033bc"},
+    {file = "prompt_toolkit-3.0.19-py3-none-any.whl", hash = "sha256:7089d8d2938043508aa9420ec18ce0922885304cddae87fb96eebca942299f88"},
+    {file = "prompt_toolkit-3.0.19.tar.gz", hash = "sha256:08360ee3a3148bdb5163621709ee322ec34fc4375099afa4bbf751e9b7b7fa4f"},
 ]
 ptyprocess = [
     {file = "ptyprocess-0.7.0-py2.py3-none-any.whl", hash = "sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35"},
@@ -2969,8 +2972,8 @@ seaborn = [
     {file = "seaborn-0.11.1.tar.gz", hash = "sha256:44e78eaed937c5a87fc7a892c329a7cc091060b67ebd1d0d306b446a74ba01ad"},
 ]
 send2trash = [
-    {file = "Send2Trash-1.5.0-py3-none-any.whl", hash = "sha256:f1691922577b6fa12821234aeb57599d887c4900b9ca537948d2dac34aea888b"},
-    {file = "Send2Trash-1.5.0.tar.gz", hash = "sha256:60001cc07d707fe247c94f74ca6ac0d3255aabcb930529690897ca2a39db28b2"},
+    {file = "Send2Trash-1.7.1-py3-none-any.whl", hash = "sha256:c20fee8c09378231b3907df9c215ec9766a84ee20053d99fbad854fe8bd42159"},
+    {file = "Send2Trash-1.7.1.tar.gz", hash = "sha256:17730aa0a33ab82ed6ca76be3bb25f0433d0014f1ccf63c979bab13a5b9db2b2"},
 ]
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
@@ -3060,19 +3063,19 @@ textblob = [
     {file = "textblob-0.15.3.tar.gz", hash = "sha256:7ff3c00cb5a85a30132ee6768b8c68cb2b9d76432fec18cd1b3ffe2f8594ec8c"},
 ]
 thinc = [
-    {file = "thinc-8.0.5-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:2a7059457f008c381c3c78a641685961b86348c8e49c76ee18628cd5e0018740"},
-    {file = "thinc-8.0.5-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:34822c0391c7a23457df5179fd38f3e445b6e748b92251d0b9fd1fe4937bad3d"},
-    {file = "thinc-8.0.5-cp36-cp36m-win_amd64.whl", hash = "sha256:26cbeb9b559339d6a7011089acdeb10e892518dc8b0eaae71a73308df3969829"},
-    {file = "thinc-8.0.5-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:af32887fadbe76b52e92c65d57ba462fd8ff58f1825ef05b4030273333460b2e"},
-    {file = "thinc-8.0.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b024a62ecc1cd3d6603291b20474edcc6db7858addd31acaa7033eeaa0f3e823"},
-    {file = "thinc-8.0.5-cp37-cp37m-win_amd64.whl", hash = "sha256:39a189f2048f996d1b7280b207baca18c32678bee70afc253dba11ab16291438"},
-    {file = "thinc-8.0.5-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:0bb4d5606f3dbc9b372ae3be820532ad602edb32481ba2903f3ae32d8e2e0c8f"},
-    {file = "thinc-8.0.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b55aa4f20e4a4097112d68bda001e5850ed46611bbd23cb303ff0fde6e76aa7c"},
-    {file = "thinc-8.0.5-cp38-cp38-win_amd64.whl", hash = "sha256:5b0b4ce6dcf410a70f74f5429c7517cdd9413f6a46b6495c2c4256ba3f4f35cb"},
-    {file = "thinc-8.0.5-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:b14875a5e01d17a7c0d16e9b5e6e475e8edd0ce784aeacaeaed856374426948f"},
-    {file = "thinc-8.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5b64ab2d7962772643f12a49f1f2b85b755507b45245e519e8ca76ac2cae9976"},
-    {file = "thinc-8.0.5-cp39-cp39-win_amd64.whl", hash = "sha256:7ea32851fc3abfa6671ff9098a46073f75b4fa994401ca72985a09e6d20c8b36"},
-    {file = "thinc-8.0.5.tar.gz", hash = "sha256:f23ace11ba990bb03c8f9667f1f8fb387d1ef9d41e803542e54c5bb209274cc4"},
+    {file = "thinc-8.0.6-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:9ace08b98ba33648c75f1e06f0f1303035c122fb8b67a944c0d6ed758bfbb507"},
+    {file = "thinc-8.0.6-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:df5553a102008f70c688bc5614259ead7a9d27e86922171aa5c4db060e2c6c51"},
+    {file = "thinc-8.0.6-cp36-cp36m-win_amd64.whl", hash = "sha256:81102d24b260b8577e39c7c878e367d29d26c8c1c4b71f0a8ff1e5e230876d79"},
+    {file = "thinc-8.0.6-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:2583251526b3a858f46933887552141d7d4f901549a0430595bf13f289ab0929"},
+    {file = "thinc-8.0.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fe662083a5cbbf7a4df3726c0e115abe9cfd0e7e440199aa0e2362b072801a16"},
+    {file = "thinc-8.0.6-cp37-cp37m-win_amd64.whl", hash = "sha256:5cc9776de20bf8e5c5f6ffb61dfd797f34b4e5091fcf5d36dde30cb986c642db"},
+    {file = "thinc-8.0.6-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:9d6a08eb85180d802f0f35daed0e16dabd9679098e9ed07bdeb97f4b17447083"},
+    {file = "thinc-8.0.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6782e4b2a515711bb51ade0e2ad7c03c9a0ca9e4c3196d2b6887c25607381b2c"},
+    {file = "thinc-8.0.6-cp38-cp38-win_amd64.whl", hash = "sha256:533e8396d7899b177d6285721be4791d3425783d4742a4c3b8280f1b59c06ed1"},
+    {file = "thinc-8.0.6-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:0d0c733a3d7d5ada5210314d81f867270b181ea49dcca1ec1c4ab97a394e06cc"},
+    {file = "thinc-8.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:17e1111692f38ffce18210dd4188a0cb1e15c4476f8218ebb0d7a1b1f8e142cf"},
+    {file = "thinc-8.0.6-cp39-cp39-win_amd64.whl", hash = "sha256:3d390de2e14cea5f55447a183942211302ba98c6d18efb6c6637c83a92dfb85a"},
+    {file = "thinc-8.0.6.tar.gz", hash = "sha256:9b3aedf175ac731c8f7e98d3ddbcba60b238211cad7c5aea6d9ddffb3bbffc92"},
 ]
 threadpoolctl = [
     {file = "threadpoolctl-2.1.0-py3-none-any.whl", hash = "sha256:38b74ca20ff3bb42caca8b00055111d74159ee95c4370882bbff2b93d24da725"},
