@@ -1,11 +1,5 @@
-# poetry run black-nb notebooks/baseball/
-# poetry run jupyter nbconvert --to notebook  --execute notebooks/baseball/main.ipynb --inplace
 name: Test
-on:
-  pull_request:
-    branches:
-      - master
-      - 0.6.0
+on: [pull_request]
 
 jobs:
   test:
@@ -34,13 +28,10 @@ jobs:
         run: poetry install
 
       - name: Run Black
-        env:
-          JDK4PY_BUILD_PLATFORM: ${{ matrix.os }}
-        shell: bash
-        run: poetry run black-nb --check notebooks/
+        run: poetry run black . --check
 
-      - name: Test notebooks execution
-        env:
-          JDK4PY_BUILD_PLATFORM: ${{ matrix.os }}
-        shell: bash
-        run: poetry run python .github/workflows/test_notebooks.py
+      - name: Run Black on notebooks
+        run: poetry run black-nb notebooks/ --check
+
+      - name: Run notebooks
+        run: poetry run python tests/execute_notebooks.py
