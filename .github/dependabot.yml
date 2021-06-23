@@ -5,3 +5,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "mxnet"
+        # For mxnet, ignore all updates for version 1.7 and 1.8 since poetry failed to install those
+        versions: ["1.7.x", "1.8.x"]
