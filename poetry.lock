@@ -59,34 +59,34 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "atoti"
-version = "0.6.0.20210616170824"
+version = "0.6.0.20210623140655"
 description = "Design, explore and deploy efficient and flexible data models"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti-aws = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"aws\""}
-atoti-azure = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"azure\""}
-atoti-gcp = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"gcp\""}
-atoti-jupyterlab = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"jupyterlab\""}
-atoti-kafka = {version = "0.6.0.20210616170824", optional = true, markers = "extra == \"kafka\""}
+atoti-aws = {version = "0.6.0.20210623140655", optional = true, markers = "extra == \"aws\""}
+atoti-azure = {version = "0.6.0.20210623140655", optional = true, markers = "extra == \"azure\""}
+atoti-gcp = {version = "0.6.0.20210623140655", optional = true, markers = "extra == \"gcp\""}
+atoti-jupyterlab = {version = "0.6.0.20210623140655", optional = true, markers = "extra == \"jupyterlab\""}
+atoti-kafka = {version = "0.6.0.20210623140655", optional = true, markers = "extra == \"kafka\""}
 jdk4py = ">=11.0,<12.0"
 numpy = "!=1.19.4"
 pandas = "*"
-pyarrow = ">=3.0,<4.0"
-typeguard = "*"
+pyarrow = ">=4.0,<5.0"
+typeguard = ">=2.12,<3.0"
 typing-extensions = "*"
 
 [package.extras]
-aws = ["atoti-aws (==0.6.0.20210616170824)"]
-azure = ["atoti-azure (==0.6.0.20210616170824)"]
-gcp = ["atoti-gcp (==0.6.0.20210616170824)"]
-jupyterlab = ["atoti-jupyterlab (==0.6.0.20210616170824)"]
-kafka = ["atoti-kafka (==0.6.0.20210616170824)"]
-legacy-app = ["atoti-legacy-app (==0.6.0.20210616170824)"]
-plus = ["atoti-plus (==0.6.0.20210616170824)"]
-sql = ["atoti-sql (==0.6.0.20210616170824)"]
+aws = ["atoti-aws (==0.6.0.20210623140655)"]
+azure = ["atoti-azure (==0.6.0.20210623140655)"]
+gcp = ["atoti-gcp (==0.6.0.20210623140655)"]
+jupyterlab = ["atoti-jupyterlab (==0.6.0.20210623140655)"]
+kafka = ["atoti-kafka (==0.6.0.20210623140655)"]
+legacy-app = ["atoti-legacy-app (==0.6.0.20210623140655)"]
+plus = ["atoti-plus (==0.6.0.20210623140655)"]
+sql = ["atoti-sql (==0.6.0.20210623140655)"]
 
 [package.source]
 type = "legacy"
@@ -95,14 +95,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-aws"
-version = "0.6.0.20210616170824"
+version = "0.6.0.20210623140655"
 description = "Plugin to load CSV and Parquet files from AWS S3 into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210616170824"
+atoti = "0.6.0.20210623140655"
 
 [package.source]
 type = "legacy"
@@ -111,14 +111,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-azure"
-version = "0.6.0.20210616170824"
+version = "0.6.0.20210623140655"
 description = "Plugin to load CSV and parquet files from Azure Blob Storage into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210616170824"
+atoti = "0.6.0.20210623140655"
 
 [package.source]
 type = "legacy"
@@ -127,14 +127,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-gcp"
-version = "0.6.0.20210616170824"
+version = "0.6.0.20210623140655"
 description = "Plugin to load CSV and parquet files from Google Cloud Storage into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210616170824"
+atoti = "0.6.0.20210623140655"
 
 [package.source]
 type = "legacy"
@@ -143,14 +143,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-jupyterlab"
-version = "0.6.0.20210616170824"
+version = "0.6.0.20210623140655"
 description = "Plugin to interactively visualize atoti sessions in JupyterLab"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210616170824"
+atoti = "0.6.0.20210623140655"
 jupyterlab = ">=3.0,<4.0"
 
 [package.source]
@@ -160,14 +160,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-kafka"
-version = "0.6.0.20210616170824"
+version = "0.6.0.20210623140655"
 description = "Plugin to load real time Kafka streams into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210616170824"
+atoti = "0.6.0.20210623140655"
 
 [package.source]
 type = "legacy"
@@ -1375,7 +1375,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "pyarrow"
-version = "3.0.0"
+version = "4.0.1"
 description = "Python library for Apache Arrow"
 category = "main"
 optional = false
@@ -2060,22 +2060,22 @@ async-generator = [
     {file = "async_generator-1.10.tar.gz", hash = "sha256:6ebb3d106c12920aaae42ccb6f787ef5eefdcdd166ea3d628fa8476abe712144"},
 ]
 atoti = [
-    {file = "atoti-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:b484820125d0a4d562d2a2bc1ec3674160d76b3690fb0e3f7b676505af029a37"},
+    {file = "atoti-0.6.0.20210623140655-0_91c5255-py3-none-any.whl", hash = "sha256:38acc391fce7404eb60330a3487bef447411676dd5bb2a3123e54bb179e55296"},
 ]
 atoti-aws = [
-    {file = "atoti_aws-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:f519958ec426a4ed31341496cc108316c4b7389f4f671bbc251872083b50f00d"},
+    {file = "atoti_aws-0.6.0.20210623140655-0_91c5255-py3-none-any.whl", hash = "sha256:95b8e1c94a8239a7150169502a94e9c976877bf3afb43f2b023ea1ac1ee4b7c5"},
 ]
 atoti-azure = [
-    {file = "atoti_azure-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:ebd8b9a9273f2c6cfac45e2de112f0f78e1e4b4ea3a77ba692393205b06e9de9"},
+    {file = "atoti_azure-0.6.0.20210623140655-0_91c5255-py3-none-any.whl", hash = "sha256:0fb847e5655a0540ab5c5aaf264d607796238cbc380343a2ec73f9a2379aa2bf"},
 ]
 atoti-gcp = [
-    {file = "atoti_gcp-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:989f6e94d61168b8ba728b22a7a9089b79a32a268ea9cb3ebb6d7427a9669f73"},
+    {file = "atoti_gcp-0.6.0.20210623140655-0_91c5255-py3-none-any.whl", hash = "sha256:f8aef10c016f422ff534c14bef80626fabbcb31c59fae0ce7e4a76a9409aa1c6"},
 ]
 atoti-jupyterlab = [
-    {file = "atoti_jupyterlab-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:d1972aa96298096d0b696c7caad6aabd6d81def34de0a66dacc310fc6565e40c"},
+    {file = "atoti_jupyterlab-0.6.0.20210623140655-0_91c5255-py3-none-any.whl", hash = "sha256:1435eff59ee7adb4997bc403f506476c988e0119dd269511c0ca319d45cc5056"},
 ]
 atoti-kafka = [
-    {file = "atoti_kafka-0.6.0.20210616170824-0_2604a08-py3-none-any.whl", hash = "sha256:e88814332820a814fa376ba7154e8e57f2c0565e2536fd923b8777192bbbcd3f"},
+    {file = "atoti_kafka-0.6.0.20210623140655-0_91c5255-py3-none-any.whl", hash = "sha256:353ebef70e05fb2543c2d5596fe3aac4f8a52c8bb0b073c3989c2256218e32ac"},
 ]
 attrs = [
     {file = "attrs-21.2.0-py2.py3-none-any.whl", hash = "sha256:149e90d6d8ac20db7a955ad60cf0e6881a3f20d37096140088356da6c716b0b1"},
@@ -2673,27 +2673,31 @@ py = [
     {file = "py-1.10.0.tar.gz", hash = "sha256:21b81bda15b66ef5e1a777a21c4dcd9c20ad3efd0b3f817e7a809035269e1bd3"},
 ]
 pyarrow = [
-    {file = "pyarrow-3.0.0-cp36-cp36m-macosx_10_13_x86_64.whl", hash = "sha256:03e2435da817bc2b5d0fad6f2e53305eb36c24004ddfcb2b30e4217a1a80cf22"},
-    {file = "pyarrow-3.0.0-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:2be3a9eab4bfd00024dc3c83fa03de1c1d04a0f47ebaf3dc483cd100546eacbf"},
-    {file = "pyarrow-3.0.0-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:a76031ef19d11db2fef79a97cc69997c97bea35aa07efbe042a177c7e3b1a390"},
-    {file = "pyarrow-3.0.0-cp36-cp36m-manylinux2014_x86_64.whl", hash = "sha256:a07e286e81ceb20f8f0c45f69760d2ebc434fe83794d5f9b44f89fc2dc6dc24d"},
-    {file = "pyarrow-3.0.0-cp36-cp36m-win_amd64.whl", hash = "sha256:cfea99a01d844c3db5e25374a6cdcf3b5ba1698bfe95d41272c295a4581e884c"},
-    {file = "pyarrow-3.0.0-cp37-cp37m-macosx_10_13_x86_64.whl", hash = "sha256:d5666a7fa2668f3ff95df028c2072d59e8b17e73d682068e8505dafa2688f3cc"},
-    {file = "pyarrow-3.0.0-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:3ea6574d1ae2d9bff7e6e1715f64c31bdc01b42387a5c78311a8ce9c09cfe135"},
-    {file = "pyarrow-3.0.0-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:2d5c95eb04a3d2e786e097b53534893eade6c8b3faf10f53a06143384b4446b1"},
-    {file = "pyarrow-3.0.0-cp37-cp37m-manylinux2014_x86_64.whl", hash = "sha256:31e6fc0868963aba4e6b8a3e218c9a5ff347bca870d622da0b3d58269d0c5398"},
-    {file = "pyarrow-3.0.0-cp37-cp37m-win_amd64.whl", hash = "sha256:960a9b0fd599601ddac42f16d5acf049637ec08957359c6741d6eb2bf0dbae97"},
-    {file = "pyarrow-3.0.0-cp38-cp38-macosx_10_13_x86_64.whl", hash = "sha256:2c3353d38d137f1158595b3b18dcef711f3d8fdb57cf7ae2d861d07235064bc1"},
-    {file = "pyarrow-3.0.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:72206cde1857d5420601feae75f53921cffab4326b42262a858c7b8be67982b7"},
-    {file = "pyarrow-3.0.0-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:dec007a0f7adba86bd170252140ede01646b45c3a470d5862ce00d8e40cd29bd"},
-    {file = "pyarrow-3.0.0-cp38-cp38-manylinux2014_x86_64.whl", hash = "sha256:bf6684fe9e38f8ddb696e38901461eab783ec1d565974ebd5862270320b3e27f"},
-    {file = "pyarrow-3.0.0-cp38-cp38-win_amd64.whl", hash = "sha256:3b46487c45faaea8d1a5aa65002e2832ae2e1c9e68ecb461cda4fa59891cf490"},
-    {file = "pyarrow-3.0.0-cp39-cp39-macosx_10_13_x86_64.whl", hash = "sha256:978bbe8ec9090d1133a25f00f32ed92600f9d315fbfa29a17952bee01f0d7fe5"},
-    {file = "pyarrow-3.0.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:b7a8903f2b8a80498725ef5d4a35cd7dd5a98b74e080d42692545e61a6cbfbe4"},
-    {file = "pyarrow-3.0.0-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:b1cf92df9f336f31706249e543dc0ffce3c67a78204ce540f1173c6c07dfafec"},
-    {file = "pyarrow-3.0.0-cp39-cp39-manylinux2014_x86_64.whl", hash = "sha256:b08c119cc2b9fcd1567797fedb245a2f4352a3084a22b7298272afe7cf7a4730"},
-    {file = "pyarrow-3.0.0-cp39-cp39-win_amd64.whl", hash = "sha256:5faa2dc73444bdcf042f121383965a47362be1f946303d46e8fd80f8d26cd90c"},
-    {file = "pyarrow-3.0.0.tar.gz", hash = "sha256:4bf8cc43e1db1e0517466209ee8e8f459d9b5e1b4074863317f2a965cf59889e"},
+    {file = "pyarrow-4.0.1-cp36-cp36m-macosx_10_13_x86_64.whl", hash = "sha256:5387db80c6a7b5598884bf4df3fc546b3373771ad614548b782e840b71704877"},
+    {file = "pyarrow-4.0.1-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:76b75a9cfc572e890a1e000fd532bdd2084ec3f1ee94ee51802a477913a21072"},
+    {file = "pyarrow-4.0.1-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:423cd6a14810f4e40cb76e13d4240040fc1594d69fe1c4f2c70be00ad512ade5"},
+    {file = "pyarrow-4.0.1-cp36-cp36m-manylinux2014_aarch64.whl", hash = "sha256:e1351576877764fb4d5690e4721ce902e987c85f4ab081c70a34e1d24646586e"},
+    {file = "pyarrow-4.0.1-cp36-cp36m-manylinux2014_x86_64.whl", hash = "sha256:0fde9c7a3d5d37f3fe5d18c4ed015e8f585b68b26d72a10d7012cad61afe43ff"},
+    {file = "pyarrow-4.0.1-cp36-cp36m-win_amd64.whl", hash = "sha256:afd4f7c0a225a326d2c0039cdc8631b5e8be30f78f6b7a3e5ce741cf5dd81c72"},
+    {file = "pyarrow-4.0.1-cp37-cp37m-macosx_10_13_x86_64.whl", hash = "sha256:b05bdd513f045d43228247ef4d9269c88139788e2d566f4cb3e855e282ad0330"},
+    {file = "pyarrow-4.0.1-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:150db335143edd00d3ec669c7c8167d401c4aa0a290749351c80bbf146892b2e"},
+    {file = "pyarrow-4.0.1-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:dcd20ee0240a88772eeb5691102c276f5cdec79527fb3a0679af7f93f93cb4bd"},
+    {file = "pyarrow-4.0.1-cp37-cp37m-manylinux2014_aarch64.whl", hash = "sha256:24040a20208e9b16ba7b284624ebfe67e40f5c40b5dc8d874da322ac0053f9d3"},
+    {file = "pyarrow-4.0.1-cp37-cp37m-manylinux2014_x86_64.whl", hash = "sha256:e44dfd7e61c9eb6dda59bc49ad69e77945f6d049185a517c130417e3ca0494d8"},
+    {file = "pyarrow-4.0.1-cp37-cp37m-win_amd64.whl", hash = "sha256:ee3d87615876550fee9a523307dd4b00f0f44cf47a94a32a07793da307df31a0"},
+    {file = "pyarrow-4.0.1-cp38-cp38-macosx_10_13_x86_64.whl", hash = "sha256:fa7b165cfa97158c1e6d15c68428317b4f4ae786d1dc2dbab43f1328c1eb43aa"},
+    {file = "pyarrow-4.0.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:33c457728a1ce825b80aa8c8ed573709f1efe72003d45fa6fdbb444de9cc0b74"},
+    {file = "pyarrow-4.0.1-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:72cf3477538bd8504f14d6299a387cc335444f7a188f548096dfea9533551f02"},
+    {file = "pyarrow-4.0.1-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:a81adbfbe2f6528d4593b5a8962b2751838517401d14e9d4cab6787478802693"},
+    {file = "pyarrow-4.0.1-cp38-cp38-manylinux2014_x86_64.whl", hash = "sha256:c2733c9bcd00074ce5497dd0a7b8a10c91d3395ddce322d7021c7fdc4ea6f610"},
+    {file = "pyarrow-4.0.1-cp38-cp38-win_amd64.whl", hash = "sha256:d0f080b2d9720bec42624cb0df66f60ae66b84a2ccd1fe2c291322df915ac9db"},
+    {file = "pyarrow-4.0.1-cp39-cp39-macosx_10_13_x86_64.whl", hash = "sha256:6b7bd8f5aa327cc32a1b9b02a76502851575f5edb110f93c59a45c70211a5618"},
+    {file = "pyarrow-4.0.1-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:fe976695318560a97c6d31bba828eeca28c44c6f6401005e54ba476a28ac0a10"},
+    {file = "pyarrow-4.0.1-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:5f2660f59dfcfd34adac7c08dc7f615920de703f191066ed6277628975f06878"},
+    {file = "pyarrow-4.0.1-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:5a76ec44af838862b23fb5cfc48765bc7978f7b58a181c96ad92856280de548b"},
+    {file = "pyarrow-4.0.1-cp39-cp39-manylinux2014_x86_64.whl", hash = "sha256:04be0f7cb9090bd029b5b53bed628548fef569e5d0b5c6cd7f6d0106dbbc782d"},
+    {file = "pyarrow-4.0.1-cp39-cp39-win_amd64.whl", hash = "sha256:a968375c66e505f72b421f5864a37f51aad5da61b6396fa283f956e9f2b2b923"},
+    {file = "pyarrow-4.0.1.tar.gz", hash = "sha256:11517f0b4f4acbab0c37c674b4d1aad3c3dfea0f6b1bb322e921555258101ab3"},
 ]
 pycparser = [
     {file = "pycparser-2.20-py2.py3-none-any.whl", hash = "sha256:7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705"},
