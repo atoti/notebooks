@@ -60,7 +60,7 @@ def churn_prediction(
     model_roc_auc = roc_auc_score(y, predictions)
     print("ROC AUC: ", round(model_roc_auc, 2), "\n")
     fpr, tpr, thresholds = roc_curve(y, probabilities[:, 1])
-    
+
     return algorithm
 
 
