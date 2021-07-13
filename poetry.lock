@@ -59,18 +59,18 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "atoti"
-version = "0.6.0.20210702093337"
+version = "0.6.0.20210713133113"
 description = "Design, explore and deploy efficient and flexible data models"
 category = "main"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.7.1"
 
 [package.dependencies]
-atoti-aws = {version = "0.6.0.20210702093337", optional = true, markers = "extra == \"aws\""}
-atoti-azure = {version = "0.6.0.20210702093337", optional = true, markers = "extra == \"azure\""}
-atoti-gcp = {version = "0.6.0.20210702093337", optional = true, markers = "extra == \"gcp\""}
-atoti-jupyterlab = {version = "0.6.0.20210702093337", optional = true, markers = "extra == \"jupyterlab\""}
-atoti-kafka = {version = "0.6.0.20210702093337", optional = true, markers = "extra == \"kafka\""}
+atoti-aws = {version = "0.6.0.20210713133113", optional = true, markers = "extra == \"aws\""}
+atoti-azure = {version = "0.6.0.20210713133113", optional = true, markers = "extra == \"azure\""}
+atoti-gcp = {version = "0.6.0.20210713133113", optional = true, markers = "extra == \"gcp\""}
+atoti-jupyterlab = {version = "0.6.0.20210713133113", optional = true, markers = "extra == \"jupyterlab\""}
+atoti-kafka = {version = "0.6.0.20210713133113", optional = true, markers = "extra == \"kafka\""}
 jdk4py = ">=11.0,<12.0"
 numpy = "!=1.19.4"
 pandas = "*"
@@ -79,14 +79,14 @@ typeguard = ">=2.12,<3.0"
 typing-extensions = "*"
 
 [package.extras]
-aws = ["atoti-aws (==0.6.0.20210702093337)"]
-azure = ["atoti-azure (==0.6.0.20210702093337)"]
-gcp = ["atoti-gcp (==0.6.0.20210702093337)"]
-jupyterlab = ["atoti-jupyterlab (==0.6.0.20210702093337)"]
-kafka = ["atoti-kafka (==0.6.0.20210702093337)"]
-legacy-app = ["atoti-legacy-app (==0.6.0.20210702093337)"]
-plus = ["atoti-plus (==0.6.0.20210702093337)"]
-sql = ["atoti-sql (==0.6.0.20210702093337)"]
+aws = ["atoti-aws (==0.6.0.20210713133113)"]
+azure = ["atoti-azure (==0.6.0.20210713133113)"]
+gcp = ["atoti-gcp (==0.6.0.20210713133113)"]
+jupyterlab = ["atoti-jupyterlab (==0.6.0.20210713133113)"]
+kafka = ["atoti-kafka (==0.6.0.20210713133113)"]
+legacy-app = ["atoti-legacy-app (==0.6.0.20210713133113)"]
+plus = ["atoti-plus (==0.6.0.20210713133113)"]
+sql = ["atoti-sql (==0.6.0.20210713133113)"]
 
 [package.source]
 type = "legacy"
@@ -95,14 +95,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-aws"
-version = "0.6.0.20210702093337"
+version = "0.6.0.20210713133113"
 description = "Plugin to load CSV and Parquet files from AWS S3 into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210702093337"
+atoti = "0.6.0.20210713133113"
 
 [package.source]
 type = "legacy"
@@ -111,14 +111,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-azure"
-version = "0.6.0.20210702093337"
+version = "0.6.0.20210713133113"
 description = "Plugin to load CSV and parquet files from Azure Blob Storage into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210702093337"
+atoti = "0.6.0.20210713133113"
 
 [package.source]
 type = "legacy"
@@ -127,14 +127,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-gcp"
-version = "0.6.0.20210702093337"
+version = "0.6.0.20210713133113"
 description = "Plugin to load CSV and parquet files from Google Cloud Storage into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210702093337"
+atoti = "0.6.0.20210713133113"
 
 [package.source]
 type = "legacy"
@@ -143,14 +143,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-jupyterlab"
-version = "0.6.0.20210702093337"
+version = "0.6.0.20210713133113"
 description = "Plugin to interactively visualize atoti sessions in JupyterLab"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210702093337"
+atoti = "0.6.0.20210713133113"
 jupyterlab = ">=3.0,<4.0"
 
 [package.source]
@@ -160,14 +160,14 @@ reference = "atoti-internal"
 
 [[package]]
 name = "atoti-kafka"
-version = "0.6.0.20210702093337"
+version = "0.6.0.20210713133113"
 description = "Plugin to load real time Kafka streams into atoti tables"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-atoti = "0.6.0.20210702093337"
+atoti = "0.6.0.20210713133113"
 
 [package.source]
 type = "legacy"
@@ -2143,8 +2143,8 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.7"
-content-hash = "21b067ee51ef6c3ddc1f243830382c5ec890302bbbad2889e13b67b6ad8159e5"
+python-versions = "^3.7.1"
+content-hash = "7fb2211f8be38aeee6ef9206bba6a981dbba84d4e0a8f08ec147d8132513966b"
 
 [metadata.files]
 anyio = [
@@ -2188,22 +2188,22 @@ async-generator = [
     {file = "async_generator-1.10.tar.gz", hash = "sha256:6ebb3d106c12920aaae42ccb6f787ef5eefdcdd166ea3d628fa8476abe712144"},
 ]
 atoti = [
-    {file = "atoti-0.6.0.20210702093337-0_f94254f-py3-none-any.whl", hash = "sha256:faf316b7fcd36ee7d8a616be79013bc88dfa9c66a9927c0da540254a3b4e7e5f"},
+    {file = "atoti-0.6.0.20210713133113-0_bf86873-py3-none-any.whl", hash = "sha256:e5a018ce5abf651c0289068d4d833f1636d42a359e3cb1ebec2ccf83d76df464"},
 ]
 atoti-aws = [
-    {file = "atoti_aws-0.6.0.20210702093337-0_f94254f-py3-none-any.whl", hash = "sha256:34ed915cb4bb267f341f264769b0dd419f2486e334806f667cc2f95951719006"},
+    {file = "atoti_aws-0.6.0.20210713133113-0_bf86873-py3-none-any.whl", hash = "sha256:897186419de6ef7aa7e0238b4ca11c10b4206409c26e9ab9aa5c9580d12430b4"},
 ]
 atoti-azure = [
-    {file = "atoti_azure-0.6.0.20210702093337-0_f94254f-py3-none-any.whl", hash = "sha256:3834749d1d663a65f58d20685935cb504bcdafc6323f76b447602e4ee6fe2e77"},
+    {file = "atoti_azure-0.6.0.20210713133113-0_bf86873-py3-none-any.whl", hash = "sha256:8cae9c085be9528285ea5739d3417fb7fffe72058735e56a7d402ec53b0cb8ed"},
 ]
 atoti-gcp = [
-    {file = "atoti_gcp-0.6.0.20210702093337-0_f94254f-py3-none-any.whl", hash = "sha256:55df5bee6347fa0cd656d22fcb218b2318b1816ef5f1343f44940dc9eb1ec7d9"},
+    {file = "atoti_gcp-0.6.0.20210713133113-0_bf86873-py3-none-any.whl", hash = "sha256:b9b9caee9db539dda4ba67b087f973681db7e34c0553aa6669d6725a2b60da1c"},
 ]
 atoti-jupyterlab = [
-    {file = "atoti_jupyterlab-0.6.0.20210702093337-0_f94254f-py3-none-any.whl", hash = "sha256:bde7a84a29067425bb7bcec8f06f27408059629750f7e4b5c33b870c824b86ff"},
+    {file = "atoti_jupyterlab-0.6.0.20210713133113-0_bf86873-py3-none-any.whl", hash = "sha256:6bca832fe737f16c8726ba10d910e1700178c7a17b36404b3654023b2bfa77f2"},
 ]
 atoti-kafka = [
-    {file = "atoti_kafka-0.6.0.20210702093337-0_f94254f-py3-none-any.whl", hash = "sha256:2ef8118ccb3f6cbf00d8369621d0d62f669f76c8bb378be68548d860e8ef8e99"},
+    {file = "atoti_kafka-0.6.0.20210713133113-0_bf86873-py3-none-any.whl", hash = "sha256:6438c8a7189bafb9ca2fe7f856688e2e8e39cd8e58ad16d34d783660041fd061"},
 ]
 attrs = [
     {file = "attrs-21.2.0-py2.py3-none-any.whl", hash = "sha256:149e90d6d8ac20db7a955ad60cf0e6881a3f20d37096140088356da6c716b0b1"},
