@@ -456,7 +456,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "gluonts"
-version = "0.7.6"
+version = "0.8.0"
 description = "GluonTS is a Python toolkit for probabilistic time series modeling, built around MXNet."
 category = "main"
 optional = false
@@ -470,6 +470,7 @@ pandas = ">=1.0,<2.0"
 pydantic = ">=1.1,<2.0"
 toolz = ">=0.10,<1.0"
 tqdm = ">=4.23,<5.0"
+typing-extensions = ">=3.10.0.0,<3.11.0.0"
 
 [package.extras]
 prophet = ["fbprophet (>=0.4)"]
@@ -2114,7 +2115,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7.1"
-content-hash = "f41d2fabefcd90dc09d95e9a017aa1e4b2b99fb8a9c7d0ffd1e94f4b0091c443"
+content-hash = "ba83936b1d97dd87ba3bf1d7dbd66c1b8ced83fee8b2247a3db1f6be163e00a2"
 
 [metadata.files]
 anyio = [
@@ -2349,8 +2350,8 @@ future = [
     {file = "future-0.18.2.tar.gz", hash = "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"},
 ]
 gluonts = [
-    {file = "gluonts-0.7.6-py3-none-any.whl", hash = "sha256:9dda89bbae6c8a9ade225169053fd2f854e4b85d69fdd3d41bae9066cd4229d1"},
-    {file = "gluonts-0.7.6.tar.gz", hash = "sha256:02e423473fae4e730eb6ec813e9272bbf43c8b29e84d9e592a98ff2ecf8ddfaf"},
+    {file = "gluonts-0.8.0-py3-none-any.whl", hash = "sha256:c91aa84232e30f3ee045b2f853b7434b6a061486d3b86c5c7ea158db053847db"},
+    {file = "gluonts-0.8.0.tar.gz", hash = "sha256:3b5b1bb68a397132ad9eb3dea64d0cfa0f4a950ac8cd847484f12cf9f4b3ab14"},
 ]
 graphviz = [
     {file = "graphviz-0.8.4-py2.py3-none-any.whl", hash = "sha256:7caa53f0b0be42c5f2eaa3f3d71dcc863b15bacceb5d531c2ad7519e1980ff82"},
