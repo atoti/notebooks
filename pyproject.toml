@@ -4,8 +4,12 @@ version = "0.1.0"
 description = "Gallery of atoti notebooks"
 authors = ["atoti <contact@atoti.io>"]
 
+[[tool.poetry.source]]
+name = "atoti-internal"
+url = "https://activeviam.jfrog.io/artifactory/api/pypi/atoti-pypi-internal/simple/"
+
 [tool.poetry.dependencies]
-python = "^3.7.1"
+python = "^3.7"
 atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.6.0"}
 wget = "^3.2"
 treelib = "^1.6.1"

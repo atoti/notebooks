@@ -4,8 +4,6 @@ import logging
 from nbconvert.preprocessors import ExecutePreprocessor
 from pathlib import Path
 
-_MAIN = "main.ipynb"
-
 NOTEBOOKS_DIRECTORY = Path("notebooks")
 DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "customer-churn" / "0_prepare_data.ipynb",
@@ -27,28 +25,17 @@ DATA_PREPROCESSING_NOTEBOOKS = [
 NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
     / "real-time-risk"
-    / _MAIN,  # SyntaxError: invalid syntax (simple.py, line 54) TO FIX
-    NOTEBOOKS_DIRECTORY / "reddit" / _MAIN,  # http 401 error TO FIX
+    / "main.ipynb",  # SyntaxError: invalid syntax (simple.py, line 54) TO FIX
+    NOTEBOOKS_DIRECTORY / "reddit" / "main.ipynb",  # http 401 error TO FIX
     NOTEBOOKS_DIRECTORY / "var-benchmark" / "data_generator.ipynb",  # Timeout
-    NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN,  # data generation timeout TO FIX
+    NOTEBOOKS_DIRECTORY
+    / "var-benchmark"
+    / "main.ipynb",  # data generation timeout TO FIX
     NOTEBOOKS_DIRECTORY
     / "geopricing"
-    / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
+    / "main.ipynb",  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX
 ]
-NOTEBOOKS_TO_BE_UPDATED = [
-    NOTEBOOKS_DIRECTORY / "customer-churn" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "formula-one" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "pricing-simulations-around-product-classes" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "rollup-hierarchies" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "topcount" / "atoti.ipynb",
-    NOTEBOOKS_DIRECTORY / "twitter" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "value-at-risk" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "var-impact-in-premier-league" / _MAIN,
-]
-NOTEBOOKS_TO_SKIP = (
-    DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS + NOTEBOOKS_TO_BE_UPDATED
-)
+NOTEBOOKS_TO_SKIP = DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS
 
 
 def execute_notebooks():
@@ -57,7 +44,6 @@ def execute_notebooks():
             notebook_path
             for notebook_path in NOTEBOOKS_DIRECTORY.glob("**/*.ipynb")
             if notebook_path not in NOTEBOOKS_TO_SKIP
-            and not "ipynb_checkpoints" in str(notebook_path)
         ]
     )
     for notebook_path in notebooks_path:
