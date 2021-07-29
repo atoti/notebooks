@@ -7,7 +7,7 @@
 
 
 __Note on data:__
-These notebooks uses [Customer chur data](https://www.kaggle.com/lava18/google-play-store-apps) from xxxx.
+These notebooks uses [Customer chur data](https://www.kaggle.com/lava18/google-play-store-apps).
 
 __Notebooks:__ 
 The description of the notebooks are the following:
