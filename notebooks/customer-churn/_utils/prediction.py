@@ -62,26 +62,3 @@ def churn_prediction(
     fpr, tpr, thresholds = roc_curve(y, probabilities[:, 1])
 
     return algorithm
-
-
-def churn_prediction_alg(
-    algorithm, training_x, testing_x, training_y, testing_y, threshold_plot=True
-):
-    # model
-    algorithm.fit(training_x, training_y.values.ravel())
-    predictions = algorithm.predict(testing_x)
-    probabilities = algorithm.predict_proba(testing_x)
-
-    print(algorithm)
-    print(
-        "\n Classification report : \n", classification_report(testing_y, predictions)
-    )
-    print("Accuracy Score   : ", accuracy_score(testing_y, predictions))
-    # confusion matrix
-    conf_matrix = confusion_matrix(testing_y, predictions)
-    # roc_auc_score
-    model_roc_auc = roc_auc_score(testing_y, predictions)
-    print("Area under curve : ", model_roc_auc)
-    fpr, tpr, thresholds = roc_curve(testing_y, probabilities[:, 1])
-
-    return algorithm
