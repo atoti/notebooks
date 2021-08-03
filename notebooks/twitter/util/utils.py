@@ -80,28 +80,28 @@ def transform_gc_date(
         p_values = [round(gc_test_result[i + 1][0][test][1], 4) for i in range(maxlag)]
 
         # we store the p-values for each test and each lag
-        result["p-value"] = ";".join(map(str, p_values))
+        result["p-value"] = p_values # ";".join(map(str, p_values))
 
         f_chi2 = [round(gc_test_result[i + 1][0][test][0], 4) for i in range(maxlag)]
 
         if test in ["ssr_chi2test", "lrtest"]:
-            result["chi2"] = ";".join(map(str, f_chi2))
+            result["chi2"] = f_chi2 # ";".join(map(str, f_chi2))
 
             df_chi = [
                 round(gc_test_result[i + 1][0][test][2], 4) for i in range(maxlag)
             ]
-            result["df"] = ";".join(map(str, df_chi))
+            result["df"] = df_chi # ";".join(map(str, df_chi))
         else:
-            result["F"] = ";".join(map(str, f_chi2))
+            result["F"] = f_chi2 #";".join(map(str, f_chi2))
             df_denom = [
                 round(gc_test_result[i + 1][0][test][2], 4) for i in range(maxlag)
             ]
-            result["df_denom"] = ";".join(map(str, df_denom))
+            result["df_denom"] = df_denom # ";".join(map(str, df_denom))
 
             df_num = [
                 round(gc_test_result[i + 1][0][test][3], 4) for i in range(maxlag)
             ]
-            result["df_num"] = ";".join(map(str, df_num))
+            result["df_num"] = df_num # ";".join(map(str, df_num))
 
         if verbose:
             print(f"{test}  ---  Y = {r}, X = {c}, P Values = {p_values}")
