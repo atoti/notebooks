@@ -36,7 +36,6 @@ NOTEBOOKS_WITH_ERRORS = [
     / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
 ]
 NOTEBOOKS_TO_BE_UPDATED = [
-    NOTEBOOKS_DIRECTORY / "formula-one" / _MAIN,
     NOTEBOOKS_DIRECTORY / "twitter" / _MAIN,
 ]
 NOTEBOOKS_TO_SKIP = (
