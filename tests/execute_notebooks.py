@@ -36,15 +36,8 @@ NOTEBOOKS_WITH_ERRORS = [
     / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
 ]
 NOTEBOOKS_TO_BE_UPDATED = [
-    NOTEBOOKS_DIRECTORY / "customer-churn" / _MAIN,
     NOTEBOOKS_DIRECTORY / "formula-one" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "pricing-simulations-around-product-classes" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "rollup-hierarchies" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "topcount" / "atoti.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "value-at-risk" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN,
-    NOTEBOOKS_DIRECTORY / "var-impact-in-premier-league" / _MAIN,
 ]
 NOTEBOOKS_TO_SKIP = (
     DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS + NOTEBOOKS_TO_BE_UPDATED
