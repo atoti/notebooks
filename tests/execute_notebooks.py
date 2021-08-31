@@ -35,9 +35,7 @@ NOTEBOOKS_WITH_ERRORS = [
     / "geopricing"
     / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
 ]
-NOTEBOOKS_TO_SKIP = (
-    DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS 
-)
+NOTEBOOKS_TO_SKIP = DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS
 
 
 def execute_notebooks():
