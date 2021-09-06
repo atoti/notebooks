@@ -18,7 +18,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By industry
 
-[finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
+[airline](#airline), [finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
 
 #### By use case
 
@@ -36,8 +36,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 |                                                         Notebooks                                                          |               Industry                |                                 Use Case                                 |          atoti Features           |                  Data Science Topics                   |
 | :------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------: | :----------------------------------------------------------------------: | :-------------------------------: | :----------------------------------------------------: |
-|            <sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
-<sub>[Airline Industry](./notebooks/airline-industry/main.ipynb)</sub>           |          <sub>airline</sub>           |                   <sub>revenue analysis, what-if scenarios</sub>                    |                                   |                                                        |
+|            <sub>[Airline Industry](./notebooks/airline-industry/main.ipynb)</sub>           |          <sub>airline</sub>           |                   <sub>revenue analysis, what-if scenarios</sub>                    |                                   |                                                        |<sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
 |                   <sub>[COVID-19 Season Impact on Baseball Stats](./notebooks/baseball/main.ipynb)</sub>                   |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
 |                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>food processing</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
