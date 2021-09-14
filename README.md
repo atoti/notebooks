@@ -26,7 +26,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By atoti features
 
-[kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation)
+[kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis)
 
 #### By data science topics
 
@@ -46,6 +46,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                                <sub> [GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                 |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
 |                                     <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
 |        <sub>[Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)</sub>         | <sub>pharmaceutical, healthcare</sub> |                         <sub>drug testing</sub>                          |                                   |       <sub>hypothesis testing, statistics</sub>        |
+|             <sub>[Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                        <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                        |        <sub>social media</sub>        |                        <sub>topic analysis</sub>                         |                                   |                     <sub>nlp</sub>                     |
 |                              <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                              |          <sub>finance</sub>           |                            <sub>trading</sub>                            |                                   |                                                        |
 | <sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
@@ -155,6 +156,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 ##### guides
 
+- [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Topcount](./notebooks/topcount/atoti.ipynb)
 - [Rollup hierarchy with Treelib and atoti](./notebooks/notebooks/rollup-hierarchies/main.ipynb)
 
@@ -226,6 +228,9 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### model comparison
 
 - [Customer Churns](./notebooks/customer-churn/main.ipynb)
+
+##### multidimensional analysis 
+- [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 
 ##### real-time
 
