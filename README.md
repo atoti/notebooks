@@ -50,6 +50,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                        <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                        |        <sub>social media</sub>        |                        <sub>topic analysis</sub>                         |                                   |                     <sub>nlp</sub>                     |
 |                              <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                              |          <sub>finance</sub>           |                            <sub>trading</sub>                            |                                   |                                                        |
 | <sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
+|                            <sub>[Profiling Data](./notebooks/col-data-profile/main.ipynb)</sub>                            |           <sub>social</sub>           |                         <sub>data profiling</sub>                        |                                   |                                                        |
 |                        <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>                        |          <sub>finance</sub>           |                   <sub>trading, risk management</sub>                    |    <sub>kafka, real-time</sub>    |                                                        |
 |             <sub>[Rollup Hierarchies with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                                     <sub>[SA-CCR](./notebooks/sa-ccr/main.ipynb)</sub>                                     |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |                                   |                                                        |
@@ -85,10 +86,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 #### By industry
 
-##### Airline
+##### airline
 - [Airline Industry](./notebooks/airline-industry/main.ipynb)
 
-##### Finance
+##### finance
 
 - [Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)
 - [FRTB SBM](./notebooks/sbm/main.ipynb)
@@ -123,6 +124,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)
 
 ##### social    
+- [Profiling Data](./notebooks/col-data-profile/main.ipynb)
 - [World Population](./notebooks/world-population/main.ipynb)
     
 ##### social media
@@ -149,6 +151,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### cross-selling
 
 - [Subpopulation Analysis to see if model can be put into Production](./notebooks/sub-population-analysis/main.ipynb)
+
+##### data profiling
+
+- [Profiling Data](./notebooks/col-data-profile/main.ipynb)
 
 ##### drug testing
 
