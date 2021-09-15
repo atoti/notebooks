@@ -164,7 +164,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Topcount](./notebooks/topcount/atoti.ipynb)
-- [Rollup hierarchy with Treelib and atoti](./notebooks/notebooks/rollup-hierarchies/main.ipynb)
+- [Rollup hierarchy with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)
 
 ##### inventory management
 
