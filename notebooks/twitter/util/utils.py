@@ -80,28 +80,28 @@ def transform_gc_date(
         p_values = [round(gc_test_result[i + 1][0][test][1], 4) for i in range(maxlag)]
 
         # we store the p-values for each test and each lag
-        result["p-value"] = ";".join(map(str, p_values))
+        result["p-value"] = p_values  # ";".join(map(str, p_values))
 
         f_chi2 = [round(gc_test_result[i + 1][0][test][0], 4) for i in range(maxlag)]
 
         if test in ["ssr_chi2test", "lrtest"]:
-            result["chi2"] = ";".join(map(str, f_chi2))
+            result["chi2"] = f_chi2  # ";".join(map(str, f_chi2))
 
             df_chi = [
                 round(gc_test_result[i + 1][0][test][2], 4) for i in range(maxlag)
             ]
-            result["df"] = ";".join(map(str, df_chi))
+            result["df"] = df_chi  # ";".join(map(str, df_chi))
         else:
-            result["F"] = ";".join(map(str, f_chi2))
+            result["F"] = f_chi2  # ";".join(map(str, f_chi2))
             df_denom = [
                 round(gc_test_result[i + 1][0][test][2], 4) for i in range(maxlag)
             ]
-            result["df_denom"] = ";".join(map(str, df_denom))
+            result["df_denom"] = df_denom  # ";".join(map(str, df_denom))
 
             df_num = [
                 round(gc_test_result[i + 1][0][test][3], 4) for i in range(maxlag)
             ]
-            result["df_num"] = ";".join(map(str, df_num))
+            result["df_num"] = df_num  # ";".join(map(str, df_num))
 
         if verbose:
             print(f"{test}  ---  Y = {r}, X = {c}, P Values = {p_values}")
@@ -148,14 +148,15 @@ def forecast_accuracy(forecast, actual):
         - corr: correlation
         - minmax: min max accuracy (the better the prediction, the higher the value - 1 for perfect model)
     """
+
     mape = np.mean(np.abs(forecast - actual) / np.abs(actual))  # MAPE
     me = np.mean(forecast - actual)  # ME
     mae = np.mean(np.abs(forecast - actual))  # MAE
     mpe = np.mean((forecast - actual) / actual)  # MPE
     rmse = np.mean((forecast - actual) ** 2) ** 0.5  # RMSE
     corr = np.corrcoef(forecast, actual)[0, 1]  # corr
-    mins = np.amin(np.hstack([forecast[:, None], actual[:, None]]), axis=1)
-    maxs = np.amax(np.hstack([forecast[:, None], actual[:, None]]), axis=1)
+    mins = np.amin(np.stack((forecast, actual), axis=1), axis=1)
+    maxs = np.amax(np.stack((forecast, actual), axis=1), axis=1)
     minmax = 1 - np.mean(mins / maxs)  # minmax
     return {
         "mape": mape,
@@ -282,9 +283,12 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
         fitted_df["Subset"] = "Train"
         fitted_df["date"] = fitted_df["date"].apply(lambda x: x.strftime("%Y-%m-%d"))
 
+        pred_df["Price"] = np.nan
+        fitted_df["date"] = pd.to_datetime(fitted_df["date"])
+
         return (
-            fitted_df,
+            fitted_df[["date", "coin_symbol", "Returns residual"]],
             data_stats.loc[~data_stats["norm_stat"].isnull()],
             accuracy_prod,
-            pred_df,
+            pred_df[["date", "coin_symbol", "Returns", "Price"]].copy(),
         )

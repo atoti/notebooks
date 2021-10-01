@@ -18,7 +18,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By industry
 
-[finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
+[airline](#airline), [finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
 
 #### By use case
 
@@ -26,7 +26,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By atoti features
 
-[kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation)
+[kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis)
 
 #### By data science topics
 
@@ -36,19 +36,21 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 |                                                         Notebooks                                                          |               Industry                |                                 Use Case                                 |          atoti Features           |                  Data Science Topics                   |
 | :------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------: | :----------------------------------------------------------------------: | :-------------------------------: | :----------------------------------------------------: |
-|            <sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>            |          <sub>finance</sub>           |                   <sub>risk management, trading</sub>                    |                                   |                                                        |
+|            <sub>[Airline Industry](./notebooks/airline-industry/main.ipynb)</sub>           |          <sub>airline</sub>           |                   <sub>revenue analysis, what-if scenarios</sub>                    |                                   |                                                        |<sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
 |                   <sub>[COVID-19 Season Impact on Baseball Stats](./notebooks/baseball/main.ipynb)</sub>                   |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
-|                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>[food processing]</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
+|                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>food processing</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
 |           <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>           |        <sub>social media</sub>        |            <sub>sentiment analysis, return forecasting</sub>             |                                   | <sub>time series forecasting, hypothesis testing<sub/> |
 |                                <sub>[Formula one](./notebooks/formula-one/main.ipynb)</sub>                                |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                                     <sub>[FRTB SBM](./notebooks/sbm/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
 |                                <sub> [GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                 |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
 |                                     <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
 |        <sub>[Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)</sub>         | <sub>pharmaceutical, healthcare</sub> |                         <sub>drug testing</sub>                          |                                   |       <sub>hypothesis testing, statistics</sub>        |
+|             <sub>[Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                        <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                        |        <sub>social media</sub>        |                        <sub>topic analysis</sub>                         |                                   |                     <sub>nlp</sub>                     |
 |                              <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                              |          <sub>finance</sub>           |                            <sub>trading</sub>                            |                                   |                                                        |
 | <sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
+|                            <sub>[Profiling Data](./notebooks/col-data-profile/main.ipynb)</sub>                            |           <sub>social</sub>           |                         <sub>data profiling</sub>                        |                                   |                                                        |
 |                        <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>                        |          <sub>finance</sub>           |                   <sub>trading, risk management</sub>                    |    <sub>kafka, real-time</sub>    |                                                        |
 |             <sub>[Rollup Hierarchies with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                                     <sub>[SA-CCR](./notebooks/sa-ccr/main.ipynb)</sub>                                     |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |                                   |                                                        |
@@ -58,6 +60,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                              <sub>[Value at Risk](./notebooks/value-at-risk/main.ipynb)</sub>                              |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
 |                    <sub>[Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)</sub>                     |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
 | <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub>  |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
+| <sub>[Wine analytics](./notebooks/wine-analytics/main.ipynb)</sub>  |           <sub>food processing</sub>            |                                                   |                                   |                                                        |
 | <sub>[World Population](./notebooks/world-population/main.ipynb)</sub>  |           <sub>social</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 
 ### Issues
@@ -83,7 +86,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 #### By industry
 
-##### Finance
+##### airline
+- [Airline Industry](./notebooks/airline-industry/main.ipynb)
+
+##### finance
 
 - [Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)
 - [FRTB SBM](./notebooks/sbm/main.ipynb)
@@ -98,7 +104,8 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### food processing
 
 - [Food processing](./notebooks/food-processing/main.ipynb)
-
+- [Wine analytics](./notebooks/wine-analytics/main.ipynb)  
+    
 ##### healthcare
 
 - [Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)
@@ -117,6 +124,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)
 
 ##### social    
+- [Profiling Data](./notebooks/col-data-profile/main.ipynb)
 - [World Population](./notebooks/world-population/main.ipynb)
     
 ##### social media
@@ -144,14 +152,19 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [Subpopulation Analysis to see if model can be put into Production](./notebooks/sub-population-analysis/main.ipynb)
 
+##### data profiling
+
+- [Profiling Data](./notebooks/col-data-profile/main.ipynb)
+
 ##### drug testing
 
 - [Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)
 
 ##### guides
 
+- [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Topcount](./notebooks/topcount/atoti.ipynb)
-- [Rollup hierarchy with Treelib and atoti](./notebooks/notebooks/rollup-hierarchies/main.ipynb)
+- [Rollup hierarchy with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)
 
 ##### inventory management
 
@@ -221,6 +234,9 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### model comparison
 
 - [Customer Churns](./notebooks/customer-churn/main.ipynb)
+
+##### multidimensional analysis 
+- [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 
 ##### real-time
 
