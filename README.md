@@ -36,7 +36,8 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 |                                                         Notebooks                                                          |               Industry                |                                 Use Case                                 |          atoti Features           |                  Data Science Topics                   |
 | :------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------: | :----------------------------------------------------------------------: | :-------------------------------: | :----------------------------------------------------: |
-|            <sub>[Airline Industry](./notebooks/airline-industry/main.ipynb)</sub>           |          <sub>airline</sub>           |                   <sub>revenue analysis, what-if scenarios</sub>                    |                                   |                                                        |<sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
+|            <sub>[Airline Industry](./notebooks/airline-industry/main.ipynb)</sub>           |          <sub>airline</sub>           |                   <sub>revenue analysis, what-if scenarios</sub>                    |                                   |                                                        
+|<sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
 |                   <sub>[COVID-19 Season Impact on Baseball Stats](./notebooks/baseball/main.ipynb)</sub>                   |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
 |                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>food processing</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
@@ -63,6 +64,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 | <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub>  |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 | <sub>[Wine analytics](./notebooks/wine-analytics/main.ipynb)</sub>  |           <sub>food processing</sub>            |                                                   |                                   |                                                        |
 | <sub>[World Population](./notebooks/world-population/main.ipynb)</sub>  |           <sub>social</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
+| <sub>[XVA](./notebooks/xva/main.ipynb)</sub>                        |          <sub>finance</sub>           |                   <sub>trading, risk management, rule what-if</sub>                    |    <sub>kafka, real-time</sub>    |                                                        |
 
 ### Issues
 
@@ -104,7 +106,8 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
 - [Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)
 - [IFRS 9](./notebooks/ifrs9/main.ipynb)
-
+- [XVA](./notebooks/xva/main.ipynb)
+    
 ##### food processing
 
 - [Food processing](./notebooks/food-processing/main.ipynb)
@@ -211,6 +214,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
 - [Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)
+- [XVA](./notebooks/xva/main.ipynb)
 
 ##### supply chain
 
@@ -229,6 +233,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)
 - [PnL Explained](./notebooks/pnl-explained/main.ipynb)
 - [Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)
+- [XVA](./notebooks/xva/main.ipynb)
 
 #### By atoti features
 
@@ -246,6 +251,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### real-time
 
 - [Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)
+- [XVA](./notebooks/xva/main.ipynb)
 
 ##### subpopulation analysis
 
