@@ -18,7 +18,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By industry
 
-[airline](#airline), [finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
+[administrative](#administrative), [airline](#airline), [finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
 
 #### By use case
 
@@ -45,6 +45,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                                <sub>[Formula one](./notebooks/formula-one/main.ipynb)</sub>                                |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                                     <sub>[FRTB SBM](./notebooks/sbm/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
 |                                <sub> [GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                 |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
+|                             <sub> [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)</sub>                                |      <sub>administrative</sub>        |                            <sub>guides</sub>                             |                                   |                                                        |
 |                                     <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
 |        <sub>[Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)</sub>         | <sub>pharmaceutical, healthcare</sub> |                         <sub>drug testing</sub>                          |                                   |       <sub>hypothesis testing, statistics</sub>        |
 |             <sub>[Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
@@ -87,6 +88,9 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ### Shortcuts
 
 #### By industry
+
+##### administrative
+- [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)
 
 ##### airline
 - [Airline Industry](./notebooks/airline-industry/main.ipynb)
@@ -165,6 +169,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 ##### guides
 
+- [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Topcount](./notebooks/topcount/atoti.ipynb)
 - [Rollup hierarchy with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)
