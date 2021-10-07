@@ -1,7 +1,7 @@
 # Sourcing fire data
-This notebook stitches together downloaded jsons from fire.ca.gov to create several dataframes used in the main notebook.
+# This notebook stitches together downloaded jsons from fire.ca.gov to create several dataframes used in the main notebook.
 
-The underlying jsons are not provided, but one can download it for themselves from ca.fire.gov and run this notebook to create updated files.
+# The underlying jsons are not provided, but one can download it for themselves from ca.fire.gov and run this notebook to create updated files.
 
 import json  # for raw fire data
 
