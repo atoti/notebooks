@@ -18,11 +18,11 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By industry
 
-[administrative](#administrative), [airline](#airline), [finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
+[administrative](#administrative), [airline](#airline), [energy](#energy), [finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance), [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
 
 #### By use case
 
-[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [environmental](#environmental), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
@@ -57,6 +57,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |             <sub>[Rollup Hierarchies with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                                     <sub>[SA-CCR](./notebooks/sa-ccr/main.ipynb)</sub>                                     |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |                                   |                                                        |
 |                   <sub>[Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)</sub>                   |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
+|                                 <sub>[Solar](./notebooks/ca-solar/main.ipynb)</sub>                                        |         <sub>energy</sub>             |                    <sub>environmental</sub>                              |                                   |                                                        |
 |                    <sub>[Subpopulation Analysis](./notebooks/sub-population-analysis/main.ipynb)</sub>                     |         <sub>insurance</sub>          |                         <sub>cross selling</sub>                         | <sub>subpopulation analysis</sub> |                                                        |
 |                                  <sub>[Topcount](./notebooks/topcount/atoti.ipynb)</sub>                                   |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                              <sub>[Value at Risk](./notebooks/value-at-risk/main.ipynb)</sub>                              |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
@@ -94,6 +95,9 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 ##### airline
 - [Airline Industry](./notebooks/airline-industry/main.ipynb)
+
+##### energy
+- [solar](./notebooks/ca-solar/main.ipynb)
 
 ##### finance
 
@@ -167,6 +171,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)
 
+##### environmental
+
+- [solar](./notebooks/ca-solar/main.ipynb)
+
 ##### guides
 
 - [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)
@@ -215,7 +223,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
 - [Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)
 - [XVA](./notebooks/xva/main.ipynb)
-
+    
 ##### supply chain
 
 - [Food processing](./notebooks/food-processing/main.ipynb)
