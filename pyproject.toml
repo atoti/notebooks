@@ -30,6 +30,8 @@ widgetsnbextension = "^3.5.1"
 openpyxl = "^3.0.7"
 opencv-python = "^4.5.3"
 torch = "^1.9.1"
+poetry = "^1.1.11"
+torchvision = "^0.10.1"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.5.0"
