@@ -15,6 +15,9 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "twitter" / "02_sentiment.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "03_cryptocurrency_mining.ipynb",
     NOTEBOOKS_DIRECTORY / "influencers-analysis" / "notebooks" / "0_prepare_data.ipynb",
+    NOTEBOOKS_DIRECTORY / "object-detection" / "main.ipynb",
+    NOTEBOOKS_DIRECTORY / "object-detection" / "main_demo.ipynb",
+    NOTEBOOKS_DIRECTORY / "object-detection" / "main_generate.ipynb",
     NOTEBOOKS_DIRECTORY
     / "influencers-analysis"
     / "notebooks"
