@@ -8,6 +8,8 @@ _MAIN = "main.ipynb"
 
 NOTEBOOKS_DIRECTORY = Path("notebooks")
 DATA_PREPROCESSING_NOTEBOOKS = [
+    NOTEBOOKS_DIRECTORY / "ca-solar" / "01-nrel-data-sourcing.ipynb",
+    NOTEBOOKS_DIRECTORY / "ca-solar" / "02-fire-data-sourcing.ipynb",
     NOTEBOOKS_DIRECTORY / "customer-churn" / "0_prepare_data.ipynb",
     NOTEBOOKS_DIRECTORY / "customer-churn" / "1_create_models.ipynb",
     NOTEBOOKS_DIRECTORY / "ifrs9" / "data-generation.ipynb",
@@ -15,6 +17,9 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "twitter" / "02_sentiment.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "03_cryptocurrency_mining.ipynb",
     NOTEBOOKS_DIRECTORY / "influencers-analysis" / "notebooks" / "0_prepare_data.ipynb",
+    NOTEBOOKS_DIRECTORY / "object-detection" / "main.ipynb",
+    NOTEBOOKS_DIRECTORY / "object-detection" / "main_demo.ipynb",
+    NOTEBOOKS_DIRECTORY / "object-detection" / "main_generate_csv.ipynb",
     NOTEBOOKS_DIRECTORY
     / "influencers-analysis"
     / "notebooks"
