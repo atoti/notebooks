@@ -22,7 +22,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By use case
 
-[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [environmental](#environmental), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [environmental](#environmental), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
@@ -30,7 +30,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By data science topics
 
-[bayes](#bayes), [hypothesis testing](#hypothesis-testing), [k-means clustering](#k-means-clustering), [logistic regression](#logistic-regression), [neural network](#neural-network), [nlp](#nlp), [statistics](#statistics), [time series forecasting](#time-series-forecasting), [SVM](#svm)
+[bayes](#bayes), [Faster R-CNN](#Faster-R-CNN), [hypothesis testing](#hypothesis-testing), [k-means clustering](#k-means-clustering), [logistic regression](#logistic-regression), [neural network](#neural-network), [nlp](#nlp), [statistics](#statistics), [time series forecasting](#time-series-forecasting), [SVM](#svm)
 
 ### Notebooks
 
@@ -51,6 +51,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |             <sub>[Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                        <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                        |        <sub>social media</sub>        |                        <sub>topic analysis</sub>                         |                                   |                     <sub>nlp</sub>                     |
 |                              <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                              |          <sub>finance</sub>           |                            <sub>trading</sub>                            |                                   |                                                        |
+|                              <sub>[object detection](./notebooks/object-detection/main.ipynb)</sub>                        |                                       |                            <sub>face detection</sub>                     |    <sub>real time</sub>           |                      <sub>Faster R-CNN</sub>           |
 | <sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
 |                            <sub>[Profiling Data](./notebooks/col-data-profile/main.ipynb)</sub>                            |           <sub>social</sub>           |                         <sub>data profiling</sub>                        |                                   |                                                        |
 |                        <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>                        |          <sub>finance</sub>           |                   <sub>trading, risk management</sub>                    |    <sub>kafka, real-time</sub>    |                                                        |
@@ -257,7 +258,8 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 
 ##### real-time
-
+    
+- [Object Dectection](./notebooks/object-detection/main.ipynb)
 - [Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)
 - [XVA](./notebooks/xva/main.ipynb)
 
@@ -277,6 +279,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### bayes
 
 - [Customer Churns](./notebooks/customer-churn/main.ipynb)
+    
+##### Faster R-CNN
+
+ - [Object Dectection](./notebooks/object-detection/main.ipynb)
 
 ##### hypothesis testing
 
