@@ -6,7 +6,7 @@ authors = ["atoti <contact@atoti.io>"]
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
-atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.6.1"}
+atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.6.2"}
 wget = "^3.2"
 treelib = "^1.6.1"
 nltk = "^3.6.2"
@@ -28,6 +28,9 @@ xlrd = "^2.0.1"
 ipywidgets = "^7.6.3"
 widgetsnbextension = "^3.5.1"
 openpyxl = "^3.0.7"
+pyodbc = "^4.0.32"
+SQLAlchemy = "^1.4.26"
+sqlalchemy-vertica-python = "^0.5.10"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.5.0"
