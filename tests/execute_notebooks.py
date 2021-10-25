@@ -18,6 +18,7 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "object-detection" / "main.ipynb",
     NOTEBOOKS_DIRECTORY / "object-detection" / "main_demo.ipynb",
     NOTEBOOKS_DIRECTORY / "object-detection" / "main_generate_csv.ipynb",
+    NOTEBOOKS_DIRECTORY / "var-benchmark" / "data_generator.ipynb",  # Timeout
     NOTEBOOKS_DIRECTORY
     / "influencers-analysis"
     / "notebooks"
@@ -26,19 +27,24 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     / "influencers-analysis"
     / "notebooks"
     / "2_analyze_topics.ipynb",
+    NOTEBOOKS_DIRECTORY / "customer360" / "01-Dataupload-to-Vertica.ipynb",
+]
+NOTEBOOKS_WITH_ALT_DS = [
+    NOTEBOOKS_DIRECTORY / "customer360" / "02-main-vertica-db.ipynb",
 ]
 NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
     / "real-time-risk"
     / _MAIN,  # SyntaxError: invalid syntax (simple.py, line 54) TO FIX
     NOTEBOOKS_DIRECTORY / "reddit" / _MAIN,  # http 401 error TO FIX
-    NOTEBOOKS_DIRECTORY / "var-benchmark" / "data_generator.ipynb",  # Timeout
     NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN,  # data generation timeout TO FIX
     NOTEBOOKS_DIRECTORY
     / "geopricing"
     / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
 ]
-NOTEBOOKS_TO_SKIP = DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS
+NOTEBOOKS_TO_SKIP = (
+    DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS + NOTEBOOKS_WITH_ALT_DS
+)
 
 
 def execute_notebooks():
