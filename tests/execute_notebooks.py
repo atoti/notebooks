@@ -8,6 +8,8 @@ _MAIN = "main.ipynb"
 
 NOTEBOOKS_DIRECTORY = Path("notebooks")
 DATA_PREPROCESSING_NOTEBOOKS = [
+    NOTEBOOKS_DIRECTORY / "ca-solar" / "01-nrel-data-sourcing.ipynb",
+    NOTEBOOKS_DIRECTORY / "ca-solar" / "02-fire-data-sourcing.ipynb",
     NOTEBOOKS_DIRECTORY / "customer-churn" / "0_prepare_data.ipynb",
     NOTEBOOKS_DIRECTORY / "customer-churn" / "1_create_models.ipynb",
     NOTEBOOKS_DIRECTORY / "ifrs9" / "data-generation.ipynb",
