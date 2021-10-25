@@ -40,6 +40,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |<sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
 |                   <sub>[COVID-19 Season Impact on Baseball Stats](./notebooks/baseball/main.ipynb)</sub>                   |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
+|                            <sub>[Customer 360](./notebooks/customer360/02-main-vertica-db.ipynb)</sub>                             |           <sub>insurance</sub>            |                        <sub>Customer 360</sub>                         |    <sub>sql connector</sub>    |                                                        |
 |                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>food processing</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
 |           <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>           |        <sub>social media</sub>        |            <sub>sentiment analysis, return forecasting</sub>             |                                   | <sub>time series forecasting, hypothesis testing<sub/> |
 |                                <sub>[Formula one](./notebooks/formula-one/main.ipynb)</sub>                                |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
@@ -124,6 +125,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 ##### insurance
 
+- [Customer 360](./notebooks/customer360/02-main-vertica-db.ipynb)
 - [Subpopulation Analysis to see if model can be put into Production](./notebooks/sub-population-analysis/main.ipynb)
 
 ##### pharmaceutical
