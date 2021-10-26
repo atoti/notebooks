@@ -12,6 +12,7 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "ca-solar" / "02-fire-data-sourcing.ipynb",
     NOTEBOOKS_DIRECTORY / "customer-churn" / "0_prepare_data.ipynb",
     NOTEBOOKS_DIRECTORY / "customer-churn" / "1_create_models.ipynb",
+    NOTEBOOKS_DIRECTORY / "customer360" / "01-Dataupload-to-Vertica.ipynb",
     NOTEBOOKS_DIRECTORY / "ifrs9" / "data-generation.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "01_tweets_mining.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "02_sentiment.ipynb",
@@ -28,19 +29,24 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     / "influencers-analysis"
     / "notebooks"
     / "2_analyze_topics.ipynb",
+    NOTEBOOKS_DIRECTORY / "var-benchmark" / "data_generator.ipynb",  # Timeout
+]
+NOTEBOOKS_WTIH_ALT_DS = [
+    NOTEBOOKS_DIRECTORY / "customer360" / "02-main-vertica-db.ipynb",
 ]
 NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
     / "real-time-risk"
     / _MAIN,  # SyntaxError: invalid syntax (simple.py, line 54) TO FIX
     NOTEBOOKS_DIRECTORY / "reddit" / _MAIN,  # http 401 error TO FIX
-    NOTEBOOKS_DIRECTORY / "var-benchmark" / "data_generator.ipynb",  # Timeout
     NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN,  # data generation timeout TO FIX
     NOTEBOOKS_DIRECTORY
     / "geopricing"
     / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
 ]
-NOTEBOOKS_TO_SKIP = DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS
+NOTEBOOKS_TO_SKIP = (
+    DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS + NOTEBOOKS_WTIH_ALT_DS
+)
 
 
 def execute_notebooks():
