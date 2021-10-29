@@ -37,6 +37,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                                                         Notebooks                                                          |               Industry                |                                 Use Case                                 |          atoti Features           |                  Data Science Topics                   |
 | :------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------: | :----------------------------------------------------------------------: | :-------------------------------: | :----------------------------------------------------: |
 |            <sub>[Airline Industry](./notebooks/airline-industry/main.ipynb)</sub>           |          <sub>airline</sub>           |                   <sub>revenue analysis, what-if scenarios</sub>                    |                                   |                                                        
+|            <sub>[Burrito Dashboard](./notebooks/burritos/main.ipynb)</sub>           |          <sub>food processing</sub>           |                                       |                                   |                                                        
 |<sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
 |                   <sub>[COVID-19 Season Impact on Baseball Stats](./notebooks/baseball/main.ipynb)</sub>                   |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
@@ -115,7 +116,8 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [XVA](./notebooks/xva/main.ipynb)
     
 ##### food processing
-
+    
+- [Burrito dashboard](./notebooks/burritos/main.ipynb) 
 - [Food processing](./notebooks/food-processing/main.ipynb)
 - [Wine analytics](./notebooks/wine-analytics/main.ipynb)  
     
