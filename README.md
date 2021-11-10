@@ -65,6 +65,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                                  <sub>[Topcount](./notebooks/topcount/atoti.ipynb)</sub>                                   |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                              <sub>[Value at Risk](./notebooks/value-at-risk/main.ipynb)</sub>                              |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
 |                    <sub>[Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)</sub>                     |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
+|                               <sub>[Veteran Employment](./notebooks/veteran-emp/main.ipynb)</sub>                          |          <sub>administrative</sub>    |                         <sub>guides</sub>                        |                                   |                                                        |
 | <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub>  |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 | <sub>[Wine analytics](./notebooks/wine-analytics/main.ipynb)</sub>  |           <sub>food processing</sub>            |                                                   |                                   |                                                        |
 | <sub>[World Population](./notebooks/world-population/main.ipynb)</sub>  |           <sub>social</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
@@ -95,6 +96,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 ##### administrative
 - [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)
+- [Veteran Employment](./notebooks/veteran-emp/main.ipynb)
 
 ##### airline
 - [Airline Industry](./notebooks/airline-industry/main.ipynb)
@@ -186,6 +188,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Topcount](./notebooks/topcount/atoti.ipynb)
 - [Rollup hierarchy with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)
+- [Veteran Employment](./notebooks/veteran-emp/main.ipynb)
 
 ##### inventory management
 
