@@ -33,7 +33,6 @@ s3fs = "^2021.10.0"
 sqlalchemy = "^1.4.26"
 sqlalchemy-vertica-python = "0.5.10"
 
-
 [tool.poetry.dev-dependencies]
 black-nb = "^0.5.0"
 black = "^21.6b0"

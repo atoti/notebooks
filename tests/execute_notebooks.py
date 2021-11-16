@@ -13,6 +13,10 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "customer-churn" / "0_prepare_data.ipynb",
     NOTEBOOKS_DIRECTORY / "customer-churn" / "1_create_models.ipynb",
     NOTEBOOKS_DIRECTORY / "customer360" / "01-Dataupload-to-Vertica.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "credit-card-fraud-detection"
+    / "01-Synthetic-data-generation.ipynb",
+    NOTEBOOKS_DIRECTORY / "credit-card-fraud-detection" / "02_AutoML_PyCaret.ipynb",
     NOTEBOOKS_DIRECTORY / "ifrs9" / "data-generation.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "01_tweets_mining.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "02_sentiment.ipynb",
@@ -43,6 +47,9 @@ NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
     / "geopricing"
     / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
+    NOTEBOOKS_DIRECTORY
+    / "credit-card-fraud-detection"
+    / "main.ipynb",  # pycaret and spacy versioning issue
 ]
 NOTEBOOKS_TO_SKIP = (
     DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS + NOTEBOOKS_WTIH_ALT_DS
