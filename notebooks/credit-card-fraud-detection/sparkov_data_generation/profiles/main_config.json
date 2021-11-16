@@ -1,0 +1,134 @@
+{
+	"adults_50up_male_urban.json": {
+		"gender": "M",
+		"age": {
+			"min": 50,
+			"max": -1
+		},
+		"city_pop": {
+			"min": 2500,
+			"max": -1
+		}
+	},
+	"adults_50up_female_urban.json": {
+		"gender": "F",
+		"age": {
+			"min": 50,
+			"max": -1
+		},
+		"city_pop": {
+			"min": 2500,
+			"max": -1
+		}
+	},
+	"adults_50up_male_rural.json": {
+		"gender": "M",
+		"age": {
+			"min": 50,
+			"max": -1
+		},
+		"city_pop": {
+			"min": 0,
+			"max": 2500
+		}
+	},
+	"adults_50up_female_rural.json": {
+		"gender": "F",
+		"age": {
+			"min": 50,
+			"max": -1
+		},
+		"city_pop": {
+			"min": 0,
+			"max": 2500
+		}
+	},
+	"adults_2550_male_urban.json": {
+		"gender": "M",
+		"age": {
+			"min": 25,
+			"max": 50
+		},
+		"city_pop": {
+			"min": 2500,
+			"max": -1
+		}
+	},
+	"adults_2550_female_urban.json": {
+		"gender": "F",
+		"age": {
+			"min": 25,
+			"max": 50
+		},
+		"city_pop": {
+			"min": 2500,
+			"max": -1
+		}
+	},
+	"adults_2550_male_rural.json": {
+		"gender": "M",
+		"age": {
+			"min": 25,
+			"max": 50
+		},
+		"city_pop": {
+			"min": 0,
+			"max": 2500
+		}
+	},
+	"adults_2550_female_rural.json": {
+		"gender": "F",
+		"age": {
+			"min": 25,
+			"max": 50
+		},
+		"city_pop": {
+			"min": 0,
+			"max": 2500
+		}
+	},
+	"young_adults_male_urban.json": {
+		"gender": "M",
+		"age": {
+			"min": 0,
+			"max": 25
+		},
+		"city_pop": {
+			"min": 2500,
+			"max": -1
+		}
+	},
+	"young_adults_female_urban.json": {
+		"gender": "F",
+		"age": {
+			"min": 0,
+			"max": 25
+		},
+		"city_pop": {
+			"min": 2500,
+			"max": -1
+		}
+	},
+	"young_adults_male_rural.json": {
+		"gender": "M",
+		"age": {
+			"min": 0,
+			"max": 25
+		},
+		"city_pop": {
+			"min": 0,
+			"max": 2500
+		}
+	},
+	"young_adults_female_rural.json": {
+		"gender": "F",
+		"age": {
+			"min": 0,
+			"max": 25
+		},
+		"city_pop": {
+			"min": 0,
+			"max": 2500
+		}
+	}
+}
