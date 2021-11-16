@@ -22,7 +22,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By use case
 
-[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [environmental](#environmental), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [environmental](#environmental), [fraud detection](#fraud-detection), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
@@ -40,6 +40,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |            <sub>[Burrito Dashboard](./notebooks/burritos/main.ipynb)</sub>           |          <sub>food processing</sub>           |                                       |                                   |                                                        
 |<sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
 |                   <sub>[COVID-19 Season Impact on Baseball Stats](./notebooks/baseball/main.ipynb)</sub>                   |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
+|                            <sub>[Credit card fraud detection](./notebooks/credit-card-fraud-detection/main.ipynb)</sub>                             |           <sub>finance</sub>            |                        <sub>fraud detection</sub>                         |    <sub>real time, model comparison</sub>    |       <sub>autoML</sub>       |
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
 |                            <sub>[Customer 360](./notebooks/customer360/02-main-vertica-db.ipynb)</sub>                             |           <sub>insurance</sub>            |                        <sub>Customer 360</sub>                         |    <sub>sql connector</sub>    |                                                        |
 |                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>food processing</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
@@ -53,7 +54,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |             <sub>[Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                        <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                        |        <sub>social media</sub>        |                        <sub>topic analysis</sub>                         |                                   |                     <sub>nlp</sub>                     |
 |                              <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                              |          <sub>finance</sub>           |                            <sub>trading</sub>                            |                                   |                                                        |
-|                              <sub>[object detection](./notebooks/object-detection/main.ipynb)</sub>                        |                                       |                            <sub>face detection</sub>                     |    <sub>real time</sub>           |                      <sub>Faster R-CNN</sub>           |
+|                              <sub>[Object Detection](./notebooks/object-detection/main.ipynb)</sub>                        |                                       |                            <sub>face detection</sub>                     |    <sub>real time</sub>           |                      <sub>Faster R-CNN</sub>           |
 | <sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
 |                            <sub>[Profiling Data](./notebooks/col-data-profile/main.ipynb)</sub>                            |           <sub>social</sub>           |                         <sub>data profiling</sub>                        |                                   |                                                        |
 |                        <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>                        |          <sub>finance</sub>           |                   <sub>trading, risk management</sub>                    |    <sub>kafka, real-time</sub>    |                                                        |
@@ -180,6 +181,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [solar](./notebooks/ca-solar/main.ipynb)
 
+##### fraud detection
+
+- [Credit card fraud detection](./notebooks/credit-card-fraud-detection/main.ipynb)
+
 ##### guides
 
 - [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)
@@ -256,13 +261,15 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 ##### model comparison
 
+- [Credit card fraud detection](./notebooks/credit-card-fraud-detection/main.ipynb)
 - [Customer Churns](./notebooks/customer-churn/main.ipynb)
 
 ##### multidimensional analysis 
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 
 ##### real-time
-    
+
+- [Credit card fraud detection](./notebooks/credit-card-fraud-detection/main.ipynb)
 - [Object Dectection](./notebooks/object-detection/main.ipynb)
 - [Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)
 - [XVA](./notebooks/xva/main.ipynb)
@@ -279,6 +286,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)
 
 #### By data science topics
+
+##### autoML
+
+- [Credit card fraud detection](./notebooks/credit-card-fraud-detection/main.ipynb)
 
 ##### bayes
 
