@@ -50,6 +50,9 @@ NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
     / "credit-card-fraud-detection"
     / "main.ipynb",  # pycaret and spacy versioning issue
+    NOTEBOOKS_DIRECTORY
+    / "sbm"
+    / "main.ipynb",  # broken in 0.6.3 https://github.com/atoti/atoti/issues/413
 ]
 NOTEBOOKS_TO_SKIP = (
     DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS + NOTEBOOKS_WTIH_ALT_DS
