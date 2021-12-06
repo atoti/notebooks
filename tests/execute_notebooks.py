@@ -16,7 +16,8 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY
     / "credit-card-fraud-detection"
     / "01-Synthetic-data-generation.ipynb",
-    NOTEBOOKS_DIRECTORY / "credit-card-fraud-detection" / "02_AutoML_PyCaret.ipynb",
+    NOTEBOOKS_DIRECTORY / "credit-card-fraud-detection" / "02-AutoML-PyCaret-anomaly.ipynb",
+    NOTEBOOKS_DIRECTORY / "credit-card-fraud-detection" / "03-AutoML-PyCaret-classification.ipynb",
     NOTEBOOKS_DIRECTORY / "ifrs9" / "data-generation.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "01_tweets_mining.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "02_sentiment.ipynb",
