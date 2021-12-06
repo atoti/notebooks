@@ -51,6 +51,16 @@ These commands can be used while developing:
   poetry run python tests/execute_notebooks.py
   ```
 
+### How to write a notebook
+
+1. Pull the `master` branch (`git checkout master` and `git pull`).
+2. Run `poetry install` to be in the latest defined environment.
+3. Create the working branch `git checkout -b <PSEUDO>/<SUBJECT>`.
+4. Start jupyter-lab `poetry run jupyter-lab`.
+5. Create your folder and your notebooks, add notebooks to process data to the list of untested notebooks, only **notebooks using atoti MUST be tested**.
+6. If a dependency is missing run `poetry add <DEPENDENCY_NAME>`: **DEPENDENCIES MUST NOT BEEN ADDED WITH CONDA OR PIP**.
+7. Push your changes `git push` and create the related pull request.
+
 ### About
 
 Checkout [atoti.io](https://www.atoti.io) for more info!
