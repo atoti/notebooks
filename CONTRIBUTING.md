@@ -57,9 +57,9 @@ These commands can be used while developing:
 2. Run `poetry install` to be in the latest defined environment.
 3. Create the working branch `git checkout -b <PSEUDO>/<SUBJECT>`.
 4. Start jupyter-lab `poetry run jupyter-lab`.
-5. Create your folder and your notebooks, add notebooks to process data to the list of untested notebooks, only **notebooks using atoti MUST be tested**.
-6. If a dependency is missing run `poetry add <DEPENDENCY_NAME>`: **DEPENDENCIES MUST NOT BEEN ADDED WITH CONDA OR PIP**.
-7. Push your changes `git push` and create the related pull request.
+5. Create the folder and notebooks, add notebooks to process data to the list of untested notebooks, only **notebooks using atoti MUST be tested**.
+6. If a dependency is missing run `poetry add <DEPENDENCY_NAME>`: **DEPENDENCIES MUST NOT BEEN ADDED WITH CONDA OR PIP** since the Github CI is relying on the `poetry.lock` file to install dependencies.
+7. Push changes using `git push` and create the related pull request.
 
 ### About
 
