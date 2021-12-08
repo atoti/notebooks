@@ -16,7 +16,12 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY
     / "credit-card-fraud-detection"
     / "01-Synthetic-data-generation.ipynb",
-    NOTEBOOKS_DIRECTORY / "credit-card-fraud-detection" / "02_AutoML_PyCaret.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "credit-card-fraud-detection"
+    / "02-AutoML-PyCaret-anomaly.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "credit-card-fraud-detection"
+    / "03-AutoML-PyCaret-classification.ipynb",
     NOTEBOOKS_DIRECTORY / "ifrs9" / "data-generation.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "01_tweets_mining.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "02_sentiment.ipynb",
@@ -47,9 +52,9 @@ NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
     / "geopricing"
     / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
-    NOTEBOOKS_DIRECTORY
-    / "credit-card-fraud-detection"
-    / "main.ipynb",  # pycaret and spacy versioning issue
+    # NOTEBOOKS_DIRECTORY
+    # / "credit-card-fraud-detection"
+    # / "main.ipynb",  # pycaret and spacy versioning issue
     NOTEBOOKS_DIRECTORY
     / "sbm"
     / "main.ipynb",  # broken in 0.6.3 https://github.com/atoti/atoti/issues/413
