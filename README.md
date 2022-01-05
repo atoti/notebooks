@@ -22,7 +22,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By use case
 
-[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [digital-marketing](#digital-marketing), [environmental](#environmental), [fraud detection](#fraud-detection), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sales-cube](#sales-cube), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [digital-marketing](#digital-marketing), [environmental](#environmental), [fraud detection](#fraud-detection), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sales-commission](#sales-commission), [sales-cube](#sales-cube), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
@@ -45,7 +45,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                            <sub>[Customer 360](./notebooks/customer360/02-main-vertica-db.ipynb)</sub>                             |           <sub>insurance</sub>            |                        <sub>Customer 360</sub>                         |    <sub>sql connector</sub>    |                                                        |
 |                            <sub>[Digital Marketing Dasboard](./notebooks/digital-markting-dashboard/main.ipynb)</sub>              |           <sub>digital-marketing</sub>    |                        <sub>Digital Marketing Dasboard</sub>           |  <sub>multidimensional analysis</sub> |                                                        |
 |                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>food processing</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
-|           <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>           |        <sub>social media</sub>        |            <sub>sentiment analysis, return forecasting</sub>             |                                   | <sub>time series forecasting, hypothesis testing<sub/> |
+|           <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>           |        <sub>social media</sub>        |            <sub>sentiment analysis, return forecasting</sub>             |                                   | <sub>time series forecasting, hypothesis testing</sub> |
 |                                <sub>[Formula one](./notebooks/formula-one/main.ipynb)</sub>                                |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                                     <sub>[FRTB SBM](./notebooks/sbm/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
 |                                <sub> [GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                 |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
@@ -61,6 +61,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                        <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>                        |          <sub>finance</sub>           |                   <sub>trading, risk management</sub>                    |    <sub>kafka, real-time</sub>    |                                                        |
 |             <sub>[Rollup Hierarchies with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                                     <sub>[SA-CCR](./notebooks/sa-ccr/main.ipynb)</sub>                                     |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |                                   |                                                        |
+|                                     <sub>[Sales-commission](./notebooks/sales-commission/main.ipynb)</sub>                             |<sub>retail</sub>                                       |                   <sub>sales</sub>                          |  <sub>multidimensional analysis, non-linear aggregation<sub>      |                                                        |
 |                                     <sub>[Sales-cube](./notebooks/sales_cube/main.ipynb)</sub>                             |                                       |                   <sub>sales cube</sub>                          |  <sub>multidimensional analysis<sub>      |                                                        |
 |                   <sub>[Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)</sub>                   |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
 |                                 <sub>[Solar](./notebooks/ca-solar/main.ipynb)</sub>                                        |         <sub>energy</sub>             |                    <sub>environmental</sub>                              |                                   |                                                        |
@@ -146,6 +147,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [GeoPricing](./notebooks/geopricing/main.ipynb)
 - [Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)
+- [Sales Commission](./notebooks/sales-commission/main.ipynb)
 
 ##### social    
 - [Profiling Data](./notebooks/col-data-profile/main.ipynb)
@@ -278,6 +280,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### multidimensional analysis 
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Digital Marketing Dashboard](./notebooks/digital-marketing-dashboard/main.ipynb)
+- [Sales Commission](./notebooks/sales-commission/main.ipynb)
 - [Sales Cube](./notebooks/sales_cube/main.ipynb)
 
 ##### real-time
