@@ -43,6 +43,32 @@ DATA_PREPROCESSING_NOTEBOOKS = [
 NOTEBOOKS_WTIH_ALT_DS = [
     NOTEBOOKS_DIRECTORY / "customer360" / "02-main-vertica-db.ipynb",
 ]
+NON_ATOTI_NOTEBOOKS = [
+    NOTEBOOKS_DIRECTORY
+    / "wildfire-prediction"
+    / "notebooks"
+    / "0-prepare-the-datasets.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "wildfire-prediction"
+    / "notebooks"
+    / "1-roll-the-datasets.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "wildfire-prediction"
+    / "notebooks"
+    / "2-extract-the-features-test.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "wildfire-prediction"
+    / "notebooks"
+    / "2-extract-the-features-train.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "wildfire-prediction"
+    / "notebooks"
+    / "2-extract-the-features-val.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "wildfire-prediction"
+    / "notebooks"
+    / "3-classification-with-OPLS.ipynb",
+]
 NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
     / "real-time-risk"
@@ -60,7 +86,10 @@ NOTEBOOKS_WITH_ERRORS = [
     / "main.ipynb",  # broken in 0.6.3 https://github.com/atoti/atoti/issues/413
 ]
 NOTEBOOKS_TO_SKIP = (
-    DATA_PREPROCESSING_NOTEBOOKS + NOTEBOOKS_WITH_ERRORS + NOTEBOOKS_WTIH_ALT_DS
+    DATA_PREPROCESSING_NOTEBOOKS
+    + NOTEBOOKS_WITH_ERRORS
+    + NOTEBOOKS_WTIH_ALT_DS
+    + NON_ATOTI_NOTEBOOKS
 )
 
 
