@@ -38,7 +38,6 @@ opencv-python = "4.4.0.46"
 watchdog = "^2.1.6"
 QuantLib = "^1.25"
 kafka-python = "^2.0.2"
-xgboost = "^1.5.2"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.5.0"
