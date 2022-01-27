@@ -22,15 +22,15 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By use case
 
-[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [digital-marketing](#digital-marketing), [environmental](#environmental), [fraud detection](#fraud-detection), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sales-commission](#sales-commission), [sales-cube](#sales-cube), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [digital-marketing](#digital-marketing), [environmental](#environmental), [fraud detection](#fraud-detection), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [price elasticity](#price-elasticity), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sales-commission](#sales-commission), [sales-cube](#sales-cube), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
-[kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis)
+[kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis), [what-if](#what-if)
 
 #### By data science topics
 
-[bayes](#bayes), [Faster R-CNN](#Faster-R-CNN), [hypothesis testing](#hypothesis-testing), [k-means clustering](#k-means-clustering), [logistic regression](#logistic-regression), [neural network](#neural-network), [nlp](#nlp), [statistics](#statistics), [time series forecasting](#time-series-forecasting), [SVM](#svm)
+[bayes](#bayes), [Faster R-CNN](#Faster-R-CNN), [hypothesis testing](#hypothesis-testing), [k-means clustering](#k-means-clustering), [logistic regression](#logistic-regression), [neural network](#neural-network), [nlp](#nlp), [statistics](#statistics), [time series forecasting](#time-series-forecasting), [SVM](#svm), [XGBoost](#XGBoost)
 
 ### Notebooks
 
@@ -56,7 +56,8 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                        <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                        |        <sub>social media</sub>        |                        <sub>topic analysis</sub>                         |                                   |                     <sub>nlp</sub>                     |
 |                              <sub>[PnL Explained](./notebooks/pnl-explained/main.ipynb)</sub>                              |          <sub>finance</sub>           |                            <sub>trading</sub>                            |                                   |                                                        |
 |                              <sub>[Object Detection](./notebooks/object-detection/main.ipynb)</sub>                        |                                       |                            <sub>face detection</sub>                     |    <sub>real time</sub>           |                      <sub>Faster R-CNN</sub>           |
-| <sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
+|                              <sub>[Price Elasticity of Demand](./notebooks/price-elasticity/main.ipynb)</sub>                        |          <sub>insurance</sub>           |                          <sub>price elasticity</sub>                   | <sub>what if, scenaio simulations</sub>|                 <sub>XGBoost</sub>                |
+|<sub>[Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)</sub> |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
 |                            <sub>[Profiling Data](./notebooks/col-data-profile/main.ipynb)</sub>                            |           <sub>social</sub>           |                         <sub>data profiling</sub>                        |                                   |                                                        |
 |                        <sub>[Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)</sub>                        |          <sub>finance</sub>           |                   <sub>trading, risk management</sub>                    |    <sub>kafka, real-time</sub>    |                                                        |
 |             <sub>[Rollup Hierarchies with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
@@ -137,6 +138,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### insurance
 
 - [Customer 360](./notebooks/customer360/02-main-vertica-db.ipynb)
+- [Price Elasticity of Demand](./notebooks/price-elasticity.ipynb)    
 - [Subpopulation Analysis to see if model can be put into Production](./notebooks/sub-population-analysis/main.ipynb)
 
 ##### pharmaceutical
@@ -294,6 +296,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [Subpopulation Analysis to see if model can be put into Production](./notebooks/sub-population-analysis/main.ipynb)
 
+##### what-if
+
+- [Price Elasticity of Demand](./notebooks/price-elasticity.ipynb)   
+    
 ##### vector aggregation
 
 - [Food processing](./notebooks/food-processing/main.ipynb)
@@ -349,3 +355,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 ##### SVM
 
 - [Customer Churns](./notebooks/customer-churn/main.ipynb)
+    
+##### XGBoost
+    
+- [Price Elasticity of Demand](./notebooks/price-elasticity.ipynb)   
