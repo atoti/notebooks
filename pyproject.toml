@@ -41,7 +41,7 @@ kafka-python = "^2.0.2"
 xgboost = "^1.5.2"
 
 [tool.poetry.dev-dependencies]
-black-nb = "^0.5.0"
+black-nb = "^0.6"
 black = {extras = ["jupyter"], version = "^21.6b0"}
 
 [build-system]
