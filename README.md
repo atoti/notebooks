@@ -41,6 +41,8 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |<sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
 |                   <sub>[COVID-19 Season Impact on Baseball Stats](./notebooks/baseball/main.ipynb)</sub>                   |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 |                            <sub>[Credit card fraud detection](./notebooks/credit-card-fraud-detection/main.ipynb)</sub>                             |           <sub>finance</sub>            |                        <sub>fraud detection</sub>                         |    <sub>real time, model comparison</sub>    |       <sub>autoML</sub>       |
+| <sub>[Currency Conversion](./notebooks/currency-conversion/main.ipynb)</sub>                        |                         |                   <sub>guides</sub>                    |    <sub></sub>    |      
+| <sub>[Currency Conversion with Weighted Averages](./notebooks/currency-conv-with-weighted-ave/main.ipynb)</sub>                        |                         |                   <sub>guides</sub>                    |    <sub></sub>    |      
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
 |                            <sub>[Customer 360](./notebooks/customer360/02-main-vertica-db.ipynb)</sub>                             |           <sub>insurance</sub>            |                        <sub>Customer 360</sub>                         |    <sub>sql connector</sub>    |                                                        |
 |                            <sub>[Digital Marketing Dasboard](./notebooks/digital-markting-dashboard/main.ipynb)</sub>              |           <sub>digital-marketing</sub>    |                        <sub>Digital Marketing Dasboard</sub>           |  <sub>multidimensional analysis</sub> |                                                        |
@@ -72,6 +74,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                    <sub>[Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)</sub>                     |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
 |                               <sub>[Veteran Employment](./notebooks/veteran-emp/main.ipynb)</sub>                          |          <sub>administrative</sub>    |                         <sub>guides</sub>                        |                                   |                                                        |
 | <sub>[Video assistant referee impact in soccer premier league](./notebooks/var-impact-in-premier-league/main.ipynb)</sub>  |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
+| <sub>[Weighted Averages](./notebooks/weighted-averages/main.ipynb)</sub>                        |                         |                   <sub>guides</sub>                    |    <sub></sub>    |      
 | <sub>[Wine analytics](./notebooks/wine-analytics/main.ipynb)</sub>  |           <sub>food processing</sub>            |                                                   |                                   |                                                        |
 | <sub>[World Population](./notebooks/world-population/main.ipynb)</sub>  |           <sub>social</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
 | <sub>[XVA](./notebooks/xva/main.ipynb)</sub>                        |          <sub>finance</sub>           |                   <sub>trading, risk management, rule what-if</sub>                    |    <sub>kafka, real-time</sub>    |                                                        |
@@ -201,11 +204,15 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 ##### guides
 
+- [Currency Conversion](./notebooks/currency-conversion/atoti.ipynb)
+- [Currency Conversion with Weighted Averages](./notebooks/currency-conv-with-weighted-ave/main.ipynb)
 - [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Topcount](./notebooks/topcount/atoti.ipynb)
 - [Rollup hierarchy with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)
 - [Veteran Employment](./notebooks/veteran-emp/main.ipynb)
+- [Weighted Averages](./notebooks/weighted-averages/main.ipynb)
+
 
 ##### inventory management
 
