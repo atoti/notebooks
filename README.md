@@ -26,7 +26,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By atoti features
 
-[Excel - XMLA connector](#excel-xmla-connector), [kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis), [what-if](#what-if)
+[excel - xmla connector](#excel-xmla-connector), [kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis), [what-if](#what-if)
 
 #### By data science topics
 
