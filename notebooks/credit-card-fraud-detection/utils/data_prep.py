@@ -101,8 +101,8 @@ def get_spending_features(txn, windows_size=[1, 7, 30]):
         avg_trans_amt = rolling_tx_amt / roll_tx_cnt
 
         # create as new columns
-        txn[f"nb_trans_{size}days"] = list(roll_tx_cnt)
-        txn[f"cust_avg_amt_{size}days"] = list(avg_trans_amt)
+        txn[f"nb_txns_{size}_days"] = list(roll_tx_cnt)
+        txn[f"avg_txns_amt_{size}_days"] = list(avg_trans_amt)
 
     # Reindex according to transaction IDs
     txn.index = txn.trans_num
@@ -178,7 +178,7 @@ def merchant_cleanup(txns_df):
     return processed_merchants
 
 
-def compute_features(cust_df, txns_df, ignore_cust=False):
+def compute_features(cust_df, txns_df, ignore_features=False):
     """
     This function computes additional features for machine learning:
         - age of customer
@@ -202,7 +202,7 @@ def compute_features(cust_df, txns_df, ignore_cust=False):
 
     # compute age of customer
     cc_txn_df["trans_date"] = pd.to_datetime(cc_txn_df["trans_date"])
-    if ignore_cust == False:
+    if ignore_features == False:
         cc_txn_df["age"] = cc_txn_df["dob"].apply(calculate_age)
 
     # compute distance between merchant and customer
@@ -224,9 +224,10 @@ def compute_features(cust_df, txns_df, ignore_cust=False):
     cc_txn_df["trans_weekend"] = cc_txn_df.trans_date.apply(is_weekend)
 
     # get number of txns and amount spent in the past 1, 7, 30 days
-    cc_txn_df = cc_txn_df.groupby("acct_num").apply(
-        lambda x: get_spending_features(x, windows_size=[1, 7, 30])
-    )
+    if ignore_features == False:
+        cc_txn_df = cc_txn_df.groupby("acct_num").apply(
+            lambda x: get_spending_features(x, windows_size=[1, 7, 30])
+        )
 
     cc_txn_df = cc_txn_df.sort_values(by=["trans_date", "trans_time"]).reset_index(
         drop=True
