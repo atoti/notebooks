@@ -54,10 +54,12 @@ These commands can be used while developing:
 ### How to write a notebook
 
 1. Pull the `master` branch (`git checkout master` and `git pull`).
-2. Run `poetry install` to be in the latest defined environment.
-3. Create the working branch `git checkout -b <PSEUDO>/<SUBJECT>`.
-4. Start jupyter-lab `poetry run jupyter-lab`.
-5. Create the folder and notebooks, add notebooks to process data to the list of untested notebooks, only **notebooks using atoti MUST be tested**.
+2. Run `poetry install` to be sure to work with the expected dependencies.
+3. Create the working branch `git switch -c <PSEUDO>/<SUBJECT>`.
+4. Start JupyterLab `poetry run jupyter lab`.
+5. Create the folder and notebooks.
+    Add notebooks responsible for data pre-processing to the list of untested notebooks.
+    The main notebook using atoti should be tested to ensure users can run them.
 6. If a dependency is missing run `poetry add <DEPENDENCY_NAME>`: **DEPENDENCIES MUST NOT BEEN ADDED WITH CONDA OR PIP** since the Github CI is relying on the `poetry.lock` file to install dependencies.
 7. Push changes using `git push` and create the related pull request.
 
