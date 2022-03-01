@@ -95,7 +95,7 @@ NON_ATOTI_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY
     / "collateral-shortfall-forecast"
     / "notebooks"
-    / "6-create-forecasting-models.ipynb"
+    / "6-create-forecasting-models.ipynb",
 ]
 NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
