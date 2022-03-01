@@ -39,6 +39,8 @@ watchdog = "^2.1.6"
 QuantLib = "^1.25"
 kafka-python = "^2.0.2"
 xgboost = "^1.5.2"
+natsort = "8.0.0"
+tabulate = "0.8.9"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.5.0"
