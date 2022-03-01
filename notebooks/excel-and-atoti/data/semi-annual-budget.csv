@@ -1,0 +1,183 @@
+﻿PERIOD,BUDGET_TYPE,BUDGET_SUBTYPE,CATEGORY,ESTIMATED,ACTUAL
+2021-01-01,Income,Income,Net sales,60000,54000
+2021-01-01,Income,Income,Interest income,3000,3000
+2021-01-01,Income,Income,Asset sales (gain/loss),300,450
+2021-01-01,Expenses,Personnel,Wages,9500,9600
+2021-01-01,Expenses,Personnel,Employee benefits,4000,0
+2021-01-01,Expenses,Personnel,Commission,5000,4500
+2021-01-01,Expenses,Operating,Advertising,3000,2500
+2021-01-01,Expenses,Operating,Bad debts,2000,2000
+2021-01-01,Expenses,Operating,Cash discounts,1500,2175
+2021-01-01,Expenses,Operating,Delivery costs,2000,1500
+2021-01-01,Expenses,Operating,Depreciation,1000,1000
+2021-01-01,Expenses,Operating,Dues and subscriptions,500,525
+2021-01-01,Expenses,Operating,Insurance,1300,1275
+2021-01-01,Expenses,Operating,Interest,2000,2200
+2021-01-01,Expenses,Operating,Legal and auditing,1000,800
+2021-01-01,Expenses,Operating,Maintenance and repairs,4500,4600
+2021-01-01,Expenses,Operating,Office supplies,800,750
+2021-01-01,Expenses,Operating,Postage,400,350
+2021-01-01,Expenses,Operating,Rent or mortgage,4100,4500
+2021-01-01,Expenses,Operating,Sales expenses,350,400
+2021-01-01,Expenses,Operating,Shipping and storage,900,840
+2021-01-01,Expenses,Operating,Supplies,5000,4500
+2021-01-01,Expenses,Operating,Taxes,3000,3200
+2021-01-01,Expenses,Operating,Telephone,250,280
+2021-01-01,Expenses,Operating,Utilities,1400,1385
+2021-01-01,Expenses,Operating,Other,1000,750
+2021-02-01,Income,Income,Net sales,68400,45900
+2021-02-01,Income,Income,Interest income,3510,3570
+2021-02-01,Income,Income,Asset sales (gain/loss),300,562.5
+2021-02-01,Expenses,Personnel,Wages,10355,8448
+2021-02-01,Expenses,Personnel,Employee benefits,3400,1496
+2021-02-01,Expenses,Personnel,Commission,5600,4140
+2021-02-01,Expenses,Operating,Advertising,2400,2500
+2021-02-01,Expenses,Operating,Bad debts,2120,1820
+2021-02-01,Expenses,Operating,Cash discounts,1725,2479.5
+2021-02-01,Expenses,Operating,Delivery costs,2000,1770
+2021-02-01,Expenses,Operating,Depreciation,1000,1250
+2021-02-01,Expenses,Operating,Dues and subscriptions,620,577.5
+2021-02-01,Expenses,Operating,Insurance,1300,1377
+2021-02-01,Expenses,Operating,Interest,2000,2662
+2021-02-01,Expenses,Operating,Legal and auditing,1170,808
+2021-02-01,Expenses,Operating,Maintenance and repairs,4950,4600
+2021-02-01,Expenses,Operating,Office supplies,800,930
+2021-02-01,Expenses,Operating,Postage,456,406
+2021-02-01,Expenses,Operating,Rent or mortgage,4182,4500
+2021-02-01,Expenses,Operating,Sales expenses,357,400
+2021-02-01,Expenses,Operating,Shipping and storage,738,873.6
+2021-02-01,Expenses,Operating,Supplies,5000,4275
+2021-02-01,Expenses,Operating,Taxes,2520,3200
+2021-02-01,Expenses,Operating,Telephone,307.5,280
+2021-02-01,Expenses,Operating,Utilities,1554,1385
+2021-02-01,Expenses,Operating,Other,1040,750
+2021-03-01,Income,Income,Net sales,63000,51840
+2021-03-01,Income,Income,Interest income,3000,3030
+2021-03-01,Income,Income,Asset sales (gain/loss),339,405
+2021-03-01,Expenses,Personnel,Wages,9500,10272
+2021-03-01,Expenses,Personnel,Employee benefits,4520,3254
+2021-03-01,Expenses,Personnel,Commission,5100,4500
+2021-03-01,Expenses,Operating,Advertising,3000,3000
+2021-03-01,Expenses,Operating,Bad debts,2000,1560
+2021-03-01,Expenses,Operating,Cash discounts,1500,2631.75
+2021-03-01,Expenses,Operating,Delivery costs,2000,1590
+2021-03-01,Expenses,Operating,Depreciation,920,990
+2021-03-01,Expenses,Operating,Dues and subscriptions,585,535.5
+2021-03-01,Expenses,Operating,Insurance,1365,1351.5
+2021-03-01,Expenses,Operating,Interest,2000,2574
+2021-03-01,Expenses,Operating,Legal and auditing,1000,856
+2021-03-01,Expenses,Operating,Maintenance and repairs,5085,4462
+2021-03-01,Expenses,Operating,Office supplies,728,750
+2021-03-01,Expenses,Operating,Postage,400,399
+2021-03-01,Expenses,Operating,Rent or mortgage,4879,5085
+2021-03-01,Expenses,Operating,Sales expenses,350,400
+2021-03-01,Expenses,Operating,Shipping and storage,900,848.4
+2021-03-01,Expenses,Operating,Supplies,5000,5220
+2021-03-01,Expenses,Operating,Taxes,2640,3200
+2021-03-01,Expenses,Operating,Telephone,250,280
+2021-03-01,Expenses,Operating,Utilities,1400,1204.95
+2021-03-01,Expenses,Operating,Other,1000,772.5
+2021-04-01,Income,Income,Net sales,63600,41580
+2021-04-01,Income,Income,Interest income,3270,3660
+2021-04-01,Income,Income,Asset sales (gain/loss),300,477
+2021-04-01,Expenses,Personnel,Wages,9500,9600
+2021-04-01,Expenses,Personnel,Employee benefits,5000,1600
+2021-04-01,Expenses,Personnel,Commission,4300,4500
+2021-04-01,Expenses,Operating,Advertising,3000,2575
+2021-04-01,Expenses,Operating,Bad debts,2160,2000
+2021-04-01,Expenses,Operating,Cash discounts,1545,2175
+2021-04-01,Expenses,Operating,Delivery costs,1540,1755
+2021-04-01,Expenses,Operating,Depreciation,1000,1170
+2021-04-01,Expenses,Operating,Dues and subscriptions,570,393.75
+2021-04-01,Expenses,Operating,Insurance,1313,1032.75
+2021-04-01,Expenses,Operating,Interest,2000,2200
+2021-04-01,Expenses,Operating,Legal and auditing,1000,736
+2021-04-01,Expenses,Operating,Maintenance and repairs,4950,5428
+2021-04-01,Expenses,Operating,Office supplies,968,750
+2021-04-01,Expenses,Operating,Postage,400,318.5
+2021-04-01,Expenses,Operating,Rent or mortgage,4100,4500
+2021-04-01,Expenses,Operating,Sales expenses,406,400
+2021-04-01,Expenses,Operating,Shipping and storage,900,982.8
+2021-04-01,Expenses,Operating,Supplies,5000,3735
+2021-04-01,Expenses,Operating,Taxes,3480,2816
+2021-04-01,Expenses,Operating,Telephone,260,215.6
+2021-04-01,Expenses,Operating,Utilities,1400,1412.7
+2021-04-01,Expenses,Operating,Other,1000,750
+2021-05-01,Income,Income,Net sales,65400,56700
+2021-05-01,Income,Income,Interest income,3690,2880
+2021-05-01,Income,Income,Asset sales (gain/loss),333,463.5
+2021-05-01,Expenses,Personnel,Wages,10925,8256
+2021-05-01,Expenses,Personnel,Employee benefits,4120,1575
+2021-05-01,Expenses,Personnel,Commission,4200,3420
+2021-05-01,Expenses,Operating,Advertising,3630,2500
+2021-05-01,Expenses,Operating,Bad debts,2400,1900
+2021-05-01,Expenses,Operating,Cash discounts,1515,2305.5
+2021-05-01,Expenses,Operating,Delivery costs,2240,1500
+2021-05-01,Expenses,Operating,Depreciation,890,1150
+2021-05-01,Expenses,Operating,Dues and subscriptions,500,477.75
+2021-05-01,Expenses,Operating,Insurance,1339,956.25
+2021-05-01,Expenses,Operating,Interest,1620,1650
+2021-05-01,Expenses,Operating,Legal and auditing,970,784
+2021-05-01,Expenses,Operating,Maintenance and repairs,4230,5566
+2021-05-01,Expenses,Operating,Office supplies,952,585
+2021-05-01,Expenses,Operating,Postage,352,350
+2021-05-01,Expenses,Operating,Rent or mortgage,3772,4725
+2021-05-01,Expenses,Operating,Sales expenses,353.5,400
+2021-05-01,Expenses,Operating,Shipping and storage,792,722.4
+2021-05-01,Expenses,Operating,Supplies,4500,4500
+2021-05-01,Expenses,Operating,Taxes,3570,3552
+2021-05-01,Expenses,Operating,Telephone,255,246.4
+2021-05-01,Expenses,Operating,Utilities,1288,1385
+2021-05-01,Expenses,Operating,Other,1000,742.5
+2021-06-01,Income,Income,Net sales,60000,61560
+2021-06-01,Income,Income,Interest income,2370,2670
+2021-06-01,Income,Income,Asset sales (gain/loss),252,450
+2021-06-01,Expenses,Personnel,Wages,10925,8160
+2021-06-01,Expenses,Personnel,Employee benefits,4040,2312
+2021-06-01,Expenses,Personnel,Commission,5600,4500
+2021-06-01,Expenses,Operating,Advertising,2490,2750
+2021-06-01,Expenses,Operating,Bad debts,1620,1580
+2021-06-01,Expenses,Operating,Cash discounts,1500,2175
+2021-06-01,Expenses,Operating,Delivery costs,2000,1605
+2021-06-01,Expenses,Operating,Depreciation,1010,820
+2021-06-01,Expenses,Operating,Dues and subscriptions,465,525
+2021-06-01,Expenses,Operating,Insurance,1404,1275
+2021-06-01,Expenses,Operating,Interest,2080,2200
+2021-06-01,Expenses,Operating,Legal and auditing,1000,840
+2021-06-01,Expenses,Operating,Maintenance and repairs,4050,4600
+2021-06-01,Expenses,Operating,Office supplies,888,780
+2021-06-01,Expenses,Operating,Postage,476,350
+2021-06-01,Expenses,Operating,Rent or mortgage,3362,4500
+2021-06-01,Expenses,Operating,Sales expenses,353.5,336
+2021-06-01,Expenses,Operating,Shipping and storage,900,856.8
+2021-06-01,Expenses,Operating,Supplies,4400,5535
+2021-06-01,Expenses,Operating,Taxes,3000,3776
+2021-06-01,Expenses,Operating,Telephone,250,282.8
+2021-06-01,Expenses,Operating,Utilities,1260,1509.65
+2021-06-01,Expenses,Operating,Other,10000,9950
+2021-07-01,Income,Income,Net sales,65400,56700
+2021-07-01,Income,Income,Interest income,3690,2880
+2021-07-01,Income,Income,Asset sales (gain/loss),333,463.5
+2021-07-01,Expenses,Personnel,Wages,10925,8256
+2021-07-01,Expenses,Personnel,Employee benefits,4120,1575
+2021-07-01,Expenses,Personnel,Commission,4200,3420
+2021-07-01,Expenses,Operating,Advertising,3630,2500
+2021-07-01,Expenses,Operating,Bad debts,2400,1900
+2021-07-01,Expenses,Operating,Cash discounts,1515,2305.5
+2021-07-01,Expenses,Operating,Delivery costs,2240,1500
+2021-07-01,Expenses,Operating,Depreciation,890,1150
+2021-07-01,Expenses,Operating,Dues and subscriptions,500,477.75
+2021-07-01,Expenses,Operating,Insurance,1339,956.25
+2021-07-01,Expenses,Operating,Interest,1620,1650
+2021-07-01,Expenses,Operating,Legal and auditing,970,784
+2021-07-01,Expenses,Operating,Maintenance and repairs,4230,5566
+2021-07-01,Expenses,Operating,Office supplies,952,585
+2021-07-01,Expenses,Operating,Postage,352,350
+2021-07-01,Expenses,Operating,Rent or mortgage,3772,4725
+2021-07-01,Expenses,Operating,Sales expenses,353.5,400
+2021-07-01,Expenses,Operating,Shipping and storage,792,722.4
+2021-07-01,Expenses,Operating,Supplies,4500,4500
+2021-07-01,Expenses,Operating,Taxes,3570,3552
+2021-07-01,Expenses,Operating,Telephone,255,246.4
+2021-07-01,Expenses,Operating,Utilities,1288,1385
+2021-07-01,Expenses,Operating,Other,1000,742.5

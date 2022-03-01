@@ -26,7 +26,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By atoti features
 
-[kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis), [what-if](#what-if)
+[excel - xmla connector](#excel-xmla-connector), [kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis), [what-if](#what-if)
 
 #### By data science topics
 
@@ -46,6 +46,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
 |                            <sub>[Customer 360](./notebooks/customer360/02-main-vertica-db.ipynb)</sub>                             |           <sub>insurance</sub>            |                        <sub>Customer 360</sub>                         |    <sub>sql connector</sub>    |                                                        |
 |                            <sub>[Digital Marketing Dasboard](./notebooks/digital-markting-dashboard/main.ipynb)</sub>              |           <sub>digital-marketing</sub>    |                        <sub>Digital Marketing Dasboard</sub>           |  <sub>multidimensional analysis</sub> |                                                        |
+|                            <sub>[Excel and atoti](./notebooks/excel-and-atoti/main.ipynb)</sub>                            |     <sub>tools</sub>      |              <sub>guides</sub>               |   <sub>Excel - XMLA connector</sub>   |   <sub></sub>   |
 |                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>food processing</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
 |           <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>           |        <sub>social media</sub>        |            <sub>sentiment analysis, return forecasting</sub>             |                                   | <sub>time series forecasting, hypothesis testing</sub> |
 |                                <sub>[Formula one](./notebooks/formula-one/main.ipynb)</sub>                                |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
@@ -206,6 +207,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [Currency Conversion](./notebooks/currency-conversion/atoti.ipynb)
 - [Currency Conversion with Weighted Averages](./notebooks/currency-conv-with-weighted-ave/main.ipynb)
+- [Excel and atoti](./notebooks/excel-and-atoti/main.ipynb)
 - [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Topcount](./notebooks/topcount/atoti.ipynb)
@@ -276,6 +278,9 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [XVA](./notebooks/xva/main.ipynb)
 
 #### By atoti features
+
+##### excel xmla connector
+- [Excel and atoti](./notebooks/excel-and-atoti/main.ipynb)
 
 ##### kafka
 
