@@ -68,6 +68,34 @@ NON_ATOTI_NOTEBOOKS = [
     / "wildfire-prediction"
     / "notebooks"
     / "3-classification-with-OPLS.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "collateral-shortfall-forecast"
+    / "notebooks"
+    / "0-download-stock-prices.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "collateral-shortfall-forecast"
+    / "notebooks"
+    / "1-prepare-the-data.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "collateral-shortfall-forecast"
+    / "notebooks"
+    / "2-decompose-time-series.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "collateral-shortfall-forecast"
+    / "notebooks"
+    / "3-partial-autocorrelations.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "collateral-shortfall-forecast"
+    / "notebooks"
+    / "4-roll-the-datasets.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "collateral-shortfall-forecast"
+    / "notebooks"
+    / "5-extract-the-features.ipynb",
+    NOTEBOOKS_DIRECTORY
+    / "collateral-shortfall-forecast"
+    / "notebooks"
+    / "6-create-forecasting-models.ipynb",
 ]
 NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
