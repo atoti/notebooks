@@ -1764,6 +1764,9 @@ category = "main"
 optional = false
 python-versions = ">=3.6"
 
+[package.dependencies]
+numpy = ">=1.17.3"
+
 [[package]]
 name = "openpyxl"
 version = "3.0.9"
@@ -3122,7 +3125,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8.0, !=3.9.7"
-content-hash = "7e3aa36b81cf5cdb0d65d6927755633bff0e683bd0e47e5f75694348177150e2"
+content-hash = "92c8bb8bd72fd391bcb9e4586cd738ea5f92ed831c6c6da6ddb947c5c3058ec4"
 
 [metadata.files]
 aiobotocore = [
