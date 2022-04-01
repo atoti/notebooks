@@ -81,7 +81,7 @@ def transform_gc_date(
 
         # we store the p-values for each test and each lag
         result["p-value"] = [p_values]  # ";".join(map(str, p_values))
-        
+
         f_chi2 = [round(gc_test_result[i + 1][0][test][0], 4) for i in range(maxlag)]
 
         if test in ["ssr_chi2test", "lrtest"]:
@@ -106,10 +106,8 @@ def transform_gc_date(
         if verbose:
             print(f"{test}  ---  Y = {r}, X = {c}, P Values = {p_values}")
 
-        tmp_df = pd.DataFrame(
-            data=result
-        )    
-            
+        tmp_df = pd.DataFrame(data=result)
+
         grangercausalitytests_df = pd.concat([grangercausalitytests_df, tmp_df])
 
     return grangercausalitytests_df
