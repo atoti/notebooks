@@ -80,35 +80,35 @@ def transform_gc_date(
         p_values = [round(gc_test_result[i + 1][0][test][1], 4) for i in range(maxlag)]
 
         # we store the p-values for each test and each lag
-        result["p-value"] = p_values  # ";".join(map(str, p_values))
+        result["p-value"] = [p_values]  # ";".join(map(str, p_values))
 
         f_chi2 = [round(gc_test_result[i + 1][0][test][0], 4) for i in range(maxlag)]
 
         if test in ["ssr_chi2test", "lrtest"]:
-            result["chi2"] = f_chi2  # ";".join(map(str, f_chi2))
+            result["chi2"] = [f_chi2]  # ";".join(map(str, f_chi2))
 
             df_chi = [
                 round(gc_test_result[i + 1][0][test][2], 4) for i in range(maxlag)
             ]
-            result["df"] = df_chi  # ";".join(map(str, df_chi))
+            result["df"] = [df_chi]  # ";".join(map(str, df_chi))
         else:
-            result["F"] = f_chi2  # ";".join(map(str, f_chi2))
+            result["F"] = [f_chi2]  # ";".join(map(str, f_chi2))
             df_denom = [
                 round(gc_test_result[i + 1][0][test][2], 4) for i in range(maxlag)
             ]
-            result["df_denom"] = df_denom  # ";".join(map(str, df_denom))
+            result["df_denom"] = [df_denom]  # ";".join(map(str, df_denom))
 
             df_num = [
                 round(gc_test_result[i + 1][0][test][3], 4) for i in range(maxlag)
             ]
-            result["df_num"] = df_num  # ";".join(map(str, df_num))
+            result["df_num"] = [df_num]  # ";".join(map(str, df_num))
 
         if verbose:
             print(f"{test}  ---  Y = {r}, X = {c}, P Values = {p_values}")
 
-        grangercausalitytests_df = grangercausalitytests_df.append(
-            result, ignore_index=True
-        )
+        tmp_df = pd.DataFrame(data=result)
+
+        grangercausalitytests_df = pd.concat([grangercausalitytests_df, tmp_df])
 
     return grangercausalitytests_df
 
@@ -255,7 +255,7 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
         # we generate index from the last date for a period equivalent to the size of the forecast
         last_date = df_scaled.tail(1).index.get_level_values("date").to_pydatetime()[0]
         date_indices = pd.date_range(
-            start=last_date, periods=(forecast_steps + 1), closed="right"
+            start=last_date, periods=(forecast_steps + 1), inclusive="right"
         )
         pred_df = pd.DataFrame(
             pred_transform,

@@ -8,3 +8,4 @@ __pycache__/
 
 # Database logs
 *trace.db
+notebooks/credit-card-fraud-detection/logs.log
