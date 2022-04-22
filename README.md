@@ -22,7 +22,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By use case
 
-[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [digital-marketing](#digital-marketing), [environmental](#environmental), [fraud detection](#fraud-detection), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [price elasticity](#price-elasticity), [product classification](#product-classification), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sales-commission](#sales-commission), [sales-cube](#sales-cube), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [digital-marketing](#digital-marketing), [environmental](#environmental), [fraud detection](#fraud-detection), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [price elasticity](#price-elasticity), [product classification](#product-classification), [productionizing](#productionizing), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sales-commission](#sales-commission), [sales-cube](#sales-cube), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
@@ -50,6 +50,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>food processing</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
 |           <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>           |        <sub>social media</sub>        |            <sub>sentiment analysis, return forecasting</sub>             |                                   | <sub>time series forecasting, hypothesis testing</sub> |
 |                                <sub>[Formula one](./notebooks/formula-one/main.ipynb)</sub>                                |           <sub>sport</sub>            |                         <sub>rule what-if</sub>                          |                                   |                                                        |
+|                                <sub>[French presidential election 2022](./notebooks/french-presidential-election/main.ipynb)</sub>                                |           <sub>politics</sub>            |                         <sub>guide, productionizing</sub>                          |                                   |                                                        |
 |                                     <sub>[FRTB SBM](./notebooks/sbm/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
 |                                <sub> [GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                 |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
 |                             <sub> [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)</sub>                                |      <sub>administrative</sub>        |                            <sub>guides</sub>                             |                                   |                                                        |
@@ -208,6 +209,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Currency Conversion](./notebooks/currency-conversion/atoti.ipynb)
 - [Currency Conversion with Weighted Averages](./notebooks/currency-conv-with-weighted-ave/main.ipynb)
 - [Excel and atoti](./notebooks/excel-and-atoti/main.ipynb)
+- [French presidential election 2022](./notebooks/french-presidential-election/main.ipynb)
 - [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Topcount](./notebooks/topcount/atoti.ipynb)
@@ -234,6 +236,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [GeoPricing](./notebooks/geopricing/main.ipynb)
 - [Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)
+
+##### product productionizing
+
+- [French presidential election 2022](./notebooks/french-presidential-election/main.ipynb)
 
 ##### regtech
 
