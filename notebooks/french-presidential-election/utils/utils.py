@@ -5,6 +5,7 @@ import os
 
 data_path = "data"
 
+
 def get_poll_results(link):
     _df_results = pd.read_html(
         link,
@@ -35,6 +36,7 @@ def get_poll_results(link):
     )
 
     return _df_results
+
 
 def get_poll_statistics(link):
     _df_turnout = pd.read_html(
@@ -86,6 +88,7 @@ def get_poll_statistics(link):
 
     return _df_pivot
 
+
 def get_states_poll():
     df_departments = pd.read_csv(f"{data_path}/states.csv")
     print("No. of departments:", len(df_departments))
@@ -112,7 +115,8 @@ def get_states_poll():
 
         with open(f"{data_path}/states_statistics.csv", mode="a") as f:
             df_state_stats.to_csv(f, header=f.tell() == 0, line_terminator="\n")
-            
+
+
 def get_overall_poll():
     link = (
         "https://www.resultats-elections.interieur.gouv.fr/presidentielle-2022/FE.html"
@@ -127,4 +131,3 @@ def get_overall_poll():
     df_overall_stats = get_poll_statistics(link)
     with open(f"{data_path}/overall_statistics.csv", mode="a") as f:
         df_overall_stats.to_csv(f, header=f.tell() == 0, line_terminator="\n")
-        
