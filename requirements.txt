@@ -1,0 +1,2 @@
+atoti[jupyterlab,aws]
+jupyter-server-proxy
