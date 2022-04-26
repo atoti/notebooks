@@ -2,7 +2,7 @@
 
 This project presents how to use machine learning to predict wildfires.
 
-The analysis we conduce in this project is based on a previous one that aimed at understanding how wildfires impact everything from air quality to solar irradiance in California.
+The analysis we conduct in this project is based on a previous one that aimed at understanding how wildfires impact everything from air quality to solar irradiance in California.
 
 Check out [this article](https://www.atoti.io/articles/california-wildfires-and-solar-irradiance) to know more about wildfires in California. 
 
