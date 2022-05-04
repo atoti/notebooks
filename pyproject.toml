@@ -44,7 +44,7 @@ lxml = "^4.8.0"
 html5lib = "^1.1"
 
 [tool.poetry.dev-dependencies]
-black-nb = "^0.5.0"
+black-nb = "^0.7"
 black = {extras = ["jupyter"], version = "^21.6b0"}
 
 [build-system]
