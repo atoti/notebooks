@@ -26,7 +26,11 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By atoti features
 
-[excel - xmla connector](#excel-xmla-connector), [kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis), [what-if](#what-if)
+[endpoints](#endpoints), [excel - xmla connector](#excel-xmla-connector), [kafka](#kafka), [model comparison](#model-comparison), [real-time](#real-time), [subpopulation-analysis](#subpopulation-analysis), [vector aggregation](#vector-aggregation), [multidimensional analysis](#multidimensional-analysis), [what-if](#what-if)
+
+#### By Atoti+ features 
+
+<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="30px"/> [Custom Web Application](#custom-web-application)
 
 #### By data science topics
 
@@ -46,6 +50,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                            <sub>[Customer Churns](./notebooks/customer-churn/main.ipynb)</sub>                             |           <sub>telco</sub>            |                        <sub>customer churn</sub>                         |    <sub>model comparison</sub>    |       <sub>bayes, SVM, logistic regression</sub>       |
 |                            <sub>[Customer 360](./notebooks/customer360/02-main-vertica-db.ipynb)</sub>                             |           <sub>insurance</sub>            |                        <sub>Customer 360</sub>                         |    <sub>sql connector</sub>    |                                                        |
 |                            <sub>[Digital Marketing Dasboard](./notebooks/digital-markting-dashboard/main.ipynb)</sub>              |           <sub>digital-marketing</sub>    |                        <sub>Digital Marketing Dasboard</sub>           |  <sub>multidimensional analysis</sub> |                                                        |
+|                            <sub>[Exploring Pokémon Battles with atoti](./notebooks/pokemon/main.ipynb)</sub>                            |     <sub></sub>      |              <sub>guides</sub>               |   <sub>Endpoints, <br> <img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="30px"/> custom web application </sub>   |   <sub></sub>   |
 |                            <sub>[Excel and atoti](./notebooks/excel-and-atoti/main.ipynb)</sub>                            |     <sub>tools</sub>      |              <sub>guides</sub>               |   <sub>Excel - XMLA connector</sub>   |   <sub></sub>   |
 |                            <sub>[Food processing](./notebooks/food-processing/main.ipynb)</sub>                            |     <sub>food processing</sub>      |              <sub>inventory management, supply chain</sub>               |   <sub>vector aggregation</sub>   |   <sub>time series forecasting, neural network</sub>   |
 |           <sub>[Forecasting Cryptocurrency returns with Twitter sentiment](./notebooks/twitter/main.ipynb)</sub>           |        <sub>social media</sub>        |            <sub>sentiment analysis, return forecasting</sub>             |                                   | <sub>time series forecasting, hypothesis testing</sub> |
@@ -285,6 +290,9 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 #### By atoti features
 
+##### endpoints
+- [Exploring Pokémon Battles with atoti](./notebooks/pokemon/main.ipynb)    
+    
 ##### excel xmla connector
 - [Excel and atoti](./notebooks/excel-and-atoti/main.ipynb)
 
@@ -325,6 +333,12 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
 - [Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)
 
+#### <img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="30px"/> By Atoti+ features
+
+##### Custom Web Application 
+- [Exploring Pokémon Battles with atoti](./notebooks/pokemon/main.ipynb)  
+    
+    
 #### By data science topics
 
 ##### autoML
