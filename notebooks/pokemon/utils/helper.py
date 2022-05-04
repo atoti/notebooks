@@ -36,8 +36,8 @@ class Helper:
                 "Against Fairy",
             ],
         )
-    
-    def get_last_id(self, id_name):  
+
+    def get_last_id(self, id_name):
         """
         This function retrieves the members of the given IDs available in the cube for a new battle.
 
@@ -46,9 +46,11 @@ class Helper:
 
         Returns:
             List of members under the given ID.
-        """        
+        """
         mdx = f"SELECT NON EMPTY [Hidden].[{id_name}].[{id_name}].Members ON 0 FROM [{self.cube_name}]"
-        df = self.session.query_mdx(mdx, keep_totals=False, timeout=timedelta(seconds=30))
+        df = self.session.query_mdx(
+            mdx, keep_totals=False, timeout=timedelta(seconds=30)
+        )
         return df.shape[0]
 
     def is_single_type_pokemon(self, pokemon):
@@ -60,7 +62,7 @@ class Helper:
 
         Returns:
             Boolean: True - there is no secondary type, False - There is a secondary type.
-        """            
+        """
         pokemon_secondary_type = self.pokemon_ref_df.loc[
             self.pokemon_ref_df["Pokemon"] == pokemon, "Secondary Type"
         ].values[0]
@@ -71,13 +73,15 @@ class Helper:
         This function checks if both the given Pokémon and opponent are of single type.
 
         Args:
-            pokemon: Name of Pokémon,  
+            pokemon: Name of Pokémon,
             opponent: Name of opponent Pokémon
 
         Returns:
             Boolean: True - both are single type, False - At least one of the Pokémon has a secondary type.
-        """                
-        return self.is_single_type_pokemon(pokemon) and self.is_single_type_pokemon(opponent)
+        """
+        return self.is_single_type_pokemon(pokemon) and self.is_single_type_pokemon(
+            opponent
+        )
 
     def get_pokemon_id(self, pokemon):
         """
@@ -88,23 +92,25 @@ class Helper:
 
         Returns:
             Pokedex of the Pokémon .
-        """         
+        """
         return str(
-            self.pokemon_ref_df.loc[self.pokemon_ref_df["Pokemon"] == pokemon, "Pokedex"].values[0]
+            self.pokemon_ref_df.loc[
+                self.pokemon_ref_df["Pokemon"] == pokemon, "Pokedex"
+            ].values[0]
         )
 
     def get_type_multiplier(self, pokemon, opponent_pokemon):
         """
-        This function computes the multiplier advantage a Pokémon has against its opponent based on its types.  
+        This function computes the multiplier advantage a Pokémon has against its opponent based on its types.
         Multiplier is predefined in self.pokemon_ref_df.
 
         Args:
-            pokemon: Name of Pokémon,  
+            pokemon: Name of Pokémon,
             opponent: Name of opponent Pokémon
 
         Returns:
             Multiplier advantage: The average between the primary and secondary type multipliers.
-        """                 
+        """
         pokemon_primary_type = self.pokemon_ref_df.loc[
             self.pokemon_ref_df["Pokemon"] == pokemon, "Primary Type"
         ].values[0]
@@ -129,13 +135,13 @@ class Helper:
         This function uploads battle results back into the cube.
 
         Args:
-            pokemon: Name of Pokémon,  
+            pokemon: Name of Pokémon,
             opponent: Name of opponent Pokémon,
             win: The winner of the battle from the get_win_rate endpoint
 
         Returns:
             None. Results get uploaded into cube directly.
-        """  
+        """
         last_id = self.get_last_id("ID")
         last_reg_id = self.get_last_id("Registration ID")
         combat_id = str(self.get_last_id("Combat ID") + 1)
