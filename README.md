@@ -18,11 +18,11 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By industry
 
-[administrative](#administrative), [airline](#airline), [digital-marketing](#digital-marketing), [energy](#energy), [finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [insurance](#insurance),  [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
+[administrative](#administrative), [airline](#airline), [digital-marketing](#digital-marketing), [energy](#energy), [finance](#finance), [food processing](#food-processing), [healthcare](#healthcare), [info-tech](#info-tech), [insurance](#insurance),  [pharmaceutical](#pharmaceutical), [retail](#retail), [social](#social), [social media](#social-media), [sport](#sport), [telco](#telco)
 
 #### By use case
 
-[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [digital-marketing](#digital-marketing), [environmental](#environmental), [fraud detection](#fraud-detection), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [price elasticity](#price-elasticity), [product classification](#product-classification), [productionizing](#productionizing), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sales-commission](#sales-commission), [sales-cube](#sales-cube), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
+[customer churn](#customer-churn), [cross selling](#cross-selling), [drug testing](#drug-testing), [digital-marketing](#digital-marketing), [environmental](#environmental), [fraud detection](#fraud-detection), [guides](#guides), [inventory management](#inventory-management), [margin optimization](#margin-optimization), [network-analsys](#network-analysis), [object detection](#object-detection), [pricing strategy](#pricing-strategy), [price elasticity](#price-elasticity), [product classification](#product-classification), [productionizing](#productionizing), [regtech](#regtech), [return forecasting](#return-forecasting), [risk management](#risk-management), [sales-commission](#sales-commission), [sales-cube](#sales-cube), [sentiment analysis](#sentiment-analysis), [supply chain](#supply-chain), [topic analysis](#topic-analysis), [trading](#trading)
 
 #### By atoti features
 
@@ -60,6 +60,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                                <sub> [GeoPricing](./notebooks/geopricing/main.ipynb)</sub>                                 |           <sub>retail</sub>           | <sub>pricing strategy, product classification, margin optimization</sub> |                                   |             <sub>k-means clustering</sub>              |
 |                             <sub> [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)</sub>                                |      <sub>administrative</sub>        |                            <sub>guides</sub>                             |                                   |                                                        |
 |                                     <sub>[IFRS 9](./notebooks/ifrs9/main.ipynb)</sub>                                      |          <sub>finance</sub>           |                            <sub>regtech</sub>                            |                                   |                                                        |
+|        <sub>[Intenet of Things Network Analysis](./notebooks/iot-load/main.ipynb)</sub>         | <sub>info-tech</sub> |                         <sub>network-analysis</sub>                          |                                   |               |
 |        <sub>[Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)</sub>         | <sub>pharmaceutical, healthcare</sub> |                         <sub>drug testing</sub>                          |                                   |       <sub>hypothesis testing, statistics</sub>        |
 |             <sub>[Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)</sub>              |                                       |                            <sub>guides</sub>                             |                                   |                                                        |
 |                        <sub>[NLP exploration with Reddit data](./notebooks/reddit/main.ipynb)</sub>                        |        <sub>social media</sub>        |                        <sub>topic analysis</sub>                         |                                   |                     <sub>nlp</sub>                     |
@@ -145,6 +146,11 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 
 - [Interactive hypothesis testing for anti-anxiety medicine](./notebooks/drug-efficacy/main.ipynb)
 
+#### info-tech
+
+- [Intenet of Things Network Analysis](./notebooks/iot-load/main.ipynb)
+    
+    
 ##### insurance
 
 - [Customer 360](./notebooks/customer360/02-main-vertica-db.ipynb)
@@ -232,6 +238,10 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [GeoPricing](./notebooks/geopricing/main.ipynb)
 - [Pricing simulations around product classes](./notebooks/pricing-simulations-around-product-classes/main.ipynb)
 
+#### network-analysis
+
+- [Intenet of Things Network Analysis](./notebooks/iot-load/main.ipynb)
+    
 ##### pricing strategy
 
 - [GeoPricing](./notebooks/geopricing/main.ipynb)
