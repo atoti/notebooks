@@ -1,0 +1,1 @@
+All the files containing the tables with the features extracted using the **tsfresh** package must be stored in this folder.
