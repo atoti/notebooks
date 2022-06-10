@@ -5,7 +5,7 @@ description = "Gallery of atoti notebooks"
 authors = ["atoti <contact@atoti.io>"]
 
 [tool.poetry.dependencies]
-python = "^3.8.0, !=3.9.7"
+python = ">=3.8.0,<3.9.7 || >3.9.7,<3.11"
 atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.6.5"}
 wget = "^3.2"
 treelib = "^1.6.1"
@@ -20,7 +20,7 @@ sklearn = "^0.0"
 praw = "^7.3.0"
 spacy = "2.3.7"
 pandas-profiling = "2.13.0"
-statsmodels = "^0.12.2"
+statsmodels = "^0.13.0"
 imblearn = "^0.0"
 boto3 = "^1.17.102"
 xlrd = "^2.0.1"
@@ -42,6 +42,9 @@ natsort = "8.0.0"
 tabulate = "0.8.9"
 lxml = "^4.8.0"
 html5lib = "^1.1"
+pyopls = "^20.3.post1"
+llvmlite = "^0.38.1"
+tsfresh = "^0.19.0"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.5.0"
