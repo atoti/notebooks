@@ -45,6 +45,7 @@ html5lib = "^1.1"
 pyopls = "^20.3.post1"
 llvmlite = "^0.38.1"
 tsfresh = "^0.19.0"
+click = "8.0.3"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.5.0"
