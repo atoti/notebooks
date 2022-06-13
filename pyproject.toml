@@ -46,6 +46,7 @@ pyopls = "^20.3.post1"
 llvmlite = "^0.38.1"
 tsfresh = "^0.19.0"
 click = "8.0.3"
+yfinance = "^0.1.70"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.5.0"

@@ -1424,6 +1424,14 @@ python-versions = ">=3.6"
 docs = ["recommonmark", "nbsphinx", "jupyter", "sphinx"]
 
 [[package]]
+name = "multitasking"
+version = "0.0.10"
+description = "Non-blocking Python methods using decorators"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "murmurhash"
 version = "1.0.7"
 description = "Cython bindings for MurmurHash"
@@ -2885,6 +2893,21 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [[package]]
+name = "yfinance"
+version = "0.1.70"
+description = "Download market data from Yahoo! Finance API"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+lxml = ">=4.5.1"
+multitasking = ">=0.0.7"
+numpy = ">=1.15"
+pandas = ">=0.24.0"
+requests = ">=2.26"
+
+[[package]]
 name = "zict"
 version = "2.2.0"
 description = "Mutable mapping tools"
@@ -2910,7 +2933,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9.7 || >3.9.7,<3.11"
-content-hash = "0b40d4e4b52914b66633f22db054b4558f9d3a2ed2d74bdb60997333ff30f0cf"
+content-hash = "57d685fe2990294ad129fe28ca1c932ed74a4b64b99687d5a4dbc676853c9644"
 
 [metadata.files]
 aiobotocore = [
@@ -3944,6 +3967,9 @@ multidict = [
 multimethod = [
     {file = "multimethod-1.4-py2.py3-none-any.whl", hash = "sha256:2746500793c64cbd84a6ccda0043f4b58af3fcf8d6cd44b2232d5b9455b31d73"},
     {file = "multimethod-1.4.tar.gz", hash = "sha256:8b315d6c965a797899a699913cdc391ded51dca22db5d11bda3399ce24ffed76"},
+]
+multitasking = [
+    {file = "multitasking-0.0.10.tar.gz", hash = "sha256:810640fa6670be41f4a712b287d9307a14ad849d966f06a17d2cf1593b66c3cd"},
 ]
 murmurhash = [
     {file = "murmurhash-1.0.7-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:966d2efec6e01aa32c5774c44906724efca00da3507f06faa11acafb47ea1230"},
@@ -5235,6 +5261,10 @@ yarl = [
     {file = "yarl-1.7.2-cp39-cp39-win32.whl", hash = "sha256:1edc172dcca3f11b38a9d5c7505c83c1913c0addc99cd28e993efeaafdfaa18d"},
     {file = "yarl-1.7.2-cp39-cp39-win_amd64.whl", hash = "sha256:797c2c412b04403d2da075fb93c123df35239cd7b4cc4e0cd9e5839b73f52c58"},
     {file = "yarl-1.7.2.tar.gz", hash = "sha256:45399b46d60c253327a460e99856752009fcee5f5d3c80b2f7c0cae1c38d56dd"},
+]
+yfinance = [
+    {file = "yfinance-0.1.70-py2.py3-none-any.whl", hash = "sha256:949d527544a88c09602753050d2e1fb08f7896f79198cd71b891af5e3cc49249"},
+    {file = "yfinance-0.1.70.tar.gz", hash = "sha256:a42190dd3b3fce1b00aec273db36392b8f100cc8c73dc7881bb558117cbf7c69"},
 ]
 zict = [
     {file = "zict-2.2.0-py2.py3-none-any.whl", hash = "sha256:dabcc8c8b6833aa3b6602daad50f03da068322c1a90999ff78aed9eecc8fa92c"},
