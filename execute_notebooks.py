@@ -71,31 +71,23 @@ NON_ATOTI_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY
     / "collateral-shortfall-forecast"
     / "notebooks"
-    / "0-download-stock-prices.ipynb",
+    / "0-download-stock-prices-data.ipynb",
     NOTEBOOKS_DIRECTORY
     / "collateral-shortfall-forecast"
     / "notebooks"
-    / "1-prepare-the-data.ipynb",
+    / "1-data-preparation.ipynb",
     NOTEBOOKS_DIRECTORY
     / "collateral-shortfall-forecast"
     / "notebooks"
-    / "2-decompose-time-series.ipynb",
+    / "2-data-exploration-decompose-time-series.ipynb",
     NOTEBOOKS_DIRECTORY
     / "collateral-shortfall-forecast"
     / "notebooks"
-    / "3-partial-autocorrelations.ipynb",
+    / "3-data-exploration-partial-autocorrelations.ipynb",
     NOTEBOOKS_DIRECTORY
     / "collateral-shortfall-forecast"
     / "notebooks"
-    / "4-roll-the-datasets.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "collateral-shortfall-forecast"
-    / "notebooks"
-    / "5-extract-the-features.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "collateral-shortfall-forecast"
-    / "notebooks"
-    / "6-create-forecasting-models.ipynb",
+    / "4-create-machine-learning-pipeline.ipynb",
 ]
 NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
