@@ -2021,6 +2021,19 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "pyopls"
+version = "20.3.post1"
+description = "Orthogonal Projection to Latent Structures"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.dependencies]
+numpy = ">=1.11.0"
+scikit-learn = ">=0.18.0"
+scipy = ">=0.18.0"
+
+[[package]]
 name = "pyparsing"
 version = "3.0.9"
 description = "pyparsing module - Classes and methods to define and execute parsing grammars"
@@ -2886,7 +2899,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8.0, !=3.9.7"
-content-hash = "420667f3810f658c7e7a035d09e2812b35e041d01e90033f0c8ef3355d67755d"
+content-hash = "c6c0b1316a8a8ca796530d7a485a4e823fffc2ef22cc6a3d9e5652df6f67d7a4"
 
 [metadata.files]
 aiobotocore = [
@@ -4368,6 +4381,9 @@ pygments = [
 ]
 pymeeus = [
     {file = "PyMeeus-0.5.11.tar.gz", hash = "sha256:bb9d670818d8b0594317b48a7dadea02a0594e5344263bf2054e1a011c8fed55"},
+]
+pyopls = [
+    {file = "pyopls-20.3.post1.tar.gz", hash = "sha256:046d28315c1f6e4e5bc97040e1247421b36b684cdcafaa6b24312307a261a884"},
 ]
 pyparsing = [
     {file = "pyparsing-3.0.9-py3-none-any.whl", hash = "sha256:5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"},

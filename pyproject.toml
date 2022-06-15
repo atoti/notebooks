@@ -44,6 +44,7 @@ lxml = "^4.8.0"
 html5lib = "^1.1"
 tsfresh = "^0.19.0"
 yfinance = "^0.1.70"
+pyopls = "^20.3.post1"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.7"
