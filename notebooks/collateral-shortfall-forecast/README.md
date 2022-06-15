@@ -1,8 +1,8 @@
 # Collateral Shortfall Forecast
 
-This project demonstrates how to use machine learning to forecast future prices of several stock market asests.
+This project demonstrates how to use machine learning to forecast future prices of several stock market assets.
 
-This analysis is derived from a previous one around [Collateral optimization](https://github.com/atoti/notebooks/tree/master/notebooks/collateral-shortfall-monitoring), performed by Hui [Fang Yeo](https://www.linkedin.com/in/huifang-yeo/), and available on our website. For context, the two analyses start diverging at the ‘What-If’ (scenario) stage to integrate predictive machine learning algorithms.
+This analysis is derived from a previous one around [Collateral optimization](https://github.com/atoti/notebooks/tree/master/notebooks/collateral-shortfall-monitoring), performed by [Hui Fang Yeo](https://www.linkedin.com/in/huifang-yeo/), and available on our website. For context, the two analyses start diverging at the ‘What-If’ (scenario) stage to integrate predictive machine learning algorithms.
 
 All the data required for this project are available our [AWS s3 bucket](https://s3.eu-west-3.amazonaws.com/data.atoti.io/notebooks/ca-solar/) and are directly loaded when running the notebooks.
 
