@@ -6,7 +6,7 @@ authors = ["atoti <contact@atoti.io>"]
 
 [tool.poetry.dependencies]
 python = "^3.8.0, !=3.9.7"
-atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.6.5"}
+atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.6.6"}
 wget = "^3.2"
 treelib = "^1.6.1"
 nltk = "^3.6.2"
@@ -19,7 +19,7 @@ seaborn = "^0.11.1"
 sklearn = "^0.0"
 praw = "^7.3.0"
 spacy = "2.3.7"
-pandas-profiling = "2.13.0"
+pandas-profiling = "3.2.0"
 statsmodels = "^0.12.2"
 imblearn = "^0.0"
 boto3 = "^1.17.102"
@@ -44,8 +44,8 @@ lxml = "^4.8.0"
 html5lib = "^1.1"
 
 [tool.poetry.dev-dependencies]
-black-nb = "^0.5.0"
-black = {extras = ["jupyter"], version = "^21.6b0"}
+black-nb = "^0.7"
+black = { extras = ["jupyter"], version = "*" }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
