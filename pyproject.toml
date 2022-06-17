@@ -5,7 +5,7 @@ description = "Gallery of atoti notebooks"
 authors = ["atoti <contact@atoti.io>"]
 
 [tool.poetry.dependencies]
-python = "^3.8.0, !=3.9.7"
+python = ">=3.8.0,<3.9.7 || >3.9.7,<3.11"
 atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.6.6"}
 wget = "^3.2"
 treelib = "^1.6.1"
