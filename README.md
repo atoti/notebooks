@@ -30,7 +30,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 #### By Atoti+ features 
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="30px"/> [Custom Web Application](#custom-web-application)
+<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="30px"/> [Custom Web Application](#custom-web-application), [Security Implementation](#security-implementation)
 
 #### By data science topics
 
@@ -75,6 +75,7 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 |                                     <sub>[SA-CCR](./notebooks/sa-ccr/main.ipynb)</sub>                                     |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |                                   |                                                        |
 |                                     <sub>[Sales-commission](./notebooks/sales-commission/main.ipynb)</sub>                             |<sub>retail</sub>                                       |                   <sub>sales</sub>                          |  <sub>multidimensional analysis, non-linear aggregation<sub>      |                                                        |
 |                                     <sub>[Sales-cube](./notebooks/sales_cube/main.ipynb)</sub>                             |                                       |                   <sub>sales cube</sub>                          |  <sub>multidimensional analysis<sub>      |                                                        |
+|                                     <sub>[Security-implementation](./notebooks/security-implementation/main.ipynb)</sub>                             |                                       |                   <sub>guides</sub>                          |  <sub>Security<sub>      |                                                        |
 |                   <sub>[Stressed VaR Calibration](./notebooks/stressed-var-calibration/main.ipynb)</sub>                   |          <sub>finance</sub>           |                   <sub>risk management, regtech</sub>                    |   <sub>vector aggregation</sub>   |                                                        |
 |                                 <sub>[Solar](./notebooks/ca-solar/main.ipynb)</sub>                                        |         <sub>energy</sub>             |                    <sub>environmental</sub>                              |                                   |                                                        |
 |                    <sub>[Subpopulation Analysis](./notebooks/sub-population-analysis/main.ipynb)</sub>                     |         <sub>insurance</sub>          |                         <sub>cross selling</sub>                         | <sub>subpopulation analysis</sub> |                                                        |
@@ -224,6 +225,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [French presidential election 2022](./notebooks/french-presidential-election/main.ipynb)
 - [HR Dashboard](./notebooks/hr-dashboard/main.ipynb)
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
+- [Security-implementation](./notebooks/security-implementation/main.ipynb)
 - [Topcount](./notebooks/topcount/atoti.ipynb)
 - [Rollup hierarchy with Treelib and atoti](./notebooks/rollup-hierarchies/main.ipynb)
 - [Veteran Employment](./notebooks/veteran-emp/main.ipynb)
@@ -299,11 +301,14 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Real-time risk dashboard](./notebooks/real-time-risk/main.ipynb)
 - [XVA](./notebooks/xva/main.ipynb)
 
+---
+
 #### By atoti features
 
 ##### endpoints
 - [Exploring Pokémon Battles with atoti](./notebooks/pokemon/main.ipynb)    
-    
+- [Security-implementation](./notebooks/security-implementation/main.ipynb)
+
 ##### excel xmla connector
 - [Excel and atoti](./notebooks/excel-and-atoti/main.ipynb)
 
@@ -344,12 +349,18 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Value at Risk](./notebooks/value-at-risk/main.ipynb)
 - [Value at Risk benchmark template](./notebooks/var-benchmark/main.ipynb)
 
+---
+
 #### <img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="30px"/> By Atoti+ features
 
 ##### Custom Web Application 
 - [Exploring Pokémon Battles with atoti](./notebooks/pokemon/main.ipynb)  
+
+##### Security Implementation 
+- [Security-implementation](./notebooks/security-implementation/main.ipynb)    
     
-    
+---
+
 #### By data science topics
 
 ##### autoML
