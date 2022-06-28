@@ -88,6 +88,7 @@ NON_ATOTI_NOTEBOOKS = [
     / "collateral-shortfall-forecast"
     / "notebooks"
     / "4-create-machine-learning-pipeline.ipynb",
+    NOTEBOOKS_DIRECTORY / "auto-cube" / "main.ipynb",
 ]
 NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
