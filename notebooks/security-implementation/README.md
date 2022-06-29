@@ -2,12 +2,12 @@
 
 Securing a session comes in two parts:
 
-1. Implementing authentication mechanism to secure access to the session
+1. Implementing an authentication mechanism to secure access to the session
 2. Restricting access of modules or data access by users based on the roles granted
 
 atoti supports multiple [authentication mechanisms](https://docs.atoti.io/latest/lib/atoti/atoti.config.authentication.html) to cater to the needs of our end users.
 
-We will explore some of these implementations with [atoti Business Edition](https://www.atoti.io/discover-atoti-for-business/) using the [Top 50 Fast Food](https://www.kaggle.com/datasets/stetsondone/top50fastfood) dataset from Kaggle, combined with its parent company information sourced from the internet.
+We will explore some of these options with [atoti Business Edition](https://www.atoti.io/discover-atoti-for-business/) using the [Top 50 Fast Food](https://www.kaggle.com/datasets/stetsondone/top50fastfood) dataset from Kaggle, combined with its parent company information sourced from the internet.
 
 ---
 
@@ -31,7 +31,7 @@ Users can make use of the free services/tools to try out the various authenticat
 
 ## [main.ipynb](./main.ipynb)
 
-To understand how the different authentication mechanism vary from one another, this notebook align the code snippets of the following authentication mechanism sequentially for comparison:
+To understand how different authentication mechanisms vary from one another, this notebook aligns the code snippets of the following authentication mechanisms sequentially for comparison:
 
 - Basic authentication
 - OIDC via Auth0
