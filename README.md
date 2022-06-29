@@ -40,7 +40,8 @@ Checkout the [atoti repository](https://github.com/atoti/atoti) for more info.
 
 |                                                         Notebooks                                                          |               Industry                |                                 Use Case                                 |          atoti Features           |                  Data Science Topics                   |
 | :------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------: | :----------------------------------------------------------------------: | :-------------------------------: | :----------------------------------------------------: |
-|            <sub>[Airline Industry](./notebooks/airline-industry/main.ipynb)</sub>           |          <sub>airline</sub>           |                   <sub>revenue analysis, what-if scenarios</sub>                    |                                   |                                                        
+|            <sub>[Airline Industry](./notebooks/airline-industry/main.ipynb)</sub>           |          <sub>airline</sub>           |                   <sub>revenue analysis </sub>                    |                   <sub>what-if scenarios analysis</sub>                    |                                                        
+|            <sub>[Automatic cube creation](./notebooks/auto-cube/main.ipynb)</sub>           |          <sub></sub>           |                   <sub></sub>                    |                   <sub>multidimensional analysis</sub>                    |                                                        
 |            <sub>[Burrito Dashboard](./notebooks/burritos/main.ipynb)</sub>           |          <sub>food processing</sub>           |                                       |                                   |                                                        
 |                            <sub>[Collateral Shortfall Forecast](./notebooks/collateral-shortfall-forecast/notebooks/main.ipynb)</sub>                             |           <sub>finance</sub>            |                        <sub>Collateral Shortfall monitoring, asset management</sub>                         |    <sub>What-if scenarios, model comparison</sub>    |       <sub>Time Series Forecast</sub>       |
 |<sub>[Collateral shortfall monitoring](./notebooks/collateral-shortfall-monitoring/main.ipynb)</sub>  
@@ -322,6 +323,7 @@ By opening an issue or a pull request, you agree with atoti's [terms of use](htt
 - [Customer Churns](./notebooks/customer-churn/main.ipynb)
 
 ##### multidimensional analysis 
+- [Automatic cube creation](./notebooks/auto-cube/main.ipynb)
 - [Multidimensional analysis](./notebooks/multidimensional-analysis/main.ipynb)
 - [Digital Marketing Dashboard](./notebooks/digital-marketing-dashboard/main.ipynb)
 - [Sales Commission](./notebooks/sales-commission/main.ipynb)
