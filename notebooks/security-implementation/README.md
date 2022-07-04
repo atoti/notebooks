@@ -43,4 +43,4 @@ To focus on just one of the above security mechanisms, check out the following n
 - [01-Basic-authentication.ipynb](./01-Basic-authentication.ipynb)
 - [02-OIDC-Auth0.ipynb](./02-OIDC-Auth0.ipynb)
 - [03-OIDC-Google.ipynb](./03-OIDC-Google.ipynb)
-- [04-LDAP.ipynb](./03-OIDC-Google.ipynb)
+- [04-LDAP.ipynb](./04-LDAP.ipynb)
