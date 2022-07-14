@@ -43,7 +43,7 @@ DATA_PREPROCESSING_NOTEBOOKS = [
 NOTEBOOKS_WTIH_ALT_DS = [
     NOTEBOOKS_DIRECTORY / "customer360" / "02-main-vertica-db.ipynb",
 ]
-ATOTI_BE_NOTEBOOKS = [
+ATOTI_PLUS_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "security-implementation" / "01-Basic-authentication.ipynb",
     NOTEBOOKS_DIRECTORY / "security-implementation" / "02-OIDC-Auth0.ipynb",
     NOTEBOOKS_DIRECTORY / "security-implementation" / "03-OIDC-Google.ipynb",
@@ -118,7 +118,7 @@ NOTEBOOKS_TO_SKIP = (
     + NOTEBOOKS_WITH_ERRORS
     + NOTEBOOKS_WTIH_ALT_DS
     + NON_ATOTI_NOTEBOOKS
-    + ATOTI_BE_NOTEBOOKS
+    + ATOTI_PLUS_NOTEBOOKS
 )
 
 

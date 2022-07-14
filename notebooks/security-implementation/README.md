@@ -7,15 +7,16 @@ Securing a session comes in two parts:
 
 atoti supports multiple [authentication mechanisms](https://docs.atoti.io/latest/lib/atoti/atoti.config.authentication.html) to cater to the needs of our end users.
 
-We will explore some of these options with [atoti Business Edition](https://www.atoti.io/discover-atoti-for-business/) using the [Top 50 Fast Food](https://www.kaggle.com/datasets/stetsondone/top50fastfood) dataset from Kaggle, combined with its parent company information sourced from the internet.
+We will explore some of these options with [Atoti+](https://docs.atoti.io/latest/atoti_plus.html) using the [Top 50 Fast Food](https://www.kaggle.com/datasets/stetsondone/top50fastfood) dataset from Kaggle, combined with its parent company information sourced from the internet.
 
 ---
 
 ## Environment setup
 
-### atoti Business Edition
+### Atoti+
 
-[atoti Business Edition](https://www.atoti.io/discover-atoti-for-business/) is required to download the additional plugin required for security implementation.
+[Atoti+](https://docs.atoti.io/latest/atoti_plus.html) is ActiveViam’s unified platform for enterprise data analysis.
+Download the [atoti-plus plugin](https://docs.atoti.io/latest/lib/atoti-plus/atoti_plus.html#module-atoti_plus) for security implementation.
 
 ### Authentication platform
 
