@@ -195,21 +195,79 @@ Coming soon...
 
 <br/>
 
-|Notebooks|Related media content|Remarks
-|--|--|--
-|[Weighted averages with currency conversions](notebooks\02-technical-tutorials\currency-conv-with-weighted-ave\main.ipynb)||
-|[Currency conversion](notebooks\02-technical-tutorials\currency-conversion\main.ipynb)||
-|[Excel and atoti](notebooks\02-technical-tutorials\excel-and-atoti\main.ipynb)||
-|[Multidimensional analysis](notebooks\02-technical-tutorials\multidimensional-analysis\main.ipynb)||
-|[Rollup hierarchies](notebooks\02-technical-tutorials\rollup-hierarchies\main.ipynb)||
-|[Security implementation - Basic authentication](notebooks\02-technical-tutorials\security-implementation\01-Basic-authentication.ipynb)||
-|[Security implementation - OIDC with Auth0](notebooks\02-technical-tutorials\security-implementation\02-OIDC-Auth0.ipynb)||
-|[Security implementation - OIDC with Google](notebooks\02-technical-tutorials\security-implementation\03-OIDC-Google.ipynb)||
-|[Security implementation - LDAP](notebooks\02-technical-tutorials\security-implementation\04-LDAP.ipynb)||
-|[Security implementation](notebooks\02-technical-tutorials\security-implementation\main.ipynb)||
-|[Topcount](notebooks\02-technical-tutorials\topcount\atoti.ipynb)||
-|[VAR benchmark](notebooks\02-technical-tutorials\var-benchmark\main.ipynb)||
-|[Weighted averages](notebooks\02-technical-tutorials\weighted-averages\main.ipynb)||
+
+<table>
+    <tr>
+        <td>Notebooks</td>
+        <td>Related media content</td>
+        <td>Remarks</td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\currency-conv-with-weighted-ave\main.ipynb">Weighted averages with currency conversions</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\currency-conversion\main.ipynb">Currency conversion</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\excel-and-atoti\main.ipynb">Excel and atoti</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\multidimensional-analysis\main.ipynb">Multidimensional analysis</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\rollup-hierarchies\main.ipynb">Rollup hierarchies</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\security-implementation\01-Basic-authentication.ipynb">Security implementation - Basic authentication</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\security-implementation\02-OIDC-Auth0.ipynb">Security implementation - OIDC with Auth0</a></td>
+        <td></td>
+        <td>Requires <img src="./assets/Atoti +-RVB.svg" alt="atoti logo" width="100px"/></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\security-implementation\03-OIDC-Google.ipynb">Security implementation - OIDC with Google</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\security-implementation\04-LDAP.ipynb">Security implementation - LDAP</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\security-implementation\main.ipynb">Security implementation</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials	opcount\atoti.ipynb">Topcount</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\var-benchmark\main.ipynb">VAR benchmark</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="notebooks\02-technical-tutorials\weighted-averages\main.ipynb">Weighted averages</a></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
     
 </details>
