@@ -215,6 +215,6 @@ Coming soon...
 </details>
 
 <p align="center">
-  <img src="./assets/ActiveViam-RVB-150dpi.png" alt="atoti logo">
+  Reach out to <a href="https://www.activeviam.com/contact-us/" target="_blank"><img src="./assets/ActiveViam-RVB-150dpi.png" alt="atoti logo" width="150px" /></a> for more information.
 </p>
 
