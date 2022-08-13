@@ -40,8 +40,8 @@ For enterprise solutioning, check out [Atoti+](https://www.activeviam.com/atoti-
   
   <br/>
   
-|Notebooks|Related Articles|Remarks
-|--|--|--
+|Notebook|Related Media|
+|:--|:--|
 |[Cumulative PnL](notebooks\01-use-cases\finance\front-offices\cumulative-pnl\main.ipynb)||
 |[PnL Explained](notebooks\01-use-cases\finance\front-offices\pnl-explained\main.ipynb)|[PnL Explained with atoti](https://www.atoti.io/articles/pnl-explained-with-atoti/)|
 |[Real-time risk](notebooks\01-use-cases\finance\front-offices\real-time-risk\main.ipynb)|[Implementing real-time sources with atoti](https://www.atoti.io/guides/implementing-real-time-sources-with-atoti/)|
@@ -71,12 +71,12 @@ Coming soon...
 
   <br/>
   
-|Notebooks|Related Articles|Remarks
-|--|--|--
-|[IFRS9](notebooks\01-use-cases\finance\risk-management\credit-risk\ifrs9\main.ipynb)|<ul><li>[IFRS 9 Data Viz: ECL, PD Analytics and the Vintage Matrix](https://www.atoti.io/articles/ifrs-9-data-viz-ecl-pd-analytics-and-the-vintage-matrix/)</li><li>[Tutorial: How to build an IFRS 9 solution with Python and atoti](https://www.atoti.io/articles/tutorial-how-to-build-an-ifrs-9-solution-with-python-and-atoti/)</li></ul>
-|[SA-CCR](notebooks\01-use-cases\finance\risk-management\credit-risk\sa-ccr\main.ipynb)| [SA-CCR with python and atoti](https://www.atoti.io/articles/sa-ccr-with-python-and-atoti/)
-|[xva](notebooks\01-use-cases\finance\risk-management\credit-risk\xva\main.ipynb)|[Interactive xVA analytics with Python and atoti](https://www.atoti.io/articles/interactive-xva-analytics-with-python-and-atoti/)|
-|[Collateral Shortfall Forecast](notebooks\01-use-cases\finance\treasury\collateral-shortfall-forecast\notebooks/main.ipynb)|[Collateral Modelling and Simulation Using atoti and Machine Learning](https://www.atoti.io/articles/collateral-modelling-and-simulation-using-atoti-and-machine-learning/)|
+|Notebook|Related Media|   
+|:--|:--|
+|[IFRS9](notebooks\01-use-cases\finance\risk-management\credit-risk\ifrs9\main.ipynb)|[IFRS 9 Data Viz: ECL, PD Analytics and the Vintage Matrix](https://www.atoti.io/articles/ifrs-9-data-viz-ecl-pd-analytics-and-the-vintage-matrix/)<br>[Tutorial: How to build an IFRS 9 solution with Python and atoti](https://www.atoti.io/articles/tutorial-how-to-build-an-ifrs-9-solution-with-python-and-atoti/)|
+|[SA-CCR](notebooks\01-use-cases\finance\risk-management\credit-risk\sa-ccr\main.ipynb)| [SA-CCR with python and atoti](https://www.atoti.io/articles/sa-ccr-with-python-and-atoti/)|
+|[xva](notebooks\01-use-cases\finance\risk-management\credit-risk\xva\main.ipynb)|[Interactive xVA analytics with Python and atoti](https://www.atoti.io/articles/interactive-xva-analytics-with-python-and-atoti/)||
+|[Collateral Shortfall Forecast](notebooks\01-use-cases\finance\treasury\collateral-shortfall-forecast\notebooks/main.ipynb)|[Collateral Modelling and Simulation Using atoti and Machine Learning](https://www.atoti.io/articles/collateral-modelling-and-simulation-using-atoti-and-machine-learning/)||
 
 <br/>
 
@@ -99,8 +99,8 @@ Coming soon...
   
 <br/>
   
-|Notebooks|Related Articles|Remarks
-|--|--|--
+|Notebook|Related Media|
+|:--|:--|
 |[SBM](notebooks\01-use-cases\finance\risk-management\market-risk\sbm\main.ipynb)|[Faster Algorithm for FRTB SBM Risk Aggregation](https://www.atoti.io/articles/faster-algorithm-for-frtb-sbm-risk-aggregation/) 
 |[Stressed VaR calibration](notebooks\01-use-cases\finance\risk-management\market-risk\stressed-var-calibration\main.ipynb)|[Market risk analytics in python: Interactive rolling VaR](https://www.atoti.io/articles/market-risk-analytics-in-python-interactive-rolling-var/)
 |[Value at Risk](value-at-risk/main.ipynb)||
@@ -117,9 +117,9 @@ Coming soon...
 
 <br/>
   
-|Notebooks|Related Articles|Remarks
-|--|--|--
-|[Credit card fraud detection](notebooks\01-use-cases\finance\risk-management\operational-risk\credit-card-fraud-detection\main.ipynb)|<ul><li>[Part 1: Investigating fraudulent transactions real-time with atoti](https://www.atoti.io/articles/credit-card-fraud-detection-part1/)</li><li>[Part 2: Fraud detection with Faker and PyCaret](https://www.atoti.io/articles/credit-card-fraud-detection-part2//)</li></ul>
+|Notebook|Related Media|
+|:--|:--|
+|[Credit card fraud detection](notebooks\01-use-cases\finance\risk-management\operational-risk\credit-card-fraud-detection\main.ipynb)|[Part 1: Investigating fraudulent transactions real-time with atoti](https://www.atoti.io/articles/credit-card-fraud-detection-part1/)<br>[Part 2: Fraud detection with Faker and PyCaret](https://www.atoti.io/articles/credit-card-fraud-detection-part2//)|
 
 <br/>
 
@@ -136,8 +136,8 @@ Coming soon...
   
   <br/>
   
-|Notebooks|Related Articles|Remarks
-|--|--|--
+|Notebook|Related Media|
+|:--|:--|
 |[Collateral Shortfall Forecast](notebooks\01-use-cases\finance\treasury\collateral-shortfall-forecast\notebooks/main.ipynb)|[Collateral Modelling and Simulation Using atoti and Machine Learning](https://www.atoti.io/articles/collateral-modelling-and-simulation-using-atoti-and-machine-learning/)|
 
   <br/>
@@ -152,8 +152,8 @@ Coming soon...
 
 <br/>
     
-|Notebooks|Related Articles|Remarks
-|--|--|--
+|Notebook|Related Media|
+|:--|:--|
 |[Airline Industry](notebooks\01-use-cases\other-industries\airline-industry\main.ipynb)||
 |[Auto Cube](notebooks\01-use-cases\other-industries\auto-cube\main.ipynb)||
 |[Baseball](notebooks\01-use-cases\other-industries\baseball\main.ipynb)||
@@ -161,8 +161,8 @@ Coming soon...
 |[Burritos](notebooks\01-use-cases\other-industries\burritos\main.ipynb)||
 |[California Solar](notebooks\01-use-cases\other-industries\ca-solar\main.ipynb)||
 |[Christmas Nyan](notebooks\01-use-cases\other-industries\christmas-nyan\main.ipynb)||
+|[Customer churn](notebooks\01-use-cases\other-industries\customer-churn\main.ipynb)|[Analysing impact of different churn prediction models on Business](https://www.atoti.io/articles/customer-churns-in-telecommunications-with-atoti/)<br>[Video: Telecom Customer Churn Prediction Anaysis](https://www.youtube.com/watch?v=gjtzlVAjS0w)|
 |[Data profiling](notebooks\01-use-cases\other-industries\col-data-profile\main.ipynb)||
-|[Customer churn](notebooks\01-use-cases\other-industries\customer-churn\main.ipynb)||
 |[Digital marketing dashboard](notebooks\01-use-cases\other-industries\digital-marketing-dashboard\main.ipynb)||
 |[Drug efficacy](notebooks\01-use-cases\other-industries\drug-efficacy\main.ipynb)||
 |[Food processing](notebooks\01-use-cases\other-industries\food-processing\main.ipynb)||
@@ -197,10 +197,10 @@ Coming soon...
 
 
 <table>
+    <img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
     <tr>
-        <td>Notebooks</td>
-        <td>Related media content</td>
-        <td>Remarks</td>
+        <td><b>Notebooks</b></td>
+        <td><b>Related media</b></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\currency-conv-with-weighted-ave\main.ipynb">Weighted averages with currency conversions</a></td>
@@ -233,9 +233,9 @@ Coming soon...
         <td></td>
     </tr>
     <tr>
-        <td><a href="notebooks\02-technical-tutorials\security-implementation\02-OIDC-Auth0.ipynb">Security implementation - OIDC with Auth0</a></td>
+        <td><a href="notebooks\02-technical-tutorials\security-implementation\02-OIDC-Auth0.ipynb">Security implementation - OIDC with Auth0</a><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/></td>
         <td></td>
-        <td>Requires <img src="./assets/Atoti +-RVB.svg" alt="atoti logo" width="100px"/></td>
+        <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\security-implementation\03-OIDC-Google.ipynb">Security implementation - OIDC with Google</a></td>
