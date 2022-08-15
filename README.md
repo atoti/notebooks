@@ -205,66 +205,53 @@ Coming soon...
     <tr>
         <td><a href="notebooks\02-technical-tutorials\currency-conv-with-weighted-ave\main.ipynb">Weighted averages with currency conversions</a></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\currency-conversion\main.ipynb">Currency conversion</a></td>
-        <td></td>
         <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\excel-and-atoti\main.ipynb">Excel and atoti</a></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\multidimensional-analysis\main.ipynb">Multidimensional analysis</a></td>
-        <td></td>
         <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\rollup-hierarchies\main.ipynb">Rollup hierarchies</a></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\security-implementation\01-Basic-authentication.ipynb">Security implementation - Basic authentication</a></td>
-        <td></td>
         <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\security-implementation\02-OIDC-Auth0.ipynb">Security implementation - OIDC with Auth0</a><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\security-implementation\03-OIDC-Google.ipynb">Security implementation - OIDC with Google</a></td>
-        <td></td>
         <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\security-implementation\04-LDAP.ipynb">Security implementation - LDAP</a></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\security-implementation\main.ipynb">Security implementation</a></td>
-        <td></td>
         <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials	opcount\atoti.ipynb">Topcount</a></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\var-benchmark\main.ipynb">VAR benchmark</a></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td><a href="notebooks\02-technical-tutorials\weighted-averages\main.ipynb">Weighted averages</a></td>
-        <td></td>
         <td></td>
     </tr>
 </table>
