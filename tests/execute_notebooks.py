@@ -45,11 +45,9 @@ NOTEBOOKS_WTIH_ALT_DS = [
     # requires vertica database
     NOTEBOOKS_DIRECTORY / "customer360" / "02-main-vertica-db.ipynb",
     # requires kafka setup for real-time messaging
-    NOTEBOOKS_DIRECTORY
-    / "real-time-risk"
-    / _MAIN,  
+    NOTEBOOKS_DIRECTORY / "real-time-risk" / _MAIN,
     # requires login to Reddit to scrap data
-    NOTEBOOKS_DIRECTORY / "reddit" / _MAIN, 
+    NOTEBOOKS_DIRECTORY / "reddit" / _MAIN,
 ]
 ATOTI_PLUS_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "security-implementation" / "01-Basic-authentication.ipynb",
@@ -107,7 +105,7 @@ NON_ATOTI_NOTEBOOKS = [
 ]
 NOTEBOOKS_WITH_ERRORS = [
     # intended for volume benchmark testing. Not necessary to test as large volume of data will be generated on the fly.
-    NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN, 
+    NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN,
     # NOTEBOOKS_DIRECTORY
     # / "geopricing"
     # / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
