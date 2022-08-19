@@ -27,7 +27,6 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "twitter" / "02_sentiment.ipynb",
     NOTEBOOKS_DIRECTORY / "twitter" / "03_cryptocurrency_mining.ipynb",
     NOTEBOOKS_DIRECTORY / "influencers-analysis" / "notebooks" / "0_prepare_data.ipynb",
-    NOTEBOOKS_DIRECTORY / "object-detection" / "main.ipynb",
     NOTEBOOKS_DIRECTORY / "object-detection" / "main_demo.ipynb",
     NOTEBOOKS_DIRECTORY / "object-detection" / "main_generate_csv.ipynb",
     NOTEBOOKS_DIRECTORY
@@ -41,7 +40,16 @@ DATA_PREPROCESSING_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "var-benchmark" / "data_generator.ipynb",  # Timeout
 ]
 NOTEBOOKS_WTIH_ALT_DS = [
+    # requires OpenCV and detectron2 installed to provide real-time datastreaming
+    NOTEBOOKS_DIRECTORY / "object-detection" / "main.ipynb",
+    # requires vertica database
     NOTEBOOKS_DIRECTORY / "customer360" / "02-main-vertica-db.ipynb",
+    # requires kafka setup for real-time messaging
+    NOTEBOOKS_DIRECTORY
+    / "real-time-risk"
+    / _MAIN,  
+    # requires login to Reddit to scrap data
+    NOTEBOOKS_DIRECTORY / "reddit" / _MAIN, 
 ]
 ATOTI_PLUS_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "security-implementation" / "01-Basic-authentication.ipynb",
@@ -98,17 +106,14 @@ NON_ATOTI_NOTEBOOKS = [
     NOTEBOOKS_DIRECTORY / "auto-cube" / "main.ipynb",
 ]
 NOTEBOOKS_WITH_ERRORS = [
-    NOTEBOOKS_DIRECTORY
-    / "real-time-risk"
-    / _MAIN,  # SyntaxError: invalid syntax (simple.py, line 54) TO FIX
-    NOTEBOOKS_DIRECTORY / "reddit" / _MAIN,  # http 401 error TO FIX
-    NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN,  # data generation timeout TO FIX
-    NOTEBOOKS_DIRECTORY
-    / "geopricing"
-    / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
+    # intended for volume benchmark testing. Not necessary to test as large volume of data will be generated on the fly.
+    NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN, 
     # NOTEBOOKS_DIRECTORY
-    # / "credit-card-fraud-detection"
-    # / "main.ipynb",  # pycaret dependency conflict with atoti 0.6.5 (numpy)
+    # / "geopricing"
+    # / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
+    NOTEBOOKS_DIRECTORY
+    / "credit-card-fraud-detection"
+    / "main.ipynb",  # pycaret dependency conflict with atoti 0.6.6 (numpy)
     NOTEBOOKS_DIRECTORY
     / "sbm"
     / "main.ipynb",  # broken in 0.6.3 https://github.com/atoti/atoti/issues/413
