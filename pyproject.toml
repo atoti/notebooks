@@ -6,11 +6,9 @@ authors = ["atoti <contact@atoti.io>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8.0,<3.9.7 || >3.9.7,<3.11"
-atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.6.6"}
+atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.7.0"}
 wget = "^3.2"
 treelib = "^1.6.1"
-nltk = "^3.6.2"
-textblob = "^0.15.3"
 mxnet = "1.6.0"
 matplotlib = "^3.4.2"
 gluonts = "^0.7.5"
@@ -32,19 +30,21 @@ s3fs = "^2021.10.0"
 sqlalchemy = "^1.4.26"
 sqlalchemy-vertica-python = "0.5.10"
 haversine = "2.5.1"
-faker = "10.0.0"
-opencv-python = "4.4.0.46"
 watchdog = "^2.1.6"
 QuantLib = "^1.25"
 kafka-python = "^2.0.2"
 xgboost = "^1.5.2"
 natsort = "8.0.0"
 tabulate = "0.8.9"
+orjson = "^3.7.12"
 lxml = "^4.8.0"
 html5lib = "^1.1"
-tsfresh = "^0.19.0"
 yfinance = "^0.1.70"
 pyopls = "^20.3.post1"
+nltk = "^3.6.2"
+textblob = "^0.15.3"
+llvmlite = "0.38.0"
+tsfresh = "^0.19.0"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.7"
