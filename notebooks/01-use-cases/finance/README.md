@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/logo.png" alt="atoti logo">
+  <img src="https://data.atoti.io/notebooks/banners/logo.png" alt="atoti logo">
 </p>
 
 <p align="center">
