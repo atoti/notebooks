@@ -1,13 +1,60 @@
-## Financial use cases for credit risk
+<p align="center">
+  <img src="./assets/logo.png" alt="atoti logo">
+</p>
 
-|Notebooks|Related Articles|Remarks
-|--|--|--
-|[IFRS9](ifrs9/main.ipynb)|<ul><li>[IFRS 9 Data Viz: ECL, PD Analytics and the Vintage Matrix](https://www.atoti.io/articles/ifrs-9-data-viz-ecl-pd-analytics-and-the-vintage-matrix/)</li><li>[Tutorial: How to build an IFRS 9 solution with Python and atoti](https://www.atoti.io/articles/tutorial-how-to-build-an-ifrs-9-solution-with-python-and-atoti/)</li></ul>
-|[SA-CCR](sa-ccr/main.ipynb)| [SA-CCR with python and atoti](https://www.atoti.io/articles/sa-ccr-with-python-and-atoti/)
-|[xva](xva/main.ipynb)|[Interactive xVA analytics with Python and atoti](https://www.atoti.io/articles/interactive-xva-analytics-with-python-and-atoti/)|
+<p align="center">
+  <a href="https://github.com/atoti/atoti/discussions"><img src="https://img.shields.io/github/discussions/atoti/atoti" alt="GitHub Discussion"></a>
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fatoti%2Fnotebooks&count_bg=%23FF7375&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Hits"></a>
+  <a href="https://stackoverflow.com/questions/tagged/atoti"><img src="https://img.shields.io/badge/StackOverflow-atoti-f58024.svg" alt="stackoverflow"></a>
+</p>
 
 
-## Other interesting use cases
-|Notebooks|Related Articles|Remarks|
-|--|--|--
-|[Collateral Shortfall Forecast](../../treasury/collateral-shortfall-forecast/notebooks/main.ipynb)|[Collateral Modelling and Simulation Using atoti and Machine Learning](https://www.atoti.io/articles/collateral-modelling-and-simulation-using-atoti-and-machine-learning/)|
+## Financial use cases for Credit Risk
+
+
+<table>
+
+<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+
+<tr>
+    <td><b>Notebooks</b></td>
+    <td><b>Related media</b></td>
+</tr>
+<tr>
+<td rowspan="2"><a href="notebooks/01-use-cases/finance/risk-management/credit-risk/ifrs9/main.ipynb">ifrs9&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/ifrs-9-data-viz-ecl-pd-analytics-and-the-vintage-matrix/?utm_source=github">📰&nbsp;IFRS 9 Data Viz: ECL, PD Analytics and the Vintage Matrix</a></td>
+</tr>
+<tr>
+<td valign="center"><a href="https://www.atoti.io/articles/tutorial-how-to-build-an-ifrs-9-solution-with-python-and-atoti/?utm_source=github">📰&nbsp;Tutorial: How to build an IFRS 9 solution with Python and atoti</a></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/credit-risk/sa-ccr/main.ipynb">sa-ccr&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/sa-ccr-with-python-and-atoti/?utm_source=github">📰&nbsp;SA-CCR with python and atoti</a></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/credit-risk/xva/main.ipynb">xva&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/interactive-xva-analytics-with-python-and-atoti/?utm_source=github">📰&nbsp;Interactive xVA analytics with Python and atoti</a></td>
+</tr>
+</table>
+
+## Other interesting reads
+
+
+<table>
+
+<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+
+<tr>
+    <td><b>Notebooks</b></td>
+    <td><b>Related media</b></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="/notebooks/01-use-cases/finance/treasury/collateral-shortfall-forecast/notebooks/main.ipynb">collateral-shortfall-forecast&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/collateral-modelling-and-simulation-using-atoti-and-machine-learning/?utm_source=github">📰&nbsp;Collateral Modelling and Simulation Using atoti and Machine Learning</a></td>
+</tr>
+</table>
+
+
+<p align="center">
+  Reach out to <a href="https://www.activeviam.com/contact-us/"><img src="./assets/ActiveViam-RVB-150dpi.png" alt="atoti logo" width="150px" /></a> for more information.
+</p>
