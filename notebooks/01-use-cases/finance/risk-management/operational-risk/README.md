@@ -31,5 +31,5 @@
 
 
 <p align="center">
-  Reach out to <a href="https://www.activeviam.com/contact-us/"><img src="./assets/ActiveViam-RVB-150dpi.png" alt="atoti logo" width="150px" /></a> for more information.
+  Reach out to <a href="https://www.activeviam.com/contact-us/"><img src="https://data.atoti.io/notebooks/banners/ActiveViam-RVB-150dpi.png" alt="atoti logo" width="150px" /></a> for more information.
 </p>
