@@ -21,15 +21,15 @@
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/market-risk/sbm/main.ipynb">sbm&nbsp;</a></td>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/market-risk/sbm/main.ipynb">&nbsp;sbm&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/faster-algorithm-for-frtb-sbm-risk-aggregation/?utm_source=github">📰&nbsp;Faster Algorithm for FRTB SBM Risk Aggregation</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/market-risk/stressed-var-calibration/main.ipynb">stressed-var-calibration&nbsp;</a></td>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/market-risk/stressed-var-calibration/main.ipynb">&nbsp;stressed-var-calibration&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/market-risk-analytics-in-python-interactive-rolling-var/?utm_source=github">📰&nbsp;Market risk analytics in python: Interactive rolling VaR</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/market-risk/value-at-risk/main.ipynb">value-at-risk&nbsp;</a></td>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/market-risk/value-at-risk/main.ipynb">&nbsp;value-at-risk&nbsp;</a></td>
 <td>&nbsp</td>
 </tr>
 </table>
@@ -46,12 +46,13 @@
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="notebooks/01-use-cases/finance/front-offices/main.ipynb">pnl-explained&nbsp;</a></td>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/front-offices/main.ipynb">&nbsp;pnl-explained&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/pnl-explained-with-atoti/?utm_source=github">📰&nbsp;PnL Explained with atoti</a></td>
 </tr>
 </table>
 
 
+<br/>
 <p align="center">
   Reach out to <a href="https://www.activeviam.com/contact-us/"><img src="https://data.atoti.io/notebooks/banners/ActiveViam-RVB-150dpi.png" alt="atoti logo" width="150px" /></a> for more information.
 </p>

@@ -21,7 +21,7 @@
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="2"><a href="notebooks/01-use-cases/finance/risk-management/operational-risk/credit-card-fraud-detection/main.ipynb">credit-card-fraud-detection&nbsp;</a></td>
+<td rowspan="2"><a href="notebooks/01-use-cases/finance/risk-management/operational-risk/credit-card-fraud-detection/main.ipynb">&nbsp;credit-card-fraud-detection&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/credit-card-fraud-detection-part1/?utm_source=github">📰&nbsp;Part 1: Investigating fraudulent transactions real-time with atoti</a></td>
 </tr>
 <tr>
@@ -30,6 +30,7 @@
 </table>
 
 
+<br/>
 <p align="center">
   Reach out to <a href="https://www.activeviam.com/contact-us/"><img src="https://data.atoti.io/notebooks/banners/ActiveViam-RVB-150dpi.png" alt="atoti logo" width="150px" /></a> for more information.
 </p>
