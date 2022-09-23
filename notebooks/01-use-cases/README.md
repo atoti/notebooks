@@ -8,25 +8,18 @@
   <a href="https://stackoverflow.com/questions/tagged/atoti"><img src="https://img.shields.io/badge/StackOverflow-atoti-f58024.svg" alt="stackoverflow"></a>
 </p>
 
-## Welcome to the official **atoti** Notebooks Gallery!
+### The use cases
 
-### The Gallery
-The atoti notebook gallery showcases various ways [atoti](https://www.atoti.io/) can be used for:
-- interactive visualizations 
-- story-telling via dashboarding
-- data analytics investigations
-- data monitoring
+We provide uses cases within the financial sector and other industries outside the financial sector
 
-These are demonstrated through mini use cases within Finance and other industries.  
-There are also technical notebooks that showcase how various features can be implemented with atoti. 
+* Within finance, we cover front office, insurance, risk management, and treasury topics
+* Outside of finance, we cover a wide range of topics, such as sales, pharmaceutical drug efficacy, and object detection
+
+Both categories of use cases cover myriad of techniques and topics around data analysis, data science, and machine learning beyond the business domain topics.
 
 Check out the [atoti repository](https://github.com/atoti/atoti) for more info on atoti.
 
-For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-2022/) from [ActiveViam](https://www.activeviam.com/atoti-2022/).
-
-### The notebooks
-
-<details open>
+For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-2022/) from [ActiveViam](https://www.activeviam.com/atoti-2022/).<details open>
 <summary><b><ins>Financial use cases</ins></b></summary>
 
 <br/>
@@ -394,66 +387,6 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 <tr>
 <td rowspan="1"><a href="notebooks/01-use-cases/other-industries/world-population/main.ipynb">&nbsp;world-population&nbsp;</a></td>
 <td>&nbsp</td>
-</tr>
-</table>
-</details>
-<details>
-<summary><b><ins>Technical tutorials</ins></b></summary>
-
-<br/>
-<table>
-
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
-
-<tr>
-    <td><b>Notebooks</b></td>
-    <td><b>Related media</b></td>
-</tr>
-<tr>
-<td rowspan="1"><a href="notebooks/02-technical-tutorials/auto-cube/main.ipynb">&nbsp;auto-cube&nbsp;</a></td>
-<td><a href="https://www.atoti.io/articles/auto-cube-creation/?utm_source=github">📰&nbsp;Create a Python web application with a few clicks</a></td>
-</tr>
-<tr>
-<td rowspan="1"><a href="notebooks/02-technical-tutorials/currency-conv-with-weighted-ave/main.ipynb">&nbsp;currency-conv-with-weighted-ave&nbsp;</a></td>
-<td>&nbsp</td>
-</tr>
-<tr>
-<td rowspan="1"><a href="notebooks/02-technical-tutorials/currency-conversion/main.ipynb">&nbsp;currency-conversion&nbsp;</a></td>
-<td><a href="https://www.atoti.io/guides/currency-conversion-with-atoti/?utm_source=github">📰&nbsp;Currency conversion with atoti</a></td>
-</tr>
-<tr>
-<td rowspan="1"><a href="notebooks/02-technical-tutorials/multidimensional-analysis/main.ipynb">&nbsp;multidimensional-analysis&nbsp;</a></td>
-<td><a href="https://www.atoti.io/articles/why-do-we-need-multidimensional-analysis/?utm_source=github">📰&nbsp;Why do we need multidimensional analysis?</a></td>
-</tr>
-<tr>
-<td rowspan="1"><a href="notebooks/02-technical-tutorials/rollup-hierarchies/main.ipynb">&nbsp;rollup-hierarchies&nbsp;</a></td>
-<td><a href="https://www.atoti.io/guides/building-rollup-hierarchies-in-python-with-treelib-and-atoti/?utm_source=github">📰&nbsp;Building Rollup Hierarchies in Python with Treelib and atoti</a></td>
-</tr>
-<tr>
-<td rowspan="1"><a href="notebooks/02-technical-tutorials/var-benchmark/main.ipynb">&nbsp;var-benchmark&nbsp;</a></td>
-<td>&nbsp</td>
-</tr>
-<tr>
-<td rowspan="1"><a href="notebooks/02-technical-tutorials/weighted-averages/main.ipynb">&nbsp;weighted-averages&nbsp;</a></td>
-<td><a href="https://www.atoti.io/guides/weighted-averages-with-atoti/?utm_source=github">📰&nbsp;Weighted averages with atoti</a></td>
-</tr>
-<tr>
-<td rowspan="2"><a href="notebooks/02-technical-tutorials/security-implementation/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;security-implementation&nbsp;</a></td>
-<td><a href="https://www.atoti.io/guides/auth0-setup/?utm_source=github">📰&nbsp;Guide to Auth0 setup for Security implementation with Atoti+</a></td>
-</tr>
-<tr>
-<td valign="center"><a href="https://www.atoti.io/guides/authentication-mechanisms/?utm_source=github">📰&nbsp;Different authentication mechanisms to secure your atoti session</a></td>
-</tr>
-<tr>
-<td rowspan="1"><a href="notebooks/02-technical-tutorials/topcount/atoti.ipynb">&nbsp;topcount&nbsp;</a></td>
-<td><a href="https://www.atoti.io/articles/top-count-in-jupyter-notebook-atoti-vs-pandas-matplotlib/?utm_source=github">📰&nbsp;Top count in Jupyter notebook: atoti vs Pandas + Matplotlib</a></td>
-</tr>
-<tr>
-<td rowspan="2"><a href="notebooks/02-technical-tutorials/excel-and-atoti/main.ipynb">&nbsp;excel-and-atoti&nbsp;</a></td>
-<td><a href="https://www.youtube.com/watch?v=dFYZkTxiaOU&list=PLAUN-EQdSx7jeORLVmP-qMo-tVqkMbwpW&index=9?utm_source=github"><img src="https://data.atoti.io/notebooks/banners/yt.png" width="20px" align="center"/>&nbsp;atoti & Excel - Asia</a></td>
-</tr>
-<tr>
-<td valign="center"><a href="https://www.youtube.com/watch?v=qd8RTFDJUMI&list=PLAUN-EQdSx7jeORLVmP-qMo-tVqkMbwpW&index=10?utm_source=github"><img src="https://data.atoti.io/notebooks/banners/yt.png" width="20px" align="center"/>&nbsp;atoti & Excel - Europe</a></td>
 </tr>
 </table>
 </details>
