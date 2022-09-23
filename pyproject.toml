@@ -45,7 +45,7 @@ pyopls = "^20.3.post1"
 nltk = "^3.6.2"
 textblob = "^0.15.3"
 llvmlite = "0.38.0"
-protobuf = "3.15.0"
+protobuf = "3.18.3"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.7"
