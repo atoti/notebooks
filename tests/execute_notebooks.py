@@ -115,6 +115,10 @@ NOTEBOOKS_WITH_ERRORS = [
     NOTEBOOKS_DIRECTORY
     / "sbm"
     / "main.ipynb",  # broken in 0.6.3 https://github.com/atoti/atoti/issues/413
+    NOTEBOOKS_DIRECTORY
+    / "collateral-shortfall-forecast"
+    / "notebooks"
+    / "main.ipynb",  # conflict in dependency with protobuf
 ]
 NOTEBOOKS_TO_SKIP = (
     DATA_PREPROCESSING_NOTEBOOKS
