@@ -8,23 +8,16 @@
   <a href="https://stackoverflow.com/questions/tagged/atoti"><img src="https://img.shields.io/badge/StackOverflow-atoti-f58024.svg" alt="stackoverflow"></a>
 </p>
 
-## Welcome to the official **atoti** Notebooks Gallery!
+### The notebooks
 
-### The Gallery
-The atoti notebook gallery showcases various ways [atoti](https://www.atoti.io/) can be used for:
-- interactive visualizations 
-- story-telling via dashboarding
-- data analytics investigations
-- data monitoring
+We provide both use cases and technical tutorials to help you on your atoti journey.
 
-These are demonstrated through mini use cases within Finance and other industries.  
-There are also technical notebooks that showcase how various features can be implemented with atoti. 
+* Our use case style notebooks are examples demonstrating solutions to specific business problems
+* Our technical tutorials are geared towards implementation examples
 
 Check out the [atoti repository](https://github.com/atoti/atoti) for more info on atoti.
 
 For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-2022/) from [ActiveViam](https://www.activeviam.com/atoti-2022/).
-
-### The notebooks
 
 <details open>
 <summary><b><ins>Financial use cases</ins></b></summary>

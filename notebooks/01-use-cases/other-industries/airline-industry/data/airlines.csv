@@ -1,0 +1,8 @@
+﻿AirlineId,AirlineName,SeatsBusinessClass,SeatsPremiumEconomyClass,SeatsEconomyClass,TotalSeats,DailyDepartures,ModelNumber,AircraftName,Weight,Speed,Length(m),Height(m)
+AA,American (American Airlines),8,24,96,128,12,A319-100,Airbus ,"39,000 lb",871 km/h,33.84,11.76 
+UA,United (United Airlines),36,70,113,219,20,A320-200,Airbus ,"44,000 lb",871 km/h,37.57,11.76 
+DL,Delta (Delta Air Lines),16,36,108,160,10,757-200 ,Boeing,"57,160 lb",918 km/hr,47.3 ,13.6 
+US,U S Air (US Airways),20,21,206,247,15,A320-200,Airbus ,"44,000 lb",871 km/h,37.57,11.76 
+AS,Inc. (Alaska Airlines),16,20,141,177,12,A320-200,Airbus ,"44,000 lb",871 km/h,37.57,11.76 
+G4,Allegiant (Allegiant Air),8,30,117,155,3,A320-200,Airbus ,"44,000 lb",871 km/h,37.57,11.76 
+WN,Southwest (Southwest Airlines),8,40,143,191,30,737-600,Boeing,121500 lb,871 km/h,31.24 ,12.57 
