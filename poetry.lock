@@ -337,7 +337,7 @@ lxml = ["lxml"]
 name = "black"
 version = "22.8.0"
 description = "The uncompromising code formatter."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6.2"
 
@@ -1318,7 +1318,7 @@ requests = ">=2.20.0,<3"
 name = "mypy-extensions"
 version = "0.4.3"
 description = "Experimental type system extensions for programs checked with the mypy typechecker."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -1640,7 +1640,7 @@ testing = ["docopt", "pytest (<6.0.0)"]
 name = "pathspec"
 version = "0.10.1"
 description = "Utility library for gitignore style pattern matching of file paths."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -1728,7 +1728,7 @@ python-versions = "*"
 name = "platformdirs"
 version = "2.5.2"
 description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -2431,7 +2431,7 @@ test = ["coverage[toml]", "pytest", "pytest-cov", "pytest-flake8", "pytest-isort
 name = "tokenize-rt"
 version = "4.2.1"
 description = "A wrapper around the stdlib `tokenize` which roundtrips."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6.1"
 
@@ -2731,7 +2731,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9.7 || >3.9.7,<3.11"
-content-hash = "b762a51b7ecbb837e4555c5a60de4274e3a32be9b1c9de57cfde02467113e5b5"
+content-hash = "6dc04150b31325c41abcfc50f219da34564989fa12629af7825a2cdad654b13a"
 
 [metadata.files]
 aiobotocore = [
@@ -4811,6 +4811,7 @@ traitlets = [
     {file = "traitlets-5.4.0.tar.gz", hash = "sha256:3f2c4e435e271592fe4390f1746ea56836e3a080f84e7833f0f801d9613fec39"},
 ]
 treelib = [
+    {file = "treelib-1.6.1-py3.7.egg", hash = "sha256:8065064e5b92f59400295c221226b65905fd219c6ea43971fa0676b9e7780095"},
     {file = "treelib-1.6.1.tar.gz", hash = "sha256:1cbfffb2d2b75ccac27d0200cee0507b6fbb0726e0afb9fae017ade5d2ce8788"},
 ]
 typeguard = [
