@@ -83,7 +83,7 @@ def execute_notebooks():
     notebooks_path = sorted(
         [
             notebook_path
-            for notebook_path in NOTEBOOKS_DIRECTORY.glob("**\*.ipynb")
+            for notebook_path in NOTEBOOKS_DIRECTORY.glob("**/*.ipynb")
             if "ipynb_checkpoints" not in str(notebook_path)
             and not any(
                 str(notebook_path).endswith(os.path.normpath(exclude_nb))
