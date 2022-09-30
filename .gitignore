@@ -8,4 +8,6 @@ __pycache__/
 
 # Database logs
 *trace.db
-notebooks/credit-card-fraud-detection/logs.log
+*.log
+*.zip
+notebooks/01-use-cases/finance/risk-management/operational-risk/credit-card-fraud-detection/output/*.csv
