@@ -1,3 +1,4 @@
+import os
 import nbformat
 import logging
 
@@ -8,122 +9,71 @@ _MAIN = "main.ipynb"
 
 NOTEBOOKS_DIRECTORY = Path("notebooks")
 DATA_PREPROCESSING_NOTEBOOKS = [
-    NOTEBOOKS_DIRECTORY / "ca-solar" / "01-nrel-data-sourcing.ipynb",
-    NOTEBOOKS_DIRECTORY / "ca-solar" / "02-fire-data-sourcing.ipynb",
-    NOTEBOOKS_DIRECTORY / "customer-churn" / "0_prepare_data.ipynb",
-    NOTEBOOKS_DIRECTORY / "customer-churn" / "1_create_models.ipynb",
-    NOTEBOOKS_DIRECTORY / "customer360" / "01-Dataupload-to-Vertica.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "credit-card-fraud-detection"
-    / "01-Synthetic-data-generation.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "credit-card-fraud-detection"
-    / "02-AutoML-PyCaret-anomaly.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "credit-card-fraud-detection"
-    / "03-AutoML-PyCaret-classification.ipynb",
-    NOTEBOOKS_DIRECTORY / "ifrs9" / "data-generation.ipynb",
-    NOTEBOOKS_DIRECTORY / "twitter" / "01_tweets_mining.ipynb",
-    NOTEBOOKS_DIRECTORY / "twitter" / "02_sentiment.ipynb",
-    NOTEBOOKS_DIRECTORY / "twitter" / "03_cryptocurrency_mining.ipynb",
-    NOTEBOOKS_DIRECTORY / "influencers-analysis" / "notebooks" / "0_prepare_data.ipynb",
-    NOTEBOOKS_DIRECTORY / "object-detection" / "main_demo.ipynb",
-    NOTEBOOKS_DIRECTORY / "object-detection" / "main_generate_csv.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "influencers-analysis"
-    / "notebooks"
-    / "1_create_topics.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "influencers-analysis"
-    / "notebooks"
-    / "2_analyze_topics.ipynb",
-    NOTEBOOKS_DIRECTORY / "var-benchmark" / "data_generator.ipynb",  # Timeout
+    # Financial notebooks
+    # credit-risk
+    "ifrs9/data-generation.ipynb",
+    # operation risk notebooks
+    "credit-card-fraud-detection/01-Synthetic-data-generation.ipynb",
+    "credit-card-fraud-detection/02-AutoML-PyCaret-anomaly.ipynb",
+    "credit-card-fraud-detection/03-AutoML-PyCaret-classification.ipynb",
+    # insurance notebooks
+    "customer360/01-Dataupload-to-Vertica.ipynb",
+    # other industries
+    "ca-solar/01-nrel-data-sourcing.ipynb",
+    "ca-solar/02-fire-data-sourcing.ipynb",
+    "customer-churn/0_prepare_data.ipynb",
+    "customer-churn/1_create_models.ipynb",
+    "twitter/01_tweets_mining.ipynb",
+    "twitter/02_sentiment.ipynb",
+    "twitter/03_cryptocurrency_mining.ipynb",
+    "influencers-analysis/notebooks/0_prepare_data.ipynb",
+    "object-detection/main.ipynb",
+    "object-detection/main_demo.ipynb",
+    "object-detection/main_generate_csv.ipynb",
+    "influencers-analysis/notebooks/1_create_topics.ipynb",
+    "influencers-analysis/notebooks/2_analyze_topics.ipynb",
+    # tech tutorials
+    "var-benchmark/data_generator.ipynb",  # Timeout
 ]
-NOTEBOOKS_WTIH_ALT_DS = [
-    # requires OpenCV and detectron2 installed to provide real-time datastreaming
-    NOTEBOOKS_DIRECTORY / "object-detection" / "main.ipynb",
-    # requires vertica database
-    NOTEBOOKS_DIRECTORY / "customer360" / "02-main-vertica-db.ipynb",
-    # requires kafka setup for real-time messaging
-    NOTEBOOKS_DIRECTORY / "real-time-risk" / _MAIN,
-    # requires login to Reddit to scrap data
-    NOTEBOOKS_DIRECTORY / "reddit" / _MAIN,
+NOTEBOOKS_WTIH_ALT_CONNECTORS = [
+    "customer360/02-main-vertica-db.ipynb",
+    f"real-time-risk/{_MAIN}",
+    f"auto-cube/{_MAIN}",
+    f"reddit/{_MAIN}",  # http 401 error TO FIX
+    f"var-benchmark/{_MAIN}",  # data generation timeout TO FIX
 ]
 ATOTI_PLUS_NOTEBOOKS = [
-    NOTEBOOKS_DIRECTORY / "security-implementation" / "01-Basic-authentication.ipynb",
-    NOTEBOOKS_DIRECTORY / "security-implementation" / "02-OIDC-Auth0.ipynb",
-    NOTEBOOKS_DIRECTORY / "security-implementation" / "03-OIDC-Google.ipynb",
-    NOTEBOOKS_DIRECTORY / "security-implementation" / "04-LDAP.ipynb",
-    NOTEBOOKS_DIRECTORY / "security-implementation" / "main.ipynb",
+    "security-implementation/01-Basic-authentication.ipynb",
+    "security-implementation/02-OIDC-Auth0.ipynb",
+    "security-implementation/03-OIDC-Google.ipynb",
+    "security-implementation/04-LDAP.ipynb",
+    f"security-implementation/{_MAIN}",
 ]
 NON_ATOTI_NOTEBOOKS = [
-    NOTEBOOKS_DIRECTORY
-    / "wildfire-prediction"
-    / "notebooks"
-    / "0-prepare-the-datasets.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "wildfire-prediction"
-    / "notebooks"
-    / "1-roll-the-datasets.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "wildfire-prediction"
-    / "notebooks"
-    / "2-extract-the-features-test.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "wildfire-prediction"
-    / "notebooks"
-    / "2-extract-the-features-train.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "wildfire-prediction"
-    / "notebooks"
-    / "2-extract-the-features-val.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "wildfire-prediction"
-    / "notebooks"
-    / "3-classification-with-OPLS.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "collateral-shortfall-forecast"
-    / "notebooks"
-    / "0-download-stock-prices-data.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "collateral-shortfall-forecast"
-    / "notebooks"
-    / "1-data-preparation.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "collateral-shortfall-forecast"
-    / "notebooks"
-    / "2-data-exploration-decompose-time-series.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "collateral-shortfall-forecast"
-    / "notebooks"
-    / "3-data-exploration-partial-autocorrelations.ipynb",
-    NOTEBOOKS_DIRECTORY
-    / "collateral-shortfall-forecast"
-    / "notebooks"
-    / "4-create-machine-learning-pipeline.ipynb",
-    NOTEBOOKS_DIRECTORY / "auto-cube" / "main.ipynb",
+    # financial - treasury
+    "collateral-shortfall-forecast/notebooks/0-download-stock-prices-data.ipynb",
+    "collateral-shortfall-forecast/notebooks/1-data-preparation.ipynb",
+    "collateral-shortfall-forecast/notebooks/2-data-exploration-decompose-time-series.ipynb",
+    "collateral-shortfall-forecast/notebooks/3-data-exploration-partial-autocorrelations.ipynb",
+    "collateral-shortfall-forecast/notebooks/4-create-machine-learning-pipeline.ipynb",
+    # other industries
+    "wildfire-prediction/notebooks/0-prepare-the-datasets.ipynb",
+    "wildfire-prediction/notebooks/1-roll-the-datasets.ipynb",
+    "wildfire-prediction/notebooks/2-extract-the-features-test.ipynb",
+    "wildfire-prediction/notebooks/2-extract-the-features-train.ipynb",
+    "wildfire-prediction/notebooks/2-extract-the-features-val.ipynb",
+    "wildfire-prediction/notebooks/3-classification-with-OPLS.ipynb",
 ]
 NOTEBOOKS_WITH_ERRORS = [
-    # intended for volume benchmark testing. Not necessary to test as large volume of data will be generated on the fly.
-    NOTEBOOKS_DIRECTORY / "var-benchmark" / _MAIN,
-    # NOTEBOOKS_DIRECTORY
-    # / "geopricing"
-    # / _MAIN,  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
-    NOTEBOOKS_DIRECTORY
-    / "credit-card-fraud-detection"
-    / "main.ipynb",  # pycaret dependency conflict with atoti 0.6.6 (numpy)
-    NOTEBOOKS_DIRECTORY
-    / "sbm"
-    / "main.ipynb",  # broken in 0.6.3 https://github.com/atoti/atoti/issues/413
-    NOTEBOOKS_DIRECTORY
-    / "collateral-shortfall-forecast"
-    / "notebooks"
-    / "main.ipynb",  # conflict in dependency with protobuf
+    "credit-card-fraud-detection/main.ipynb",  # pycaret dependency conflict with atoti 0.6.5 (numpy)
+    "sbm/main.ipynb",  # broken in 0.6.3 https://github.com/atoti/atoti/issues/413
+    f"geopricing/{_MAIN}",  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
+    f"collateral-shortfall-forecast/notebooks/{_MAIN}",  # removed tsfresh due to conflict with protobuf
 ]
-NOTEBOOKS_TO_SKIP = (
+NOTEBOOKS_TO_SKIP = sorted(
     DATA_PREPROCESSING_NOTEBOOKS
     + NOTEBOOKS_WITH_ERRORS
-    + NOTEBOOKS_WTIH_ALT_DS
+    + NOTEBOOKS_WTIH_ALT_CONNECTORS
     + NON_ATOTI_NOTEBOOKS
     + ATOTI_PLUS_NOTEBOOKS
 )
@@ -134,10 +84,14 @@ def execute_notebooks():
         [
             notebook_path
             for notebook_path in NOTEBOOKS_DIRECTORY.glob("**/*.ipynb")
-            if notebook_path not in NOTEBOOKS_TO_SKIP
-            and not "ipynb_checkpoints" in str(notebook_path)
+            if "ipynb_checkpoints" not in str(notebook_path)
+            and not any(
+                str(notebook_path).endswith(os.path.normpath(exclude_nb))
+                for exclude_nb in NOTEBOOKS_TO_SKIP
+            )
         ]
     )
+
     for notebook_path in notebooks_path:
         logging.info(f"Starting execution of {notebook_path}")
         notebook = nbformat.read(notebook_path, as_version=4)
