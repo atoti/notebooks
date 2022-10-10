@@ -6,6 +6,15 @@ This use case comprises of 3 main sections:
 - Detect credit card fraud with autoML, choosing the best model with PyCaret.
 - Real-time credit card analysis to investigate suspicious transaction flagged by the ML.
 
+Below depicts the flow between the libraries and their usage:  
+<img src="./img/app_flow.png" />
+
+This use case uses [PyCaret 2.3.4](https://pycaret.org/).  
+As the latest version of atoti has conflicting dependencies with PyCaret, the two programs are running on separate virtual environment, communicating through endpoints.
+
+<img src="./img/system_design.png" />  
+
+
 ## 1 Synthetic data generation
 
 [01-Synthetic-data-generation.ipynb](./01-Synthetic-data-generation.ipynb) is adapted from the GitHub repository [Sparkov_Data_Generation](https://github.com/namebrandon/Sparkov_Data_Generation). It makes use of Faker to generate customers and credit card transactions with varying profiles:
@@ -70,9 +79,28 @@ This notebook covers the following:
   - we used the LGBM model to perform fraud prediction
   - load transactions and its prediction into atoti
 - Evaluate incoming transaction from atoti web application on http://localhost:10327.
-- Create **source simulation** in atoti with prediction (with and without cumulative features) from:
-  - LGBM
-  - DT
-  - anomaly detection
 
-This allows us to compare the performance of the models and also decide if the additional cumulative features are necessary.
+### Real-time fraud prediction
+
+To test the real-time fraud detection, start the Flask application included under the `atoti-pycaret` package. Follow the [README.md](./atoti-pycaret/README.md) included under the package on how to start the application.  
+
+Alternatively, you can always integrate your own machine learning models and update the REST URI under the function `get_prediction` in the [main.ipynb](./main.ipynb):
+
+```
+def get_prediction(features_df):
+    url = "http://127.0.0.1:105/predict"
+    header = {"Content-Type": "application/json"}
+
+    payload = {
+        "features": features_df.to_json(orient="records"),
+    }
+
+    try:
+        response = requests.post(url, json=payload)
+
+        prediction = pd.DataFrame.from_dict(response.json())
+        return prediction
+
+    except requests.exceptions.HTTPError as e:
+        print(e.response.text)
+```
