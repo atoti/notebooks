@@ -1,0 +1,25 @@
+{
+  "name": "@atoti/pokemon-extension",
+  "version": "0.6.5",
+  "private": true,
+  "scripts": {
+    "build": "activeui-scripts build:extension"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions"
+  ],
+  "dependencies": {
+    "@activeviam/activeui-sdk": "5.0.8",
+    "@emotion/core": "^10.3.1",
+    "antd": "4.12.2",
+    "react": "^17.0.2",
+    "react-intl": "5.20.9"
+  },
+  "devDependencies": {
+    "@activeviam/activeui-scripts": "5.0.8",
+    "@types/react": "^17.0.39",
+    "typescript": "^4.6.2"
+  }
+}

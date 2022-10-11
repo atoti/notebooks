@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "atoti-pycaret"
+version = "0.1.0"
+description = ""
+authors = ["Yeo Hui Fang <hfy@activeviam.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+jupyterlab = "^3.4.7"
+Flask = "^2.2.2"
+pycaret = "2.3.4"
+
+
+[tool.poetry.dev-dependencies]
+black-nb = "^0.5.0"
+black = {extras = ["jupyter"], version = "^21.6b0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
