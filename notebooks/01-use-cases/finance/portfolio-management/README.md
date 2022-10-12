@@ -22,7 +22,7 @@
 </tr>
 <tr>
 <td rowspan="1"><a href="notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb">&nbsp;cvar-optimizer&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/integrating-an-external-portfolio-optimizer-with-atoti?utm_source=github">📰&nbsp;Integrating an External Portfolio Optimizer with atoti</a></td>
 </tr>
 </table>
 
