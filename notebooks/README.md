@@ -442,6 +442,10 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 <td><a href="https://www.atoti.io/articles/top-count-in-jupyter-notebook-atoti-vs-pandas-matplotlib/?utm_source=github">📰&nbsp;Top count in Jupyter notebook: atoti vs Pandas + Matplotlib</a></td>
 </tr>
 <tr>
+<td rowspan="1"><a href="notebooks/02-technical-tutorials/introductory-tutorial/main.ipynb">&nbsp;introductory-tutorial&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
+<tr>
 <td rowspan="2"><a href="notebooks/02-technical-tutorials/excel-and-atoti/main.ipynb">&nbsp;excel-and-atoti&nbsp;</a></td>
 <td><a href="https://www.youtube.com/watch?v=dFYZkTxiaOU&list=PLAUN-EQdSx7jeORLVmP-qMo-tVqkMbwpW&index=9?utm_source=github"><img src="https://data.atoti.io/notebooks/banners/yt.png" width="20px" align="center"/>&nbsp;atoti & Excel - Asia</a></td>
 </tr>
