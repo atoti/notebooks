@@ -205,6 +205,20 @@ scikit-learn = ">=0.17.1"
 scipy = ">=0.17.0"
 
 [[package]]
+name = "Bottleneck"
+version = "1.3.5"
+description = "Fast NumPy array functions written in C"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+numpy = "*"
+
+[package.extras]
+doc = ["gitpython", "numpydoc", "sphinx"]
+
+[[package]]
 name = "catalogue"
 version = "1.0.0"
 description = "Super lightweight function registries for your library"
@@ -731,11 +745,11 @@ i18n = ["Babel (>=2.7)"]
 
 [[package]]
 name = "joblib"
-version = "1.1.0"
+version = "1.2.0"
 description = "Lightweight pipelining with Python functions"
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [[package]]
 name = "json5"
@@ -1104,11 +1118,14 @@ testing = ["pytest"]
 
 [[package]]
 name = "multimethod"
-version = "1.9"
+version = "1.4"
 description = "Multiple argument dispatching."
 category = "main"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.6"
+
+[package.extras]
+docs = ["jupyter", "nbsphinx", "recommonmark", "sphinx"]
 
 [[package]]
 name = "murmurhash"
@@ -1413,7 +1430,7 @@ test = ["hypothesis (>=3.58)", "pytest (>=6.0)", "pytest-xdist"]
 
 [[package]]
 name = "pandas-profiling"
-version = "3.2.0"
+version = "3.0.0"
 description = "Generate profile report for pandas DataFrame"
 category = "main"
 optional = false
@@ -1422,11 +1439,9 @@ python-versions = ">=3.6"
 [package.dependencies]
 htmlmin = ">=0.1.12"
 jinja2 = ">=2.11.1"
-joblib = ">=1.1.0,<1.2.0"
-markupsafe = ">=2.1.1,<2.2.0"
+joblib = "*"
 matplotlib = ">=3.2.0"
 missingno = ">=0.4.2"
-multimethod = ">=1.4"
 numpy = ">=1.16.0"
 pandas = ">=0.25.3,<1.0.0 || >1.0.0,<1.0.1 || >1.0.1,<1.0.2 || >1.0.2,<1.1.0 || >1.1.0"
 phik = ">=0.11.1"
@@ -1435,12 +1450,12 @@ PyYAML = ">=5.0.0"
 requests = ">=2.24.0"
 scipy = ">=1.4.1"
 seaborn = ">=0.10.1"
-tangled-up-in-unicode = "0.2.0"
+tangled-up-in-unicode = "0.1.0"
 tqdm = ">=4.48.2"
-visions = {version = "0.7.4", extras = ["type_image_path"]}
+visions = {version = "0.7.1", extras = ["type_image_path"]}
 
 [package.extras]
-notebook = ["ipywidgets (>=7.5.1)", "jupyter-client (>=5.3.4)", "jupyter-core (>=4.6.3)"]
+notebook = ["ipywidgets (>=7.5.1)", "jupyter-client (>=6.0.0)", "jupyter-core (>=4.6.3)"]
 
 [[package]]
 name = "pandocfilters"
@@ -2194,11 +2209,11 @@ widechars = ["wcwidth"]
 
 [[package]]
 name = "tangled-up-in-unicode"
-version = "0.2.0"
+version = "0.1.0"
 description = "Access to the Unicode Character Database (UCD)"
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.5"
 
 [[package]]
 name = "tenacity"
@@ -2396,7 +2411,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [[package]]
 name = "visions"
-version = "0.7.4"
+version = "0.7.1"
 description = "Visions"
 category = "main"
 optional = false
@@ -2404,8 +2419,9 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 attrs = ">=19.3.0"
+bottleneck = "*"
 imagehash = {version = "*", optional = true, markers = "extra == \"type_image_path\""}
-multimethod = ">=1.4"
+multimethod = "1.4"
 networkx = ">=2.4"
 numpy = "*"
 pandas = ">=0.25.3"
@@ -2413,10 +2429,10 @@ Pillow = {version = "*", optional = true, markers = "extra == \"type_image_path\
 tangled-up-in-unicode = ">=0.0.4"
 
 [package.extras]
-all = ["Pillow", "attrs (>=19.3.0)", "imagehash", "matplotlib", "multimethod (>=1.4)", "networkx (>=2.4)", "numpy", "pandas (>=0.25.3)", "pydot", "pygraphviz", "shapely", "tangled-up-in-unicode (>=0.0.4)"]
+all = ["Pillow", "attrs (>=19.3.0)", "bottleneck", "imagehash", "matplotlib", "multimethod (==1.4)", "networkx (>=2.4)", "numpy", "pandas (>=0.25.3)", "pydot", "pygraphviz", "shapely", "tangled-up-in-unicode (>=0.0.4)"]
 dev = ["IPython", "Sphinx-copybutton", "black (>=20.8b1)", "isort (>=5.0.9)", "mypy (>=0.770)", "nbsphinx", "recommonmark (>=0.6.0)", "setuptools (>=46.1.3)", "sphinx-autodoc-typehints (>=1.10.3)", "sphinx-rtd-theme (>=0.4.3)", "wheel (>=0.34.2)"]
 plotting = ["matplotlib", "pydot", "pygraphviz"]
-test = ["Pillow", "big-o (>=0.10.1)", "black (>=19.10b0)", "check-manifest (>=0.41)", "imagehash", "isort (>=5.0.9)", "matplotlib", "mypy (>=0.800)", "pandas", "pre-commit", "pyarrow (>=1.0.1)", "pydot", "pytest (>=5.2.0)", "pytest-spark (>=0.6.0)", "shapely", "twine (>=3.1.1)"]
+test = ["Pillow", "big-o (>=0.10.1)", "black (>=19.10b0)", "check-manifest (>=0.41)", "imagehash", "isort (>=5.0.9)", "matplotlib", "mypy (>=0.800)", "pandas", "pre-commit", "pydot", "pytest (>=5.2.0)", "shapely", "twine (>=3.1.1)"]
 type_geometry = ["shapely"]
 type_image_path = ["Pillow", "imagehash"]
 
@@ -2643,6 +2659,44 @@ blis = [
 Boruta = [
     {file = "Boruta-0.3-py3-none-any.whl", hash = "sha256:8269e9c152ae73ed05cd2b347b6b53edc437e1f7b6e1f3d6b8bee1e99d27e963"},
     {file = "Boruta-0.3.tar.gz", hash = "sha256:06d42882a57a4db912e5b7b0b887427fbb6ee7e331d0c7c1f7c06a6658c99831"},
+]
+Bottleneck = [
+    {file = "Bottleneck-1.3.5-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:75ed4ffbe26672da14d9e9e29b7bca79f82c7ecf1e8a32f1d3f7b4dda53b486e"},
+    {file = "Bottleneck-1.3.5-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:c8f5562e5f27ab39775758b3d57c6144e29ca33edc76ee60cb220b5a99d5a1f5"},
+    {file = "Bottleneck-1.3.5-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5d26675caa9ce86a299877b14e909bc456c0d1fec30ae63bbb52a20b01beedb9"},
+    {file = "Bottleneck-1.3.5-cp310-cp310-musllinux_1_1_i686.whl", hash = "sha256:cc1395aabff7db940f2cd952b8e42f014461feecd563c6dddb9077022a361a80"},
+    {file = "Bottleneck-1.3.5-cp310-cp310-musllinux_1_1_x86_64.whl", hash = "sha256:d17af36baa48cd68c83eeefd830236410981556987c5ea9d8212f99c64c696ae"},
+    {file = "Bottleneck-1.3.5-cp310-cp310-win32.whl", hash = "sha256:fe75dff7ad1ec63cd832aa7529fc60ef78ce13ee29318a1437b0634c01ad59f4"},
+    {file = "Bottleneck-1.3.5-cp310-cp310-win_amd64.whl", hash = "sha256:9a53cfddc71bdfa14e444deab90173b658fbe98a784cdfee55725641b21be175"},
+    {file = "Bottleneck-1.3.5-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:826ecaa26132179ce43b7796473eff62b232db47b39f3b6fcc4365488f3b0b00"},
+    {file = "Bottleneck-1.3.5-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:3283f98c01702404fde4c674b19ae444eaa2668da77124fcc6de40f82c6cda93"},
+    {file = "Bottleneck-1.3.5-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f5f7cffb0de10d83901a942a50f1a8421776fc0489603ce938b31bdf867ab0e9"},
+    {file = "Bottleneck-1.3.5-cp36-cp36m-musllinux_1_1_i686.whl", hash = "sha256:005578d5ffbef148d1bc8cdd74d71734a5add7379142e1add339ad68c20ad13b"},
+    {file = "Bottleneck-1.3.5-cp36-cp36m-musllinux_1_1_x86_64.whl", hash = "sha256:538dc29cf97410cb767ea7f369806be487ba6fe125329e0cf410cb6dd225c891"},
+    {file = "Bottleneck-1.3.5-cp36-cp36m-win32.whl", hash = "sha256:7b1c0f1a4ab2240dcee5df4968d0b70892d958435750c1dfb1c835b091436453"},
+    {file = "Bottleneck-1.3.5-cp36-cp36m-win_amd64.whl", hash = "sha256:698c8b92da3c0638910a81a5c404e199080f0dd6d64c56de7d21dd90870c58cb"},
+    {file = "Bottleneck-1.3.5-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:97d628e66f59255d65d6bcd43f58d64b976388d3cc4e330832a260793cdbdb2a"},
+    {file = "Bottleneck-1.3.5-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:103fe3f2166667448271698394a15eae9d43a252dbb41a9d4397e08e4852934e"},
+    {file = "Bottleneck-1.3.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a56e945a323896f9c76e99c1401e86bbca68ec0828b38d5832b5881fbacd5da2"},
+    {file = "Bottleneck-1.3.5-cp37-cp37m-musllinux_1_1_i686.whl", hash = "sha256:8a7dbf8e79b9f6821df964b964cfe10ba58ad92334a3cca6e6c8cc5c72ec92d1"},
+    {file = "Bottleneck-1.3.5-cp37-cp37m-musllinux_1_1_x86_64.whl", hash = "sha256:da08bd0978be264daff090d3cddeff809810bb58ef4dbad418fcb1de0770dafb"},
+    {file = "Bottleneck-1.3.5-cp37-cp37m-win32.whl", hash = "sha256:a4280a609b37b12827b3c86fe72869bb580462ae06c970f904412a0bc1b9ba12"},
+    {file = "Bottleneck-1.3.5-cp37-cp37m-win_amd64.whl", hash = "sha256:1dc6bc824ff24e55edb5e0738e7e9de838091471406df63a20a12cca006eab2d"},
+    {file = "Bottleneck-1.3.5-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:930a2e86ef95eab1a5ef00467de45d316a8dfb0de9604aa23cdbf7fefbdab765"},
+    {file = "Bottleneck-1.3.5-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:e069baf7a3208aaa55e3d2c2fa315661cd61a1e0c5cc33be42111e9520fa5802"},
+    {file = "Bottleneck-1.3.5-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f3bb670f70c86978b99566e39959b151e211c814b336cacda6931109f19b280a"},
+    {file = "Bottleneck-1.3.5-cp38-cp38-musllinux_1_1_i686.whl", hash = "sha256:9a4cb657afba02c01471e78879bc01652268a8d23dec3c8ea432df174c10f61d"},
+    {file = "Bottleneck-1.3.5-cp38-cp38-musllinux_1_1_x86_64.whl", hash = "sha256:0b624ebe4660545534f6408dbe069157600d89392caabfc0c337f2a01aa2c990"},
+    {file = "Bottleneck-1.3.5-cp38-cp38-win32.whl", hash = "sha256:c907f1be11ab6e2b9c980a61feabee21dbe16d62db1e605fbffe6a85d2a8a23b"},
+    {file = "Bottleneck-1.3.5-cp38-cp38-win_amd64.whl", hash = "sha256:73084b263d5ec3091e92664ae1276258db2865e6801b7f99864af42baebd6d2d"},
+    {file = "Bottleneck-1.3.5-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:f0eaf6e9dc1a8efe56b90b790c0bd47453639c4a6427d6206c8bd26f7c06c3a6"},
+    {file = "Bottleneck-1.3.5-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:b5cffd0b4a7b929f94412586e78ca3506b3c2b50d213f7a4aaff67f913736e38"},
+    {file = "Bottleneck-1.3.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5a87a21081fb27995ef2123d85a5cc392a3aab707189c6ba98b4a4808d0905d0"},
+    {file = "Bottleneck-1.3.5-cp39-cp39-musllinux_1_1_i686.whl", hash = "sha256:04c938dea6ca735bed69e0e01b3d83c31da4861c10d3332363a4f697db02a341"},
+    {file = "Bottleneck-1.3.5-cp39-cp39-musllinux_1_1_x86_64.whl", hash = "sha256:5712542be5b067f10c064139227757008ecd6e494967e26ecc03e24d5953e6c4"},
+    {file = "Bottleneck-1.3.5-cp39-cp39-win32.whl", hash = "sha256:f24fc607466edf97d46aeafe0ac4797e0f7b654aef4a547b1699bb8ae15db3ff"},
+    {file = "Bottleneck-1.3.5-cp39-cp39-win_amd64.whl", hash = "sha256:dce5ba9eaab354fdc13c7969f026ef2e9f4757415f565a188322e6cc9a296ce5"},
+    {file = "Bottleneck-1.3.5.tar.gz", hash = "sha256:2c0d27afe45351f6f421893362621804fa7dea14fe29a78eaa52d4323f646de7"},
 ]
 catalogue = [
     {file = "catalogue-1.0.0-py2.py3-none-any.whl", hash = "sha256:584d78e7f4c3c6e2fd498eb56dfc8ef1f4ff738480237de2ccd26cbe2cf47172"},
@@ -3014,8 +3068,8 @@ Jinja2 = [
     {file = "Jinja2-3.1.2.tar.gz", hash = "sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852"},
 ]
 joblib = [
-    {file = "joblib-1.1.0-py2.py3-none-any.whl", hash = "sha256:f21f109b3c7ff9d95f8387f752d0d9c34a02aa2f7060c2135f465da0e5160ff6"},
-    {file = "joblib-1.1.0.tar.gz", hash = "sha256:4158fcecd13733f8be669be0683b96ebdbbd38d23559f54dca7205aea1bf1e35"},
+    {file = "joblib-1.2.0-py3-none-any.whl", hash = "sha256:091138ed78f800342968c523bdde947e7a305b8594b910a0fea2ab83c3c6d385"},
+    {file = "joblib-1.2.0.tar.gz", hash = "sha256:e1cee4a79e4af22881164f218d4311f60074197fb707e082e803b61f6d137018"},
 ]
 json5 = [
     {file = "json5-0.9.10-py2.py3-none-any.whl", hash = "sha256:993189671e7412e9cdd8be8dc61cf402e8e579b35f1d1bb20ae6b09baa78bbce"},
@@ -3328,8 +3382,8 @@ mlxtend = [
     {file = "mlxtend-0.19.0.tar.gz", hash = "sha256:d6f2b8b48e7a1c7378198c9c8b3338b6f2d7fb21cbdc03f75c63b780ce438274"},
 ]
 multimethod = [
-    {file = "multimethod-1.9-py3-none-any.whl", hash = "sha256:59cb8ffec7449bd5557993c8d84e788fe04aca9c94b3b181ba8429ab954c24df"},
-    {file = "multimethod-1.9.tar.gz", hash = "sha256:cb1b87815732984172d6802bbfea81d68bfa2a0d5a562fb212ae7d59bad7a455"},
+    {file = "multimethod-1.4-py2.py3-none-any.whl", hash = "sha256:2746500793c64cbd84a6ccda0043f4b58af3fcf8d6cd44b2232d5b9455b31d73"},
+    {file = "multimethod-1.4.tar.gz", hash = "sha256:8b315d6c965a797899a699913cdc391ded51dca22db5d11bda3399ce24ffed76"},
 ]
 murmurhash = [
     {file = "murmurhash-1.0.8-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:469a5c8959988ce8c395be2c623a45df8112783d87445b6a230596807e7786d2"},
@@ -3535,8 +3589,8 @@ pandas = [
     {file = "pandas-1.3.5.tar.gz", hash = "sha256:1e4285f5de1012de20ca46b188ccf33521bff61ba5c5ebd78b4fb28e5416a9f1"},
 ]
 pandas-profiling = [
-    {file = "pandas-profiling-3.2.0.tar.gz", hash = "sha256:8897c2628e3a9b5c915d038aa1782be7fa9e322e405a51aa4586466ab84e8461"},
-    {file = "pandas_profiling-3.2.0-py2.py3-none-any.whl", hash = "sha256:dd063f35a99f8f0c75f109a2bbfa13a58209424b84b67842139562630d9035f7"},
+    {file = "pandas-profiling-3.0.0.tar.gz", hash = "sha256:785757d01a2cac5c64927fe61efdcb12b866195f880d809eaacfb6cb338c47ec"},
+    {file = "pandas_profiling-3.0.0-py2.py3-none-any.whl", hash = "sha256:66aacc4aea66f2b4105bec32387e5175c2d088ba475eeefb2169ee6e89db04c6"},
 ]
 pandocfilters = [
     {file = "pandocfilters-1.5.0-py2.py3-none-any.whl", hash = "sha256:33aae3f25fd1a026079f5d27bdd52496f0e0803b3469282162bafdcbdf6ef14f"},
@@ -4311,12 +4365,11 @@ statsmodels = [
 ]
 tabulate = [
     {file = "tabulate-0.8.10-py3-none-any.whl", hash = "sha256:0ba055423dbaa164b9e456abe7920c5e8ed33fcc16f6d1b2f2d152c8e1e8b4fc"},
-    {file = "tabulate-0.8.10-py3.8.egg", hash = "sha256:436f1c768b424654fce8597290d2764def1eea6a77cfa5c33be00b1bc0f4f63d"},
     {file = "tabulate-0.8.10.tar.gz", hash = "sha256:6c57f3f3dd7ac2782770155f3adb2db0b1a269637e42f27599925e64b114f519"},
 ]
 tangled-up-in-unicode = [
-    {file = "tangled_up_in_unicode-0.2.0-py3-none-any.whl", hash = "sha256:154be12605b1687a17133aa741ae951cf9ee531c48a0c19f98d83ec5cb3cc7be"},
-    {file = "tangled_up_in_unicode-0.2.0.tar.gz", hash = "sha256:de56dbaf32de1b8c65621f97b06b7de21cba18c8e61f3988a426ffe3c40fed36"},
+    {file = "tangled_up_in_unicode-0.1.0-py3-none-any.whl", hash = "sha256:a06dea9cf93dcda6a720c46bb86a41e84372e3123c7fd6bef9e66add1dd41019"},
+    {file = "tangled_up_in_unicode-0.1.0.tar.gz", hash = "sha256:d07ffa62a4d9e9e0a92582f869ac3a2859456f5c9241580c7a5d9fcf2e6e6315"},
 ]
 tenacity = [
     {file = "tenacity-8.1.0-py3-none-any.whl", hash = "sha256:35525cd47f82830069f0d6b73f7eb83bc5b73ee2fff0437952cedf98b27653ac"},
@@ -4420,8 +4473,8 @@ urllib3 = [
     {file = "urllib3-1.26.12.tar.gz", hash = "sha256:3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e"},
 ]
 visions = [
-    {file = "visions-0.7.4-py3-none-any.whl", hash = "sha256:16f007e70362b788478b95129bb044dc0718b7530205ebddd8a1ff34a281d28e"},
-    {file = "visions-0.7.4.tar.gz", hash = "sha256:4f66c1da369cdbced5e1e2d2c43104caa8cfb9c694006cea1592e1673cfc1153"},
+    {file = "visions-0.7.1-py3-none-any.whl", hash = "sha256:138f45b007f5a58b8faa92f4d288e0da265e6ebf88ca6a5ec655922ab8fb95da"},
+    {file = "visions-0.7.1.tar.gz", hash = "sha256:d9d10a0da8de80d0704c28c084282abbd3273065cd9e6a494b6fe7e3b339ee23"},
 ]
 waitress = [
     {file = "waitress-2.1.2-py3-none-any.whl", hash = "sha256:7500c9625927c8ec60f54377d590f67b30c8e70ef4b8894214ac6e4cad233d2a"},
