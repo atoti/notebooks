@@ -227,7 +227,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 </tr>
 <tr>
 <td rowspan="1"><a href="notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb">&nbsp;cvar-optimizer&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/integrating-an-external-portfolio-optimizer-with-atoti?utm_source=github">📰&nbsp;Integrating an External Portfolio Optimizer with atoti</a></td>
 </tr>
 </table>
 <br/>
@@ -468,6 +468,10 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 <tr>
 <td rowspan="1"><a href="notebooks/02-technical-tutorials/topcount/atoti.ipynb">&nbsp;topcount&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/top-count-in-jupyter-notebook-atoti-vs-pandas-matplotlib/?utm_source=github">📰&nbsp;Top count in Jupyter notebook: atoti vs Pandas + Matplotlib</a></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="notebooks/02-technical-tutorials/introductory-tutorial/main.ipynb">&nbsp;introductory-tutorial&nbsp;</a></td>
+<td>&nbsp</td>
 </tr>
 <tr>
 <td rowspan="2"><a href="notebooks/02-technical-tutorials/excel-and-atoti/main.ipynb">&nbsp;excel-and-atoti&nbsp;</a></td>
