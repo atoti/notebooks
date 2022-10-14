@@ -1,0 +1,25 @@
+{
+  "name": "optimizerwidget-extension",
+  "version": "0.7.0",
+  "private": true,
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "activeui-scripts build:extension"
+  },
+  "dependencies": {
+    "@activeviam/activeui-sdk": "5.0.16",
+    "@bd/utils": "0.7.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@activeviam/activeui-scripts": "5.0.16",
+    "typescript": "^4.3.4"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions"
+  ]
+}

@@ -205,6 +205,27 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 <br/>
 </blockquote></details>
 
+</li><li>
+<details open>
+<summary><b>Portfolio Management</b></summary><blockquote>
+<br/>
+
+<table>
+
+<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+
+<tr>
+    <td><b>Notebooks</b></td>
+    <td><b>Related media</b></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb">&nbsp;cvar-optimizer&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/integrating-an-external-portfolio-optimizer-with-atoti?utm_source=github">📰&nbsp;Integrating an External Portfolio Optimizer with atoti</a></td>
+</tr>
+</table>
+<br/>
+</blockquote></details>
+
 </li></ol>
 </details>
 <details>

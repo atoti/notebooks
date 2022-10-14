@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkoptimizerwidget_extension=self.webpackChunkoptimizerwidget_extension||[]).push([[448,179],{9448:(e,t,i)=>{i.r(t),i.d(t,{default:()=>n});var s=i(5121);const n={async activate(e){(0,s.z)(e.pluginRegistry)}}}}]);

@@ -46,6 +46,7 @@ nltk = "^3.6.2"
 textblob = "^0.15.3"
 llvmlite = "0.38.0"
 protobuf = "4.21.6"
+pyportfolioopt = "^1.5.3"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.7"

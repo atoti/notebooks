@@ -8,16 +8,23 @@
   <a href="https://stackoverflow.com/questions/tagged/atoti"><img src="https://img.shields.io/badge/StackOverflow-atoti-f58024.svg" alt="stackoverflow"></a>
 </p>
 
-### The notebooks
+## Welcome to the official **atoti** Notebooks Gallery!
 
-We provide both use cases and technical tutorials to help you on your atoti journey.
+### The Gallery
+The atoti notebook gallery showcases various ways [atoti](https://www.atoti.io/) can be used for:
+- interactive visualizations 
+- story-telling via dashboarding
+- data analytics investigations
+- data monitoring
 
-* Our use case style notebooks are examples demonstrating solutions to specific business problems
-* Our technical tutorials are geared towards implementation examples
+These are demonstrated through mini use cases within Finance and other industries.  
+There are also technical notebooks that showcase how various features can be implemented with atoti. 
 
 Check out the [atoti repository](https://github.com/atoti/atoti) for more info on atoti.
 
 For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-2022/) from [ActiveViam](https://www.activeviam.com/atoti-2022/).
+
+### The notebooks
 
 <details open>
 <summary><b><ins>Financial use cases</ins></b></summary>
@@ -200,6 +207,27 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 <tr>
 <td rowspan="1"><a href="notebooks/01-use-cases/finance/insurance/price-elasticity/main.ipynb">&nbsp;price-elasticity&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/unravel-price-elasticity-of-demand-with-atoti/?utm_source=github">📰&nbsp;Unravel price elasticity of demand with atoti</a></td>
+</tr>
+</table>
+<br/>
+</blockquote></details>
+
+</li><li>
+<details open>
+<summary><b>Portfolio Management</b></summary><blockquote>
+<br/>
+
+<table>
+
+<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+
+<tr>
+    <td><b>Notebooks</b></td>
+    <td><b>Related media</b></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb">&nbsp;cvar-optimizer&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/integrating-an-external-portfolio-optimizer-with-atoti?utm_source=github">📰&nbsp;Integrating an External Portfolio Optimizer with atoti</a></td>
 </tr>
 </table>
 <br/>
@@ -440,6 +468,10 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 <tr>
 <td rowspan="1"><a href="notebooks/02-technical-tutorials/topcount/atoti.ipynb">&nbsp;topcount&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/top-count-in-jupyter-notebook-atoti-vs-pandas-matplotlib/?utm_source=github">📰&nbsp;Top count in Jupyter notebook: atoti vs Pandas + Matplotlib</a></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="notebooks/02-technical-tutorials/introductory-tutorial/main.ipynb">&nbsp;introductory-tutorial&nbsp;</a></td>
+<td>&nbsp</td>
 </tr>
 <tr>
 <td rowspan="2"><a href="notebooks/02-technical-tutorials/excel-and-atoti/main.ipynb">&nbsp;excel-and-atoti&nbsp;</a></td>
