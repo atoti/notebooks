@@ -91,26 +91,15 @@ def get_historical_vector(data):
 
 
 def get_new_tickers(df, session):
+    # to improve - symbols should be refreshed for all portfolios available in the cube
     new_symbols = list(set(symbols + df["Symbols"].to_list()))
     data, date_index = download_tickers(new_symbols, 3)
 
-    # data["Daily_Returns_Vector"] = [
-    #     ",".join(map(str, l)) for l in data["Daily_Returns_Vector"]
-    # ]
-    # data["Daily_ROR_Vector"] = [",".join(map(str, l)) for l in data["Daily_ROR_Vector"]]
-    # data["Monthly_ROR_Vector"] = [",".join(map(str, l)) for l in data["Monthly_ROR_Vector"]]
-    # data["Price_Vector"] = [",".join(map(str, l)) for l in data["Price_Vector"]]
-
-    # data.to_csv("data/historical_prices.csv", index=False)
-    # date_index.to_csv("data/historical_price_index.csv", index=False)
-
-    # data.to_csv("data/new_price.csv", index=False)
     session.tables["Price"].drop()
     session.tables["Price"].load_pandas(data)
     print("Finish loading historical pricing..")
 
     # load historical dates
-    # date_index.to_csv("data/new_date_index.csv", index=False)
     session.tables["Historical Dates"].drop()
     session.tables["Historical Dates"].load_pandas(date_index)
     print("Finish loading historical dates..")
