@@ -44,7 +44,7 @@ We could integrate the downloading of historical pricing from yfinance and the o
 1. using [ipywidgets](https://ipywidgets.readthedocs.io/en/stable/) in Jupyter Lab.
 2. customizing atoti web application with the addition [atoti-plus](https://docs.atoti.io/latest/atoti_plus.html) plugin.  
 
-<img src="https://data.atoti.io/notebooks/cvar-optimisation/img/system_design2.png" />  
+<img src="https://data.atoti.io/notebooks/cvar-optimisation/img/system_design3.png" />  
 
 <br />
 
