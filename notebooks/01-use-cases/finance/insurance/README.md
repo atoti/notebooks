@@ -14,18 +14,18 @@
 
 <table>
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+
 
 <tr>
     <td><b>Notebooks</b></td>
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="notebooks/01-use-cases/finance/insurance/customer 360/03-main-csv.ipynb">&nbsp;customer 360&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main//notebooks/01-use-cases/finance/insurance/customer360/03-main-csv.ipynb">&nbsp;customer 360&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/customer-360-how-it-can-be-achieved-with-atoti/?utm_source=github">📰&nbsp;Customer 360: How it can be achieved with atoti</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="notebooks/01-use-cases/finance/insurance/price-elasticity/main.ipynb">&nbsp;price-elasticity&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/insurance/price-elasticity/main.ipynb">&nbsp;price-elasticity&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/unravel-price-elasticity-of-demand-with-atoti/?utm_source=github">📰&nbsp;Unravel price elasticity of demand with atoti</a></td>
 </tr>
 </table>
