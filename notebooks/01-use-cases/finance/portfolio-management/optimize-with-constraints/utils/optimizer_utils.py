@@ -68,10 +68,8 @@ class Optimizer:
         print("=====================================================")
 
         mu = expected_returns.mean_historical_return(df_price)
-        S = risk_models.CovarianceShrinkage(
-            df_price
-        ).ledoit_wolf()  
-        
+        S = risk_models.CovarianceShrinkage(df_price).ledoit_wolf()
+
         ef = (
             EfficientFrontier(mu, S, weight_bounds=(0, 0.25))
             if opt_target == "Target returns"

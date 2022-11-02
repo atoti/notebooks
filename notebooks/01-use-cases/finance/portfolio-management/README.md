@@ -24,6 +24,10 @@
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;cvar-optimizer&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/integrating-an-external-portfolio-optimizer-with-atoti?utm_source=github">📰&nbsp;Integrating an External Portfolio Optimizer with atoti</a></td>
 </tr>
+<tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/optimize-with-constraints/main.ipynb">&nbsp;optimize-with-constraints&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
 </table>
 
 

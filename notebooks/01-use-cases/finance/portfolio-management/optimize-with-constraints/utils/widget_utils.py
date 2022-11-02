@@ -193,7 +193,7 @@ class Widgets:
 
         # ignore sector mapper if opt_type is ticker
         if (opt_type == "Sector") | (opt_type == "Portfolio"):
-            
+
             # sectors
             sector_spread = self.query.get_sector_spread(
                 portfolio, iteration, opt_mtd
@@ -203,22 +203,30 @@ class Widgets:
                 .set_index("Tickers")
                 .to_dict()["GICS Sector"]
             )
-            
+
             # check if any sector gets excluded, i.e. upper limit is 0
-            listOfKeys = [key  for (key, value) in sector_upper.items() if value == 0]
+            listOfKeys = [key for (key, value) in sector_upper.items() if value == 0]
             print("Sectors set to 0: ", listOfKeys)
             if len(listOfKeys) > 0:
                 print("[Pre validation] Tickers upper: ", ticker_upper)
                 print("[Pre validation] Tickers lower: ", ticker_lower)
-                
+
                 # get list of tickers under the sector
-                listOfTickers = [key for (key, value) in sector_mapper.items() if value in listOfKeys]
+                listOfTickers = [
+                    key for (key, value) in sector_mapper.items() if value in listOfKeys
+                ]
                 print("Tickers to be set to 0: ", listOfTickers)
-                
-                #set upper and lower limits of tickers to 0
-                ticker_upper = {key:0 if key in listOfTickers else value for (key,value) in ticker_upper.items()}
-                ticker_lower = {key:0 if key in listOfTickers else value for (key,value) in ticker_lower.items()}
-                
+
+                # set upper and lower limits of tickers to 0
+                ticker_upper = {
+                    key: 0 if key in listOfTickers else value
+                    for (key, value) in ticker_upper.items()
+                }
+                ticker_lower = {
+                    key: 0 if key in listOfTickers else value
+                    for (key, value) in ticker_lower.items()
+                }
+
                 print("[Post validation] Tickers upper: ", ticker_upper)
                 print("[Post validation] Tickers lower: ", ticker_lower)
 
