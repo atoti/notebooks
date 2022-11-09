@@ -443,6 +443,10 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 <td><a href="https://www.atoti.io/guides/currency-conversion-with-atoti/?utm_source=github">📰&nbsp;Currency conversion with atoti</a></td>
 </tr>
 <tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/currency-conversion-with-lookup/main.ipynb">&nbsp;currency-conversion-with-lookup&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
+<tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/multidimensional-analysis/main.ipynb">&nbsp;multidimensional-analysis&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/why-do-we-need-multidimensional-analysis/?utm_source=github">📰&nbsp;Why do we need multidimensional analysis?</a></td>
 </tr>
