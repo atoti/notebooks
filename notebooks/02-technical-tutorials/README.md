@@ -24,7 +24,7 @@
 </tr>
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/currency-conversion-with-lookup/main.ipynb">&nbsp;currency-conversion-with-lookup&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/guides/atoti-guide-to-implementing-lookup-in-a-multidimensional-cube/?utm_source=github">📰&nbsp;atoti: Guide to implementing lookup in a multidimensional cube</a></td>
 </tr>
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/multidimensional-analysis/main.ipynb">&nbsp;multidimensional-analysis&nbsp;</a></td>
