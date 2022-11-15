@@ -3,6 +3,7 @@ from utils import optimizer_utils as opt_utils
 import ipywidgets as widgets
 from IPython.display import display
 import time
+import pandas as pd
 
 
 class Widgets:
@@ -177,7 +178,6 @@ class Widgets:
         ticker_upper={},
         ticker_lower={},
     ):
-
         portfolio = self.portfolio_dropdown.value
         iteration = self.iteration_dropdown.value
         opt_mtd = self.opt_mtd_dropdown.value
@@ -189,15 +189,15 @@ class Widgets:
             portfolio, iteration, opt_mtd
         )
 
+        sector_spread = self.query.get_sector_spread(
+            portfolio, iteration, opt_mtd
+        ).reset_index()
+
         sector_mapper = {}
 
         # ignore sector mapper if opt_type is ticker
         if (opt_type == "Sector") | (opt_type == "Portfolio"):
-
             # sectors
-            sector_spread = self.query.get_sector_spread(
-                portfolio, iteration, opt_mtd
-            ).reset_index()
             sector_mapper = (
                 sector_spread[["GICS Sector", "Tickers"]]
                 .set_index("Tickers")
@@ -229,7 +229,6 @@ class Widgets:
 
                 print("[Post validation] Tickers upper: ", ticker_upper)
                 print("[Post validation] Tickers lower: ", ticker_lower)
-
             print("sector_mapper: ", sector_mapper)
         else:
             print(f"optimize {opt_type}")
@@ -251,26 +250,34 @@ class Widgets:
                 portfolio, new_iteration, new_opt_mtd, proposed_weights
             )
 
-            if (len(sector_upper) > 0) & (len(sector_lower) > 0):
-                print("[Sector] load limit ", opt_type)
+            print(
+                f"sector_upper: {len(sector_upper)}, sector_lower: {len(sector_lower)}"
+            )
+            print(
+                f"ticker_upper: {len(ticker_upper)}, ticker_lower: {len(ticker_lower)}"
+            )
+
+            target_returns = (
+                self.target_returns.value
+                if self.opt_target_radio.value == "Target returns"
+                else None
+            )
+
+            if (
+                (len(sector_upper) > 0)
+                | (len(sector_lower) > 0)
+                | (len(ticker_upper) > 0)
+                | (len(ticker_lower) > 0)
+            ):
                 self.query.load_limits(
                     portfolio,
-                    # new_iteration,
                     new_opt_mtd,
+                    sector_spread,
                     sector_upper,
                     sector_lower,
-                    "Sector",
-                )
-
-            if (len(ticker_upper) > 0) & (len(ticker_lower) > 0):
-                print("[Tickers] load limit ", opt_type)
-                self.query.load_limits(
-                    portfolio,
-                    # new_iteration,
-                    new_opt_mtd,
                     ticker_upper,
                     ticker_lower,
-                    "Ticker",
+                    target_returns,
                 )
 
             self.set_iteration(portfolio)

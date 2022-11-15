@@ -113,38 +113,64 @@ class Query:
         portfolio,
         # iteration,
         opt_mtd,
-        weight_upper,
-        weight_lower,
-        limit_type="Ticker",
+        sector_spread,
+        sector_weight_upper,
+        sector_weight_lower,
+        ticker_weight_upper,
+        ticker_weight_lower,
+        target_returns,
+        # limit_type="Ticker",
     ):
 
-        scenario = "Ticker weight simulation"
-        max_weight = "Max ticker weight"
-        min_weight = "Min ticker weight"
-        column_name = "Tickers"
-        simulation_name = "Ticker weight simulation"
+        lb_ticker_max_weight = "Max ticker weight"
+        lb_ticker_min_weight = "Min ticker weight"
+        lb_sector_max_weight = "Max sector weight"
+        lb_sector_min_weight = "Min sector weight"
+        lb_sector_column_name = "GICS Sector"
+        lb_ticker_column_name = "Tickers"
+        lb_simulation_name = "Weight simulation"
 
-        if limit_type == "Sector":
-            scenario = "Sector weight simulation"
-            max_weight = "Max sector weight"
-            min_weight = "Min sector weight"
-            column_name = "GICS Sector"
-            simulation_name = "Sector weight simulation"
-
-        limits_df = pd.merge(
-            pd.DataFrame(weight_upper.items(), columns=[column_name, max_weight]),
-            pd.DataFrame(weight_lower.items(), columns=[column_name, min_weight]),
+        sector_limits_df = pd.merge(
+            pd.DataFrame(
+                sector_weight_upper.items(),
+                columns=[lb_sector_column_name, lb_sector_max_weight],
+            ),
+            pd.DataFrame(
+                sector_weight_lower.items(),
+                columns=[lb_sector_column_name, lb_sector_min_weight],
+            ),
             how="outer",
-            on=[column_name],
+            on=[lb_sector_column_name],
         )
-        limits_df["Scenario"] = scenario
+
+        ticker_limits_df = pd.merge(
+            pd.DataFrame(
+                ticker_weight_upper.items(),
+                columns=[lb_ticker_column_name, lb_ticker_max_weight],
+            ),
+            pd.DataFrame(
+                ticker_weight_lower.items(),
+                columns=[lb_ticker_column_name, lb_ticker_min_weight],
+            ),
+            how="outer",
+            on=[lb_ticker_column_name],
+        )
+
+        # get sector for the ticker
+        _ticker_df = pd.merge(
+            ticker_limits_df, sector_spread, on=[lb_ticker_column_name], how="inner"
+        )
+        limits_df = pd.merge(
+            sector_limits_df, _ticker_df, on=[lb_sector_column_name], how="outer"
+        )
+
+        limits_df["Scenario"] = lb_simulation_name
         limits_df["Portfolio"] = portfolio
         limits_df["Opt Method"] = opt_mtd
+        limits_df["Target returns"] = target_returns
 
-        limit_simulation = self.session.tables[simulation_name]
-        # print(limit_simulation)
-
-        limit_simulation.load_pandas(limits_df)
+        limit_simulation = self.session.tables[lb_simulation_name]
+        limit_simulation.load_pandas(limits_df[limit_simulation.columns])
 
     ###########################
     # For sector optimization
