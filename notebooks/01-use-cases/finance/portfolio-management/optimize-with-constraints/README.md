@@ -48,17 +48,6 @@ In case you are unable to see your portfolio, try re-executing cell 50 with `get
 
 <br/>
 
-__Basic optimization__
-
-Using historical pricing for tickers under the selected portfolio, the optimizer will return two sets of weights based on the following algorithms:  
-
-    - minimum volatility
-    - maximum Sharpe
-
-It does not consider the existing weights allocated, nor have any constraints.  
-
-<br/>
-
 __Optimize sector / ticker / portfolio__
 
 1. Select objective of "Minimize CVaR" or achieving "Target returns". Target return is a percentage between 0 and 1. 
