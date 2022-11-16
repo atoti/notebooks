@@ -58,7 +58,7 @@ class Widgets:
                 "display": "flex",
                 "flex-direction": "row !important",
             },
-            description="Objective (Not for basic optimization):",
+            description="Objective:",
             disabled=False,
         )
 
@@ -69,13 +69,6 @@ class Widgets:
             layout=widgets.Layout(width="100px"),
         )
 
-        self.wo_constraint_button = widgets.Button(
-            description="Basic optimization",
-            disabled=True,
-            button_style="info",
-            tooltip="Optimize portfolio without constraints",
-            icon="gear",
-        )
         self.sector_button = widgets.Button(
             description="Optimize sector",
             disabled=True,
@@ -100,7 +93,6 @@ class Widgets:
             icon="gear",
         )
 
-        self.wo_constraint_button.on_click(self.optimize_basic)
         self.sector_button.on_click(self.submit_sector)
         self.ticker_button.on_click(self.submit_tickers)
         self.portfolio_button.on_click(self.submit_portfolio)
@@ -146,29 +138,6 @@ class Widgets:
         weights_df["Iteration"] = _iteration
         weights_df["Opt Method"] = _opt_mtd
         self.query.load_weights(weights_df)
-
-    def optimize_basic(self, b):
-        portfolio = self.portfolio_dropdown.value
-        iteration = self.iteration_dropdown.value
-        opt_mtd = self.opt_mtd_dropdown.value
-        new_iteration = time.strftime("%Y%m%d_%X")
-
-        historical_pricing = self.query.get_historical_pricing(
-            portfolio, iteration, opt_mtd
-        )
-
-        weights_min_vol = self.optimizer.basic_min_volatility(historical_pricing)
-        self.load_basic_results(
-            portfolio, new_iteration, f"Min volatility_{new_iteration}", weights_min_vol
-        )
-
-        weights_max_sharpe = self.optimizer.basic_max_sharpe(historical_pricing)
-        self.load_basic_results(
-            portfolio, new_iteration, f"Max Sharpe_{new_iteration}", weights_max_sharpe
-        )
-
-        self.success_msg.value = f'<h4 style="color:green;">Basic optimization completed. Verify using portfolio [{portfolio}] and  iteration [{new_iteration}] and the following opt methods: <ul><li>Minimum volatility</li><li>Max Sharpe</li></ul></h4>'
-        self.set_iteration(portfolio)
 
     def optimize_portfolio(
         self,
@@ -370,7 +339,7 @@ class Widgets:
         self.opt_mtd_dropdown.value = _opt_mtd_opt[0]
         self.opt_mtd_dropdown.disabled = False
 
-        self.wo_constraint_button.disabled = False
+        # self.wo_constraint_button.disabled = False
         self.sector_button.disabled = False
         self.ticker_button.disabled = False
         self.portfolio_button.disabled = False
@@ -583,7 +552,7 @@ class Widgets:
                     self.hr,
                     widgets.HBox(
                         [
-                            self.wo_constraint_button,
+                            # self.wo_constraint_button,
                             self.sector_button,
                             self.ticker_button,
                             self.portfolio_button,
