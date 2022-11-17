@@ -6,7 +6,7 @@ To get started, please proceed to
 
 1. [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the atoti repository:
 
-<img src="assets/fork_atoti_repo.png" style="width:600px;margin-left:50px">
+<img src="assets/fork_atoti_repo.png">
 
 2. Pull the `main` branch (`git checkout main` and `git pull`) from the forked repository.
 3. Run `poetry install` to be sure to work with the expected dependencies.
