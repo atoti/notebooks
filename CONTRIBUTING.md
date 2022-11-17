@@ -4,22 +4,22 @@ We welcome any contributions from the community.
 
 To get started, please proceed to 
 
-1. [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the atoti repository:
+1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the atoti repository:
 
 <img src="assets/fork_atoti_repo.png">
 
 2. Pull the `main` branch (`git checkout main` and `git pull`) from the forked repository.
 3. Run `poetry install` to be sure to work with the expected dependencies.
-4. Create the working branch `git switch -c <PSEUDO>/<SUBJECT>`.
-5. Start JupyterLab `poetry run jupyter lab`.
+4. Create a working branch `git switch -c <PSEUDO>/<SUBJECT>`.
+5. Start JupyterLab: `poetry run jupyter lab`.
 6. Create the folder and notebooks.
     Add notebooks responsible for data pre-processing to the [list of untested notebooks](tests/execute_notebooks.py).
-    The main notebook using atoti should be tested to ensure users can run them.
-7. If a dependency is missing run `poetry add <DEPENDENCY_NAME>`: **DEPENDENCIES MUST NOT BEEN ADDED WITH CONDA OR PIP** since the Github CI is relying on the `poetry.lock` file to install dependencies.
+    The main notebook using atoti should be tested to ensure users can run it.
+7. If a dependency is missing run `poetry add <DEPENDENCY_NAME>`: **DEPENDENCIES MUST NOT BEEN ADDED WITH CONDA OR PIP** since the Github CI relies on the `poetry.lock` file to install dependencies.
 8. Commit and push changes to the forked repository using `git push`.
 9. Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) from the forked repository. 
 
-Please monitor the pull request as each pull request is subjected to automatic code testing. In addition, the atoti team will review and comment on the pull request to ensure the submission is align with the API's usage.
+Please monitor the pull request as each pull request is subject to automatic code testing. The atoti team will review and comment on any pull requests to ensure each submission is aligned with the API's usage.
 
 
 ## Pull Request Rules
