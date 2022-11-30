@@ -6,7 +6,7 @@ authors = ["atoti <contact@atoti.io>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8.0,<3.9.7 || >3.9.7,<3.11"
-atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "^0.7.0"}
+atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "0.7.2"}
 wget = "^3.2"
 treelib = "^1.6.1"
 matplotlib = "^3.4.2"
