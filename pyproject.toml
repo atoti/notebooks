@@ -46,7 +46,7 @@ llvmlite = "0.38.0"
 protobuf = "4.21.6"
 pyportfolioopt = "^1.5.3"
 gluonts = "0.11.1"
-mxnet = "1.7.0.post2"
+mxnet = "1.9.1"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.7"
