@@ -26,7 +26,7 @@
 </tr>
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/optimize-with-constraints/main.ipynb">&nbsp;optimize-with-constraints&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/constraints-straining-your-portfolio-optimization/?utm_source=github">📰&nbsp;Constraints straining your portfolio optimization?</a></td>
 </tr>
 </table>
 

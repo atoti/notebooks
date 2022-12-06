@@ -37,7 +37,7 @@
 <td><a href="https://www.atoti.io/guides/implementing-real-time-sources-with-atoti/?utm_source=github">📰&nbsp;Implementing real-time sources with atoti</a></td>
 </tr>
 <tr>
-<td valign="center"><a href="https://www.atoti.io/guides/implementing-real-time-sources-with-atoti/?utm_source=github">📰&nbsp;Real-time risk analytics with atoti</a></td>
+<td valign="center"><a href="https://www.atoti.io/articles/real-time-risk-analytics-with-atoti/?utm_source=github">📰&nbsp;Real-time risk analytics with atoti</a></td>
 </tr>
 </table>
 <br/>
@@ -110,7 +110,7 @@
 </tr>
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/market-risk/value-at-risk/main.ipynb">&nbsp;value-at-risk&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/how-to-explain-non-additive-measures-part-2-incremental-contribution/?utm_source=github">📰&nbsp;How to explain non-additive measures, Part 2: Incremental contribution</a></td>
 </tr>
 </table>
 <br/>
@@ -212,7 +212,7 @@
 </tr>
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/optimize-with-constraints/main.ipynb">&nbsp;optimize-with-constraints&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/constraints-straining-your-portfolio-optimization/?utm_source=github">📰&nbsp;Constraints straining your portfolio optimization?</a></td>
 </tr>
 </table>
 <br/>
