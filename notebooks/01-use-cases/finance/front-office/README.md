@@ -14,22 +14,22 @@
 
 <table>
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+
 
 <tr>
     <td><b>Notebooks</b></td>
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="notebooks/01-use-cases/finance/front-office/cumulative-pnl/main.ipynb">&nbsp;cumulative-pnl&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/front-office/cumulative-pnl/main.ipynb">&nbsp;cumulative-pnl&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/dynamic-performance-analytics-handling-of-non-linear-aggregation/?utm_source=github">📰&nbsp;Dynamic Performance Analytics: Handling of non-linear aggregation</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="notebooks/01-use-cases/finance/front-office/pnl-explained/main.ipynb">&nbsp;pnl-explained&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/front-office/pnl-explained/main.ipynb">&nbsp;pnl-explained&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/pnl-explained-with-atoti/?utm_source=github">📰&nbsp;PnL Explained with atoti</a></td>
 </tr>
 <tr>
-<td rowspan="2"><a href="notebooks/01-use-cases/finance/front-office/real-time-risk/main.ipynb">&nbsp;real-time-risk&nbsp;</a></td>
+<td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/front-office/real-time-risk/main.ipynb">&nbsp;real-time-risk&nbsp;</a></td>
 <td><a href="https://www.atoti.io/guides/implementing-real-time-sources-with-atoti/?utm_source=github">📰&nbsp;Implementing real-time sources with atoti</a></td>
 </tr>
 <tr>

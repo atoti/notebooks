@@ -14,14 +14,14 @@
 
 <table>
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+
 
 <tr>
     <td><b>Notebooks</b></td>
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="2"><a href="notebooks/01-use-cases/finance/risk-management/operational-risk/credit-card-fraud-detection/main.ipynb">&nbsp;credit-card-fraud-detection&nbsp;</a></td>
+<td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/operational-risk/credit-card-fraud-detection/main.ipynb">&nbsp;credit-card-fraud-detection&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/credit-card-fraud-detection-part1/?utm_source=github">📰&nbsp;Part 1: Investigating fraudulent transactions real-time with atoti</a></td>
 </tr>
 <tr>
