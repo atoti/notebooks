@@ -14,23 +14,23 @@
 
 <table>
 
-
+<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
 
 <tr>
     <td><b>Notebooks</b></td>
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/market-risk/sbm/main.ipynb">&nbsp;sbm&nbsp;</a></td>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/market-risk/sbm/main.ipynb">&nbsp;sbm&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/faster-algorithm-for-frtb-sbm-risk-aggregation/?utm_source=github">📰&nbsp;Faster Algorithm for FRTB SBM Risk Aggregation</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/market-risk/stressed-var-calibration/main.ipynb">&nbsp;stressed-var-calibration&nbsp;</a></td>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/market-risk/stressed-var-calibration/main.ipynb">&nbsp;stressed-var-calibration&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/market-risk-analytics-in-python-interactive-rolling-var/?utm_source=github">📰&nbsp;Market risk analytics in python: Interactive rolling VaR</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/market-risk/value-at-risk/main.ipynb">&nbsp;value-at-risk&nbsp;</a></td>
-<td>&nbsp</td>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/risk-management/market-risk/value-at-risk/main.ipynb">&nbsp;value-at-risk&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/how-to-explain-non-additive-measures-part-2-incremental-contribution/?utm_source=github">📰&nbsp;How to explain non-additive measures, Part 2: Incremental contribution</a></td>
 </tr>
 </table>
 
@@ -39,14 +39,14 @@
 
 <table>
 
-
+<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
 
 <tr>
     <td><b>Notebooks</b></td>
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/front-offices/main.ipynb">&nbsp;pnl-explained&nbsp;</a></td>
+<td rowspan="1"><a href="notebooks/01-use-cases/finance/front-offices/main.ipynb">&nbsp;pnl-explained&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/pnl-explained-with-atoti/?utm_source=github">📰&nbsp;PnL Explained with atoti</a></td>
 </tr>
 </table>
