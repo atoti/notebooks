@@ -73,10 +73,7 @@ class Query:
     def get_historical_pricing(self, portfolio, iteration, opt_mtd):
         df_historical_price = self.cube.query(
             self.m["Daily Price"],
-            levels=[
-                self.l["Historical Dates"],
-                self.l["Tickers"],
-            ],
+            levels=[self.l["Historical Dates"], self.l["Tickers"],],
             filter=(
                 (self.l["Portfolio"] == portfolio)
                 & (self.l["Iteration"] == iteration)
@@ -185,10 +182,7 @@ class Query:
     def get_historical_price_by_sector(self, sector):
         df_historical_price = self.cube.query(
             self.m["Daily Price"],
-            levels=[
-                self.l["Historical Dates"],
-                self.l["Tickers"],
-            ],
+            levels=[self.l["Historical Dates"], self.l["Tickers"],],
             filter=(self.l["GICS Sector"] == sector),
         )
 

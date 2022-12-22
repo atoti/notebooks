@@ -258,9 +258,7 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
             start=last_date, periods=(forecast_steps + 1), inclusive="right"
         )
         pred_df = pd.DataFrame(
-            pred_transform,
-            index=date_indices,
-            columns=df_scaled.columns,
+            pred_transform, index=date_indices, columns=df_scaled.columns,
         ).reset_index()
 
         accuracy_prod = forecast_accuracy(

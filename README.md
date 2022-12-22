@@ -457,6 +457,10 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 <td><a href="https://www.atoti.io/guides/atoti-guide-to-implementing-lookup-in-a-multidimensional-cube/?utm_source=github">📰&nbsp;atoti: Guide to implementing lookup in a multidimensional cube</a></td>
 </tr>
 <tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/introductory-tutorial/main.ipynb">&nbsp;introductory-tutorial&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
+<tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/multidimensional-analysis/main.ipynb">&nbsp;multidimensional-analysis&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/why-do-we-need-multidimensional-analysis/?utm_source=github">📰&nbsp;Why do we need multidimensional analysis?</a></td>
 </tr>
@@ -482,10 +486,6 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-20
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/topcount/atoti.ipynb">&nbsp;topcount&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/top-count-in-jupyter-notebook-atoti-vs-pandas-matplotlib/?utm_source=github">📰&nbsp;Top count in Jupyter notebook: atoti vs Pandas + Matplotlib</a></td>
-</tr>
-<tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/introductory-tutorial/main.ipynb">&nbsp;introductory-tutorial&nbsp;</a></td>
-<td>&nbsp</td>
 </tr>
 <tr>
 <td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/excel-and-atoti/main.ipynb">&nbsp;excel-and-atoti&nbsp;</a></td>

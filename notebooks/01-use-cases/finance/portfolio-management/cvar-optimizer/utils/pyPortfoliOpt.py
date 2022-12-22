@@ -18,7 +18,7 @@ from pypfopt import HRPOpt
 # Deviation Risk Parity objective from Kolm et al (2014)
 def deviation_risk_parity(w, cov_matrix):
     diff = w * np.dot(cov_matrix, w) - (w * np.dot(cov_matrix, w)).reshape(-1, 1)
-    return (diff**2).sum().sum()
+    return (diff ** 2).sum().sum()
 
 
 def get_optimised_weight(df_price, df_ini_weights, portfolio_name=None):
