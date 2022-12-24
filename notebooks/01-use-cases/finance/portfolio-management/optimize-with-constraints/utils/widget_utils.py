@@ -34,14 +34,21 @@ class Widgets:
         self.hr = widgets.HTML(value="<hr/>")
 
         self.portfolio_dropdown = widgets.Dropdown(
-            options=portfolio, value=None, description="Portfolio:", disabled=False,
+            options=portfolio,
+            value=None,
+            description="Portfolio:",
+            disabled=False,
         )
 
         self.iteration_dropdown = widgets.Dropdown(
-            description="Iteration:", disabled=True,
+            description="Iteration:",
+            disabled=True,
         )
 
-        self.opt_mtd_dropdown = widgets.Dropdown(description="Opt mtd:", disabled=True,)
+        self.opt_mtd_dropdown = widgets.Dropdown(
+            description="Opt mtd:",
+            disabled=True,
+        )
 
         self.opt_target_radio = widgets.RadioButtons(
             options=["Minimize CVaR", "Target returns"],
@@ -56,7 +63,10 @@ class Widgets:
         )
 
         self.target_returns = widgets.BoundedFloatText(
-            max=1.0, step=0.01, disabled=True, layout=widgets.Layout(width="100px"),
+            max=1.0,
+            step=0.01,
+            disabled=True,
+            layout=widgets.Layout(width="100px"),
         )
 
         self.sector_button = widgets.Button(
@@ -444,17 +454,21 @@ class Widgets:
             self.get_section_total(section_type, box)
             if section_type == self.SECTOR_TYPE:
                 box.children[2].observe(
-                    functools.partial(self.update_sector_total, "min"), names=["value"],
+                    functools.partial(self.update_sector_total, "min"),
+                    names=["value"],
                 )
                 box.children[3].observe(
-                    functools.partial(self.update_sector_total, "max"), names=["value"],
+                    functools.partial(self.update_sector_total, "max"),
+                    names=["value"],
                 )
             else:
                 box.children[2].observe(
-                    functools.partial(self.update_ticker_total, "min"), names=["value"],
+                    functools.partial(self.update_ticker_total, "min"),
+                    names=["value"],
                 )
                 box.children[3].observe(
-                    functools.partial(self.update_ticker_total, "max"), names=["value"],
+                    functools.partial(self.update_ticker_total, "max"),
+                    names=["value"],
                 )
 
         obj_len = len(float_obj)

@@ -9,7 +9,13 @@ import numpy as np
 
 
 def churn_prediction(
-    algorithm, x, y, cols, cf, threshold_plot, coefs_or_features=False,
+    algorithm,
+    x,
+    y,
+    cols,
+    cf,
+    threshold_plot,
+    coefs_or_features=False,
 ):
 
     # model
@@ -43,7 +49,8 @@ def churn_prediction(
     )
     print()
     print(
-        "\n Classification report: \n", classification_report(y, predictions),
+        "\n Classification report: \n",
+        classification_report(y, predictions),
     )
     print("F1 score: ", round(f1_score(y, predictions), 2))
 
