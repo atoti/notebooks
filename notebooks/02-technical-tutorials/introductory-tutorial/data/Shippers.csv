@@ -1,0 +1,31 @@
+Shipper,Interval,Rate
+Federal Shipping,Quantity less than 100,0.63
+Federal Shipping,Quantity between 100 and 300,0.09
+Federal Shipping,Quantity between 300 and 500,0.061
+Federal Shipping,Quantity between 500 and 700,0.017
+Federal Shipping,Quantity more than 700,0.014
+Speedy Express,Quantity less than 100,0.98
+Speedy Express,Quantity between 100 and 300,0.5
+Speedy Express,Quantity between 300 and 500,0.13
+Speedy Express,Quantity between 500 and 700,0.053
+Speedy Express,Quantity more than 700,0.029
+United Package,Quantity less than 100,0.8
+United Package,Quantity between 100 and 300,0.24
+United Package,Quantity between 300 and 500,0.039
+United Package,Quantity between 500 and 700,0.021
+United Package,Quantity more than 700,0.015
+Rapid Post,Quantity less than 100,0.79
+Rapid Post,Quantity between 100 and 300,0.085
+Rapid Post,Quantity between 300 and 500,0.023
+Rapid Post,Quantity between 500 and 700,0.013
+Rapid Post,Quantity more than 700,0.003
+Freight United,Quantity less than 100,0.77
+Freight United,Quantity between 100 and 300,0.039
+Freight United,Quantity between 300 and 500,0.025
+Freight United,Quantity between 500 and 700,0.012
+Freight United,Quantity more than 700,0.006
+The Transporter,Quantity less than 100,0.54
+The Transporter,Quantity between 100 and 300,0.44
+The Transporter,Quantity between 300 and 500,0.031
+The Transporter,Quantity between 500 and 700,0.009
+The Transporter,Quantity more than 700,0.004
