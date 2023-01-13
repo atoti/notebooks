@@ -164,6 +164,10 @@
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/treasury/collateral-shortfall-monitoring/main.ipynb">&nbsp;collateral-shortfall-monitoring&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/rapid-collateral-modelling-and-simulation-with-atoti/?utm_source=github">📰&nbsp;Rapid collateral modelling and simulation with atoti</a></td>
 </tr>
+<tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/treasury/intraday-liquidity/main.ipynb">&nbsp;intraday-liquidity&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
 </table>
 <br/>
 </blockquote></details>

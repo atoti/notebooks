@@ -152,12 +152,18 @@
 <td><a href="https://www.atoti.io/articles/sales-commission/?utm_source=github">📰&nbsp;Sales commission – Breaking down the variable cost</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/sales_cube/main.ipynb">&nbsp;sales_cube&nbsp;</a></td>
+<td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/sales_cube/main.ipynb">&nbsp;sales_cube&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/building-a-sales-cube-in-atoti/?utm_source=github">📰&nbsp;Building a Sales Cube in atoti</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/sub-population-analysis/main.ipynb">&nbsp;sub-population-analysis&nbsp;</a></td>
-<td>&nbsp</td>
+<td valign="center"><a href="https://www.atoti.io/articles/synthetic-data-generation-test-your-proof-of-concept-without-the-data/?utm_source=github">📰&nbsp;Synthetic data generation: test your proof of concept, without the data!</a></td>
+</tr>
+<tr>
+<td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/sub-population-analysis/main.ipynb">&nbsp;sub-population-analysis&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/why-machine-learning-models-might-fail-in-production/?utm_source=github">📰&nbsp;Why Machine Learning models might fail in production</a></td>
+</tr>
+<tr>
+<td valign="center"><a href="https://www.atoti.io/articles/how-to-reduce-machine-learning-bias/?utm_source=github">📰&nbsp;How to reduce machine learning bias</a></td>
 </tr>
 <tr>
 <td rowspan="3"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/twitter/main.ipynb">&nbsp;twitter&nbsp;</a></td>
