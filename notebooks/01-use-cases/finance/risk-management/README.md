@@ -74,7 +74,7 @@
 </tr>
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/market-risk/value-at-risk/main.ipynb">&nbsp;value-at-risk&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/how-to-explain-non-additive-measures-part-2-incremental-contribution/?utm_source=github">📰&nbsp;How to explain non-additive measures, Part 2: Incremental contribution</a></td>
 </tr>
 </table>
 <br/>
