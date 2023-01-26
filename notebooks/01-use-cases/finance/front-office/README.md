@@ -33,7 +33,7 @@
 <td><a href="https://www.atoti.io/guides/implementing-real-time-sources-with-atoti/?utm_source=github">📰&nbsp;Implementing real-time sources with atoti</a></td>
 </tr>
 <tr>
-<td valign="center"><a href="https://www.atoti.io/guides/implementing-real-time-sources-with-atoti/?utm_source=github">📰&nbsp;Real-time risk analytics with atoti</a></td>
+<td valign="center"><a href="https://www.atoti.io/articles/real-time-risk-analytics-with-atoti/?utm_source=github">📰&nbsp;Real-time risk analytics with atoti</a></td>
 </tr>
 </table>
 
