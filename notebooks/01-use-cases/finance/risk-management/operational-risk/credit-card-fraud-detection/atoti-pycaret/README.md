@@ -6,7 +6,7 @@ By creating a small [Flask application](https://flask.palletsprojects.com/en/2.2
 
 # Installation
 
-For Windows environment, it is recommended to use Python 3.8 for the Poetry environment due to llvmlite and numpy requirements for PyCaret:  
+If using Poetry in a Windows environment, it is recommended to use Python 3.8 due to llvmlite and numpy requirements for PyCaret:  
 `poetry env use $(py -3.8 -c 'import sys; print(sys.executable)')`
 
 Set up the virtual environment for the project using the below command:
