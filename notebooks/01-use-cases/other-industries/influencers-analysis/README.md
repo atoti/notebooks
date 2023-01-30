@@ -31,3 +31,5 @@ git clone https://github.com/atoti/notebooks.git
 cd ../gitclonedirectory/notebooks/influencers-analysis/bertopic_local
 pip install -e .
 ```
+
+If you wish to test the main.ipynb without generating the data, download the [influencers-analysis.zip](https://s3.eu-west-3.amazonaws.com/data.atoti.io/notebooks/influencers-analysis/influencers-analysis.zip) and unzip under the `influencers-analysis` folder.

@@ -1,6 +1,10 @@
 This is an extension used to customize the web app embedded in the Pokemon Project Atoti+ sessions.
 The app extension template linked [here](https://docs.atoti.io/latest/lib/atoti/atoti.session.html#atoti.Session.__init__) was used as a starting point.
 
+**Note: We have compressed the images of the pokemon and stored in our s3. Download from this [link](https://data.atoti.io/notebooks/pokemon/images.zip) and unzip into the following folders:**  
+- for new build: src/resources/images
+- to test with pre-build: dist/static/media
+
 Build project:
 
     yarn

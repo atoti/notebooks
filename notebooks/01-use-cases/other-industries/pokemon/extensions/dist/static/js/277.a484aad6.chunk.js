@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_atoti_pokemon_extension=self.webpackChunk_atoti_pokemon_extension||[]).push([[277],{54277:(e,t,s)=>{s(23585),s(26585)},26585:(e,t,s)=>{s.r(t),s.d(t,{default:()=>a});const a=s.p+"static/media/index.72b80aca.less"},23585:(e,t,s)=>{s.r(t),s.d(t,{default:()=>a});const a=s.p+"static/media/index.e90871b5.less"}}]);
