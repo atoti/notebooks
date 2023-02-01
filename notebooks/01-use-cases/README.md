@@ -19,7 +19,7 @@ Both categories of use cases cover myriad of techniques and topics around data a
 
 Check out the [atoti repository](https://github.com/atoti/atoti) for more info on atoti.
 
-For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-2022/) from [ActiveViam](https://www.activeviam.com/atoti-2022/).<details open>
+For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-technology/) from [ActiveViam](https://www.activeviam.com/).<details open>
 <summary><b><ins>Financial use cases</ins></b></summary>
 
 <br/>

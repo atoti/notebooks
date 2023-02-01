@@ -17,7 +17,7 @@ We provide both use cases and technical tutorials to help you on your atoti jour
 
 Check out the [atoti repository](https://github.com/atoti/atoti) for more info on atoti.
 
-For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-2022/) from [ActiveViam](https://www.activeviam.com/atoti-2022/).
+For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-technology/) from [ActiveViam](https://www.activeviam.com/).
 
 <details open>
 <summary><b><ins>Financial use cases</ins></b></summary>
