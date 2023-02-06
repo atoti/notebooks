@@ -22,7 +22,7 @@ There are also technical notebooks that showcase how various features can be imp
 
 Check out the [atoti repository](https://github.com/atoti/atoti) for more info on atoti.
 
-For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-2022/) from [ActiveViam](https://www.activeviam.com/atoti-2022/).
+For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-technology/) from [ActiveViam](https://www.activeviam.com/).
 
 ### The notebooks
 
