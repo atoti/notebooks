@@ -56,7 +56,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td><a href="https://www.atoti.io/guides/implementing-real-time-sources-with-atoti/?utm_source=github">📰&nbsp;Implementing real-time sources with atoti</a></td>
 </tr>
 <tr>
-<td valign="center"><a href="https://www.atoti.io/guides/implementing-real-time-sources-with-atoti/?utm_source=github">📰&nbsp;Real-time risk analytics with atoti</a></td>
+<td valign="center"><a href="https://www.atoti.io/articles/real-time-risk-analytics-with-atoti/?utm_source=github">📰&nbsp;Real-time risk analytics with atoti</a></td>
 </tr>
 </table>
 <br/>
@@ -129,7 +129,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 </tr>
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/market-risk/value-at-risk/main.ipynb">&nbsp;value-at-risk&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/how-to-explain-non-additive-measures-part-2-incremental-contribution/?utm_source=github">📰&nbsp;How to explain non-additive measures, Part 2: Incremental contribution</a></td>
 </tr>
 </table>
 <br/>
@@ -183,6 +183,10 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/treasury/collateral-shortfall-monitoring/main.ipynb">&nbsp;collateral-shortfall-monitoring&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/rapid-collateral-modelling-and-simulation-with-atoti/?utm_source=github">📰&nbsp;Rapid collateral modelling and simulation with atoti</a></td>
 </tr>
+<tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/treasury/intraday-liquidity/main.ipynb">&nbsp;intraday-liquidity&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
 </table>
 <br/>
 </blockquote></details>
@@ -228,6 +232,10 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;cvar-optimizer&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/integrating-an-external-portfolio-optimizer-with-atoti?utm_source=github">📰&nbsp;Integrating an External Portfolio Optimizer with atoti</a></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/optimize-with-constraints/main.ipynb">&nbsp;optimize-with-constraints&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/constraints-straining-your-portfolio-optimization/?utm_source=github">📰&nbsp;Constraints straining your portfolio optimization?</a></td>
 </tr>
 </table>
 <br/>
@@ -379,12 +387,18 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td><a href="https://www.atoti.io/articles/sales-commission/?utm_source=github">📰&nbsp;Sales commission – Breaking down the variable cost</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/sales_cube/main.ipynb">&nbsp;sales_cube&nbsp;</a></td>
+<td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/sales_cube/main.ipynb">&nbsp;sales_cube&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/building-a-sales-cube-in-atoti/?utm_source=github">📰&nbsp;Building a Sales Cube in atoti</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/sub-population-analysis/main.ipynb">&nbsp;sub-population-analysis&nbsp;</a></td>
-<td>&nbsp</td>
+<td valign="center"><a href="https://www.atoti.io/articles/synthetic-data-generation-test-your-proof-of-concept-without-the-data/?utm_source=github">📰&nbsp;Synthetic data generation: test your proof of concept, without the data!</a></td>
+</tr>
+<tr>
+<td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/sub-population-analysis/main.ipynb">&nbsp;sub-population-analysis&nbsp;</a></td>
+<td><a href="https://www.atoti.io/articles/why-machine-learning-models-might-fail-in-production/?utm_source=github">📰&nbsp;Why Machine Learning models might fail in production</a></td>
+</tr>
+<tr>
+<td valign="center"><a href="https://www.atoti.io/articles/how-to-reduce-machine-learning-bias/?utm_source=github">📰&nbsp;How to reduce machine learning bias</a></td>
 </tr>
 <tr>
 <td rowspan="3"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/twitter/main.ipynb">&nbsp;twitter&nbsp;</a></td>
@@ -443,6 +457,14 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td><a href="https://www.atoti.io/guides/currency-conversion-with-atoti/?utm_source=github">📰&nbsp;Currency conversion with atoti</a></td>
 </tr>
 <tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/currency-conversion-with-lookup/main.ipynb">&nbsp;currency-conversion-with-lookup&nbsp;</a></td>
+<td><a href="https://www.atoti.io/guides/atoti-guide-to-implementing-lookup-in-a-multidimensional-cube/?utm_source=github">📰&nbsp;atoti: Guide to implementing lookup in a multidimensional cube</a></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/introductory-tutorial/main.ipynb">&nbsp;introductory-tutorial&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
+<tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/multidimensional-analysis/main.ipynb">&nbsp;multidimensional-analysis&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/why-do-we-need-multidimensional-analysis/?utm_source=github">📰&nbsp;Why do we need multidimensional analysis?</a></td>
 </tr>
@@ -468,10 +490,6 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/topcount/atoti.ipynb">&nbsp;topcount&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/top-count-in-jupyter-notebook-atoti-vs-pandas-matplotlib/?utm_source=github">📰&nbsp;Top count in Jupyter notebook: atoti vs Pandas + Matplotlib</a></td>
-</tr>
-<tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/introductory-tutorial/main.ipynb">&nbsp;introductory-tutorial&nbsp;</a></td>
-<td>&nbsp</td>
 </tr>
 <tr>
 <td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/excel-and-atoti/main.ipynb">&nbsp;excel-and-atoti&nbsp;</a></td>
