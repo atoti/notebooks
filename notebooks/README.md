@@ -442,6 +442,10 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td><a href="https://www.atoti.io/articles/auto-cube-creation/?utm_source=github">📰&nbsp;Create a Python web application with a few clicks</a></td>
 </tr>
 <tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/conditional-functions/main.ipynb">&nbsp;conditional-functions&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
+<tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/currency-conv-with-weighted-ave/main.ipynb">&nbsp;currency-conv-with-weighted-ave&nbsp;</a></td>
 <td>&nbsp</td>
 </tr>
