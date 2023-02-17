@@ -12,7 +12,7 @@ def reprice_trade(spot_price, trade, calc_date):
 
     # conventions
     day_count = ql.Actual365Fixed()
-    calendar = ql.UnitedStates()
+    calendar = ql.UnitedStates(ql.UnitedStates.NYSE)
     volatility = 0.3
     dividend_rate = 0.0163
     risk_free_rate = 0.001
