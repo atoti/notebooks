@@ -70,7 +70,7 @@ NOTEBOOKS_WITH_ERRORS = [
     "credit-card-fraud-detection/main.ipynb",  # pycaret dependency conflict with atoti 0.6.5 (numpy)
     "sbm/main.ipynb",  # broken in 0.6.3 https://github.com/atoti/atoti/issues/413
     f"geopricing/{_MAIN}",  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
-    f"collateral-shortfall-forecast/notebooks/{_MAIN}",  # removed tsfresh due to conflict with protobuf
+    # f"collateral-shortfall-forecast/notebooks/{_MAIN}",  # removed tsfresh due to conflict with protobuf
 ]
 NOTEBOOKS_TO_SKIP = sorted(
     DATA_PREPROCESSING_NOTEBOOKS
