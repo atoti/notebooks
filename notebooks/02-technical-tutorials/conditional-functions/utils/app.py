@@ -61,7 +61,7 @@ def load_tables(session):
     # perform table joins
     mc.join(sdt)
     mc.join(trd)
-    mc.join(lm, mapping={"CounterpartyId": "CounterpartyId"})
+    mc.join(lm, mc["CounterpartyId"] == lm["CounterpartyId"])
 
     return mc
 
