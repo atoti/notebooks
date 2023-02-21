@@ -204,9 +204,7 @@ class Profile:
                 return str("{:.2f}".format(amt))
 
     def sample_time(self, am_or_pm, is_fraud):
-
         if is_fraud == 0:
-
             if am_or_pm == "AM":
                 hour = random.randrange(0, 12, 1)
             if am_or_pm == "PM":
@@ -219,11 +217,9 @@ class Profile:
             )
 
         if is_fraud == 1:
-
             # 20% chance that the fraud will still occur during normal hours
             chance = random.randint(1, 100)
             if chance <= 20:
-
                 if am_or_pm == "AM":
                     hour = random.randrange(0, 12, 1)
                 if am_or_pm == "PM":

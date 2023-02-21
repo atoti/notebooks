@@ -218,7 +218,6 @@ def var_forecast(coin, data_stats, train_data, actual_df, nobs, verbose=False):
 
     # collect the auto-correlatio results to be loaded into atoti later on
     for col, val in zip(df_scaled.columns, out):
-
         # get the residual values
         metric = res.resid[col]
         stat, p = stats.normaltest(metric)

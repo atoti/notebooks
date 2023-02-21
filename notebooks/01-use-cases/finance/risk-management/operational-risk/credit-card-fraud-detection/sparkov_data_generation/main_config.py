@@ -18,7 +18,6 @@ class MainConfig:
             return x
 
     def all_profiles_dicts(self, main):
-
         main_config = json.loads(
             json.dumps(main)
             .replace("\\n", "")

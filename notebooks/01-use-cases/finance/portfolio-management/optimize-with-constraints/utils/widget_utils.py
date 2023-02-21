@@ -8,7 +8,6 @@ import pandas as pd
 
 class Widgets:
     def __init__(self, query):
-
         self.optimizer = opt_utils.Optimizer()
         self.query = query
         portfolio = query.get_portfolio()
@@ -133,7 +132,6 @@ class Widgets:
         return weights_lower, weights_upper  # , max_optional
 
     def load_basic_results(self, _portfolio, _iteration, _opt_mtd, weights_df):
-
         weights_df["Portfolio"] = _portfolio
         weights_df["Iteration"] = _iteration
         weights_df["Opt Method"] = _opt_mtd
@@ -386,7 +384,6 @@ class Widgets:
             )
 
     def update_ticker_total(self, weight_type, change):
-
         difference = change["new"] - change["old"]
 
         if weight_type == "min":

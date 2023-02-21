@@ -121,7 +121,6 @@ class Query:
         target_returns,
         # limit_type="Ticker",
     ):
-
         lb_ticker_max_weight = "Max ticker weight"
         lb_ticker_min_weight = "Min ticker weight"
         lb_sector_max_weight = "Max sector weight"

@@ -13,6 +13,7 @@ import copy
 import numpy as np
 from pypfopt import HRPOpt
 
+
 # https://github.com/robertmartin8/PyPortfolioOpt/blob/master/cookbook/3-Advanced-Mean-Variance-Optimisation.ipynb
 # https://github.com/robertmartin8/PyPortfolioOpt/blob/master/examples.py
 # Deviation Risk Parity objective from Kolm et al (2014)

@@ -58,7 +58,6 @@ class Optimizer:
         ticker_lower,
         target_return=None,
     ):
-
         print("=====================================================")
         print(f"sector_mapper: {sector_mapper}")
         print(f"sector_upper: {sector_upper}")
