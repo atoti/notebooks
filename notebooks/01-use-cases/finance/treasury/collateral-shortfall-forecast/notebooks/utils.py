@@ -45,7 +45,6 @@ num_cpus = multiprocessing.cpu_count() - 2
 
 
 def create_forecasting_frame(dataframe, col, max_timeshift, rolling_direction):
-
     date_df, _ = make_forecasting_frame(
         dataframe["Date"],
         kind="Date",
@@ -140,7 +139,6 @@ def update_test_data(test_data_path):
 
 
 def create_and_save_dataset(forecasting_frame_tuple, path, horizon, split):
-
     X, y = forecasting_frame_tuple
     y_shifted = y.copy()
     y_shifted["target"] = y_shifted["target"].shift(1 - horizon)
@@ -173,7 +171,6 @@ def generate_features_dataframes(input_path, output_path):
 
     print("Starting features extraction...\n\n")
     for i in range(len(rolled_datasets_train)):
-
         # load the data
         train = rolled_datasets_train[i]
         test = rolled_datasets_test[i]

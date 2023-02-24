@@ -101,7 +101,6 @@ class MakePredictions:
 
         # loop over the frames from the video stream
         while vs.isOpened():
-
             # grab the frame from the threaded video stream and resize it to have a maximum width of 400 pixels
             ret, frame = vs.read()
 
@@ -149,7 +148,6 @@ class MakePredictions:
                 current_time = time.time()
 
                 if current_time - prev_time >= time_increment:
-
                     # appending the probabilities into a dataframe
                     prediction_df = pd.DataFrame(
                         {
@@ -179,7 +177,6 @@ class MakePredictions:
                     #                     print(os.path.join(output_folder, output_csv))
                     output_csv = "".join(output_csv.split(".")[:-1]) + ".csv"
                     with open(os.path.join(output_folder, output_csv), "a") as f:
-
                         prediction_df.to_csv(
                             f, header=f.tell() == 0, index=False, line_terminator="\n"
                         )

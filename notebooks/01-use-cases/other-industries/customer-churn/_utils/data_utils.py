@@ -2,6 +2,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 import pandas as pd
 import numpy as np
 
+
 # Tenure to categorical column
 def tenure_lab(telcom):
     if telcom["Tenure"] <= 12:

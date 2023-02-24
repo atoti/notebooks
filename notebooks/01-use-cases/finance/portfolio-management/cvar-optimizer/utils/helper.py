@@ -7,7 +7,6 @@ class Helper:
         self.cube = session.cubes["Portfolio optimization"]
 
     def query_and_optimize(self, selected_port, selected_method, selected_iteration):
-
         l, m = self.cube.levels, self.cube.measures
         portfolio_tbl = self.session.tables["Portfolios Allocation"]
 

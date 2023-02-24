@@ -55,7 +55,6 @@ from math import pi, sqrt, sin, cos, atan2
 
 
 def haversine(lat1: float, long1: float, lat2: float, long2: float) -> float:
-
     degree_to_rad = float(pi / 180.0)
 
     d_lat = (lat2 - lat1) * degree_to_rad

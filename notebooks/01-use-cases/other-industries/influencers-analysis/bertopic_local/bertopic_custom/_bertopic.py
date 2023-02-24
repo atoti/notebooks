@@ -1091,7 +1091,6 @@ class BERTopic:
         # Extract word embeddings for the top 30 words per topic and compare it
         # with the topic embedding to keep only the words most similar to the topic embedding
         if not self.custom_embeddings:
-
             for topic, topic_words in self.topics.items():
                 words = [word[0] for word in topic_words]
                 word_embeddings = self._extract_embeddings(words, verbose=False)

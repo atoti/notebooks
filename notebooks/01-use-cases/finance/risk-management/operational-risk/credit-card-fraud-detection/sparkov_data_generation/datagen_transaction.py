@@ -43,14 +43,12 @@ class Customer:
         self.fraud_dates = []
 
     def print_trans(self, trans, is_fraud, fraud_dates, merch, fake):
-
         is_traveling = trans[1]
         travel_max = trans[2]
 
         txn_list = []
 
         for t in trans[0]:
-
             ## Get transaction location details to generate appropriate merchant record
             groups = t.split("|")
             trans_cat = groups[4]

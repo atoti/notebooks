@@ -24,7 +24,6 @@ def download_data():
 
 
 def load_tables(session):
-
     # Loading Monte Carlo data - vectors of simulated PL per trade and future time point
     mc = session.read_csv(
         "data/monte-carlo-data.csv",
@@ -61,7 +60,7 @@ def load_tables(session):
     # perform table joins
     mc.join(sdt)
     mc.join(trd)
-    mc.join(lm, mapping={"CounterpartyId": "CounterpartyId"})
+    mc.join(lm, mc["CounterpartyId"] == lm["CounterpartyId"])
 
     return mc
 
@@ -113,7 +112,6 @@ def create_measures(session):
 
 
 def launch_cube(getData="N"):
-
     # download data from xva notebook
     if getData == "Y":
         download_data()

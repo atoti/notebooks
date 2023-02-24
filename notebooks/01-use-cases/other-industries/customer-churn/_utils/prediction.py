@@ -17,7 +17,6 @@ def churn_prediction(
     threshold_plot,
     coefs_or_features=False,
 ):
-
     # model
     predictions = algorithm.predict(x)
     probabilities = algorithm.predict_proba(x)

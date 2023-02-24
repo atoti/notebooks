@@ -29,7 +29,6 @@ def download_tickers(symbols, duration):
 
 
 def get_historical_vector(data):
-
     df_close = data["Adj Close"].copy()
     # drop those stocks where there are nan values
     df_close.dropna(axis="columns", inplace=True)

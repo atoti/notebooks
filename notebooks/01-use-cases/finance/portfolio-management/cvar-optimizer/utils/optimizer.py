@@ -1,5 +1,5 @@
 # https://bjerring.github.io/equity/2019/11/04/Portfolio-Optimization-using-CVaR.html
-#%% packages
+# %% packages
 
 import pulp
 import pandas as pd
@@ -7,13 +7,12 @@ import numpy as np
 from pandas_datareader import data
 
 
-#%% functions
+# %% functions
 
 
 def PortfolioRiskTarget(
     mu, scen, CVaR_target=1, lamb=1, max_weight=1, min_weight=None, cvar_alpha=0.05
 ):
-
     """This function finds the optimal enhanced index portfolio according to some benchmark. The portfolio corresponds to the tangency portfolio where risk is evaluated according to the CVaR of the tracking error. The model is formulated using fractional programming.
 
     Parameters
@@ -87,7 +86,6 @@ def PortfolioRiskTarget(
 
     ### Add minimum weight constraint, either zero or atleast minimum weight
     if min_weight is not None:
-
         for i in i_idx:
             model += x[i] >= min_weight * b_z[i]
             model += x[i] <= b_z[i]
@@ -104,7 +102,6 @@ def PortfolioRiskTarget(
 
     # Get positions
     if pulp.LpStatus[model.status] == "Optimal":
-
         # print variables
         var_model = dict()
         for variable in model.variables():
@@ -136,7 +133,6 @@ def PortfolioRiskTarget(
 def PortfolioLambda(
     mu, mu_b, scen, scen_b, max_weight=1, min_weight=None, cvar_alpha=0.05, ft_points=15
 ):
-
     # asset names
     assets = mu.index
 
