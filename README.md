@@ -465,6 +465,10 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td><a href="https://www.atoti.io/guides/atoti-guide-to-implementing-lookup-in-a-multidimensional-cube/?utm_source=github">📰&nbsp;atoti: Guide to implementing lookup in a multidimensional cube</a></td>
 </tr>
 <tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/internationalization/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;internationalization&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
+<tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/introductory-tutorial/main.ipynb">&nbsp;introductory-tutorial&nbsp;</a></td>
 <td>&nbsp</td>
 </tr>

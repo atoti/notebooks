@@ -50,6 +50,7 @@ ATOTI_PLUS_NOTEBOOKS = [
     "security-implementation/03-OIDC-Google.ipynb",
     "security-implementation/04-LDAP.ipynb",
     f"security-implementation/{_MAIN}",
+    f"internationalization/{_MAIN}",
 ]
 NON_ATOTI_NOTEBOOKS = [
     # financial - treasury
