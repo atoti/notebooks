@@ -117,6 +117,10 @@
 <td><a href="https://www.atoti.io/articles/iot-device-traffic-to-demonstrate-office-personnel-traffic/?utm_source=github">📰&nbsp;IoT device traffic to demonstrate office personnel traffic</a></td>
 </tr>
 <tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/monte-carlo-pi/main.ipynb">&nbsp;monte-carlo-pi&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
+<tr>
 <td rowspan="3"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/object-detection/main.ipynb">&nbsp;object-detection&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/real-time-masked-face-detection-using-detectron2/?utm_source=github">📰&nbsp;Real-Time Masked Face Detection using Detectron2</a></td>
 </tr>
