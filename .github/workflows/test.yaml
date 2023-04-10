@@ -22,7 +22,7 @@ jobs:
         run: sudo apt-get install graphviz
 
       - name: Install Poetry
-        run: pip install poetry==1.4.0
+        run: pip install poetry
 
       - name: Install Python dependencies
         run: poetry install
