@@ -6,15 +6,13 @@ authors = ["atoti <contact@atoti.io>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8.0,<3.9.7 || >3.9.7,<3.11"
-atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "0.7.3"}
+atoti = {extras = ["jupyterlab", "kafka", "aws", "azure", "gcp"], version = "0.7.4"}
 wget = "^3.2"
 treelib = "^1.6.1"
 matplotlib = "^3.4.2"
 folium = "^0.12.1"
 seaborn = "^0.11.1"
-sklearn = "^0.0"
 praw = "^7.3.0"
-spacy = "2.3.7"
 pandas-profiling = "3.3.0"
 statsmodels = "0.13.2"
 imblearn = "^0.0"
@@ -46,8 +44,9 @@ llvmlite = "0.38.0"
 protobuf = "4.21.6"
 pyportfolioopt = "^1.5.3"
 gluonts = "0.11.1"
-mxnet = "1.7.0.post2"
 tsfresh = "^0.20.0"
+mxnet = "1.7.0.post1"
+scikit-learn = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.7"
