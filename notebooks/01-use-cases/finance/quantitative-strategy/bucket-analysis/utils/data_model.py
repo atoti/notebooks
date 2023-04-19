@@ -58,6 +58,6 @@ def create_measures(session):
         m[_m].folder = "HistoricalMetrics"
 
 def load_transactions(session, df):
-    hist_tbl = session.tables["HistoricalPricing"]
+    txn_tbl = session.tables["Transaction"]
     
-    hist_tbl.load_pandas(df)
+    txn_tbl.load_pandas(df)
