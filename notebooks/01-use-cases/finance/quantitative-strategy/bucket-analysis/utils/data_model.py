@@ -57,9 +57,9 @@ def create_measures(session):
     hist_tbl = session.tables["HistoricalPricing"]
     h, l, m = cube.hierarchies, cube.levels, cube.measures
 
-    m["Volume"] = tt.agg.single_value(hist_tbl["Volume"])
-    m["High"] = tt.agg.single_value(hist_tbl["High"])
-    m["Low"] = tt.agg.single_value(hist_tbl["Low"])
+    m["Volume"] = tt.agg.sum(hist_tbl["Volume"])
+    m["High"] = tt.agg.max(hist_tbl["High"])
+    m["Low"] = tt.agg.min(hist_tbl["Low"])
     m["Open"] = tt.agg.single_value(hist_tbl["Open"])
 
     for _m in ["Volume", "High", "Low", "Open"]:
