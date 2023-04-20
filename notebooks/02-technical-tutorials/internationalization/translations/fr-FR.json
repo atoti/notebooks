@@ -1,0 +1,57 @@
+{
+"_CUBES_": {
+    "Monte Carlo Analytics": "Analytique de Monte-Carlo",
+	"Risk cube": "Cube de risque"
+  },
+  "_FORMATTERS_": {
+    "[Measures].[NotionalUSD]": "DOUBLE[USD$#,###.000]",
+	"[Monte Carlo Data].[AsOfDate].[AsOfDate]": "DATE[dd/MM/yyyy]",
+	"[Trade Attributes].[BreakDate].[BreakDate]": "DATE[dd/MM/yyyy]",
+	"[Trade Attributes].[MaturityDate].[MaturityDate]": "DATE[dd/MM/yyyy]",
+	"[Trade Attributes].[TradeDate].[TradeDate]": "DATE[dd/MM/yyyy]"
+  },
+  "_HIERARCHIES_": {
+    "Epoch": "Simulation des sources",
+    "AsOfDate": "À la date",
+    "CounterpartyId": "Identifiant de la contrepartie",
+    "TimePoint": "Point de temps",
+    "TradeId": "Identifiant commercial",
+    "AgreementId": "Identifiant de l'accord",
+    "StrutureId": "Identifiant de structure",
+    "ProductId": "Identifiant du produit",
+    "EntityId": "Identifiant de l'entité",
+    "AgreementPool": "Pool d'accords",
+    "CSAIdVM": "VM d'identifiant CSA",
+    "CSAIdIM": "Identifiant CSA IM",
+    "BreakDate": "Date de pause",
+    "MaturityDate": "Date d'échéance",
+    "TradeDate": "Date de transaction",
+    "Desk": "Bureau"
+  },
+  "_LEVELS_": {
+    "Epoch": "Simulation des sources",
+    "AsOfDate": "À la date",
+    "CounterpartyId": "Identifiant de la contrepartie",
+    "TimePoint": "Point de temps",
+    "TradeId": "Identifiant commercial",
+    "AgreementId": "Identifiant de l'accord",
+    "StrutureId": "Identifiant de structure",
+    "ProductId": "Identifiant du produit",
+    "EntityId": "Identifiant de l'entité",
+    "AgreementPool": "Pool d'accords",
+    "CSAIdVM": "VM d'identifiant CSA",
+    "CSAIdIM": "Identifiant CSA IM",
+    "BreakDate": "Date de pause",
+    "MaturityDate": "Date d'échéance",
+    "TradeDate": "Date de transaction",
+    "Desk": "Bureau"
+  },
+  "_MEASURES_": {
+    "contributors.COUNT": "Nombre de faits",
+    "CE_vector": "CE Vecteur",
+    "MtM_vector.MEAN": "moyenne de MtM_Vecteur",
+    "MtM_vector.SUM": "Somme de MtM_Vecteur",
+    "NotionalUSD": "Notionnel en USD",
+    "IndependentAmount": "Montant indépendant"
+  }
+}
