@@ -50,6 +50,7 @@ ATOTI_PLUS_NOTEBOOKS = [
     "security-implementation/03-OIDC-Google.ipynb",
     "security-implementation/04-LDAP.ipynb",
     f"security-implementation/{_MAIN}",
+    f"internationalization/{_MAIN}",
 ]
 NON_ATOTI_NOTEBOOKS = [
     # financial - treasury
@@ -71,6 +72,7 @@ NOTEBOOKS_WITH_ERRORS = [
     "sbm/main.ipynb",  # broken in 0.6.3 https://github.com/atoti/atoti/issues/413
     f"geopricing/{_MAIN}",  # https://github.com/atoti/notebooks/runs/2829010222 TO FIX,
     # f"collateral-shortfall-forecast/notebooks/{_MAIN}",  # removed tsfresh due to conflict with protobuf
+    "food-processing/main.ipynb",  # Validation of the RECORD file of mxnet-1.7.0.post1-py2.py3-none-win_amd64.whl failed
 ]
 NOTEBOOKS_TO_SKIP = sorted(
     DATA_PREPROCESSING_NOTEBOOKS
