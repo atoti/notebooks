@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.7.1"
 jupyterlab = "^3.4.7"
-Flask = "^2.2.2"
+Flask = "^2.2.5"
 pycaret = "2.3.4"
 
 
