@@ -234,6 +234,27 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <br/>
 </blockquote></details>
 
+</li><li>
+<details open>
+<summary><b>Quantitative Strategy</b></summary><blockquote>
+<br/>
+
+<table>
+
+
+
+<tr>
+    <td><b>Notebooks</b></td>
+    <td><b>Related media</b></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/quantitative-strategy/bucket-analysis/main.ipynb">&nbsp;bucket-analysis&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
+</table>
+<br/>
+</blockquote></details>
+
 </li></ol>
 </details>
 <details>
@@ -345,7 +366,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td><a href="https://www.atoti.io/articles/iot-device-traffic-to-demonstrate-office-personnel-traffic/?utm_source=github">📰&nbsp;IoT device traffic to demonstrate office personnel traffic</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/monte-carlo-pi/main.ipynb">&nbsp;monte-carlo-pi&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/monte-carlo-pi/nan">&nbsp;monte-carlo-pi&nbsp;</a></td>
 <td>&nbsp</td>
 </tr>
 <tr>
