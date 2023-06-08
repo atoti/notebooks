@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://data.atoti.io/notebooks/banners/logo.png" alt="atoti logo">
-</p>
+  <img src="https://data.atoti.io/notebooks/banners/atoti-logo.png" alt="Atoti logo">
+</p>  
+
 
 <p align="center">
   <a href="https://github.com/atoti/atoti/discussions"><img src="https://img.shields.io/github/discussions/atoti/atoti" alt="GitHub Discussion"></a>

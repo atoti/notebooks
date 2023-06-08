@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://data.atoti.io/notebooks/banners/logo.png" alt="atoti logo">
+  <img src="https://data.atoti.io/notebooks/banners/atoti-logo.png" alt="Atoti logo">
 </p>
 
 <p align="center">
@@ -8,21 +8,23 @@
   <a href="https://stackoverflow.com/questions/tagged/atoti"><img src="https://img.shields.io/badge/StackOverflow-atoti-f58024.svg" alt="stackoverflow"></a>
 </p>
 
-## Welcome to the official **atoti** Notebooks Gallery!
+## Welcome to the official **Atoti** Notebooks Gallery!
 
 ### The Gallery
-The atoti notebook gallery showcases various ways [atoti](https://www.atoti.io/) can be used for:
+The Atoti notebook gallery showcases various ways [Atoti](https://www.atoti.io/) can be used for:
 - interactive visualizations 
 - story-telling via dashboarding
 - data analytics investigations
 - data monitoring
 
 These are demonstrated through mini use cases within Finance and other industries.  
-There are also technical notebooks that showcase how various features can be implemented with atoti. 
+There are also technical notebooks that showcase how various features can be implemented with Atoti. 
 
-Check out the [atoti repository](https://github.com/atoti/atoti) for more info on atoti.
+You many run through most of the notebooks with <img src="https://img.shields.io/badge/-Atoti%20CE-AF4D61" />. There are some notebooks that may require <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
+If you haven't had an Atoti license yet, [register online for a trial license](https://atoti.io/evaluation-license-request/) and check out how to [unlock all the features of Atoti](https://docs.atoti.io/latest/how_tos/unlock_all_features.html).  
 
-For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-technology/) from [ActiveViam](https://www.activeviam.com/).
+Check out the [Atoti repository](https://github.com/atoti/atoti) for more info on Atoti.
+
 
 ### The notebooks
 
@@ -223,14 +225,14 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 
 <table>
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+<img src="https://img.shields.io/badge/🔒-Atoti-291A40" /><b> indicates the licensed version of Atoti is required.</b>
 
 <tr>
     <td><b>Notebooks</b></td>
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;cvar-optimizer&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb"><img src="https://img.shields.io/badge/🔒-Atoti-291A40" />&nbsp;cvar-optimizer&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/integrating-an-external-portfolio-optimizer-with-atoti?utm_source=github">📰&nbsp;Integrating an External Portfolio Optimizer with atoti</a></td>
 </tr>
 <tr>
@@ -255,7 +257,9 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/quantitative-strategy/bucket-analysis/main.ipynb">&nbsp;bucket-analysis&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/quantitative-strategy/bucket-analysis
+/main.ipynb">&nbsp;bucket-analysis
+&nbsp;</a></td>
 <td>&nbsp</td>
 </tr>
 </table>
@@ -270,7 +274,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <br/>
 <table>
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+<img src="https://img.shields.io/badge/🔒-Atoti-291A40" /><b> indicates the licensed version of Atoti is required.</b>
 
 <tr>
     <td><b>Notebooks</b></td>
@@ -387,7 +391,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td valign="center"><a href="https://www.youtube.com/watch?v=NJfjAMCCcgo&list=PLAUN-EQdSx7hwStYug31inAWUq4B8Qt_p&index=2?utm_source=github"><img src="https://data.atoti.io/notebooks/banners/yt.png" width="20px" align="center"/>&nbsp;Combining Deep Learning and atoti to detect Covid-19</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/pokemon/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;pokemon&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/pokemon/main.ipynb"><img src="https://img.shields.io/badge/🔒-Atoti-291A40" />&nbsp;pokemon&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/exploring-olap-with-atoti-and-pokemon/?utm_source=github">📰&nbsp;Exploring OLAP with atoti and Pokemon</a></td>
 </tr>
 <tr>
@@ -463,7 +467,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <br/>
 <table>
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+<img src="https://img.shields.io/badge/🔒-Atoti-291A40" /><b> indicates the licensed version of Atoti is required.</b>
 
 <tr>
     <td><b>Notebooks</b></td>
@@ -490,7 +494,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td><a href="https://www.atoti.io/guides/atoti-guide-to-implementing-lookup-in-a-multidimensional-cube/?utm_source=github">📰&nbsp;atoti: Guide to implementing lookup in a multidimensional cube</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/internationalization/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;internationalization&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/internationalization/main.ipynb"><img src="https://img.shields.io/badge/🔒-Atoti-291A40" />&nbsp;internationalization&nbsp;</a></td>
 <td>&nbsp</td>
 </tr>
 <tr>
@@ -514,8 +518,8 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td><a href="https://www.atoti.io/guides/weighted-averages-with-atoti/?utm_source=github">📰&nbsp;Weighted averages with atoti</a></td>
 </tr>
 <tr>
-<td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/security-implementation/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;security-implementation&nbsp;</a></td>
-<td><a href="https://www.atoti.io/guides/auth0-setup/?utm_source=github">📰&nbsp;Guide to Auth0 setup for Security implementation with Atoti+</a></td>
+<td rowspan="2"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/02-technical-tutorials/security-implementation/main.ipynb"><img src="https://img.shields.io/badge/🔒-Atoti-291A40" />&nbsp;security-implementation&nbsp;</a></td>
+<td><a href="https://www.atoti.io/guides/auth0-setup/?utm_source=github">📰&nbsp;Guide to Auth0 setup for Security implementation with Atoti</a></td>
 </tr>
 <tr>
 <td valign="center"><a href="https://www.atoti.io/guides/authentication-mechanisms/?utm_source=github">📰&nbsp;Different authentication mechanisms to secure your atoti session</a></td>

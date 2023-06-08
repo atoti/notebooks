@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://data.atoti.io/notebooks/banners/logo.png" alt="atoti logo">
-</p>
+  <img src="https://data.atoti.io/notebooks/banners/atoti-logo.png" alt="Atoti logo">
+</p>  
 
 <p align="center">
   <a href="https://github.com/atoti/atoti/discussions"><img src="https://img.shields.io/github/discussions/atoti/atoti" alt="GitHub Discussion"></a>
@@ -17,9 +17,13 @@ We provide uses cases within the financial sector and other industries outside t
 
 Both categories of use cases cover myriad of techniques and topics around data analysis, data science, and machine learning beyond the business domain topics.
 
-Check out the [atoti repository](https://github.com/atoti/atoti) for more info on atoti.
 
-For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-technology/) from [ActiveViam](https://www.activeviam.com/).<details open>
+You many run through most of the notebooks with <img src="https://img.shields.io/badge/-Atoti%20CE-AF4D61" />. There are some notebooks that may require <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
+If you haven't had an Atoti license yet, [register online for a trial license](https://atoti.io/evaluation-license-request/) and check out how to [unlock all the features of Atoti](https://docs.atoti.io/latest/how_tos/unlock_all_features.html).  
+
+Check out the [Atoti repository](https://github.com/atoti/atoti) for more info on Atoti.
+
+
 <summary><b><ins>Financial use cases</ins></b></summary>
 
 <br/>
@@ -216,14 +220,14 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 
 <table>
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+<img src="https://img.shields.io/badge/🔒-Atoti-291A40" /><b> indicates the licensed version of Atoti is required.</b>
 
 <tr>
     <td><b>Notebooks</b></td>
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;cvar-optimizer&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/portfolio-management/cvar-optimizer/main.ipynb"><img src="https://img.shields.io/badge/🔒-Atoti-291A40" />&nbsp;cvar-optimizer&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/integrating-an-external-portfolio-optimizer-with-atoti?utm_source=github">📰&nbsp;Integrating an External Portfolio Optimizer with atoti</a></td>
 </tr>
 <tr>
@@ -248,7 +252,9 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/quantitative-strategy/bucket-analysis/main.ipynb">&nbsp;bucket-analysis&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/quantitative-strategy/bucket-analysis
+/main.ipynb">&nbsp;bucket-analysis
+&nbsp;</a></td>
 <td>&nbsp</td>
 </tr>
 </table>
@@ -263,7 +269,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <br/>
 <table>
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+<img src="https://img.shields.io/badge/🔒-Atoti-291A40" /><b> indicates the licensed version of Atoti is required.</b>
 
 <tr>
     <td><b>Notebooks</b></td>
@@ -380,7 +386,7 @@ For enterprise solutions, check out [Atoti+](https://www.activeviam.com/atoti-te
 <td valign="center"><a href="https://www.youtube.com/watch?v=NJfjAMCCcgo&list=PLAUN-EQdSx7hwStYug31inAWUq4B8Qt_p&index=2?utm_source=github"><img src="https://data.atoti.io/notebooks/banners/yt.png" width="20px" align="center"/>&nbsp;Combining Deep Learning and atoti to detect Covid-19</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/pokemon/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;pokemon&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/pokemon/main.ipynb"><img src="https://img.shields.io/badge/🔒-Atoti-291A40" />&nbsp;pokemon&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/exploring-olap-with-atoti-and-pokemon/?utm_source=github">📰&nbsp;Exploring OLAP with atoti and Pokemon</a></td>
 </tr>
 <tr>

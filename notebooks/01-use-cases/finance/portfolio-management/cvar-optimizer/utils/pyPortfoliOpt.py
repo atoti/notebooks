@@ -55,7 +55,7 @@ def get_optimised_weight(df_price, df_ini_weights, portfolio_name=None):
     # Capital Asset Pricing Model - asset returns are equal to market returns plus a eta term encoding the relative risk of the asset.
     # more stable than the default mean return
     mu = expected_returns.capm_return(df_price)
-    S = risk_models.semicovariance(df_price)
+    S = risk_models.sample_cov(df_price)
 
     print("---------------------------------------------------------")
     min_cvar_weights = added_info(

@@ -1,22 +1,22 @@
-# Securing an atoti session
+# Securing an Atoti session
 
 Securing a session comes in two parts:
 
 1. Implementing an authentication mechanism to secure access to the session
 2. Restricting access of modules or data access by users based on the roles granted
 
-atoti supports multiple [authentication mechanisms](https://docs.atoti.io/latest/lib/atoti/atoti.config.authentication.html) to cater to the needs of our end users.
+Atoti supports multiple [authentication mechanisms](https://docs.atoti.io/latest/lib/atoti/atoti.config.authentication.html) to cater to the needs of our end users.
 
-We will explore some of these options with [Atoti+](https://docs.atoti.io/latest/atoti_plus.html) using the [Top 50 Fast Food](https://www.kaggle.com/datasets/stetsondone/top50fastfood) dataset from Kaggle, combined with its parent company information sourced from the internet.
+We will explore some of these options with [<img src="https://img.shields.io/badge/🔒-Atoti-291A40" />](https://docs.atoti.io/latest/how_tos/unlock_all_features.html#) using the [Top 50 Fast Food](https://www.kaggle.com/datasets/stetsondone/top50fastfood) dataset from Kaggle, combined with its parent company information sourced from the internet.
 
 ---
 
 ## Environment setup
 
-### Atoti+
+### <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />  
 
-[Atoti+](https://docs.atoti.io/latest/atoti_plus.html) is ActiveViam’s unified platform for enterprise data analysis.
-Download the [atoti-plus plugin](https://docs.atoti.io/latest/lib/atoti-plus/atoti_plus.html#module-atoti_plus) for security implementation.
+[Atoti](https://docs.atoti.io) is ActiveViam’s unified platform for enterprise data analysis.
+[Unlock all the features of Atoti](https://docs.atoti.io/latest/how_tos/unlock_all_features.html#) to implement security. [Request for a trial license online](https://atoti.io/evaluation-license-request/) to give it a try!
 
 ### Authentication platform
 
