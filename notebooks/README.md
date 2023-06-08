@@ -16,7 +16,7 @@ We provide both use cases and technical tutorials to help you on your Atoti jour
 * Our use case style notebooks are examples demonstrating solutions to specific business problems
 * Our technical tutorials are geared towards implementation examples
 
-You many run through most of the notebooks with <img src="https://img.shields.io/badge/-Atoti%20CE-AF4D61" />. There are some notebooks that may require <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
+You may run through most of the notebooks with <img src="https://img.shields.io/badge/-Atoti%20CE-AF4D61" />. There are some notebooks that may require <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
 If you haven't had an Atoti license yet, [register online for a trial license](https://atoti.io/evaluation-license-request/) and check out how to [unlock all the features of Atoti](https://docs.atoti.io/latest/how_tos/unlock_all_features.html).  
 
 Check out the [Atoti repository](https://github.com/atoti/atoti) for more info on Atoti.

@@ -20,7 +20,7 @@ The Atoti notebook gallery showcases various ways [Atoti](https://www.atoti.io/)
 These are demonstrated through mini use cases within Finance and other industries.  
 There are also technical notebooks that showcase how various features can be implemented with Atoti. 
 
-You many run through most of the notebooks with <img src="https://img.shields.io/badge/-Atoti%20CE-AF4D61" />. There are some notebooks that may require <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
+You may run through most of the notebooks with <img src="https://img.shields.io/badge/-Atoti%20CE-AF4D61" />. There are some notebooks that may require <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
 If you haven't had an Atoti license yet, [register online for a trial license](https://atoti.io/evaluation-license-request/) and check out how to [unlock all the features of Atoti](https://docs.atoti.io/latest/how_tos/unlock_all_features.html).  
 
 Check out the [Atoti repository](https://github.com/atoti/atoti) for more info on Atoti.
