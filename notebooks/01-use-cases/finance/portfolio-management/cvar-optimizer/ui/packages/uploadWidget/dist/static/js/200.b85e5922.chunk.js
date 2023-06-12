@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkuploadwidget_extension=self.webpackChunkuploadwidget_extension||[]).push([[200],{7962:(e,s,t)=>{t.r(s),t.d(s,{default:()=>a});const a=t.p+"static/media/index.23a8a955.less"},404:(e,s,t)=>{t.r(s),t.d(s,{default:()=>a});const a=t.p+"static/media/index.e90871b5.less"},8200:(e,s,t)=>{t(404),t(7962)}}]);
