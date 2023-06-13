@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://data.atoti.io/notebooks/banners/atoti-logo.png" alt="Atoti logo">
+  <img src="https://data.atoti.io/notebooks/banners/atoti-logo.png" alt="Atoti logo" style="width: 50%;">
 </p>  
 
 <p align="center">
@@ -18,11 +18,10 @@ We provide uses cases within the financial sector and other industries outside t
 Both categories of use cases cover myriad of techniques and topics around data analysis, data science, and machine learning beyond the business domain topics.
 
 
-You may run through most of the notebooks with <img src="https://img.shields.io/badge/-Atoti%20CE-AF4D61" />. There are some notebooks that may require <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
-If you haven't had an Atoti license yet, [register online for a trial license](https://atoti.io/evaluation-license-request/) and check out how to [unlock all the features of Atoti](https://docs.atoti.io/latest/how_tos/unlock_all_features.html).  
+You may run through most of the notebooks with Atoti Community Edition. There are some notebooks that contain features not available in the Community Edition <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
+Want to try Atoti Python API? You can [register online for an evaluation license](https://atoti.io/evaluation-license-request/) and check out how to [unlock all features of Atoti](https://docs.atoti.io/latest/how_tos/unlock_all_features.html).  
 
 Check out the [Atoti repository](https://github.com/atoti/atoti) for more info on Atoti.
-
 
 <summary><b><ins>Financial use cases</ins></b></summary>
 
