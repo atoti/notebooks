@@ -1,4 +1,4 @@
-import { WidgetPlugin, pluginWidgetKpi, pluginMenuItemRemoveWidget, pluginTitleBarButtonFullScreen, pluginTitleBarButtonToggleQueryMode, KpiWidgetState, CellSetSelection } from "@activeviam/activeui-sdk";
+import { FiltersEditor, WidgetPlugin, pluginWidgetKpi, pluginMenuItemRemoveWidget, pluginTitleBarButtonFullScreen, pluginTitleBarButtonToggleQueryMode, KpiWidgetState, CellSetSelection } from "@activeviam/activeui-sdk";
 import { IconMatchup } from "./IconMatchup";
 
 export const widgetKey = "matchup";
@@ -6,6 +6,7 @@ export const widgetKey = "matchup";
 export const pluginWidgetMatchup: WidgetPlugin<KpiWidgetState, CellSetSelection> = {
   ...pluginWidgetKpi,
   Icon: IconMatchup,
+  filtersEditor: FiltersEditor,
   initialState: {
     ...pluginWidgetKpi.initialState,
     widgetKey

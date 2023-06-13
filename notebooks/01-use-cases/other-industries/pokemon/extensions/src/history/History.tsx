@@ -24,9 +24,9 @@ export const History: FC<WidgetPluginProps> = (props: any) => {
       }
 
       if (start && pokemon && opponentPokemon && winner && winner !== "pending") {
-        setHistory(prevHistory => [ 
+        setHistory(prevHistory => [
           { battle: `${pokemon} VS ${opponentPokemon}`, result: (pokemon === winner) ? "WIN" : "LOSE" },
-          ...prevHistory, 
+          ...prevHistory,
         ])
       }
     }
@@ -42,24 +42,24 @@ export const History: FC<WidgetPluginProps> = (props: any) => {
       title: "Result",
       dataIndex: "result",
       key: "result",
-      render: result => {
+      render: (result: any) => {
         const color = (result === "WIN") ? "green" : "volcano";
         return <Tag color={color} key={result}>{result}</Tag>
       },
       width: "70px",
     }
   ]
-  
+
   return (
-    <div ref={container} style={{padding:'15px 20px 0px 20px', height: "100%"}}>
-      { history && history.length > 0
-        ? <Table 
-            columns={columns} 
-            dataSource={history} 
-            pagination={false} 
-            showHeader={false} 
-            scroll={{ y: height - 40 }}
-          />
+    <div ref={container} style={{ padding: '15px 20px 0px 20px', height: "100%" }}>
+      {history && history.length > 0
+        ? <Table
+          columns={columns}
+          dataSource={history}
+          pagination={false}
+          showHeader={false}
+          scroll={{ y: height - 40 }}
+        />
         : "No battles yet!"
       }
     </div>

@@ -2,19 +2,19 @@ import axios from "axios";
 
 const baseUrl = "http://localhost:8080/atoti/pyapi";
 
-export const getLevelMembers = async (level) => {
+export const getLevelMembers = async (level: any) => {
   const url = `${baseUrl}/levels/${level}/members`;
   const response = await axios.get(url);
   return await response.data;
 }
 
-export const getWinRate = async (pokemon, opponentPokemon) => {
+export const getWinRate = async (pokemon: any, opponentPokemon: any) => {
   const url = `${baseUrl}/measures/win-rate/${pokemon}/${opponentPokemon}`;
   const response = await axios.get(url);
   return await response.data;
 }
 
-export const addBattle = async (pokemon, opponentPokemon, winner) => {
+export const addBattle = async (pokemon: any, opponentPokemon: any, winner: any) => {
   const url = `${baseUrl}/battle/${pokemon}/${opponentPokemon}/${winner}`;
   const response = await axios.get(url);
   return await response.data;
