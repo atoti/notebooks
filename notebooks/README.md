@@ -16,7 +16,7 @@ We provide both use cases and technical tutorials to help you on your Atoti jour
 * Our use case style notebooks are examples demonstrating solutions to specific business problems
 * Our technical tutorials are geared towards implementation examples
 
-You may run through most of the notebooks with Atoti Community Edition. There are some notebooks that contain features not available in the Community Edition <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
+You may run through most of the notebooks with Atoti Community Edition. There are some notebooks that contain features not available in the Community Edition and are denoted by <img src="https://img.shields.io/badge/🔒-Atoti-291A40" />.  
 Want to try Atoti Python API? You can [register online for an evaluation license](https://atoti.io/evaluation-license-request/) and check out how to [unlock all features of Atoti](https://docs.atoti.io/latest/how_tos/unlock_all_features.html).  
 
 Check out the [Atoti repository](https://github.com/atoti/atoti) for more info on Atoti.
