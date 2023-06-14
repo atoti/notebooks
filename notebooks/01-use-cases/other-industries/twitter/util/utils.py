@@ -154,7 +154,7 @@ def forecast_accuracy(forecast, actual):
     mae = np.mean(np.abs(forecast - actual))  # MAE
     mpe = np.mean((forecast - actual) / actual)  # MPE
     rmse = np.mean((forecast - actual) ** 2) ** 0.5  # RMSE
-    corr = np.corrcoef(forecast, actual)[0, 1]  # corr
+    corr = np.corrcoef(forecast.astype(float), actual.astype(float))[0, 1]  # corr
     mins = np.amin(np.stack((forecast, actual), axis=1), axis=1)
     maxs = np.amax(np.stack((forecast, actual), axis=1), axis=1)
     minmax = 1 - np.mean(mins / maxs)  # minmax

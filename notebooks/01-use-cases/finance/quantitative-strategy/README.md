@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://data.atoti.io/notebooks/banners/logo.png" alt="atoti logo">
-</p>
+  <img src="https://data.atoti.io/notebooks/banners/atoti-logo.png" alt="Atoti logo" style="width: 50%;">
+</p>  
+
 
 <p align="center">
   <a href="https://github.com/atoti/atoti/discussions"><img src="https://img.shields.io/github/discussions/atoti/atoti" alt="GitHub Discussion"></a>
@@ -21,7 +22,9 @@
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/quantitative-strategy/bucket-analysis/main.ipynb">&nbsp;bucket-analysis&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/quantitative-strategy/bucket-analysis
+/main.ipynb">&nbsp;bucket-analysis
+&nbsp;</a></td>
 <td>&nbsp</td>
 </tr>
 </table>

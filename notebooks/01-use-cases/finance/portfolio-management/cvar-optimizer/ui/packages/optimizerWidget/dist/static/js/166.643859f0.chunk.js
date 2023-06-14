@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkoptimizerwidget_extension=self.webpackChunkoptimizerwidget_extension||[]).push([[166],{6899:(e,t,i)=>{i.r(t),i.d(t,{default:()=>s});const s=i.p+"static/media/index.1e2ea6db.less"},404:(e,t,i)=>{i.r(t),i.d(t,{default:()=>s});const s=i.p+"static/media/index.e90871b5.less"},1166:(e,t,i)=>{i(404),i(6899)}}]);

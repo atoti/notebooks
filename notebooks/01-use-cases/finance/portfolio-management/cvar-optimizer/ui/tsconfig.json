@@ -1,29 +1,34 @@
 {
   "compilerOptions": {
-    "declaration": false,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "jsx": "react",
-    "module": "ES2020",
-    "moduleResolution": "Node",
-    "noEmitOnError": true,
-    "skipLibCheck": true,
-    "noEmit": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "composite": true,
+    "incremental": true,
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "importHelpers": true,
+    "declarationMap": false,
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "sourceMap": false,
     "strict": false,
-    "allowJs": true,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "isolatedModules": true,
+    "noImplicitThis": false,
+    "alwaysStrict": false,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "noImplicitAny": false,
-    "target": "es5"
-  },
-  "include": [
-    "src"
-  ]
+  }
 }

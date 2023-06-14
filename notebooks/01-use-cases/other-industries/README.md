@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://data.atoti.io/notebooks/banners/logo.png" alt="atoti logo">
-</p>
+  <img src="https://data.atoti.io/notebooks/banners/atoti-logo.png" alt="Atoti logo" style="width: 50%;">
+</p>  
+
 
 <p align="center">
   <a href="https://github.com/atoti/atoti/discussions"><img src="https://img.shields.io/github/discussions/atoti/atoti" alt="GitHub Discussion"></a>
@@ -14,7 +15,7 @@
 
 <table>
 
-<img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/><b> indicates requires Atoti+</b>
+<img src="https://img.shields.io/badge/🔒-Atoti-291A40" /><b>  indicates the licensed version of Atoti is required</b>
 
 <tr>
     <td><b>Notebooks</b></td>
@@ -131,7 +132,7 @@
 <td valign="center"><a href="https://www.youtube.com/watch?v=NJfjAMCCcgo&list=PLAUN-EQdSx7hwStYug31inAWUq4B8Qt_p&index=2?utm_source=github"><img src="https://data.atoti.io/notebooks/banners/yt.png" width="20px" align="center"/>&nbsp;Combining Deep Learning and atoti to detect Covid-19</a></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/pokemon/main.ipynb"><img src="https://data.atoti.io/notebooks/banners/Atoti_plus_RVB_Icon.png" width="15px"/>&nbsp;pokemon&nbsp;</a></td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/other-industries/pokemon/main.ipynb"><img src="https://img.shields.io/badge/🔒-Atoti-291A40" />&nbsp;pokemon&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/exploring-olap-with-atoti-and-pokemon/?utm_source=github">📰&nbsp;Exploring OLAP with atoti and Pokemon</a></td>
 </tr>
 <tr>
