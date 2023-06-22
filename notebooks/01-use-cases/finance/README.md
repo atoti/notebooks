@@ -86,6 +86,26 @@
 </blockquote></details>
 </li><li>
 <details open>
+<summary><b>Liquidity Risk</b></summary><blockquote>
+<br/>
+
+<table>
+
+
+
+<tr>
+    <td><b>Notebooks</b></td>
+    <td><b>Related media</b></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/liquidity-risk/irrbb/main.ipynb">&nbsp;irrbb&nbsp;</a></td>
+<td>&nbsp</td>
+</tr>
+</table>
+<br/>
+</blockquote></details>
+</li><li>
+<details open>
 <summary><b>Market Risk</b></summary><blockquote>
 <br/>
 
