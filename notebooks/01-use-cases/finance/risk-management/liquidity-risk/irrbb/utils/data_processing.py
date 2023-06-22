@@ -40,29 +40,47 @@ def load_data(session, tbls):
     # Data loading
     ############
     # trade base and trade attributes
-    tbls.tradeAttributeTbl.load_csv("s3://data.atoti.io/notebooks/irrbb/TradeAttributes.csv")
+    tbls.tradeAttributeTbl.load_csv(
+        "s3://data.atoti.io/notebooks/irrbb/TradeAttributes.csv"
+    )
 
     # Sensitivities - IRDelta, SIDelta, IRVega, Cashflow
     # loading sensitivities data will also trigger data loading into TradeBase table
     loadSensitivity(
-        tbls.tradeBaseTbl, tbls.irDeltaTbl, "s3://data.atoti.io/notebooks/irrbb/IRDelta.csv", "DeltaSensitivities"
+        tbls.tradeBaseTbl,
+        tbls.irDeltaTbl,
+        "s3://data.atoti.io/notebooks/irrbb/IRDelta.csv",
+        "DeltaSensitivities",
     )
     loadSensitivity(
-        tbls.tradeBaseTbl, tbls.siDeltaTbl, "s3://data.atoti.io/notebooks/irrbb/SIDelta.csv", "SIDeltaSensitivities"
+        tbls.tradeBaseTbl,
+        tbls.siDeltaTbl,
+        "s3://data.atoti.io/notebooks/irrbb/SIDelta.csv",
+        "SIDeltaSensitivities",
     )
     loadSensitivity(
-        tbls.tradeBaseTbl, tbls.irVegaTbl, "s3://data.atoti.io/notebooks/irrbb/IRVega.csv", "VegaSensitivities"
+        tbls.tradeBaseTbl,
+        tbls.irVegaTbl,
+        "s3://data.atoti.io/notebooks/irrbb/IRVega.csv",
+        "VegaSensitivities",
     )
     loadSensitivity(
-        tbls.tradeBaseTbl, tbls.nmrCashFlowTbl, "s3://data.atoti.io/notebooks/irrbb/NMRCashFlow.csv", "CashFlowValues"
+        tbls.tradeBaseTbl,
+        tbls.nmrCashFlowTbl,
+        "s3://data.atoti.io/notebooks/irrbb/NMRCashFlow.csv",
+        "CashFlowValues",
     )
 
     tbls.portfolioTbl.load_csv("s3://data.atoti.io/notebooks/irrbb/BookParentChild.csv")
 
     # historical risk factors
-    histRFDF = process_historical_rf("s3://data.atoti.io/notebooks/irrbb/HistoricalRiskFactor.csv")
+    histRFDF = process_historical_rf(
+        "s3://data.atoti.io/notebooks/irrbb/HistoricalRiskFactor.csv"
+    )
     tbls.historicalRFTbl.load_pandas(histRFDF[tbls.historicalRFTbl.columns])
-    tbls.historicalDateTbl.load_csv("s3://data.atoti.io/notebooks/irrbb/HistoricalDates.csv")
+    tbls.historicalDateTbl.load_csv(
+        "s3://data.atoti.io/notebooks/irrbb/HistoricalDates.csv"
+    )
 
     # analysis hierarchy
     tbls.tenorsTbl.load_csv("s3://data.atoti.io/notebooks/irrbb/Tenors.csv")
@@ -84,10 +102,16 @@ def load_capitalCharge_data(tbls):
     Args:
         tbls: Table object instantiated for session
     """
-    tbls.optionalityChargeTbl.load_csv("s3://data.atoti.io/notebooks/irrbb/OptionalityCharge.csv")
-    tbls.otherAPRAAmtTbl.load_csv("s3://data.atoti.io/notebooks/irrbb/OtherAPRAAmount.csv")
+    tbls.optionalityChargeTbl.load_csv(
+        "s3://data.atoti.io/notebooks/irrbb/OptionalityCharge.csv"
+    )
+    tbls.otherAPRAAmtTbl.load_csv(
+        "s3://data.atoti.io/notebooks/irrbb/OtherAPRAAmount.csv"
+    )
 
-    hist_icc_df = process_historical_icc("s3://data.atoti.io/notebooks/irrbb/HistoricalICC.csv")
+    hist_icc_df = process_historical_icc(
+        "s3://data.atoti.io/notebooks/irrbb/HistoricalICC.csv"
+    )
     tbls.historcialICCTbl.load_pandas(hist_icc_df[tbls.historcialICCTbl.columns])
 
 

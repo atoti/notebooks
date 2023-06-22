@@ -190,7 +190,6 @@ class Tables:
             self.tradeAttributeTbl,
             (self.tradeBaseTbl["InternalKey"] == self.tradeAttributeTbl["InternalKey"])
             & (self.tradeBaseTbl["AsOfDate"] == self.tradeAttributeTbl["AsOfDate"]),
-            
         )
         self.tradeBaseTbl.join(self.irDeltaTbl)
         self.tradeBaseTbl.join(self.siDeltaTbl)
