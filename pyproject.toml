@@ -39,7 +39,7 @@ gluonts = {version = "^0.13.1", source = "PyPI"}
 tsfresh = {version = "^0.20.0", source = "PyPI"}
 scikit-learn = {version = "^1.2.2", source = "PyPI"}
 folium = {version = "^0.14.0", source = "PyPI"}
-atoti = {extras = ["aws", "azure", "gcp", "jupyterlab3", "kafka", "sql"], version = "^0.8.0", source = "PyPI"}
+atoti = {extras = ["aws", "azure", "gcp", "jupyterlab3", "kafka", "sql"], version = "^0.8.1", source = "PyPI"}
 
 [tool.poetry.dev-dependencies]
 black-nb = "^0.7"
