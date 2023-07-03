@@ -14,15 +14,15 @@
 
 <table>
 
-
+<img src="https://img.shields.io/badge/??-Atoti-291A40" /><b> indicates the licensed version of Atoti is required.</b>
 
 <tr>
     <td><b>Notebooks</b></td>
     <td><b>Related media</b></td>
 </tr>
 <tr>
-<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/liquidity-risk/irrbb/main.ipynb">&nbsp;irrbb&nbsp;</a></td>
-<td>&nbsp</td>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/liquidity-risk/irrbb/main.ipynb"><img src="https://img.shields.io/badge/🔒-Atoti-291A40" />&nbsp;irrbb&nbsp;</a></td>
+<td><a href="https://atoti.io/articles/irrbb-with-atoti/?utm_source=github">📰&nbsp;Measuring Interest Rate Risk in the Banking Book (IRRBB) with Atoti</a></td>
 </tr>
 </table>
 
