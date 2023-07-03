@@ -49,25 +49,25 @@ def load_data(session, tbls):
     loadSensitivity(
         tbls.tradeBaseTbl,
         tbls.irDeltaTbl,
-        "s3://data.atoti.io/notebooks/irrbb/IRDelta.csv",
+        "https://data.atoti.io/notebooks/irrbb/IRDelta.csv",
         "DeltaSensitivities",
     )
     loadSensitivity(
         tbls.tradeBaseTbl,
         tbls.siDeltaTbl,
-        "s3://data.atoti.io/notebooks/irrbb/SIDelta.csv",
+        "https://data.atoti.io/notebooks/irrbb/SIDelta.csv",
         "SIDeltaSensitivities",
     )
     loadSensitivity(
         tbls.tradeBaseTbl,
         tbls.irVegaTbl,
-        "s3://data.atoti.io/notebooks/irrbb/IRVega.csv",
+        "https://data.atoti.io/notebooks/irrbb/IRVega.csv",
         "VegaSensitivities",
     )
     loadSensitivity(
         tbls.tradeBaseTbl,
         tbls.nmrCashFlowTbl,
-        "s3://data.atoti.io/notebooks/irrbb/NMRCashFlow.csv",
+        "https://data.atoti.io/notebooks/irrbb/NMRCashFlow.csv",
         "CashFlowValues",
     )
 
@@ -75,7 +75,7 @@ def load_data(session, tbls):
 
     # historical risk factors
     histRFDF = process_historical_rf(
-        "s3://data.atoti.io/notebooks/irrbb/HistoricalRiskFactor.csv"
+        "https://data.atoti.io/notebooks/irrbb/HistoricalRiskFactor.csv"
     )
     tbls.historicalRFTbl.load_pandas(histRFDF[tbls.historicalRFTbl.columns])
     tbls.historicalDateTbl.load_csv(
@@ -110,7 +110,7 @@ def load_capitalCharge_data(tbls):
     )
 
     hist_icc_df = process_historical_icc(
-        "s3://data.atoti.io/notebooks/irrbb/HistoricalICC.csv"
+        "https://data.atoti.io/notebooks/irrbb/HistoricalICC.csv"
     )
     tbls.historcialICCTbl.load_pandas(hist_icc_df[tbls.historcialICCTbl.columns])
 
