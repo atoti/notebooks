@@ -23,6 +23,7 @@ Want to try Atoti Python API? You can [register online for an evaluation license
 
 Check out the [Atoti repository](https://github.com/atoti/atoti) for more info on Atoti.
 
+<details open>
 <summary><b><ins>Financial use cases</ins></b></summary>
 
 <br/>

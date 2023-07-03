@@ -14,7 +14,7 @@
 
 <table>
 
-<img src="https://img.shields.io/badge/??-Atoti-291A40" /><b> indicates the licensed version of Atoti is required.</b>
+<img src="https://img.shields.io/badge/🔒-Atoti-291A40" /><b> indicates the licensed version of Atoti is required.</b>
 
 <tr>
     <td><b>Notebooks</b></td>
