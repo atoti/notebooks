@@ -23,6 +23,7 @@ Want to try Atoti Python API? You can [register online for an evaluation license
 
 Check out the [Atoti repository](https://github.com/atoti/atoti) for more info on Atoti.
 
+<details open>
 <summary><b><ins>Financial use cases</ins></b></summary>
 
 <br/>
@@ -94,6 +95,26 @@ Check out the [Atoti repository](https://github.com/atoti/atoti) for more info o
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main//notebooks/01-use-cases/finance/treasury/collateral-shortfall-forecast/notebooks/main.ipynb">&nbsp;collateral-shortfall-forecast&nbsp;</a></td>
 <td><a href="https://www.atoti.io/articles/collateral-modelling-and-simulation-using-atoti-and-machine-learning/?utm_source=github">📰&nbsp;Collateral Modelling and Simulation Using atoti and Machine Learning</a></td>
+</tr>
+</table>
+<br/>
+</blockquote></details>
+</li><li>
+<details open>
+<summary><b>Liquidity Risk</b></summary><blockquote>
+<br/>
+
+<table>
+
+<img src="https://img.shields.io/badge/🔒-Atoti-291A40" /><b> indicates the licensed version of Atoti is required.</b>
+
+<tr>
+    <td><b>Notebooks</b></td>
+    <td><b>Related media</b></td>
+</tr>
+<tr>
+<td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/risk-management/liquidity-risk/irrbb/main.ipynb"><img src="https://img.shields.io/badge/🔒-Atoti-291A40" />&nbsp;irrbb&nbsp;</a></td>
+<td><a href="https://atoti.io/articles/irrbb-with-atoti/?utm_source=github">📰&nbsp;Measuring Interest Rate Risk in the Banking Book (IRRBB) with Atoti</a></td>
 </tr>
 </table>
 <br/>
