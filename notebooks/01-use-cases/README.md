@@ -202,7 +202,7 @@ Check out the [Atoti repository](https://github.com/atoti/atoti) for more info o
 </tr>
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/treasury/intraday-liquidity/main.ipynb">&nbsp;intraday-liquidity&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/monitoring-intraday-liquidity-with-atoti-ce/?utm_source=github">📰&nbsp;Monitoring Intraday Liquidity with Atoti CE</a></td>
 </tr>
 </table>
 <br/>
@@ -275,7 +275,7 @@ Check out the [Atoti repository](https://github.com/atoti/atoti) for more info o
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/quantitative-strategy/bucket-analysis
 /main.ipynb">&nbsp;bucket-analysis
 &nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/bucket-analysis-with-atoti/?utm_source=github">📰&nbsp;Bucket Analysis with Atoti</a></td>
 </tr>
 </table>
 <br/>
