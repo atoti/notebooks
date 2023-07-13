@@ -30,7 +30,7 @@
 </tr>
 <tr>
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/treasury/intraday-liquidity/main.ipynb">&nbsp;intraday-liquidity&nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/monitoring-intraday-liquidity-with-atoti-ce/?utm_source=github">📰&nbsp;Monitoring Intraday Liquidity with Atoti CE</a></td>
 </tr>
 </table>
 

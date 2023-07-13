@@ -25,7 +25,7 @@
 <td rowspan="1"><a href="https://github.com/atoti/notebooks/blob/main/notebooks/01-use-cases/finance/quantitative-strategy/bucket-analysis
 /main.ipynb">&nbsp;bucket-analysis
 &nbsp;</a></td>
-<td>&nbsp</td>
+<td><a href="https://www.atoti.io/articles/bucket-analysis-with-atoti/?utm_source=github">📰&nbsp;Bucket Analysis with Atoti</a></td>
 </tr>
 </table>
 
