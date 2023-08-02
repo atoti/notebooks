@@ -1,3 +1,5 @@
+## [Notice] 🏠 We have moved! Refer to the [Atoti repository](https://github.com/atoti/atoti) for the latest use case updates. This repository will be obsoleted from 2024 onwards.
+
 <p align="center">
   <img src="https://data.atoti.io/notebooks/banners/atoti-logo.png" alt="Atoti logo" style="width: 50%;">
 </p>
