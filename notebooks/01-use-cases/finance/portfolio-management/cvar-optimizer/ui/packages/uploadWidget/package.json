@@ -15,7 +15,7 @@
     "@parcel/css": "^1.5.0",
     "@rehooks/component-size": "^1.0.3",
     "antd": "^5.1.0",
-    "axios": "^0.21.1",
+    "axios": "^1.6.0",
     "lodash": "^4.17.15",
     "react": "^18.0.0"
   },
