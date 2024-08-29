@@ -1,7 +1,11 @@
-## [Notice] 🏠 We have moved! Refer to the [Atoti repository](https://github.com/atoti/atoti) for the latest use case updates. This repository will be obsoleted from 2024 onwards.
+## [Notice] 🏠 This respository is now archived! Refer to the [Atoti repository](https://github.com/atoti/atoti) for the latest notebook versions.
 
 <p align="center">
-  <img src="https://data.atoti.io/notebooks/banners/atoti-logo.png" alt="Atoti logo" style="width: 50%;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://data.atoti.io/notebooks/banners/Atoti_Logo_White-01.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://data.atoti.io/notebooks/banners/Atoti_Logo_Purple-01.svg">
+    <img alt="atoti-logo" width="50%">
+  </picture>
 </p>
 
 <p align="center">
@@ -10,7 +14,7 @@
   <a href="https://stackoverflow.com/questions/tagged/atoti"><img src="https://img.shields.io/badge/StackOverflow-atoti-f58024.svg" alt="stackoverflow"></a>
 </p>
 
-## Welcome to the official **Atoti** Notebook Gallery!
+## Welcome to the **Atoti** Notebook Gallery!
 
 ### The Gallery
 The Atoti notebook gallery showcases various ways [Atoti](https://www.atoti.io/) can be used for:
